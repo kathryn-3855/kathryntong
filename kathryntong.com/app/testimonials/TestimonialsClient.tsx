@@ -77,10 +77,10 @@ export default function TestimonialsClient() {
           {/* Header */}
           <div className="text-center mb-16">
             <h1 className="text-4xl font-bold text-foreground mb-4">
-              {t.testimonials?.title || "What Our Clients Say"}
+              {t.testimonialsTitle || "What Our Clients Say"}
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              {t.testimonials?.subtitle ||
+              {t.testimonialsSubtitle ||
                 "Don't just take our word for it. See why hundreds of clients trust Kathryn's Mobile Notary for their notarization and apostille needs."}
             </p>
           </div>
@@ -116,17 +116,17 @@ export default function TestimonialsClient() {
           {/* Trust Section */}
           <div className="mt-20 bg-accent rounded-lg p-8 text-center">
             <h2 className="text-2xl font-bold text-foreground mb-4">
-              {t.testimonials?.cta || "Join Hundreds of Satisfied Clients"}
+              {t.testimonialsCta || "Join Hundreds of Satisfied Clients"}
             </h2>
             <p className="text-lg text-muted-foreground mb-6">
-              {t.testimonials?.ctaDesc ||
+              {t.testimonialsCtaDesc ||
                 "We're committed to providing professional, reliable notary and apostille services you can trust."}
             </p>
             <a
               href="/#contact"
               className="inline-block bg-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition"
             >
-              {t.common?.getStarted || "Get Started Today"}
+              {t.getStarted || "Get Started Today"}
             </a>
           </div>
         </div>

@@ -376,6 +376,12 @@ export const translations = {
     checklistItem12: "Notary cannot modify documents or fill in blanks",
     checklistItem13: "Multiple copies may require separate notarization fees",
     checklistItem14: "Some documents (birth/death certificates) cannot be notarized",
+
+    // Testimonials Page
+    testimonialsTitle: "What Our Clients Say",
+    testimonialsSubtitle: "Don't just take our word for it. See why hundreds of clients trust Kathryn's Mobile Notary for their notarization and apostille needs.",
+    testimonialsCta: "Join Hundreds of Satisfied Clients",
+    testimonialsCtaDesc: "We're committed to providing professional, reliable notary and apostille services you can trust.",
   },
   zh: {
     // Header
@@ -736,6 +742,12 @@ export const translations = {
     checklistItem12: "公证人不能修改文件或填写空白",
     checklistItem13: "多份副本可能需要单独的公证费",
     checklistItem14: "某些文件（出生/死亡证明）不能公证",
+
+    // Testimonials Page
+    testimonialsTitle: "客户评价",
+    testimonialsSubtitle: "不要只听我们的话。看看为什么数百名客户信任Kathryn移动公证服务来满足他们的公证和认证需求。",
+    testimonialsCta: "加入数百名满意的客户",
+    testimonialsCtaDesc: "我们致力于提供您可以信赖的专业、可靠的公证和认证服务。",
   },
 }
 
