@@ -90,31 +90,26 @@ export default function AppointmentClientPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           {/* Header */}
           <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold text-foreground mb-4">
-              {t.appointment?.title || "Schedule Your Appointment"}
-            </h1>
-            <p className="text-lg text-muted-foreground">
-              {t.appointment?.subtitle ||
-                "Book your notarization service at a time that works best for you. We're available 7 days a week from 8:30 AM to 8:30 PM."}
-            </p>
+            <h1 className="text-4xl font-bold text-foreground mb-4">{t.appointmentTitle}</h1>
+            <p className="text-lg text-muted-foreground">{t.appointmentSubtitle}</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             {[
               {
                 icon: Calendar,
-                title: t.appointment?.flexDates || "Flexible Dates",
-                desc: t.appointment?.flexDatesDesc || "Available 7 days a week",
+                title: t.appointmentFlexDates,
+                desc: t.appointmentFlexDatesDesc,
               },
               {
                 icon: Clock,
-                title: t.appointment?.flexHours || "Flexible Hours",
-                desc: t.appointment?.flexHoursDesc || "8:30 AM to 8:30 PM daily",
+                title: t.appointmentFlexHours,
+                desc: t.appointmentFlexHoursDesc,
               },
               {
                 icon: MapPin,
-                title: t.appointment?.mobileService || "Mobile Service",
-                desc: t.appointment?.mobileServiceDesc || "We come to you",
+                title: t.appointmentMobileService,
+                desc: t.appointmentMobileServiceDesc,
               },
             ].map((item, index) => (
               <Card key={index} className="p-6 text-center">
@@ -127,16 +122,10 @@ export default function AppointmentClientPage() {
 
           {submitted ? (
             <Card className="p-8 text-center bg-green-50 border-green-200">
-              <h2 className="text-2xl font-bold text-green-900 mb-4">
-                {t.appointment?.submitted || "Request Submitted!"}
-              </h2>
-              <p className="text-green-700 mb-4">
-                {t.appointment?.submittedDesc ||
-                  "Thank you for your appointment request. We'll contact you within 24 hours to confirm your appointment details."}
-              </p>
+              <h2 className="text-2xl font-bold text-green-900 mb-4">{t.appointmentSubmitted}</h2>
+              <p className="text-green-700 mb-4">{t.appointmentSubmittedDesc}</p>
               <p className="text-sm text-green-600">
-                {t.appointment?.expectedResponse ||
-                  "Expected response: " + new Date(Date.now() + 24 * 60 * 60 * 1000).toLocaleDateString()}
+                {t.appointmentExpectedResponse + new Date(Date.now() + 24 * 60 * 60 * 1000).toLocaleDateString()}
               </p>
             </Card>
           ) : (
@@ -144,14 +133,12 @@ export default function AppointmentClientPage() {
               <form onSubmit={handleSubmit} className="space-y-6">
                 {/* Contact Information */}
                 <div>
-                  <h3 className="text-lg font-semibold text-foreground mb-4">
-                    {t.appointment?.yourInfo || "Your Information"}
-                  </h3>
+                  <h3 className="text-lg font-semibold text-foreground mb-4">{t.appointmentYourInfo}</h3>
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-2">
                         <User size={16} className="inline mr-2" />
-                        {t.appointment?.fullName || "Full Name"} *
+                        {t.appointmentFullName} *
                       </label>
                       <input
                         type="text"
@@ -166,7 +153,7 @@ export default function AppointmentClientPage() {
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-2">
                         <Phone size={16} className="inline mr-2" />
-                        {t.appointment?.phone || "Phone Number"} *
+                        {t.appointmentPhone} *
                       </label>
                       <input
                         type="tel"
@@ -181,7 +168,7 @@ export default function AppointmentClientPage() {
                     <div className="md:col-span-2">
                       <label className="block text-sm font-medium text-foreground mb-2">
                         <Mail size={16} className="inline mr-2" />
-                        {t.appointment?.email || "Email Address"} *
+                        {t.appointmentEmail} *
                       </label>
                       <input
                         type="email"
@@ -198,13 +185,11 @@ export default function AppointmentClientPage() {
 
                 {/* Service Selection */}
                 <div>
-                  <h3 className="text-lg font-semibold text-foreground mb-4">
-                    {t.appointment?.serviceDetails || "Service Details"}
-                  </h3>
+                  <h3 className="text-lg font-semibold text-foreground mb-4">{t.appointmentServiceDetails}</h3>
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-2">
-                        {t.appointment?.serviceType || "Service Type"} *
+                        {t.appointmentServiceType} *
                       </label>
                       <select
                         name="serviceType"
@@ -213,7 +198,7 @@ export default function AppointmentClientPage() {
                         required
                         className="w-full px-4 py-2 border border-border rounded-lg focus:ring-2 focus:ring-primary outline-none"
                       >
-                        <option value="">{t.appointment?.selectService || "Select a service..."}</option>
+                        <option value="">{t.appointmentSelectService}</option>
                         {serviceTypes.map((type) => (
                           <option key={type} value={type}>
                             {type}
@@ -224,7 +209,7 @@ export default function AppointmentClientPage() {
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-2">
                         <FileText size={16} className="inline mr-2" />
-                        {t.appointment?.documentType || "Document Type"} *
+                        {t.appointmentDocumentType} *
                       </label>
                       <select
                         name="documentType"
@@ -233,7 +218,7 @@ export default function AppointmentClientPage() {
                         required
                         className="w-full px-4 py-2 border border-border rounded-lg focus:ring-2 focus:ring-primary outline-none"
                       >
-                        <option value="">{t.appointment?.selectDocument || "Select document type..."}</option>
+                        <option value="">{t.appointmentSelectDocument}</option>
                         {documentTypes.map((type) => (
                           <option key={type} value={type}>
                             {type}
@@ -246,14 +231,12 @@ export default function AppointmentClientPage() {
 
                 {/* Appointment Details */}
                 <div>
-                  <h3 className="text-lg font-semibold text-foreground mb-4">
-                    {t.appointment?.appointmentDetails || "Appointment Details"}
-                  </h3>
+                  <h3 className="text-lg font-semibold text-foreground mb-4">{t.appointmentAppointmentDetails}</h3>
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-2">
                         <Calendar size={16} className="inline mr-2" />
-                        {t.appointment?.preferredDate || "Preferred Date"} *
+                        {t.appointmentPreferredDate} *
                       </label>
                       <input
                         type="date"
@@ -267,7 +250,7 @@ export default function AppointmentClientPage() {
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-2">
                         <Clock size={16} className="inline mr-2" />
-                        {t.appointment?.preferredTime || "Preferred Time"} *
+                        {t.appointmentPreferredTime} *
                       </label>
                       <input
                         type="time"
@@ -282,7 +265,7 @@ export default function AppointmentClientPage() {
                   <div className="mt-4">
                     <label className="block text-sm font-medium text-foreground mb-2">
                       <MapPin size={16} className="inline mr-2" />
-                      {t.appointment?.location || "Location (Address or Description)"} *
+                      {t.appointmentLocation} *
                     </label>
                     <input
                       type="text"
@@ -291,7 +274,7 @@ export default function AppointmentClientPage() {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-2 border border-border rounded-lg focus:ring-2 focus:ring-primary outline-none"
-                      placeholder={t.appointment?.locationPlaceholder || "e.g., My office at 123 Main St, Pasadena"}
+                      placeholder={t.appointmentLocationPlaceholder}
                     />
                   </div>
                 </div>
@@ -299,7 +282,7 @@ export default function AppointmentClientPage() {
                 {/* Additional Notes */}
                 <div>
                   <label className="block text-sm font-medium text-foreground mb-2">
-                    {t.appointment?.additionalNotes || "Additional Notes"}
+                    {t.appointmentAdditionalNotes}
                   </label>
                   <textarea
                     name="notes"
@@ -307,7 +290,7 @@ export default function AppointmentClientPage() {
                     onChange={handleChange}
                     className="w-full px-4 py-2 border border-border rounded-lg focus:ring-2 focus:ring-primary outline-none"
                     rows={4}
-                    placeholder={t.appointment?.notesPlaceholder || "Any special requests or additional information..."}
+                    placeholder={t.appointmentNotesPlaceholder}
                   />
                 </div>
 
@@ -315,7 +298,7 @@ export default function AppointmentClientPage() {
                   type="submit"
                   className="w-full bg-primary text-primary-foreground py-3 rounded-lg font-semibold hover:opacity-90 transition"
                 >
-                  {t.appointment?.submit || "Schedule Appointment"}
+                  {t.appointmentSubmit}
                 </button>
               </form>
             </Card>
