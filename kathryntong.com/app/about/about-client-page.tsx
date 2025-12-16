@@ -17,6 +17,9 @@ export default function AboutClientPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           {/* Hero Section */}
           <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
+            <div className="relative h-80 md:h-96 rounded-lg overflow-hidden shadow-lg">
+              <Image src="/images/kathryn.webp" alt="Kathryn's professional portrait" fill className="object-contain" />
+            </div>
             <div>
               <h1 className="text-4xl font-bold text-foreground mb-6">{t.aboutTitle}</h1>
               <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
@@ -25,9 +28,6 @@ export default function AboutClientPage() {
               <p className="text-lg text-muted-foreground leading-relaxed">
                 {t.aboutBio2}
               </p>
-            </div>
-            <div className="relative h-96 rounded-lg overflow-hidden shadow-lg">
-              <Image src="/images/kathryn.webp" alt="Kathryn's professional portrait" fill className="object-cover" />
             </div>
           </div>
 

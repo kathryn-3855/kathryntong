@@ -46,7 +46,7 @@ export default function HeroSection() {
         <div className="hidden lg:flex items-center justify-center">
           <div className="relative">
             <div className="absolute inset-0 bg-primary/5 rounded-2xl blur-2xl"></div>
-            <div className="relative bg-primary/2 backdrop-blur-sm rounded-2xl p-4 border border-border w-80">
+            <div className="relative bg-primary/2 backdrop-blur-sm rounded-2xl p-4 border border-border w-96">
               <img src="/images/kathryn.webp" alt="Professional notary services" className="w-full h-auto rounded-xl" />
             </div>
           </div>
