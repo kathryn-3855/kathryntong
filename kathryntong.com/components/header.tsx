@@ -3,6 +3,7 @@
 import { Menu, X, Globe } from "lucide-react"
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { useLanguage } from "@/lib/language-context"
 import { useTranslations } from "@/lib/use-translations"
 
@@ -21,8 +22,13 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">KN</span>
+            <div className="w-10 h-10 relative">
+              <Image
+                src="/images/kathryntonglogo.webp"
+                alt="Kathryn's Mobile Notary Logo"
+                fill
+                className="object-contain"
+              />
             </div>
             <h1 className="text-xl font-bold text-foreground">Kathryn's Mobile Notary</h1>
           </Link>
