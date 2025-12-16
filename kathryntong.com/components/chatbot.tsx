@@ -5,14 +5,21 @@ import type React from "react"
 import { MessageCircle, X, Send } from "lucide-react"
 import { useTranslations } from "@/lib/use-translations"
 
+type Message = {
+  id: number
+  text: string
+  sender: "bot" | "user"
+  timestamp: Date
+}
+
 export default function Chatbot() {
   const t = useTranslations()
   const [isOpen, setIsOpen] = useState(false)
-  const [messages, setMessages] = useState([
+  const [messages, setMessages] = useState<Message[]>([
     {
       id: 1,
       text: "",
-      sender: "bot" as const,
+      sender: "bot",
       timestamp: new Date(),
     },
   ])
