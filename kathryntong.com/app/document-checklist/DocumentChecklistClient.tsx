@@ -63,10 +63,10 @@ export default function DocumentChecklistClient() {
           {/* Header */}
           <div className="mb-12">
             <h1 className="text-4xl font-bold text-foreground mb-4">
-              {t.checklist?.title || "Document Notarization Checklist"}
+              {t.checklistTitle || "Document Notarization Checklist"}
             </h1>
             <p className="text-lg text-muted-foreground mb-8">
-              {t.checklist?.subtitle ||
+              {t.checklistSubtitle ||
                 "Use this checklist to prepare for your notarization appointment. Making sure you have everything ready will ensure a smooth and efficient process."}
             </p>
 
@@ -74,7 +74,7 @@ export default function DocumentChecklistClient() {
             <div className="mb-6">
               <div className="flex justify-between items-center mb-2">
                 <span className="text-sm font-medium text-foreground">
-                  {t.checklist?.progress || "Preparation Progress"}
+                  {t.checklistProgress || "Preparation Progress"}
                 </span>
                 <span className="text-sm font-bold text-primary">{Math.round(progress)}%</span>
               </div>
@@ -132,16 +132,16 @@ export default function DocumentChecklistClient() {
 
           {/* CTA */}
           <div className="mt-16 bg-accent rounded-lg p-8 text-center">
-            <h2 className="text-2xl font-bold text-foreground mb-4">{t.checklist?.ready || "Ready to Schedule?"}</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">{t.checklistReady || "Ready to Schedule?"}</h2>
             <p className="text-muted-foreground mb-6">
-              {t.checklist?.readyDesc ||
+              {t.checklistReadyDesc ||
                 "Once you've checked everything off, you're ready to schedule your appointment!"}
             </p>
             <a
               href="/appointment"
               className="inline-block bg-primary text-primary-foreground px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition"
             >
-              {t.appointment?.title || "Schedule Appointment"}
+              {t.checklistSchedule || "Schedule Appointment"}
             </a>
           </div>
         </div>

@@ -1,0 +1,426 @@
+12:02:45.962 Running build in Portland, USA (West) – pdx1
+12:02:45.963 Build machine configuration: 4 cores, 8 GB
+12:02:46.037 Cloning github.com/bemgmt/kathryntong (Branch: main, Commit: dc2abd0)
+12:02:46.038 Previous build caches not available.
+12:02:46.469 Cloning completed: 432.000ms
+12:02:46.851 Running "vercel build"
+12:02:47.598 Vercel CLI 50.0.1
+12:02:48.069 Installing dependencies...
+12:02:53.295 npm warn ERESOLVE overriding peer dependency
+12:02:53.295 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.296 npm warn Found: react@19.2.3
+12:02:53.296 npm warn node_modules/react
+12:02:53.296 npm warn   react@"19.2.0" from the root project
+12:02:53.296 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.296 npm warn
+12:02:53.296 npm warn Could not resolve dependency:
+12:02:53.296 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.296 npm warn node_modules/react-dom
+12:02:53.296 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.296 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.297 npm warn ERESOLVE overriding peer dependency
+12:02:53.298 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.298 npm warn Found: react@19.2.3
+12:02:53.298 npm warn node_modules/react
+12:02:53.298 npm warn   react@"19.2.0" from the root project
+12:02:53.298 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.298 npm warn
+12:02:53.298 npm warn Could not resolve dependency:
+12:02:53.298 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.298 npm warn node_modules/react-dom
+12:02:53.298 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.298 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.299 npm warn ERESOLVE overriding peer dependency
+12:02:53.300 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.300 npm warn Found: react@19.2.3
+12:02:53.300 npm warn node_modules/react
+12:02:53.300 npm warn   react@"19.2.0" from the root project
+12:02:53.300 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.300 npm warn
+12:02:53.300 npm warn Could not resolve dependency:
+12:02:53.300 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.300 npm warn node_modules/react-dom
+12:02:53.300 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.300 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.301 npm warn ERESOLVE overriding peer dependency
+12:02:53.301 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.301 npm warn Found: react@19.2.3
+12:02:53.302 npm warn node_modules/react
+12:02:53.302 npm warn   react@"19.2.0" from the root project
+12:02:53.302 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.302 npm warn
+12:02:53.302 npm warn Could not resolve dependency:
+12:02:53.302 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.302 npm warn node_modules/react-dom
+12:02:53.302 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.302 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.303 npm warn ERESOLVE overriding peer dependency
+12:02:53.303 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.303 npm warn Found: react@19.2.3
+12:02:53.303 npm warn node_modules/react
+12:02:53.303 npm warn   react@"19.2.0" from the root project
+12:02:53.303 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.303 npm warn
+12:02:53.303 npm warn Could not resolve dependency:
+12:02:53.303 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.303 npm warn node_modules/react-dom
+12:02:53.304 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.304 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.304 npm warn ERESOLVE overriding peer dependency
+12:02:53.305 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.305 npm warn Found: react@19.2.3
+12:02:53.305 npm warn node_modules/react
+12:02:53.305 npm warn   react@"19.2.0" from the root project
+12:02:53.305 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.305 npm warn
+12:02:53.305 npm warn Could not resolve dependency:
+12:02:53.305 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.306 npm warn node_modules/react-dom
+12:02:53.306 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.306 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.306 npm warn ERESOLVE overriding peer dependency
+12:02:53.307 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.307 npm warn Found: react@19.2.3
+12:02:53.307 npm warn node_modules/react
+12:02:53.307 npm warn   react@"19.2.0" from the root project
+12:02:53.307 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.307 npm warn
+12:02:53.307 npm warn Could not resolve dependency:
+12:02:53.307 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.308 npm warn node_modules/react-dom
+12:02:53.308 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.308 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.308 npm warn ERESOLVE overriding peer dependency
+12:02:53.309 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.309 npm warn Found: react@19.2.3
+12:02:53.309 npm warn node_modules/react
+12:02:53.309 npm warn   react@"19.2.0" from the root project
+12:02:53.309 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.309 npm warn
+12:02:53.310 npm warn Could not resolve dependency:
+12:02:53.310 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.310 npm warn node_modules/react-dom
+12:02:53.310 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.310 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.313 npm warn ERESOLVE overriding peer dependency
+12:02:53.313 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.313 npm warn Found: react@19.2.3
+12:02:53.313 npm warn node_modules/react
+12:02:53.313 npm warn   react@"19.2.0" from the root project
+12:02:53.313 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.313 npm warn
+12:02:53.313 npm warn Could not resolve dependency:
+12:02:53.313 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.313 npm warn node_modules/react-dom
+12:02:53.313 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.313 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.315 npm warn ERESOLVE overriding peer dependency
+12:02:53.315 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.315 npm warn Found: react@19.2.3
+12:02:53.315 npm warn node_modules/react
+12:02:53.315 npm warn   react@"19.2.0" from the root project
+12:02:53.315 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.315 npm warn
+12:02:53.316 npm warn Could not resolve dependency:
+12:02:53.316 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.316 npm warn node_modules/react-dom
+12:02:53.316 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.316 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.317 npm warn ERESOLVE overriding peer dependency
+12:02:53.317 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.317 npm warn Found: react@19.2.3
+12:02:53.317 npm warn node_modules/react
+12:02:53.317 npm warn   react@"19.2.0" from the root project
+12:02:53.317 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.318 npm warn
+12:02:53.318 npm warn Could not resolve dependency:
+12:02:53.318 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.318 npm warn node_modules/react-dom
+12:02:53.318 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.318 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.319 npm warn ERESOLVE overriding peer dependency
+12:02:53.319 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.319 npm warn Found: react@19.2.3
+12:02:53.319 npm warn node_modules/react
+12:02:53.319 npm warn   react@"19.2.0" from the root project
+12:02:53.319 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.319 npm warn
+12:02:53.319 npm warn Could not resolve dependency:
+12:02:53.319 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.319 npm warn node_modules/react-dom
+12:02:53.319 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.319 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.321 npm warn ERESOLVE overriding peer dependency
+12:02:53.321 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.321 npm warn Found: react@19.2.3
+12:02:53.321 npm warn node_modules/react
+12:02:53.321 npm warn   react@"19.2.0" from the root project
+12:02:53.321 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.321 npm warn
+12:02:53.321 npm warn Could not resolve dependency:
+12:02:53.321 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.321 npm warn node_modules/react-dom
+12:02:53.321 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.321 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.322 npm warn ERESOLVE overriding peer dependency
+12:02:53.322 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.323 npm warn Found: react@19.2.3
+12:02:53.323 npm warn node_modules/react
+12:02:53.323 npm warn   react@"19.2.0" from the root project
+12:02:53.323 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.323 npm warn
+12:02:53.323 npm warn Could not resolve dependency:
+12:02:53.323 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.323 npm warn node_modules/react-dom
+12:02:53.323 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.323 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.324 npm warn ERESOLVE overriding peer dependency
+12:02:53.324 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.324 npm warn Found: react@19.2.3
+12:02:53.324 npm warn node_modules/react
+12:02:53.324 npm warn   react@"19.2.0" from the root project
+12:02:53.324 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.324 npm warn
+12:02:53.325 npm warn Could not resolve dependency:
+12:02:53.325 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.325 npm warn node_modules/react-dom
+12:02:53.325 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.325 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.326 npm warn ERESOLVE overriding peer dependency
+12:02:53.326 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.326 npm warn Found: react@19.2.3
+12:02:53.326 npm warn node_modules/react
+12:02:53.326 npm warn   react@"19.2.0" from the root project
+12:02:53.326 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.326 npm warn
+12:02:53.326 npm warn Could not resolve dependency:
+12:02:53.326 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.327 npm warn node_modules/react-dom
+12:02:53.327 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.327 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.328 npm warn ERESOLVE overriding peer dependency
+12:02:53.328 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.328 npm warn Found: react@19.2.3
+12:02:53.328 npm warn node_modules/react
+12:02:53.328 npm warn   react@"19.2.0" from the root project
+12:02:53.328 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.329 npm warn
+12:02:53.329 npm warn Could not resolve dependency:
+12:02:53.329 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.329 npm warn node_modules/react-dom
+12:02:53.329 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.329 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.330 npm warn ERESOLVE overriding peer dependency
+12:02:53.330 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.330 npm warn Found: react@19.2.3
+12:02:53.330 npm warn node_modules/react
+12:02:53.330 npm warn   react@"19.2.0" from the root project
+12:02:53.330 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.330 npm warn
+12:02:53.330 npm warn Could not resolve dependency:
+12:02:53.330 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.330 npm warn node_modules/react-dom
+12:02:53.330 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.330 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.331 npm warn ERESOLVE overriding peer dependency
+12:02:53.332 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.332 npm warn Found: react@19.2.3
+12:02:53.332 npm warn node_modules/react
+12:02:53.332 npm warn   react@"19.2.0" from the root project
+12:02:53.332 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.332 npm warn
+12:02:53.332 npm warn Could not resolve dependency:
+12:02:53.332 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.332 npm warn node_modules/react-dom
+12:02:53.332 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.332 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.333 npm warn ERESOLVE overriding peer dependency
+12:02:53.333 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.334 npm warn Found: react@19.2.3
+12:02:53.334 npm warn node_modules/react
+12:02:53.334 npm warn   react@"19.2.0" from the root project
+12:02:53.334 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.334 npm warn
+12:02:53.334 npm warn Could not resolve dependency:
+12:02:53.334 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.334 npm warn node_modules/react-dom
+12:02:53.334 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.334 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.335 npm warn ERESOLVE overriding peer dependency
+12:02:53.335 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.336 npm warn Found: react@19.2.3
+12:02:53.336 npm warn node_modules/react
+12:02:53.336 npm warn   react@"19.2.0" from the root project
+12:02:53.336 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.336 npm warn
+12:02:53.336 npm warn Could not resolve dependency:
+12:02:53.336 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.336 npm warn node_modules/react-dom
+12:02:53.336 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.336 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.337 npm warn ERESOLVE overriding peer dependency
+12:02:53.337 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.337 npm warn Found: react@19.2.3
+12:02:53.337 npm warn node_modules/react
+12:02:53.337 npm warn   react@"19.2.0" from the root project
+12:02:53.337 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.337 npm warn
+12:02:53.337 npm warn Could not resolve dependency:
+12:02:53.337 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.337 npm warn node_modules/react-dom
+12:02:53.338 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.338 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.339 npm warn ERESOLVE overriding peer dependency
+12:02:53.339 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.339 npm warn Found: react@19.2.3
+12:02:53.339 npm warn node_modules/react
+12:02:53.339 npm warn   react@"19.2.0" from the root project
+12:02:53.339 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.339 npm warn
+12:02:53.339 npm warn Could not resolve dependency:
+12:02:53.339 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.339 npm warn node_modules/react-dom
+12:02:53.339 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.339 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.340 npm warn ERESOLVE overriding peer dependency
+12:02:53.341 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.341 npm warn Found: react@19.2.3
+12:02:53.341 npm warn node_modules/react
+12:02:53.341 npm warn   react@"19.2.0" from the root project
+12:02:53.341 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.341 npm warn
+12:02:53.341 npm warn Could not resolve dependency:
+12:02:53.341 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.341 npm warn node_modules/react-dom
+12:02:53.341 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.341 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.342 npm warn ERESOLVE overriding peer dependency
+12:02:53.342 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.342 npm warn Found: react@19.2.3
+12:02:53.342 npm warn node_modules/react
+12:02:53.342 npm warn   react@"19.2.0" from the root project
+12:02:53.343 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.343 npm warn
+12:02:53.343 npm warn Could not resolve dependency:
+12:02:53.343 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.343 npm warn node_modules/react-dom
+12:02:53.343 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.343 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.344 npm warn ERESOLVE overriding peer dependency
+12:02:53.344 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.344 npm warn Found: react@19.2.3
+12:02:53.344 npm warn node_modules/react
+12:02:53.344 npm warn   react@"19.2.0" from the root project
+12:02:53.344 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.344 npm warn
+12:02:53.344 npm warn Could not resolve dependency:
+12:02:53.344 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.344 npm warn node_modules/react-dom
+12:02:53.344 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.345 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.346 npm warn ERESOLVE overriding peer dependency
+12:02:53.346 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.346 npm warn Found: react@19.2.3
+12:02:53.346 npm warn node_modules/react
+12:02:53.346 npm warn   react@"19.2.0" from the root project
+12:02:53.346 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.346 npm warn
+12:02:53.346 npm warn Could not resolve dependency:
+12:02:53.346 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.346 npm warn node_modules/react-dom
+12:02:53.346 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.346 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.347 npm warn ERESOLVE overriding peer dependency
+12:02:53.348 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.348 npm warn Found: react@19.2.3
+12:02:53.348 npm warn node_modules/react
+12:02:53.348 npm warn   react@"19.2.0" from the root project
+12:02:53.348 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.348 npm warn
+12:02:53.348 npm warn Could not resolve dependency:
+12:02:53.348 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.348 npm warn node_modules/react-dom
+12:02:53.348 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.348 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.349 npm warn ERESOLVE overriding peer dependency
+12:02:53.349 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.349 npm warn Found: react@19.2.3
+12:02:53.349 npm warn node_modules/react
+12:02:53.349 npm warn   react@"19.2.0" from the root project
+12:02:53.350 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.350 npm warn
+12:02:53.350 npm warn Could not resolve dependency:
+12:02:53.350 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.350 npm warn node_modules/react-dom
+12:02:53.350 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.350 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.351 npm warn ERESOLVE overriding peer dependency
+12:02:53.351 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.351 npm warn Found: react@19.2.3
+12:02:53.351 npm warn node_modules/react
+12:02:53.351 npm warn   react@"19.2.0" from the root project
+12:02:53.351 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.351 npm warn
+12:02:53.351 npm warn Could not resolve dependency:
+12:02:53.351 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.351 npm warn node_modules/react-dom
+12:02:53.351 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.351 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:02:53.352 npm warn ERESOLVE overriding peer dependency
+12:02:53.353 npm warn While resolving: my-v0-project@0.1.0
+12:02:53.353 npm warn Found: react@19.2.3
+12:02:53.353 npm warn node_modules/react
+12:02:53.353 npm warn   react@"19.2.0" from the root project
+12:02:53.353 npm warn   37 more (react-dom, styled-jsx, react-hook-form, ...)
+12:02:53.353 npm warn
+12:02:53.353 npm warn Could not resolve dependency:
+12:02:53.353 npm warn peer react@"^19.2.3" from react-dom@19.2.3
+12:02:53.353 npm warn node_modules/react-dom
+12:02:53.353 npm warn   react-dom@"19.2.0" from the root project
+12:02:53.353 npm warn   30 more (@radix-ui/react-accordion, ...)
+12:03:04.444 npm warn deprecated next@16.0.7: This version has a security vulnerability. Please upgrade to a patched version. See https://nextjs.org/blog/security-update-2025-12-11 for more details.
+12:03:04.643 
+12:03:04.643 added 187 packages in 16s
+12:03:04.643 
+12:03:04.643 23 packages are looking for funding
+12:03:04.644   run `npm fund` for details
+12:03:04.692 Running "npm run build"
+12:03:04.925 
+12:03:04.925 > my-v0-project@0.1.0 build
+12:03:04.925 > next build
+12:03:04.925 
+12:03:05.619 Attention: Next.js now collects completely anonymous telemetry regarding usage.
+12:03:05.620 This information is used to shape Next.js' roadmap and prioritize features.
+12:03:05.620 You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+12:03:05.620 https://nextjs.org/telemetry
+12:03:05.620 
+12:03:05.629    ▲ Next.js 16.0.7 (Turbopack)
+12:03:05.629 
+12:03:05.656    Creating an optimized production build ...
+12:03:09.416  ✓ Compiled successfully in 3.3s
+12:03:09.425    Running TypeScript ...
+12:03:09.575 
+12:03:09.576    We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+12:03:09.576    The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+12:03:09.576 
+12:03:09.576    	- include was updated to add '.next/dev/types/**/*.ts'
+12:03:09.576 
+12:03:09.576    The following mandatory changes were made to your tsconfig.json:
+12:03:09.576 
+12:03:09.576    	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+12:03:09.576 
+12:03:12.759 Failed to compile.
+12:03:12.760 
+12:03:12.760 ./app/document-checklist/DocumentChecklistClient.tsx:66:18
+12:03:12.760 Type error: Property 'checklist' does not exist on type '{ phone: string; email: string; aboutMe: string; mobileNotary: string; apostilleLegalization: string; scheduleNow: string; pricing: string; contact: string; heroTitle: string; heroSubtitle: string; ... 285 more ...; appointmentSubmit: string; } | { ...; }'.
+12:03:12.760   Property 'checklist' does not exist on type '{ phone: string; email: string; aboutMe: string; mobileNotary: string; apostilleLegalization: string; scheduleNow: string; pricing: string; contact: string; heroTitle: string; heroSubtitle: string; ... 285 more ...; appointmentSubmit: string; }'.
+12:03:12.760 
+12:03:12.760 [0m [90m 64 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m"mb-12"[39m[33m>[39m
+12:03:12.760  [90m 65 |[39m             [33m<[39m[33mh1[39m className[33m=[39m[32m"text-4xl font-bold text-foreground mb-4"[39m[33m>[39m
+12:03:12.761 [31m[1m>[22m[39m[90m 66 |[39m               {t[33m.[39mchecklist[33m?[39m[33m.[39mtitle [33m||[39m [32m"Document Notarization Checklist"[39m}
+12:03:12.761  [90m    |[39m                  [31m[1m^[22m[39m
+12:03:12.761  [90m 67 |[39m             [33m<[39m[33m/[39m[33mh1[39m[33m>[39m
+12:03:12.761  [90m 68 |[39m             [33m<[39m[33mp[39m className[33m=[39m[32m"text-lg text-muted-foreground mb-8"[39m[33m>[39m
+12:03:12.761  [90m 69 |[39m               {t[33m.[39mchecklist[33m?[39m[33m.[39msubtitle [33m||[39m[0m
+12:03:12.792 Next.js build worker exited with code: 1 and signal: null
+12:03:12.819 Error: Command "npm run build" exited with 1

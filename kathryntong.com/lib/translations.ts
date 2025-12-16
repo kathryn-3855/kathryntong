@@ -346,6 +346,36 @@ export const translations = {
     appointmentAdditionalNotes: "Additional Notes",
     appointmentNotesPlaceholder: "Any special requests or additional information...",
     appointmentSubmit: "Schedule Appointment",
+
+    // Document Checklist Page
+    checklistTitle: "Document Notarization Checklist",
+    checklistSubtitle: "Use this checklist to prepare for your notarization appointment. Making sure you have everything ready will ensure a smooth and efficient process.",
+    checklistProgress: "Preparation Progress",
+    checklistReady: "Ready to Schedule?",
+    checklistReadyDesc: "Once you've checked everything off, you're ready to schedule your appointment!",
+    checklistSchedule: "Schedule Appointment",
+
+    // Checklist Categories
+    checklistCategoryRequired: "Required Documents",
+    checklistCategoryBefore: "Before Appointment",
+    checklistCategoryPayment: "Payment",
+    checklistCategoryImportant: "Important to Know",
+
+    // Checklist Items
+    checklistItem1: "Valid government-issued photo ID (Driver's License, Passport, etc.)",
+    checklistItem2: "Original documents to be notarized (not copies)",
+    checklistItem3: "Know the purpose of the notarization",
+    checklistItem4: "Bring all required signers (notary cannot sign for you)",
+    checklistItem5: "Verify the document is complete and error-free",
+    checklistItem6: "Fill in all blank spaces (notary cannot advise on content)",
+    checklistItem7: "Prepare any notarization statements in advance",
+    checklistItem8: "Ensure you understand what you're signing",
+    checklistItem9: "Be prepared to pay the notary fee in cash or check",
+    checklistItem10: "Ask about accepted payment methods if unsure",
+    checklistItem11: "Notary cannot provide legal advice",
+    checklistItem12: "Notary cannot modify documents or fill in blanks",
+    checklistItem13: "Multiple copies may require separate notarization fees",
+    checklistItem14: "Some documents (birth/death certificates) cannot be notarized",
   },
   zh: {
     // Header
@@ -676,6 +706,36 @@ export const translations = {
     appointmentAdditionalNotes: "附加说明",
     appointmentNotesPlaceholder: "任何特殊要求或附加信息...",
     appointmentSubmit: "安排预约",
+
+    // Document Checklist Page
+    checklistTitle: "文件公证清单",
+    checklistSubtitle: "使用此清单为您的公证预约做准备。确保您准备好所有内容将确保流程顺利高效。",
+    checklistProgress: "准备进度",
+    checklistReady: "准备好安排了吗？",
+    checklistReadyDesc: "一旦您检查完所有内容，您就可以安排预约了！",
+    checklistSchedule: "安排预约",
+
+    // Checklist Categories
+    checklistCategoryRequired: "必需文件",
+    checklistCategoryBefore: "预约前",
+    checklistCategoryPayment: "付款",
+    checklistCategoryImportant: "重要须知",
+
+    // Checklist Items
+    checklistItem1: "有效的政府签发的带照片身份证件（驾照、护照等）",
+    checklistItem2: "需要公证的原始文件（不是副本）",
+    checklistItem3: "了解公证的目的",
+    checklistItem4: "带上所有需要签名的人（公证人不能代替您签名）",
+    checklistItem5: "验证文件是否完整且无错误",
+    checklistItem6: "填写所有空白处（公证人不能就内容提供建议）",
+    checklistItem7: "提前准备任何公证声明",
+    checklistItem8: "确保您了解您正在签署的内容",
+    checklistItem9: "准备以现金或支票支付公证费",
+    checklistItem10: "如果不确定，请询问接受的付款方式",
+    checklistItem11: "公证人不能提供法律建议",
+    checklistItem12: "公证人不能修改文件或填写空白",
+    checklistItem13: "多份副本可能需要单独的公证费",
+    checklistItem14: "某些文件（出生/死亡证明）不能公证",
   },
 }
 
