@@ -69,18 +69,6 @@ export default function ApostilleClientPage() {
 
   const serviceTypes = [
     {
-      icon: FileText,
-      title: t.notarizationServices,
-      description: t.professionalDocumentNotarization,
-      details: [
-        t.verifySigner,
-        t.witnessSignature,
-        t.maintainDocumentation,
-        t.provideOfficialNotary,
-        t.availableResidentialBusiness,
-      ],
-    },
-    {
       icon: Globe,
       title: t.apostilleCertification,
       description: t.internationalDocumentAuthentication,
