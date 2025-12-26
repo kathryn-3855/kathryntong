@@ -240,6 +240,40 @@ export const translations = {
     bilingualStaff:
       "We have bilingual (English and Chinese speaking) staff to help answer questions about specific documents that need to be apostilled or authenticated.",
 
+    // Mobile Notary Services Page (Updated)
+    mobileNotaryServicesPageTitle: "Mobile Notary Services in Los Angeles County",
+    mobileNotaryServicesPageMetaDescription:
+      "Convenient mobile notary services throughout Los Angeles County. Same-day, evening, and weekend appointments available. Experienced with legal, medical, real estate, and international documents.",
+    mobileNotaryHeroHeadline: "Convenient Mobile Notary Services — We Come to You",
+    mobileNotaryHeroSubheadline:
+      "Professional mobile notary services delivered to your home, office, hospital, care facility, or other secure locations throughout Los Angeles County.",
+    mobileNotaryServicesInclude: "Mobile Notary Services Include:",
+    mobileNotaryConvenient: "Convenient mobile notary services to your home, office, hospital, assisted living facility, federal detention center, or location of your choice",
+    mobileNotaryFlexible: "Flexible scheduling with same-day, evening, after-hours, and weekend appointments, available 7 days per week",
+    mobileNotaryTrusted: "Trusted by immigrants, international clients, attorneys, and local businesses",
+    mobileNotaryExperienced: "Experienced with:",
+    mobileNotaryFinancialMedical: "Financial & Medical Powers of Attorney",
+    mobileNotaryAffidavits: "Affidavits",
+    mobileNotaryRealEstate: "Real Estate Documents",
+    mobileNotaryEstatePlanning: "Estate Planning Documents",
+    mobileNotaryInternational: "International & Foreign-Language Documents",
+    serviceAreaTitle: "Service Area & Travel",
+    serviceAreaDescription: "Mobile notary services throughout Los Angeles County",
+    travelFeeDescription: "Travel fee varies based on distance",
+    weTravelToTitle: "We Travel To",
+    weTravelToHospital: "Hospitals & Assisted Living Facilities",
+    weTravelToDetention: "Federal Detention Centers",
+    weTravelToLawOffices: "Law Offices & Corporate Locations",
+    weTravelToResidences: "Private Residences",
+    weTravelToAnyLocation: "Any location of your choice",
+    apostilleSupportingTitle: "Apostille & Document Authentication Services",
+    apostilleSupportingDesc1: "Full Apostille and Embassy Legalization services available after notarization",
+    apostilleSupportingDesc2: "Document authentication services for international use",
+    apostilleSupportingDesc3: "Ideal for documents being used abroad",
+    scheduleMobileNotaryCTA: "Schedule a Mobile Notary Appointment Today",
+    scheduleMobileNotaryCTAText:
+      "Contact us to schedule a convenient mobile notary appointment at a time and place that works for you.",
+
     // FAQ Section
     faqTitle: "Frequently Asked Questions",
     faqSubtitle: "Find answers to common questions about our notary and apostille services",
@@ -605,6 +639,39 @@ export const translations = {
     documentRequirementsKeyPoint: "确保您的文件由相关发放机构正确公证或认证，以实现顺畅的认证/认可流程。",
     unsureAboutDocument: "不确定您的文件？",
     bilingualStaff: "我们有双语（英文和中文）员工来帮助回答关于需要认证或认可的特定文件的问题。",
+
+    // Mobile Notary Services Page (Updated)
+    mobileNotaryServicesPageTitle: "洛杉矶县移动公证服务",
+    mobileNotaryServicesPageMetaDescription:
+      "整个洛杉矶县便捷的移动公证服务。提供当日、晚间和周末预约。在法律、医疗、房地产和国际文件方面经验丰富。",
+    mobileNotaryHeroHeadline: "便捷的移动公证服务 — 我们上门服务",
+    mobileNotaryHeroSubheadline:
+      "专业的移动公证服务，可送达您的家、办公室、医院、护理机构或整个洛杉矶县的其他安全地点。",
+    mobileNotaryServicesInclude: "移动公证服务包括：",
+    mobileNotaryConvenient: "便捷的移动公证服务，可前往您的家、办公室、医院、辅助生活设施、联邦拘留中心或您选择的地点",
+    mobileNotaryFlexible: "灵活的日程安排，提供当日、晚间、非营业时间和周末预约，每周7天可用",
+    mobileNotaryTrusted: "受到移民、国际客户、律师和本地企业的信赖",
+    mobileNotaryExperienced: "经验丰富，包括：",
+    mobileNotaryFinancialMedical: "财务和医疗授权委托书",
+    mobileNotaryAffidavits: "宣誓书",
+    mobileNotaryRealEstate: "房地产文件",
+    mobileNotaryEstatePlanning: "遗产规划文件",
+    mobileNotaryInternational: "国际和外语文件",
+    serviceAreaTitle: "服务区域和出行",
+    serviceAreaDescription: "整个洛杉矶县的移动公证服务",
+    travelFeeDescription: "出行费用根据距离而定",
+    weTravelToTitle: "我们前往",
+    weTravelToHospital: "医院和辅助生活设施",
+    weTravelToDetention: "联邦拘留中心",
+    weTravelToLawOffices: "律师事务所和企业地点",
+    weTravelToResidences: "私人住宅",
+    weTravelToAnyLocation: "您选择的任何地点",
+    apostilleSupportingTitle: "认证和文件认证服务",
+    apostilleSupportingDesc1: "公证后可提供完整的认证和大使馆合法化服务",
+    apostilleSupportingDesc2: "用于国际使用的文件认证服务",
+    apostilleSupportingDesc3: "适合在国外使用的文件",
+    scheduleMobileNotaryCTA: "立即安排移动公证预约",
+    scheduleMobileNotaryCTAText: "联系我们，在适合您的时间和地点安排便捷的移动公证预约。",
 
     // FAQ Section
     faqTitle: "常见问题",
