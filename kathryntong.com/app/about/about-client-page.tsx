@@ -63,35 +63,6 @@ export default function AboutClientPage() {
             </div>
           </div>
 
-          {/* Certifications */}
-          <div className="bg-accent rounded-lg p-12 mb-20">
-            <h2 className="text-2xl font-bold text-foreground mb-8 text-center">{t.aboutCertificationsTitle}</h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              {[
-                {
-                  title: t.aboutCred1Title,
-                  desc: t.aboutCred1Desc,
-                },
-                {
-                  title: t.aboutCred2Title,
-                  desc: t.aboutCred2Desc,
-                },
-                {
-                  title: t.aboutCred3Title,
-                  desc: t.aboutCred3Desc,
-                },
-              ].map((cred, index) => (
-                <div key={index} className="text-center">
-                  <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                    <CheckCircle size={32} className="text-primary-foreground" />
-                  </div>
-                  <h3 className="font-bold text-foreground">{cred.title}</h3>
-                  <p className="text-sm text-white">{cred.desc}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-
           {/* CTA */}
           <div className="text-center">
             <h2 className="text-3xl font-bold text-foreground mb-4">{t.aboutReadyTitle}</h2>
