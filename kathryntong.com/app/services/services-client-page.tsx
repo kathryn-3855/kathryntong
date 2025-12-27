@@ -76,23 +76,32 @@ export default function ServicesClientPage() {
               <div className="mt-4">
                 <p className="font-semibold text-foreground mb-3">Cities We Service:</p>
                 <div className="grid grid-cols-2 gap-2">
-                  <p className="text-foreground text-sm">Monterey Park</p>
                   <p className="text-foreground text-sm">Alhambra</p>
-                  <p className="text-foreground text-sm">San Gabriel</p>
-                  <p className="text-foreground text-sm">Rosemead</p>
-                  <p className="text-foreground text-sm">Pasadena</p>
-                  <p className="text-foreground text-sm">South Pasadena</p>
-                  <p className="text-foreground text-sm">La Canada-Flintridge</p>
+                  <p className="text-foreground text-sm">Altadena</p>
                   <p className="text-foreground text-sm">Arcadia</p>
-                  <p className="text-foreground text-sm">Monrovia</p>
-                  <p className="text-foreground text-sm">East Los Angeles</p>
-                  <p className="text-foreground text-sm">Los Angeles</p>
-                  <p className="text-foreground text-sm">Vernon</p>
+                  <p className="text-foreground text-sm">Baldwin Park</p>
+                  <p className="text-foreground text-sm">City of Industry</p>
                   <p className="text-foreground text-sm">Commerce</p>
-                  <p className="text-foreground text-sm">Montebello</p>
-                  <p className="text-foreground text-sm">Pico Rivera</p>
-                  <p className="text-foreground text-sm">Hollywood</p>
                   <p className="text-foreground text-sm">Duarte</p>
+                  <p className="text-foreground text-sm">East Los Angeles</p>
+                  <p className="text-foreground text-sm">El Monte</p>
+                  <p className="text-foreground text-sm">Hacienda Heights</p>
+                  <p className="text-foreground text-sm">Hollywood</p>
+                  <p className="text-foreground text-sm">La Canada-Flintridge</p>
+                  <p className="text-foreground text-sm">Los Angeles</p>
+                  <p className="text-foreground text-sm">Montebello</p>
+                  <p className="text-foreground text-sm">Monterey Park</p>
+                  <p className="text-foreground text-sm">Monrovia</p>
+                  <p className="text-foreground text-sm">Pasadena</p>
+                  <p className="text-foreground text-sm">Pico Rivera</p>
+                  <p className="text-foreground text-sm">Rosemead</p>
+                  <p className="text-foreground text-sm">San Gabriel</p>
+                  <p className="text-foreground text-sm">San Marino</p>
+                  <p className="text-foreground text-sm">Sierra Madre</p>
+                  <p className="text-foreground text-sm">South Pasadena</p>
+                  <p className="text-foreground text-sm">Temple City</p>
+                  <p className="text-foreground text-sm">Vernon</p>
+                  <p className="text-foreground text-sm">West Covina</p>
                 </div>
               </div>
             </div>
