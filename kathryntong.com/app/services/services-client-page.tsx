@@ -7,12 +7,6 @@ import { useTranslations } from "@/lib/use-translations"
 export default function ServicesClientPage() {
   const t = useTranslations()
 
-  const mobileNotaryServices = [
-    t.mobileNotaryConvenient,
-    t.mobileNotaryFlexible,
-    t.mobileNotaryTrusted,
-  ]
-
   const experiencedWith = [
     t.mobileNotaryFinancialMedical,
     t.mobileNotaryAffidavits,
@@ -42,14 +36,9 @@ export default function ServicesClientPage() {
           <div className="mb-20">
             <h2 className="text-3xl font-bold text-foreground mb-8">{t.mobileNotaryServicesInclude}</h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-8 mb-8">
-              <ul className="space-y-4">
-                {mobileNotaryServices.map((service, index) => (
-                  <li key={index} className="flex items-start gap-3">
-                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-base">{service}</p>
-                  </li>
-                ))}
-              </ul>
+              <p className="text-foreground text-base leading-relaxed mb-6">
+                Mobile notaries are better because they offer unmatched convenience, coming to your home, office, or hospital; provide flexible scheduling, including nights/weekends; save you time and hassle by eliminating travel; and offer enhanced privacy and security for sensitive documents by handling them in a familiar, private setting, making them ideal for busy professionals, the elderly, or those with mobility issues.
+              </p>
               <div className="mt-6">
                 <p className="font-semibold text-foreground mb-3">{t.mobileNotaryExperienced}</p>
                 <ul className="space-y-2 ml-4">
