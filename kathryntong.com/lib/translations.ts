@@ -247,7 +247,7 @@ export const translations = {
     mobileNotaryHeroHeadline: "Convenient Mobile Notary Services — We Come to You",
     mobileNotaryHeroSubheadline:
       "Professional mobile notary services delivered to your home, office, hospital, care facility, or other secure locations throughout Los Angeles County.",
-    mobileNotaryServicesInclude: "Why Mobile Notary is better",
+    mobileNotaryServicesInclude: "Why Mobile Notary is better?",
     mobileNotaryConvenient: "Convenient mobile notary services to your home, office, hospital, assisted living facility, federal detention center, or location of your choice",
     mobileNotaryFlexible: "Flexible scheduling with same-day, evening, after-hours, and weekend appointments, available 7 days per week",
     mobileNotaryTrusted: "Trusted by immigrants, international clients, attorneys, and local businesses",
@@ -257,7 +257,7 @@ export const translations = {
     mobileNotaryRealEstate: "Real Estate Documents",
     mobileNotaryEstatePlanning: "Estate Planning Documents",
     mobileNotaryInternational: "International & Foreign-Language Documents",
-    serviceAreaTitle: "Service Area & Travel",
+    serviceAreaTitle: "Service Area & Travel:",
     serviceAreaDescription: "Mobile notary services throughout Los Angeles County",
     travelFeeDescription: "Travel fee varies based on distance",
     weTravelToTitle: "We Travel To",

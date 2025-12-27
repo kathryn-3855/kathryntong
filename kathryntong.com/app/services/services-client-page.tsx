@@ -64,7 +64,7 @@ export default function ServicesClientPage() {
               <p className="text-foreground/80 text-sm mb-4">{t.travelFeeDescription}</p>
               <div className="mt-4">
                 <p className="font-semibold text-foreground mb-3">Cities We Service:</p>
-                <div className="grid grid-cols-2 gap-2">
+                <div className="grid grid-cols-3 gap-2">
                   <p className="text-foreground text-sm">Alhambra</p>
                   <p className="text-foreground text-sm">Altadena</p>
                   <p className="text-foreground text-sm">Arcadia</p>
