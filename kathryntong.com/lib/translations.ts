@@ -319,8 +319,8 @@ export const translations = {
 
     // About Page
     aboutTitle: "About Kathryn",
-    aboutBio1: "With over 10 years of professional notary experience, Kathryn has established herself as a trusted and reliable notary public serving the California community. Her commitment to excellence and customer satisfaction has made her the go-to choice for individuals and businesses alike.",
-    aboutBio2: "Kathryn specializes in mobile notary services, apostille certification, and legalization services. She understands that every client has unique needs, which is why she offers flexible scheduling and personalized service tailored to your specific requirements.",
+    aboutBio1: "With over 10 years of professional notary experience, Kathryn has established herself as a trusted and reliable notary public & apostille agent, trusted by hundreds of Attorneys, Mortgage Companies and International clients.",
+    aboutBio2: "Being a Certified Apostille Agent, Kathryn manages the entire process, from document verification to proper notarization, to submission to the right State (like the Secretary of State) or Federal offices (like U.S. Dept of State), for use in foreign countries.  If the recipient country is a non-Hague country, she will submit the apostilled documents to these countries' embassies or consulates within the U.S for Legalization.  Finally, she will address all rejections or missing information to keep the process moving, saving clients time and confusion with complex international requirements.",
     aboutMissionTitle: "Our Mission",
     aboutMissionDesc: "To provide reliable, professional notary and apostille services that meet the highest standards of accuracy and integrity.",
     aboutValuesTitle: "Our Values",
