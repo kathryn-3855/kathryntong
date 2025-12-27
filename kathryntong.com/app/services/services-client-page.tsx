@@ -1,7 +1,7 @@
 "use client"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import { MapPin, Home } from "lucide-react"
+import { MapPin } from "lucide-react"
 import { useTranslations } from "@/lib/use-translations"
 
 export default function ServicesClientPage() {
@@ -21,13 +21,6 @@ export default function ServicesClientPage() {
     t.mobileNotaryInternational,
   ]
 
-  const weTravelTo = [
-    t.weTravelToHospital,
-    t.weTravelToDetention,
-    t.weTravelToLawOffices,
-    t.weTravelToResidences,
-    t.weTravelToAnyLocation,
-  ]
 
 
   return (
@@ -73,52 +66,34 @@ export default function ServicesClientPage() {
 
           {/* Service Area & Travel Section */}
           <div className="mb-20">
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="border border-foreground/30 rounded-lg p-8 bg-foreground/10">
-                <div className="flex items-center gap-3 mb-4">
-                  <MapPin className="w-6 h-6 text-foreground" />
-                  <h3 className="text-xl font-bold text-foreground">{t.serviceAreaTitle}</h3>
-                </div>
-                <p className="text-foreground mb-4">{t.serviceAreaDescription}</p>
-                <p className="text-foreground/80 text-sm mb-4">{t.travelFeeDescription}</p>
-                <div className="mt-4">
-                  <p className="font-semibold text-foreground mb-3">Cities We Service:</p>
-                  <div className="grid grid-cols-2 gap-2">
-                    <p className="text-foreground text-sm">Monterey Park</p>
-                    <p className="text-foreground text-sm">Alhambra</p>
-                    <p className="text-foreground text-sm">San Gabriel</p>
-                    <p className="text-foreground text-sm">Rosemead</p>
-                    <p className="text-foreground text-sm">Pasadena</p>
-                    <p className="text-foreground text-sm">South Pasadena</p>
-                    <p className="text-foreground text-sm">La Canada-Flintridge</p>
-                    <p className="text-foreground text-sm">Arcadia</p>
-                    <p className="text-foreground text-sm">Monrovia</p>
-                    <p className="text-foreground text-sm">East Los Angeles</p>
-                    <p className="text-foreground text-sm">Los Angeles</p>
-                    <p className="text-foreground text-sm">Vernon</p>
-                    <p className="text-foreground text-sm">Commerce</p>
-                    <p className="text-foreground text-sm">Montebello</p>
-                    <p className="text-foreground text-sm">Pico Rivera</p>
-                    <p className="text-foreground text-sm">Hollywood</p>
-                    <p className="text-foreground text-sm">Duarte</p>
-                  </div>
-                </div>
+            <div className="border border-foreground/30 rounded-lg p-8 bg-foreground/10 max-w-4xl mx-auto">
+              <div className="flex items-center gap-3 mb-4">
+                <MapPin className="w-6 h-6 text-foreground" />
+                <h3 className="text-xl font-bold text-foreground">{t.serviceAreaTitle}</h3>
               </div>
-
-              {/* We Travel To Section */}
-              <div className="border border-foreground/30 rounded-lg p-8 bg-foreground/10">
-                <div className="flex items-center gap-3 mb-4">
-                  <Home className="w-6 h-6 text-foreground" />
-                  <h3 className="text-xl font-bold text-foreground">{t.weTravelToTitle}</h3>
+              <p className="text-foreground mb-4">{t.serviceAreaDescription}</p>
+              <p className="text-foreground/80 text-sm mb-4">{t.travelFeeDescription}</p>
+              <div className="mt-4">
+                <p className="font-semibold text-foreground mb-3">Cities We Service:</p>
+                <div className="grid grid-cols-2 gap-2">
+                  <p className="text-foreground text-sm">Monterey Park</p>
+                  <p className="text-foreground text-sm">Alhambra</p>
+                  <p className="text-foreground text-sm">San Gabriel</p>
+                  <p className="text-foreground text-sm">Rosemead</p>
+                  <p className="text-foreground text-sm">Pasadena</p>
+                  <p className="text-foreground text-sm">South Pasadena</p>
+                  <p className="text-foreground text-sm">La Canada-Flintridge</p>
+                  <p className="text-foreground text-sm">Arcadia</p>
+                  <p className="text-foreground text-sm">Monrovia</p>
+                  <p className="text-foreground text-sm">East Los Angeles</p>
+                  <p className="text-foreground text-sm">Los Angeles</p>
+                  <p className="text-foreground text-sm">Vernon</p>
+                  <p className="text-foreground text-sm">Commerce</p>
+                  <p className="text-foreground text-sm">Montebello</p>
+                  <p className="text-foreground text-sm">Pico Rivera</p>
+                  <p className="text-foreground text-sm">Hollywood</p>
+                  <p className="text-foreground text-sm">Duarte</p>
                 </div>
-                <ul className="space-y-3">
-                  {weTravelTo.map((location, index) => (
-                    <li key={index} className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">{location}</p>
-                    </li>
-                  ))}
-                </ul>
               </div>
             </div>
           </div>
