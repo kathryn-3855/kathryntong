@@ -1,9 +1,8 @@
 "use client"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import { Globe, MapPin, Home } from "lucide-react"
+import { MapPin, Home } from "lucide-react"
 import { useTranslations } from "@/lib/use-translations"
-import Link from "next/link"
 
 export default function ServicesClientPage() {
   const t = useTranslations()
@@ -30,11 +29,6 @@ export default function ServicesClientPage() {
     t.weTravelToAnyLocation,
   ]
 
-  const apostilleSupporting = [
-    t.apostilleSupportingDesc1,
-    t.apostilleSupportingDesc2,
-    t.apostilleSupportingDesc3,
-  ]
 
   return (
     <div className="min-h-screen bg-white text-foreground">
@@ -86,7 +80,29 @@ export default function ServicesClientPage() {
                   <h3 className="text-xl font-bold text-foreground">{t.serviceAreaTitle}</h3>
                 </div>
                 <p className="text-foreground mb-4">{t.serviceAreaDescription}</p>
-                <p className="text-foreground/80 text-sm">{t.travelFeeDescription}</p>
+                <p className="text-foreground/80 text-sm mb-4">{t.travelFeeDescription}</p>
+                <div className="mt-4">
+                  <p className="font-semibold text-foreground mb-3">Cities We Service:</p>
+                  <div className="grid grid-cols-2 gap-2">
+                    <p className="text-foreground text-sm">Monterey Park</p>
+                    <p className="text-foreground text-sm">Alhambra</p>
+                    <p className="text-foreground text-sm">San Gabriel</p>
+                    <p className="text-foreground text-sm">Rosemead</p>
+                    <p className="text-foreground text-sm">Pasadena</p>
+                    <p className="text-foreground text-sm">South Pasadena</p>
+                    <p className="text-foreground text-sm">La Canada-Flintridge</p>
+                    <p className="text-foreground text-sm">Arcadia</p>
+                    <p className="text-foreground text-sm">Monrovia</p>
+                    <p className="text-foreground text-sm">East Los Angeles</p>
+                    <p className="text-foreground text-sm">Los Angeles</p>
+                    <p className="text-foreground text-sm">Vernon</p>
+                    <p className="text-foreground text-sm">Commerce</p>
+                    <p className="text-foreground text-sm">Montebello</p>
+                    <p className="text-foreground text-sm">Pico Rivera</p>
+                    <p className="text-foreground text-sm">Hollywood</p>
+                    <p className="text-foreground text-sm">Duarte</p>
+                  </div>
+                </div>
               </div>
 
               {/* We Travel To Section */}
@@ -104,34 +120,6 @@ export default function ServicesClientPage() {
                   ))}
                 </ul>
               </div>
-            </div>
-          </div>
-
-          {/* Apostille Supporting Service Section */}
-          <div className="mb-20">
-            <div className="border border-foreground/30 rounded-lg p-8 bg-foreground/5">
-              <div className="flex items-start gap-4 mb-6">
-                <div className="w-12 h-12 rounded-lg bg-foreground/20 flex items-center justify-center flex-shrink-0">
-                  <Globe className="w-6 h-6 text-foreground" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold text-foreground mb-2">{t.apostilleSupportingTitle}</h3>
-                  <p className="text-sm text-foreground/80 mb-4">
-                    {t.apostilleSupportingDesc1}{" "}
-                    <Link href="/apostille" className="text-foreground underline hover:text-foreground/80">
-                      Visit our Apostille page for full details.
-                    </Link>
-                  </p>
-                </div>
-              </div>
-              <ul className="space-y-2 ml-16">
-                {apostilleSupporting.map((item, index) => (
-                  <li key={index} className="flex items-start gap-3">
-                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm">{item}</p>
-                  </li>
-                ))}
-              </ul>
             </div>
           </div>
 
