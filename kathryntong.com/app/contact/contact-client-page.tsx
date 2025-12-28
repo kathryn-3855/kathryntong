@@ -77,8 +77,8 @@ export default function ContactClientPage() {
             <div className="bg-foreground/10 rounded-lg p-8 text-center">
               <Mail className="w-12 h-12 text-primary mx-auto mb-4" />
               <h3 className="text-xl font-bold text-foreground mb-2">Email</h3>
-              <a href="mailto:Kathryn@CAMobileApostille.com" className="text-primary font-semibold hover:underline">
-                Ask for Kathryn
+              <a href="mailto:Kathryn@KathrynTong.com" className="text-primary font-semibold hover:underline">
+                Kathryn@KathrynTong.com
               </a>
               <p className="text-sm text-foreground/70 mt-2">Fast response guaranteed</p>
             </div>
