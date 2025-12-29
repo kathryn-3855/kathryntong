@@ -36,67 +36,67 @@ export default function ServicesClientPage() {
           <div className="mb-20">
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-8 mb-8">
               <p className="text-foreground text-base leading-relaxed mb-6">
-                Lawyers in California use mobile notaries for convenience, efficiency, and accessibility, saving time by eliminating travel, meeting tight deadlines for urgent documents (like real estate or estate planning), and serving clients with mobility issues (hospitalized, elderly, incarcerated), all while ensuring legal validity and maintaining privacy by bringing services to homes, offices, or facilities. This flexibility boosts productivity and keeps legal processes moving smoothly without traffic delays, making them essential partners for busy firms.
+                Mobile notaries are crucial for California lawyers and businesses because they provide ultimate convenience, efficiency, and flexibility, bringing notarization to your office, client's location, or any convenient spot, saving time and money by avoiding travel, traffic, and missed closings, especially for urgent real estate, estate planning, and corporate documents, ensuring legal integrity and prompt service.
               </p>
               
               <div className="mt-8 mb-6">
-                <h3 className="text-2xl font-bold text-foreground mb-4">Key Benefits for Lawyers & Firms:</h3>
+                <h3 className="text-2xl font-bold text-foreground mb-4">Key Benefits for Lawyers & Businesses:</h3>
                 <ul className="space-y-3 ml-4">
                   <li className="flex items-start gap-3">
                     <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm"><strong>Time Savings:</strong> Avoids lawyer/staff travel, traffic, and waiting, getting documents notarized faster.</p>
+                    <p className="text-foreground text-sm"><strong>Time Savings & Efficiency:</strong> Avoids lost productivity from travel and waiting, keeping legal processes moving faster, crucial for time-sensitive matters like real estate closings.</p>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm"><strong>Increased Productivity:</strong> Allows lawyers to handle signings on-site at their office or client locations, keeping workflow efficient.</p>
+                    <p className="text-foreground text-sm"><strong>Convenience:</strong> Notary comes to you (law office, client site, home), simplifying logistics for busy professionals and clients.</p>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm"><strong>Client Convenience:</strong> Meets clients (even difficult-to-reach ones) at their home, hospital, or business, providing a comfortable setting.</p>
+                    <p className="text-foreground text-sm"><strong>Flexibility:</strong> Available outside regular hours, accommodating urgent needs and various schedules.</p>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm"><strong>Urgency & Deadlines:</strong> Crucial for time-sensitive matters like real estate closings, trust documents, or emergency filings.</p>
+                    <p className="text-foreground text-sm"><strong>Cost-Effectiveness:</strong> Reduces staff travel time and associated expenses, boosting overall productivity.</p>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm"><strong>Accessibility:</strong> Essential for clients who are elderly, disabled, hospitalized, or incarcerated, ensuring legal access for all.</p>
+                    <p className="text-foreground text-sm"><strong>Enhanced Client Service:</strong> Provides a premium, personalized experience, especially helpful for clients who are homebound or in care facilities.</p>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm"><strong>Cost-Effectiveness:</strong> Can reduce firm overhead compared to in-office notary services and avoids inflated rates from some walk-in notaries.</p>
+                    <p className="text-foreground text-sm"><strong>Legal Certainty:</strong> Ensures documents like Powers of Attorney, trusts, and real estate deeds receive legally robust notarization, preventing rejections by institutions.</p>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm"><strong>Security & Validity:</strong> Mobile notaries follow strict state laws, providing the same legal weight and accuracy as traditional notarizations, adding security to transactions.</p>
+                    <p className="text-foreground text-sm"><strong>Streamlined Operations:</strong> Handles multiple signings or full document processing in one visit, ensuring confidentiality and compliance.</p>
                   </li>
                 </ul>
               </div>
 
               <div className="mt-8 mb-6">
-                <h3 className="text-2xl font-bold text-foreground mb-4">Common Scenarios:</h3>
+                <h3 className="text-2xl font-bold text-foreground mb-4">Common Uses in California:</h3>
                 <ul className="space-y-3 ml-4">
                   <li className="flex items-start gap-3">
                     <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm"><strong>Estate Planning:</strong> Notarizing wills, trusts, powers of attorney at a client's home.</p>
+                    <p className="text-foreground text-sm"><strong>Real Estate:</strong> Loan document signings, deeds, title transfers.</p>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm"><strong>Real Estate:</strong> Handling loan documents or closing papers at a home or office.</p>
+                    <p className="text-foreground text-sm"><strong>Estate Planning:</strong> Wills, trusts, Powers of Attorney (POAs).</p>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm"><strong>Family Law:</strong> Witnessing documents for adoptions or dismissals when clients can't travel.</p>
+                    <p className="text-foreground text-sm"><strong>Business:</strong> Contracts, corporate filings, legal agreements.</p>
                   </li>
                   <li className="flex items-start gap-3">
                     <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm"><strong>Corporate Matters:</strong> Meeting executives at their office for quick signings.</p>
+                    <p className="text-foreground text-sm"><strong>Healthcare:</strong> Advance healthcare directives, medical POAs.</p>
                   </li>
                 </ul>
               </div>
 
               <p className="text-foreground text-base leading-relaxed mt-6">
-                In California, mobile notaries are a vital resource for law firms to maintain workflow, serve diverse client needs, and uphold legal standards efficiently, especially in busy metropolitan areas like Los Angeles.
+                In short, mobile notaries act as essential partners, integrating seamlessly into legal and business workflows to provide secure, prompt, and convenient authentication services that uphold legal standards and support crucial deadlines in California.
               </p>
             </div>
           </div>
