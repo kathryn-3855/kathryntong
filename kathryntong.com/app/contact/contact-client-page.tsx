@@ -5,7 +5,7 @@ import type React from "react"
 import Footer from "@/components/footer"
 import { useState } from "react"
 import { useTranslations } from "@/lib/use-translations"
-import { Mail, Phone, Clock } from "lucide-react"
+import { Mail, Phone, Clock, MessageCircle } from "lucide-react"
 
 export default function ContactClientPage() {
   const t = useTranslations()
@@ -59,19 +59,30 @@ export default function ContactClientPage() {
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Contact Us</h1>
             <p className="text-xl text-foreground/90 max-w-2xl mx-auto">
-              Get in touch with Kathryn's Mobile Notary. We're here to help with all your notarization needs.
+              Get in touch with Kathryn's Mobile Notary & Apostille. We're here to help with all your notarization, Apostille & Legalization needs.
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             {/* Contact Info Cards */}
             <div className="bg-foreground/10 rounded-lg p-8 text-center">
-              <Phone className="w-12 h-12 text-primary mx-auto mb-4" />
-              <h3 className="text-xl font-bold text-foreground mb-2">Phone</h3>
-              <a href="tel:+16265903560" className="text-primary font-semibold hover:underline">
+              <div className="flex items-center justify-center gap-4 mb-4">
+                <a href="tel:+16265903560" className="flex items-center gap-2 text-primary hover:opacity-80 transition">
+                  <Phone className="w-12 h-12" />
+                </a>
+                <a href="https://wa.me/16265903560" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-primary hover:opacity-80 transition">
+                  <MessageCircle className="w-12 h-12" />
+                </a>
+              </div>
+              <h3 className="text-xl font-bold text-foreground mb-2">Phone & WhatsApp</h3>
+              <a href="tel:+16265903560" className="text-primary font-semibold hover:underline block mb-2">
                 626-590-3560
               </a>
+              <a href="https://wa.me/16265903560" target="_blank" rel="noopener noreferrer" className="text-primary font-semibold hover:underline block">
+                WhatsApp Chat
+              </a>
               <p className="text-sm text-foreground/70 mt-2">Available 7 days a week</p>
+              <p className="text-sm text-primary font-semibold mt-2">For International Clients</p>
             </div>
 
             <div className="bg-foreground/10 rounded-lg p-8 text-center">
@@ -91,7 +102,7 @@ export default function ContactClientPage() {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-16 items-start">
+          <div className="grid md:grid-cols-2 gap-16 items-start mb-16">
             {/* Contact Form */}
             <div className="bg-foreground/10 rounded-lg p-8">
               <h2 className="text-2xl font-bold text-foreground mb-6">Send us a Message</h2>
@@ -197,61 +208,61 @@ export default function ContactClientPage() {
                 )}
               </form>
             </div>
+          </div>
 
-            {/* Additional Info */}
-            <div>
-              <h2 className="text-2xl font-bold text-foreground mb-6">Why Choose Us?</h2>
-              <div className="space-y-6">
-                <div className="flex gap-4">
-                  <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
-                    ✓
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground mb-2">Mobile Service</h3>
-                    <p className="text-foreground/80">We come to you at your home, office, or preferred location</p>
-                  </div>
+          {/* Why Choose Us - Moved to Bottom */}
+          <div className="bg-foreground/10 rounded-lg p-8">
+            <h2 className="text-2xl font-bold text-foreground mb-6">Why Choose Us?</h2>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="flex gap-4">
+                <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
+                  ✓
                 </div>
-
-                <div className="flex gap-4">
-                  <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
-                    ✓
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground mb-2">Bilingual Services</h3>
-                    <p className="text-foreground/80">English and Mandarin Chinese speaking services available</p>
-                  </div>
+                <div>
+                  <h3 className="font-semibold text-foreground mb-2">Mobile Services</h3>
+                  <p className="text-foreground/80">We come to your office, Residence, Facilities, or Locations of your choice.</p>
                 </div>
+              </div>
 
-                <div className="flex gap-4">
-                  <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
-                    ✓
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground mb-2">Fast Turnaround</h3>
-                    <p className="text-foreground/80">
-                      Quick processing for notarizations, apostilles, and legalization
-                    </p>
-                  </div>
+              <div className="flex gap-4">
+                <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
+                  ✓
                 </div>
-
-                <div className="flex gap-4">
-                  <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
-                    ✓
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground mb-2">10+ Years Experience</h3>
-                    <p className="text-foreground/80">Trusted by hundreds of satisfied clients across California</p>
-                  </div>
+                <div>
+                  <h3 className="font-semibold text-foreground mb-2">Fast Turnaround</h3>
+                  <p className="text-foreground/80">
+                    Quick processing for notarizations, apostilles, and legalization
+                  </p>
                 </div>
+              </div>
 
-                <div className="flex gap-4">
-                  <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
-                    ✓
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground mb-2">Flexible Hours</h3>
-                    <p className="text-foreground/80">Available 7 days a week, 8:30 AM to 8:30 PM for your convenience</p>
-                  </div>
+              <div className="flex gap-4">
+                <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
+                  ✓
+                </div>
+                <div>
+                  <h3 className="font-semibold text-foreground mb-2">10 Years Experience</h3>
+                  <p className="text-foreground/80">Experience with complex and time sensitive documents</p>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
+                  ✓
+                </div>
+                <div>
+                  <h3 className="font-semibold text-foreground mb-2">Flexible Hours</h3>
+                  <p className="text-foreground/80">Available 7 days a week, 8:30 AM to 8:30 PM for your convenience</p>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
+                  ✓
+                </div>
+                <div>
+                  <h3 className="font-semibold text-foreground mb-2">Bilingual Services</h3>
+                  <p className="text-foreground/80">Fluent in English, Mandarin & Cantonese</p>
                 </div>
               </div>
             </div>
