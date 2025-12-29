@@ -1,6 +1,6 @@
 "use client"
 
-import { Menu, X, Globe } from "lucide-react"
+import { Menu, X, Globe, Phone, Mail, MessageCircle } from "lucide-react"
 import { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
@@ -14,9 +14,23 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-border">
-      <div className="bg-primary text-primary-foreground py-2 px-4 text-center text-sm font-medium">
-        {t.phone} <span className="font-bold">626-590-3560</span> | {t.email}{" "}
-        <span className="font-bold">Kathryn@KathrynTong.com</span>
+      <div className="bg-primary text-primary-foreground py-2 px-4">
+        <div className="max-w-7xl mx-auto flex items-center justify-center gap-6 text-sm font-medium">
+          <a href="tel:626-590-3560" className="flex items-center gap-2 hover:opacity-80 transition">
+            <Phone size={18} />
+            <span className="font-bold">626-590-3560</span>
+          </a>
+          <span className="text-primary-foreground/50">|</span>
+          <a href="mailto:Kathryn@KathrynTong.com" className="flex items-center gap-2 hover:opacity-80 transition">
+            <Mail size={18} />
+            <span className="font-bold">Kathryn@KathrynTong.com</span>
+          </a>
+          <span className="text-primary-foreground/50">|</span>
+          <a href="https://wa.me/16265903560" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:opacity-80 transition">
+            <MessageCircle size={18} />
+            <span className="font-bold">WhatsApp</span>
+          </a>
+        </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
