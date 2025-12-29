@@ -84,7 +84,7 @@ export default function ContactClientPage() {
               <a href="https://wa.me/16265903560" target="_blank" rel="noopener noreferrer" className="text-primary font-semibold hover:underline block">
                 WhatsApp Chat
               </a>
-              <p className="text-sm text-primary font-semibold mt-2">For International Clients</p>
+              <p className="text-sm text-foreground/70 font-semibold mt-2">For International Clients</p>
             </div>
 
             <div className="bg-foreground/10 rounded-lg p-8 text-center">
@@ -243,7 +243,7 @@ export default function ContactClientPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-2">10 Years Experience</h3>
-                    <p className="text-foreground/80">Experience with complex and time sensitive documents</p>
+                    <p className="text-foreground/80">Experience with complex and time sensitive documents. Clear communication and dependable follow-through.</p>
                   </div>
                 </div>
 
