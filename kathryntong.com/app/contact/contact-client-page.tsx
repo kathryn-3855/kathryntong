@@ -63,25 +63,27 @@ export default function ContactClientPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
+          <div className="grid md:grid-cols-4 gap-8 mb-16">
             {/* Contact Info Cards */}
             <div className="bg-foreground/10 rounded-lg p-8 text-center">
-              <div className="flex items-center justify-center gap-4 mb-4">
-                <a href="tel:+16265903560" className="flex items-center gap-2 text-primary hover:opacity-80 transition">
-                  <Phone className="w-12 h-12" />
-                </a>
-                <a href="https://wa.me/16265903560" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-primary hover:opacity-80 transition">
-                  <MessageCircle className="w-12 h-12" />
-                </a>
-              </div>
-              <h3 className="text-xl font-bold text-foreground mb-2">Phone & WhatsApp</h3>
-              <a href="tel:+16265903560" className="text-primary font-semibold hover:underline block mb-2">
+              <a href="tel:+16265903560" className="flex items-center justify-center text-primary hover:opacity-80 transition mb-4">
+                <Phone className="w-12 h-12" />
+              </a>
+              <h3 className="text-xl font-bold text-foreground mb-2">Phone</h3>
+              <a href="tel:+16265903560" className="text-primary font-semibold hover:underline block">
                 626-590-3560
               </a>
+              <p className="text-sm text-foreground/70 mt-2">Available 7 days a week</p>
+            </div>
+
+            <div className="bg-foreground/10 rounded-lg p-8 text-center">
+              <a href="https://wa.me/16265903560" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center text-primary hover:opacity-80 transition mb-4">
+                <MessageCircle className="w-12 h-12" />
+              </a>
+              <h3 className="text-xl font-bold text-foreground mb-2">WhatsApp</h3>
               <a href="https://wa.me/16265903560" target="_blank" rel="noopener noreferrer" className="text-primary font-semibold hover:underline block">
                 WhatsApp Chat
               </a>
-              <p className="text-sm text-foreground/70 mt-2">Available 7 days a week</p>
               <p className="text-sm text-primary font-semibold mt-2">For International Clients</p>
             </div>
 
@@ -102,7 +104,7 @@ export default function ContactClientPage() {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-16 items-start mb-16">
+          <div className="grid md:grid-cols-2 gap-16 items-start">
             {/* Contact Form */}
             <div className="bg-foreground/10 rounded-lg p-8">
               <h2 className="text-2xl font-bold text-foreground mb-6">Send us a Message</h2>
@@ -208,61 +210,61 @@ export default function ContactClientPage() {
                 )}
               </form>
             </div>
-          </div>
 
-          {/* Why Choose Us - Moved to Bottom */}
-          <div className="bg-foreground/10 rounded-lg p-8">
-            <h2 className="text-2xl font-bold text-foreground mb-6">Why Choose Us?</h2>
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="flex gap-4">
-                <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
-                  ✓
+            {/* Why Choose Us */}
+            <div>
+              <h2 className="text-2xl font-bold text-foreground mb-6">Why Choose Us?</h2>
+              <div className="space-y-6">
+                <div className="flex gap-4">
+                  <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
+                    ✓
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">Mobile Services</h3>
+                    <p className="text-foreground/80">We come to your office, Residence, Facilities, or Locations of your choice.</p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="font-semibold text-foreground mb-2">Mobile Services</h3>
-                  <p className="text-foreground/80">We come to your office, Residence, Facilities, or Locations of your choice.</p>
-                </div>
-              </div>
 
-              <div className="flex gap-4">
-                <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
-                  ✓
+                <div className="flex gap-4">
+                  <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
+                    ✓
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">Fast Turnaround</h3>
+                    <p className="text-foreground/80">
+                      24 Hours for Notary & Apostille, 2 to 6 weeks for Federal and Embassy Legalization, depending on destination country.
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="font-semibold text-foreground mb-2">Fast Turnaround</h3>
-                  <p className="text-foreground/80">
-                    Quick processing for notarizations, apostilles, and legalization
-                  </p>
-                </div>
-              </div>
 
-              <div className="flex gap-4">
-                <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
-                  ✓
+                <div className="flex gap-4">
+                  <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
+                    ✓
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">10 Years Experience</h3>
+                    <p className="text-foreground/80">Experience with complex and time sensitive documents</p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="font-semibold text-foreground mb-2">10 Years Experience</h3>
-                  <p className="text-foreground/80">Experience with complex and time sensitive documents</p>
-                </div>
-              </div>
 
-              <div className="flex gap-4">
-                <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
-                  ✓
+                <div className="flex gap-4">
+                  <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
+                    ✓
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">Flexible Hours</h3>
+                    <p className="text-foreground/80">Available 7 days a week, 8:30 AM to 8:30 PM for your convenience. Appointments required.</p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="font-semibold text-foreground mb-2">Flexible Hours</h3>
-                  <p className="text-foreground/80">Available 7 days a week, 8:30 AM to 8:30 PM for your convenience</p>
-                </div>
-              </div>
 
-              <div className="flex gap-4">
-                <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
-                  ✓
-                </div>
-                <div>
-                  <h3 className="font-semibold text-foreground mb-2">Bilingual Services</h3>
-                  <p className="text-foreground/80">Fluent in English, Mandarin & Cantonese</p>
+                <div className="flex gap-4">
+                  <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
+                    ✓
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">Bilingual Services</h3>
+                    <p className="text-foreground/80">Fluent in English, Mandarin & Cantonese</p>
+                  </div>
                 </div>
               </div>
             </div>
