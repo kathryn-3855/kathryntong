@@ -30,37 +30,44 @@ export default function AboutClientPage() {
             </div>
           </div>
 
-          {/* Why Choose Kathryn */}
+          {/* Why Clients Choose Me */}
           <div className="mb-20">
-            <h2 className="text-3xl font-bold text-foreground mb-12 text-center">{t.aboutWhyChoose}</h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              {[
-                {
-                  title: t.aboutBenefit1Title,
-                  desc: t.aboutBenefit1Desc,
-                },
-                {
-                  title: t.aboutBenefit2Title,
-                  desc: t.aboutBenefit2Desc,
-                },
-                {
-                  title: t.aboutBenefit3Title,
-                  desc: t.aboutBenefit3Desc,
-                },
-                {
-                  title: t.aboutBenefit4Title,
-                  desc: t.aboutBenefit4Desc,
-                },
-              ].map((item, index) => (
-                <div key={index} className="flex gap-4">
-                  <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                  <div>
-                    <h3 className="font-semibold text-foreground mb-2">{item.title}</h3>
-                    <p className="text-muted-foreground">{item.desc}</p>
-                  </div>
+            <h2 className="text-3xl font-bold text-foreground mb-12 text-center">WHY CLIENTS CHOOSE ME</h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <div className="flex items-start gap-4">
+                <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="font-semibold text-foreground mb-2">Professional Standards</h3>
                 </div>
-              ))}
+              </div>
+              <div className="flex items-start gap-4">
+                <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="font-semibold text-foreground mb-2">On-site mobile service at Offices, Residences, or Health Facilities</h3>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="font-semibold text-foreground mb-2">Punctual, discreet, and well-prepared appointments</h3>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="font-semibold text-foreground mb-2">Clear communication and dependable follow-through</h3>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="font-semibold text-foreground mb-2">Experienced with complex and time-sensitive documents</h3>
+                </div>
+              </div>
             </div>
+            <p className="text-center text-foreground/80 text-lg">
+              I work directly with attorneys, office managers, escrow officers, and professionals who require consistency and confidence in their service providers.
+            </p>
           </div>
 
           {/* CTA */}

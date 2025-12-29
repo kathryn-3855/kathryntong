@@ -2,7 +2,7 @@
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import Chatbot from "@/components/chatbot"
-import { Phone, CheckCircle, MapPin } from "lucide-react"
+import { Phone, MapPin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
       <Header />
       
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-white text-foreground py-20 lg:py-32">
+      <section className="relative overflow-hidden bg-white text-foreground py-12 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold leading-tight mb-6 text-foreground">
@@ -36,11 +36,11 @@ export default function Home() {
       </section>
 
       {/* Statement Section */}
-      <section className="py-16 bg-background">
+      <section className="py-10 bg-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-foreground/5 border border-foreground/20 rounded-lg p-8">
-            <h2 className="text-2xl font-bold text-foreground mb-4">STATEMENT</h2>
-            <p className="text-lg text-foreground/90 leading-relaxed mb-4">
+          <div className="bg-foreground/5 border border-foreground/20 rounded-lg p-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">STATEMENT</h2>
+            <p className="text-lg text-foreground/90 leading-relaxed mb-3">
               I provide mobile notary services exclusively for clients who require dependable, punctual, and confidential execution of important documents.
             </p>
             <p className="text-lg text-foreground/90 leading-relaxed">
@@ -51,11 +51,11 @@ export default function Home() {
       </section>
 
       {/* Specialized Notary Services */}
-      <section className="py-16 bg-white">
+      <section className="py-10 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-foreground mb-8 text-center">SPECIALIZED NOTARY SERVICES</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-            <div className="bg-foreground/5 border border-foreground/20 rounded-lg p-6">
+          <h2 className="text-3xl font-bold text-foreground mb-6 text-center">SPECIALIZED NOTARY SERVICES</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
+            <div className="bg-foreground/5 border border-foreground/20 rounded-lg p-5">
               <h3 className="text-xl font-semibold text-foreground mb-2">Law Firm & Legal Document Notarization</h3>
             </div>
             <div className="bg-foreground/5 border border-foreground/20 rounded-lg p-6">
@@ -77,54 +77,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why Clients Choose Me */}
-      <section className="py-16 bg-background">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-foreground mb-8 text-center">WHY CLIENTS CHOOSE ME</h2>
-          <div className="grid md:grid-cols-2 gap-6 mb-8">
-            <div className="flex items-start gap-4">
-              <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-              <div>
-                <h3 className="font-semibold text-foreground mb-2">Professional Standards</h3>
-              </div>
-            </div>
-            <div className="flex items-start gap-4">
-              <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-              <div>
-                <h3 className="font-semibold text-foreground mb-2">On-site mobile service at Offices, Residences, or Health Facilities</h3>
-              </div>
-            </div>
-            <div className="flex items-start gap-4">
-              <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-              <div>
-                <h3 className="font-semibold text-foreground mb-2">Punctual, discreet, and well-prepared appointments</h3>
-              </div>
-            </div>
-            <div className="flex items-start gap-4">
-              <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-              <div>
-                <h3 className="font-semibold text-foreground mb-2">Clear communication and dependable follow-through</h3>
-              </div>
-            </div>
-            <div className="flex items-start gap-4">
-              <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-              <div>
-                <h3 className="font-semibold text-foreground mb-2">Experienced with complex and time-sensitive documents</h3>
-              </div>
-            </div>
-          </div>
-          <p className="text-center text-foreground/80 text-lg">
-            I work directly with attorneys, office managers, escrow officers, and professionals who require consistency and confidence in their service providers.
-          </p>
-        </div>
-      </section>
-
       {/* Fees & Arrangements */}
-      <section className="py-16 bg-white">
+      <section className="py-10 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-foreground/5 border border-foreground/20 rounded-lg p-8">
-            <h2 className="text-2xl font-bold text-foreground mb-4">FEES & ARRANGEMENTS</h2>
-            <p className="text-lg text-foreground/90 leading-relaxed mb-4">
+          <div className="bg-foreground/5 border border-foreground/20 rounded-lg p-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">FEES & ARRANGEMENTS</h2>
+            <p className="text-lg text-foreground/90 leading-relaxed mb-3">
               Professional services are billed per visit or per engagement, based on location, urgency, and scope of work.
             </p>
             <p className="text-lg text-foreground/90 leading-relaxed">
@@ -134,23 +92,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Ideal Client Statement */}
-      <section className="py-16 bg-background">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-foreground/5 border border-foreground/20 rounded-lg p-8">
-            <h2 className="text-2xl font-bold text-foreground mb-4">IDEAL CLIENT STATEMENT</h2>
-            <p className="text-lg text-foreground/90 leading-relaxed">
-              This service is best suited for clients who prioritize reliability, discretion, and efficiency over lowest-price options.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* Service Area */}
-      <section className="py-16 bg-white">
+      <section className="py-10 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-foreground/5 border border-foreground/20 rounded-lg p-8">
-            <div className="flex items-center gap-3 mb-4">
+          <div className="bg-foreground/5 border border-foreground/20 rounded-lg p-6">
+            <div className="flex items-center gap-3 mb-3">
               <MapPin className="w-6 h-6 text-primary" />
               <h2 className="text-2xl font-bold text-foreground">SERVICE AREA</h2>
             </div>
@@ -165,14 +111,14 @@ export default function Home() {
       </section>
 
       {/* Professional Inquiries */}
-      <section className="py-16 bg-background">
+      <section className="py-10 bg-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-foreground/5 border border-foreground/20 rounded-lg p-8 text-center">
-            <h2 className="text-2xl font-bold text-foreground mb-4">Professional Inquiries</h2>
-            <p className="text-lg text-foreground/90 leading-relaxed mb-6">
+          <div className="bg-foreground/5 border border-foreground/20 rounded-lg p-6 text-center">
+            <h2 className="text-2xl font-bold text-foreground mb-3">Professional Inquiries</h2>
+            <p className="text-lg text-foreground/90 leading-relaxed mb-4">
               For law firms, businesses, and private clients requiring prompt and professional notary services, please call or text to discuss availability.
             </p>
-            <p className="text-lg text-foreground/80 mb-6">
+            <p className="text-lg text-foreground/80 mb-4">
               Phone calls & Text are answered right away. Messages are returned promptly during business hours.
             </p>
             <Button
