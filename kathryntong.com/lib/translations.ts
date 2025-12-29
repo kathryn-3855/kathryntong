@@ -244,9 +244,9 @@ export const translations = {
     mobileNotaryServicesPageTitle: "Mobile Notary Services in Los Angeles County",
     mobileNotaryServicesPageMetaDescription:
       "Convenient mobile notary services throughout Los Angeles County. Same-day, evening, and weekend appointments available. Experienced with legal, medical, real estate, and international documents.",
-    mobileNotaryHeroHeadline: "Convenient Mobile Notary Services — We Come to You",
+    mobileNotaryHeroHeadline: "Business and Legal Mobile Notary Services",
     mobileNotaryHeroSubheadline:
-      "Professional mobile notary services delivered to your home, office, hospital, care facility, or other secure locations throughout Los Angeles County.",
+      "Reliable.  Discreet.  Same-Day Service for Businesses, Attorneys, Escrow Officers and Health Facilities that require accuracy, confidentiality, and punctuality.",
     mobileNotaryServicesInclude: "Why Mobile Notary is better?",
     mobileNotaryConvenient: "Convenient mobile notary services to your home, office, hospital, assisted living facility, federal detention center, or location of your choice",
     mobileNotaryFlexible: "Flexible scheduling with same-day, evening, after-hours, and weekend appointments, available 7 days per week",
