@@ -15,16 +15,16 @@ export default function AboutClientPage() {
       <main className="min-h-screen bg-background">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           {/* Hero Section */}
-          <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
+          <div className="grid md:grid-cols-2 gap-12 items-end mb-20">
             <div className="relative h-80 md:h-96 rounded-lg overflow-hidden shadow-lg">
               <Image src="/images/kathryn.webp" alt="Kathryn's professional portrait" fill className="object-contain" />
             </div>
             <div>
-              <h1 className="text-4xl font-bold text-foreground mb-6">{t.aboutTitle}</h1>
-              <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
+              <h1 className="text-4xl font-bold text-foreground mb-4">{t.aboutTitle}</h1>
+              <p className="text-base text-muted-foreground mb-3 leading-relaxed">
                 {t.aboutBio1}
               </p>
-              <p className="text-lg text-muted-foreground leading-relaxed">
+              <p className="text-base text-muted-foreground leading-relaxed">
                 {t.aboutBio2}
               </p>
             </div>
@@ -34,12 +34,6 @@ export default function AboutClientPage() {
           <div className="mb-20">
             <h2 className="text-3xl font-bold text-foreground mb-12 text-center">WHY CLIENTS CHOOSE ME</h2>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="flex items-start gap-4">
-                <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                <div>
-                  <h3 className="font-semibold text-foreground mb-2">Professional Standards</h3>
-                </div>
-              </div>
               <div className="flex items-start gap-4">
                 <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                 <div>
