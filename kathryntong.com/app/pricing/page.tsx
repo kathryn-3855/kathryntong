@@ -9,18 +9,24 @@ export default function PricingPage() {
 
   const pricingPlans = [
     {
-      name: t.notaryAtOffice,
-      description: t.atOurMontereyPark,
-      price: "$15",
-      period: t.perSignature2,
-      features: ["$15 per Signature", t.fastAndAffordable, t.appointmentsRequired],
+      name: "Healthcare Facility",
+      description: "Starting from $100 per visit, depending on signing location & number of documents",
+      price: "$100",
+      period: "starting per visit",
+      features: ["Starting from $100 per visit", "Depends on signing location", "Based on number of documents", t.appointmentsRequired],
     },
     {
-      name: "Mobile Notary",
-      description: t.weComeTo,
-      price: "$15",
-      period: t.perSignature2 + " + " + t.travelFeeApplies.toLowerCase(),
-      features: ["$15 per Signature", t.travelFeeApplies, t.upTo30Miles, t.homeOfficeHospital, t.appointmentsRequired],
+      name: "Professional Offices",
+      description: "Billed per visit or per engagement based on location, urgency and scope of work",
+      price: "Varies",
+      period: "per visit or engagement",
+      features: [
+        "Billed per visit or per engagement",
+        "Based on location",
+        "Based on urgency",
+        "Based on scope of work",
+        t.appointmentsRequired,
+      ],
     },
     {
       name: t.estateEscrow,
@@ -82,7 +88,6 @@ export default function PricingPage() {
 
           {/* Notary Services Section */}
           <div className="mb-20">
-            <h2 className="text-3xl font-bold text-foreground mb-8">Notary Services</h2>
             <div className="grid md:grid-cols-3 gap-8">
               {pricingPlans.map((plan) => (
                 <div

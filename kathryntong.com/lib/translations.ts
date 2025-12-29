@@ -111,7 +111,7 @@ export const translations = {
     footerCopyright: "Kathryn's Mobile Notary. All rights reserved.",
 
     // Pricing Page
-    pricingTitle: "Transparent Pricing",
+    pricingTitle: "Fees and Arrangements",
     pricingSubtitle: "Simple, straightforward rates for all notary and legalization services",
     serviceNotarization: "Mobile Notary Services",
     perSignature: "per signature",
