@@ -32,12 +32,45 @@ export default function CityPage({
           <div className="mb-16">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
-                <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+                <h1 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
                   Mobile Notary & Apostille Services in {cityName}, {cityState}
                 </h1>
-                <p className="text-xl text-foreground/90 mb-6 leading-relaxed">
-                  {description}
+                <p className="text-base text-foreground/90 mb-6 leading-relaxed">
+                  Kathryn's Mobile Notary & Apostille provides convenient on-site notary and apostille services to clients in {cityName} and surrounding areas. As a California Licensed Notary Public and Certified Apostille Agent based in Monterey Park, I travel directly to offices, law firms, health facilities, homes and educational institutions - saving clients time and preventing costly document errors.
                 </p>
+                <div className="mb-6">
+                  <h3 className="font-semibold text-foreground mb-3">Services:</h3>
+                  <ul className="space-y-2 text-foreground/90">
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Mobile Notary</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary mt-1">•</span>
+                      <span>State & Federal Apostille</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Embassy Legalization</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Power of Attorney</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Trust, Will & Advance Healthcare Directives</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary mt-1">•</span>
+                      <span>International Business & Education Documents</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Same-Day and Expedited Services available</span>
+                    </li>
+                  </ul>
+                </div>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
                     href="tel:+16265903560"
@@ -64,54 +97,6 @@ export default function CityPage({
                   priority
                 />
               </div>
-            </div>
-          </div>
-
-          {/* Services Section */}
-          <div className="mb-16">
-            <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
-              Notary Services in {cityName}
-            </h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {services.map((service, index) => (
-                <div key={index} className="bg-foreground/10 rounded-lg p-6 border border-foreground/30">
-                  <CheckCircle className="w-6 h-6 text-primary mb-3" />
-                  <h3 className="font-semibold text-foreground mb-2">{service}</h3>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Benefits Section */}
-          <div className="mb-16">
-            <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
-              Why Choose Our Mobile Notary Services in {cityName}?
-            </h2>
-            <div className="grid md:grid-cols-2 gap-6">
-              {benefits.map((benefit, index) => (
-                <div key={index} className="flex items-start gap-4">
-                  <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
-                    ✓
-                  </div>
-                  <p className="text-foreground/90">{benefit}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Service Area Info */}
-          <div className="bg-foreground/10 rounded-lg p-8 mb-16">
-            <div className="flex items-center gap-3 mb-4">
-              <MapPin className="w-6 h-6 text-primary" />
-              <h2 className="text-2xl font-bold text-foreground">Service Area</h2>
-            </div>
-            <p className="text-foreground/90 mb-4">
-              We provide mobile notary and apostille services throughout {cityName}, {cityState} and surrounding areas. 
-              Our mobile service means we come to you - whether that's your office, home, or any convenient location.
-            </p>
-            <div className="flex items-center gap-2 text-foreground/80">
-              <Clock className="w-5 h-5" />
-              <p>Available 7 days a week, 8:30 AM - 8:30 PM | Appointments required</p>
             </div>
           </div>
 
