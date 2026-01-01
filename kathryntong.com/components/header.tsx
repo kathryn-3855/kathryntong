@@ -119,7 +119,7 @@ export default function Header() {
               {t.pricing}
             </Link>
             <Link href="/contact" className="text-foreground hover:text-primary transition">
-              {t.contact}
+              Service Areas
             </Link>
             <button
               onClick={() => setLanguage(language === "en" ? "zh" : "en")}
@@ -183,7 +183,7 @@ export default function Header() {
               className="block text-foreground hover:text-primary transition"
               onClick={() => setIsOpen(false)}
             >
-              {t.contact}
+              Service Areas
             </Link>
           </nav>
         )}
