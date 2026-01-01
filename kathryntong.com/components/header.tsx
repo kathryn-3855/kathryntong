@@ -1,16 +1,63 @@
 "use client"
 
-import { Menu, X, Globe, Phone, Mail } from "lucide-react"
+import { Menu, X, Globe, Phone, Mail, FileText } from "lucide-react"
 import { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { useLanguage } from "@/lib/language-context"
 import { useTranslations } from "@/lib/use-translations"
+import type React from "react"
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
+  const [isQuoteModalOpen, setIsQuoteModalOpen] = useState(false)
   const { language, setLanguage } = useLanguage()
   const t = useTranslations()
+  
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    serviceType: "notary",
+    message: "",
+  })
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle")
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+    const { name, value } = e.target
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }))
+  }
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    setIsSubmitting(true)
+    setSubmitStatus("idle")
+
+    try {
+      // Simulate form submission (replace with actual API call)
+      await new Promise((resolve) => setTimeout(resolve, 1000))
+      setSubmitStatus("success")
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        serviceType: "notary",
+        message: "",
+      })
+      setTimeout(() => {
+        setSubmitStatus("idle")
+        setIsQuoteModalOpen(false)
+      }, 3000)
+    } catch (error) {
+      setSubmitStatus("error")
+    } finally {
+      setIsSubmitting(false)
+    }
+  }
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-border">
@@ -32,6 +79,14 @@ export default function Header() {
             </svg>
             <span className="font-bold">WhatsApp</span>
           </a>
+          <span className="text-primary-foreground/50">|</span>
+          <button
+            onClick={() => setIsQuoteModalOpen(true)}
+            className="flex items-center gap-2 hover:opacity-80 transition"
+          >
+            <FileText size={18} />
+            <span className="font-bold">Request A Quote</span>
+          </button>
         </div>
       </div>
 
@@ -133,6 +188,127 @@ export default function Header() {
           </nav>
         )}
       </div>
+
+      {/* Quote Request Modal */}
+      {isQuoteModalOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4" onClick={() => setIsQuoteModalOpen(false)}>
+          <div className="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto" onClick={(e) => e.stopPropagation()}>
+            <div className="sticky top-0 bg-white border-b border-border p-4 flex items-center justify-between">
+              <h2 className="text-2xl font-bold text-foreground">Request A Quote</h2>
+              <button
+                onClick={() => setIsQuoteModalOpen(false)}
+                className="p-2 hover:bg-accent rounded-lg transition"
+                aria-label="Close modal"
+              >
+                <X size={24} />
+              </button>
+            </div>
+            <div className="p-6">
+              <form onSubmit={handleSubmit} className="space-y-6">
+                <div>
+                  <label htmlFor="quote-name" className="block text-sm font-semibold text-foreground mb-2">
+                    Full Name
+                  </label>
+                  <input
+                    type="text"
+                    id="quote-name"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    required
+                    className="w-full px-4 py-2 border border-foreground/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-foreground"
+                    placeholder="Your name"
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="quote-email" className="block text-sm font-semibold text-foreground mb-2">
+                    Email Address
+                  </label>
+                  <input
+                    type="email"
+                    id="quote-email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
+                    className="w-full px-4 py-2 border border-foreground/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-foreground"
+                    placeholder="your@email.com"
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="quote-phone" className="block text-sm font-semibold text-foreground mb-2">
+                    Phone Number
+                  </label>
+                  <input
+                    type="tel"
+                    id="quote-phone"
+                    name="phone"
+                    value={formData.phone}
+                    onChange={handleChange}
+                    className="w-full px-4 py-2 border border-foreground/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-foreground"
+                    placeholder="(626) 590-3560"
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="quote-serviceType" className="block text-sm font-semibold text-foreground mb-2">
+                    Service Type
+                  </label>
+                  <select
+                    id="quote-serviceType"
+                    name="serviceType"
+                    value={formData.serviceType}
+                    onChange={handleChange}
+                    className="w-full px-4 py-2 border border-foreground/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-foreground"
+                  >
+                    <option value="notary">Notary Services</option>
+                    <option value="apostille">Apostille Certification</option>
+                    <option value="legalization">Legalization Services</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label htmlFor="quote-message" className="block text-sm font-semibold text-foreground mb-2">
+                    Message
+                  </label>
+                  <textarea
+                    id="quote-message"
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    required
+                    rows={5}
+                    className="w-full px-4 py-2 border border-foreground/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-foreground"
+                    placeholder="Tell us about your notarization needs..."
+                  />
+                </div>
+
+                <button
+                  type="submit"
+                  disabled={isSubmitting}
+                  className="w-full bg-primary text-white font-semibold py-3 rounded-lg hover:opacity-90 transition disabled:opacity-50"
+                >
+                  {isSubmitting ? "Sending..." : "Send Message"}
+                </button>
+
+                {submitStatus === "success" && (
+                  <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded-lg">
+                    Thank you! We'll get back to you soon.
+                  </div>
+                )}
+                {submitStatus === "error" && (
+                  <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-lg">
+                    An error occurred. Please try again or call us directly.
+                  </div>
+                )}
+              </form>
+            </div>
+          </div>
+        </div>
+      )}
     </header>
   )
 }
