@@ -79,7 +79,7 @@ export default function PricingPage() {
   return (
     <div className="min-h-screen bg-white text-foreground">
       <Header />
-      <main className="py-16 md:py-24">
+      <main className="pt-8 pb-16 md:pt-12 md:pb-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Why Choose Us */}
           <div className="mb-16">
