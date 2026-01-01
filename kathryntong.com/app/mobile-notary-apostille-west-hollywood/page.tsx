@@ -39,6 +39,7 @@ const westHollywoodData = {
     "Fast apostille processing",
     "Professional and efficient service",
   ],
+  surroundingAreas: ["Hollywood", "Hollywood Hills West", "East Hollywood", "Studio City"],
 }
 
 export default function WestHollywoodPage() {

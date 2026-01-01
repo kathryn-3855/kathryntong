@@ -39,6 +39,7 @@ const losAngelesData = {
     "Fast apostille processing for international documents",
     "Bilingual services in English, Mandarin, and Cantonese",
   ],
+  surroundingAreas: ["West Los Angeles", "Central Los Angeles", "Koreatown", "Mid-Wilshire", "Silverlake", "Vernon", "Commerce"],
 }
 
 export default function LosAngelesPage() {

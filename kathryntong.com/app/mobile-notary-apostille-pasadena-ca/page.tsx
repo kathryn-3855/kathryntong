@@ -39,6 +39,7 @@ const pasadenaData = {
     "Fast apostille processing",
     "Bilingual services available",
   ],
+  surroundingAreas: ["East Pasadena", "South Pasadena", "Glendale", "La Canada"],
 }
 
 export default function PasadenaPage() {

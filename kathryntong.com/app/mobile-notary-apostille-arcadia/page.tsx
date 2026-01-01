@@ -39,6 +39,7 @@ const arcadiaData = {
     "Fast apostille processing",
     "Bilingual services in English, Mandarin, and Cantonese",
   ],
+  surroundingAreas: ["Temple City", "San Gabriel", "Rosemead", "Monrovia"],
 }
 
 export default function ArcadiaPage() {

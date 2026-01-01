@@ -12,6 +12,7 @@ interface CityPageProps {
   imageAlt: string
   services: string[]
   benefits: string[]
+  surroundingAreas?: string[]
 }
 
 export default function CityPage({ 
@@ -21,7 +22,8 @@ export default function CityPage({
   imagePath, 
   imageAlt,
   services,
-  benefits
+  benefits,
+  surroundingAreas = []
 }: CityPageProps) {
   return (
     <div className="min-h-screen bg-white">
@@ -36,7 +38,7 @@ export default function CityPage({
                   Mobile Notary & Apostille Services in {cityName}, {cityState}
                 </h1>
                 <p className="text-base text-foreground/90 mb-6 leading-relaxed">
-                  Kathryn's Mobile Notary & Apostille provides convenient on-site notary and apostille services to clients in {cityName} and surrounding areas. As a California Licensed Notary Public and Certified Apostille Agent based in Monterey Park, I travel directly to offices, law firms, health facilities, homes and educational institutions - saving clients time and preventing costly document errors.
+                  Kathryn's Mobile Notary & Apostille provides convenient on-site notary and apostille services to clients in {cityName}{surroundingAreas.length > 0 ? `, ${surroundingAreas.join(", ")}` : " and surrounding areas"}. As a California Licensed Notary Public and Certified Apostille Agent based in Monterey Park, I travel directly to offices, law firms, health facilities, homes and educational institutions - saving clients time and preventing costly document errors.
                 </p>
                 <div className="mb-6">
                   <h3 className="font-semibold text-foreground mb-3">Services:</h3>

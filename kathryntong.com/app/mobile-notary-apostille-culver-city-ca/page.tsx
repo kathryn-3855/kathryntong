@@ -39,6 +39,7 @@ const culverCityData = {
     "Fast apostille processing",
     "Bilingual support available",
   ],
+  surroundingAreas: ["Mar Vista", "Marina Del Rey"],
 }
 
 export default function CulverCityPage() {

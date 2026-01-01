@@ -39,6 +39,7 @@ const beverlyHillsData = {
     "Fast apostille processing",
     "Professional and confidential service",
   ],
+  surroundingAreas: ["Bel Air", "Brentwood", "Beverly Crest"],
 }
 
 export default function BeverlyHillsPage() {

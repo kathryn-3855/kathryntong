@@ -39,6 +39,7 @@ const sanMarinoData = {
     "Fast apostille processing",
     "Professional and confidential service",
   ],
+  surroundingAreas: ["Alhambra", "Monterey Park"],
 }
 
 export default function SanMarinoPage() {
