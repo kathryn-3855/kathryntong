@@ -37,12 +37,13 @@ const culverCityData = {
   imagePath: "/images/cities/culver-city.jpg",
   imageAlt: "Culver City with mobile notary services",
   services: [
-    "Entertainment Industry Documents",
-    "Business Contract Notarization",
-    "Apostille Services",
-    "Real Estate Documents",
+    "Mobile Notary",
+    "State & Federal Apostille",
+    "Embassy Legalization",
     "Power of Attorney",
-    "Estate Planning",
+    "Trust, Will & Advance Healthcare Directives",
+    "International Business & Education Documents",
+    "Same-Day and Expedited Services available",
   ],
   benefits: [
     "Convenient mobile service throughout Culver City",
@@ -53,8 +54,14 @@ const culverCityData = {
     "Bilingual support available",
   ],
   surroundingAreas: ["Mar Vista", "Marina Del Rey"],
+  popularSectors: [
+    "Media & Entertainment companies, such as Sony Pictures, Culver Studios etc.",
+    "Digital & E-Commerce Corporations",
+    "Health & Wellness Groups",
+  ],
 }
 
 export default function CulverCityPage() {
   return <CityPage {...culverCityData} />
 }
+

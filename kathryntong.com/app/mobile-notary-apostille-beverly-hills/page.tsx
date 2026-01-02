@@ -37,12 +37,13 @@ const beverlyHillsData = {
   imagePath: "/images/cities/beverly-hills.jpg",
   imageAlt: "Beverly Hills with mobile notary services",
   services: [
-    "Estate Planning Document Notarization",
-    "High-Value Real Estate Documents",
-    "Apostille Services",
+    "Mobile Notary",
+    "State & Federal Apostille",
+    "Embassy Legalization",
     "Power of Attorney",
-    "Trust Documents",
-    "Entertainment Industry Contracts",
+    "Trust, Will & Advance Healthcare Directives",
+    "International Business & Education Documents",
+    "Same-Day and Expedited Services available",
   ],
   benefits: [
     "Discreet mobile service throughout Beverly Hills",
@@ -53,8 +54,16 @@ const beverlyHillsData = {
     "Professional and confidential service",
   ],
   surroundingAreas: ["Bel Air", "Brentwood", "Beverly Crest"],
+  popularSectors: [
+    "Luxury Tourism & Hospitality, like Rodeo Drive Shops and Beverly Hills Hotel",
+    "Entertainment industry - leveraging its Hollywood proximity for Film, TV and Media related activities",
+    "Retail & High-end services - home to Luxury Fashion Brands and Exclusive Boutiques alike",
+    "Luxury Real Estate Brokerages & related services",
+    "Construction - One of the most sought after cities for Celebrity Homes & Development of Exclusive Estates",
+  ],
 }
 
 export default function BeverlyHillsPage() {
   return <CityPage {...beverlyHillsData} />
 }
+

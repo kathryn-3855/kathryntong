@@ -37,12 +37,13 @@ const losAngelesData = {
   imagePath: "/images/cities/los-angeles.jpg",
   imageAlt: "Los Angeles skyline with mobile notary services",
   services: [
-    "Real Estate Document Notarization",
-    "Power of Attorney Notarization",
-    "Apostille Services",
+    "Mobile Notary",
+    "State & Federal Apostille",
     "Embassy Legalization",
-    "Business Document Notarization",
-    "Estate Planning Documents",
+    "Power of Attorney",
+    "Trust, Will & Advance Healthcare Directives",
+    "International Business & Education Documents",
+    "Same-Day and Expedited Services available",
   ],
   benefits: [
     "Same-day mobile notary service throughout Los Angeles County",
@@ -53,8 +54,16 @@ const losAngelesData = {
     "Bilingual services in English, Mandarin, and Cantonese",
   ],
   surroundingAreas: ["West Los Angeles", "Central Los Angeles", "Koreatown", "Mid-Wilshire", "Silverlake", "Vernon", "Commerce"],
+  popularSectors: [
+    "Entertainment & Media Companies",
+    "Technology & Healthcare Providers",
+    "International Trade & Logistics",
+    "Manufacturing from Aerospace to Fashion to Food Products",
+    "Financial & Professional Services",
+  ],
 }
 
 export default function LosAngelesPage() {
   return <CityPage {...losAngelesData} />
 }
+

@@ -13,6 +13,7 @@ interface CityPageProps {
   services: string[]
   benefits: string[]
   surroundingAreas?: string[]
+  popularSectors?: string[]
 }
 
 export default function CityPage({ 
@@ -23,7 +24,8 @@ export default function CityPage({
   imageAlt,
   services,
   benefits,
-  surroundingAreas = []
+  surroundingAreas = [],
+  popularSectors = []
 }: CityPageProps) {
   return (
     <div className="min-h-screen bg-white">
@@ -40,37 +42,15 @@ export default function CityPage({
                 <p className="text-base text-foreground/90 mb-6 leading-relaxed">
                   Kathryn's Mobile Notary & Apostille provides convenient on-site notary and apostille services to clients in {cityName}{surroundingAreas.length > 0 ? `, ${surroundingAreas.join(", ")}` : " and surrounding areas"}. As a California Licensed Notary Public and Certified Apostille Agent based in Monterey Park, I travel directly to offices, law firms, health facilities, homes and educational institutions - saving clients time and preventing costly document errors.
                 </p>
-                <div className="mb-6">
-                  <h3 className="font-semibold text-foreground mb-3">Services:</h3>
-                  <ul className="space-y-2 text-foreground/90">
-                    <li className="flex items-start gap-2">
-                      <span className="text-primary mt-1">•</span>
-                      <span>Mobile Notary</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-primary mt-1">•</span>
-                      <span>State & Federal Apostille</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-primary mt-1">•</span>
-                      <span>Embassy Legalization</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-primary mt-1">•</span>
-                      <span>Power of Attorney</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-primary mt-1">•</span>
-                      <span>Trust, Will & Advance Healthcare Directives</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-primary mt-1">•</span>
-                      <span>International Business & Education Documents</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-primary mt-1">•</span>
-                      <span>Same-Day and Expedited Services available</span>
-                    </li>
+                <div className="mb-4">
+                  <h3 className="font-semibold text-foreground mb-2 text-sm">Services:</h3>
+                  <ul className="space-y-1 text-foreground/90">
+                    {services.map((service, index) => (
+                      <li key={index} className="flex items-start gap-2 text-sm">
+                        <span className="text-primary mt-1">•</span>
+                        <span>{service}</span>
+                      </li>
+                    ))}
                   </ul>
                 </div>
               </div>
@@ -85,6 +65,23 @@ export default function CityPage({
               </div>
             </div>
           </div>
+
+          {/* Popular Sectors Served Section */}
+          {popularSectors.length > 0 && (
+            <div className="mb-8">
+              <h2 className="text-xl font-bold text-foreground mb-4">Popular Sectors Served:</h2>
+              <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+                <ul className="space-y-2">
+                  {popularSectors.map((sector, index) => (
+                    <li key={index} className="flex items-start gap-2">
+                      <span className="text-primary mt-1">•</span>
+                      <span className="text-foreground text-sm">{sector}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          )}
 
           {/* CTA Section */}
           <div className="bg-primary rounded-lg p-8 text-center">
@@ -114,3 +111,4 @@ export default function CityPage({
     </div>
   )
 }
+

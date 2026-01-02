@@ -37,12 +37,13 @@ const santaMonicaData = {
   imagePath: "/images/cities/santa-monica.jpg",
   imageAlt: "Santa Monica with mobile notary services",
   services: [
-    "Real Estate Document Notarization",
-    "Business Contract Notarization",
-    "Apostille Services",
+    "Mobile Notary",
+    "State & Federal Apostille",
+    "Embassy Legalization",
     "Power of Attorney",
-    "Estate Planning Documents",
-    "Healthcare Directives",
+    "Trust, Will & Advance Healthcare Directives",
+    "International Business & Education Documents",
+    "Same-Day and Expedited Services available",
   ],
   benefits: [
     "Mobile service throughout Santa Monica and coastal areas",
@@ -53,8 +54,15 @@ const santaMonicaData = {
     "Professional and discreet service",
   ],
   surroundingAreas: ["Pacific Palisades", "Venice"],
+  popularSectors: [
+    "Entertainment & Media Companies",
+    "Technology & Biotech professionals",
+    "Start-up & Overseas Business Filing",
+    "International Students and related companies",
+  ],
 }
 
 export default function SantaMonicaPage() {
   return <CityPage {...santaMonicaData} />
 }
+

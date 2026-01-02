@@ -37,12 +37,13 @@ const pasadenaData = {
   imagePath: "/images/cities/pasadena.jpg",
   imageAlt: "Pasadena with mobile notary services",
   services: [
-    "Healthcare Facility Notarization",
-    "Real Estate Document Notarization",
-    "Apostille Services",
+    "Mobile Notary",
+    "State & Federal Apostille",
+    "Embassy Legalization",
     "Power of Attorney",
-    "Estate Planning Documents",
-    "Business Contract Notarization",
+    "Trust, Will & Advance Healthcare Directives",
+    "International Business & Education Documents",
+    "Same-Day and Expedited Services available",
   ],
   benefits: [
     "Mobile service throughout Pasadena and San Gabriel Valley",
@@ -53,8 +54,15 @@ const pasadenaData = {
     "Bilingual services available",
   ],
   surroundingAreas: ["East Pasadena", "South Pasadena", "Glendale", "La Canada"],
+  popularSectors: [
+    "Aerospace & Defence industry such as JPL, Parsons Corp etc.",
+    "Major Hospitals & Healthcare Facilities",
+    "Professional & Technical Services including Engineering, Technology Research, Logistics & Trade firms",
+    "Retail & Hospitality companies such as \"Old Pasadena\"",
+  ],
 }
 
 export default function PasadenaPage() {
   return <CityPage {...pasadenaData} />
 }
+

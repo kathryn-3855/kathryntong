@@ -37,12 +37,13 @@ const southPasadenaData = {
   imagePath: "/images/cities/south-pasadena.jpg",
   imageAlt: "South Pasadena with mobile notary services",
   services: [
-    "Healthcare Document Notarization",
-    "Real Estate Document Notarization",
-    "Apostille Services",
+    "Mobile Notary",
+    "State & Federal Apostille",
+    "Embassy Legalization",
     "Power of Attorney",
-    "Estate Planning Documents",
-    "Business Document Notarization",
+    "Trust, Will & Advance Healthcare Directives",
+    "International Business & Education Documents",
+    "Same-Day and Expedited Services available",
   ],
   benefits: [
     "Mobile service throughout South Pasadena and San Gabriel Valley",
@@ -53,8 +54,15 @@ const southPasadenaData = {
     "Bilingual services available",
   ],
   surroundingAreas: ["Highland Park", "Eagle Rock"],
+  popularSectors: [
+    "Healthcare & Wellness Companies",
+    "Retails (Grocery / Specialty) and Restaurants",
+    "Professional Services such as Wealth Management, Tax Services etc.",
+    "Local \"Mom & Pop\" Businesses such as Fair Oaks Pharmacy",
+  ],
 }
 
 export default function SouthPasadenaPage() {
   return <CityPage {...southPasadenaData} />
 }
+

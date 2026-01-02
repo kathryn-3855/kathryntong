@@ -37,12 +37,13 @@ const sanMarinoData = {
   imagePath: "/images/cities/san-marino.jpg",
   imageAlt: "San Marino with mobile notary services",
   services: [
-    "Estate Planning Document Notarization",
-    "Real Estate Document Notarization",
-    "Apostille Services",
+    "Mobile Notary",
+    "State & Federal Apostille",
+    "Embassy Legalization",
     "Power of Attorney",
-    "Trust Documents",
-    "Business Document Notarization",
+    "Trust, Will & Advance Healthcare Directives",
+    "International Business & Education Documents",
+    "Same-Day and Expedited Services available",
   ],
   benefits: [
     "Discreet mobile service throughout San Marino",
@@ -53,8 +54,15 @@ const sanMarinoData = {
     "Professional and confidential service",
   ],
   surroundingAreas: ["Alhambra", "Monterey Park"],
+  popularSectors: [
+    "Tourism & Local Retail setups",
+    "Banking & Professional Services",
+    "Light Manufacturing such as Ceramics, Clothing, Furnitures",
+    "Real Estate Brokerages & Service Providers",
+  ],
 }
 
 export default function SanMarinoPage() {
   return <CityPage {...sanMarinoData} />
 }
+

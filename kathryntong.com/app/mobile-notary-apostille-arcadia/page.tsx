@@ -37,12 +37,13 @@ const arcadiaData = {
   imagePath: "/images/cities/arcadia.jpg",
   imageAlt: "Arcadia with mobile notary services",
   services: [
-    "Healthcare Document Notarization",
-    "Real Estate Document Notarization",
-    "Apostille Services",
+    "Mobile Notary",
+    "State & Federal Apostille",
+    "Embassy Legalization",
     "Power of Attorney",
-    "Estate Planning Documents",
-    "Business Document Notarization",
+    "Trust, Will & Advance Healthcare Directives",
+    "International Business & Education Documents",
+    "Same-Day and Expedited Services available",
   ],
   benefits: [
     "Mobile service throughout Arcadia and San Gabriel Valley",
@@ -53,8 +54,16 @@ const arcadiaData = {
     "Bilingual services in English, Mandarin, and Cantonese",
   ],
   surroundingAreas: ["Temple City", "San Gabriel", "Rosemead", "Monrovia"],
+  popularSectors: [
+    "Healthcare Analytics including Health Management & Data Analysis",
+    "Aerospace such as Arcadia Aerospace Industries",
+    "Manufacturing that focuses on Transportation, Defense & Architectural designs",
+    "Clean Energy Groups that provide Renewable Energy & Utility Data",
+    "Education & Professional Services including CPA, Wealth Management, Law Firms etc.",
+  ],
 }
 
 export default function ArcadiaPage() {
   return <CityPage {...arcadiaData} />
 }
+

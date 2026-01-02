@@ -37,12 +37,13 @@ const westHollywoodData = {
   imagePath: "/images/cities/west-hollywood.jpg",
   imageAlt: "West Hollywood with mobile notary services",
   services: [
-    "Entertainment Industry Document Notarization",
-    "Business Contract Notarization",
-    "Apostille Services",
-    "Real Estate Documents",
+    "Mobile Notary",
+    "State & Federal Apostille",
+    "Embassy Legalization",
     "Power of Attorney",
-    "Estate Planning Documents",
+    "Trust, Will & Advance Healthcare Directives",
+    "International Business & Education Documents",
+    "Same-Day and Expedited Services available",
   ],
   benefits: [
     "Mobile service throughout West Hollywood",
@@ -53,8 +54,14 @@ const westHollywoodData = {
     "Professional and efficient service",
   ],
   surroundingAreas: ["Hollywood", "Hollywood Hills West", "East Hollywood", "Studio City"],
+  popularSectors: [
+    "Famous for its Sunset Strip alongside strong Fashion & Retail Shops",
+    "Thriving Professional Services, e.g. Wealth Management & Business Management, due to its status as a hub for Media, Culture & Entertainment Studios nearby",
+    "Los Angeles County Metropolitan Transportation Authority (aka LA Metro) with nearly 700 employees",
+  ],
 }
 
 export default function WestHollywoodPage() {
   return <CityPage {...westHollywoodData} />
 }
+
