@@ -2,18 +2,31 @@ import type { Metadata } from "next"
 import CityPage from "../mobile-notary-apostille-los-angeles-ca/city-page"
 
 export const metadata: Metadata = {
-  title: "Mobile Notary & Apostille Services in Culver City, CA | Same-Day Service",
+  title: "Mobile Notary & Apostille Services in Culver City, CA | Entertainment Industry | Same-Day",
   description:
-    "Professional mobile notary and apostille services in Culver City, CA. Same-day service available. We travel to your location - offices, homes, studios. Serving Culver City and surrounding areas.",
-  keywords: "mobile notary Culver City, apostille Culver City, notary services Culver City CA, mobile notary Culver City CA, notary public Culver City, same day notary Culver City, apostille services Culver City",
+    "Licensed mobile notary public serving Culver City, CA. Same-day notarization & apostille services for entertainment industry, studios, businesses. We travel to offices, studios, homes in Culver City, Mar Vista, Marina Del Rey. California certified apostille agent. Available 7 days/week.",
+  keywords: "mobile notary Culver City, notary public Culver City CA, traveling notary Culver City, on-site notary Culver City, same day notary Culver City, 24 hour notary Culver City, apostille services Culver City, California apostille Culver City, notary near me Culver City, Mar Vista notary, Marina Del Rey notary, entertainment industry notary Culver City, studio notary Culver City, Sony Pictures notary, business contract notary Culver City, real estate notary Culver City, power of attorney notary Culver City, embassy legalization Culver City, certified apostille agent Culver City, bilingual notary Culver City",
   openGraph: {
-    title: "Mobile Notary & Apostille Services in Culver City, CA",
-    description: "Professional mobile notary and apostille services in Culver City, CA. Same-day service available.",
+    title: "Mobile Notary & Apostille Services in Culver City, CA | Entertainment Industry",
+    description: "Licensed mobile notary public serving Culver City, CA. Same-day notarization & apostille services for entertainment industry, studios, businesses.",
     type: "website",
     locale: "en_US",
+    url: "https://kathryntong.com/mobile-notary-apostille-culver-city-ca",
+    siteName: "Kathryn's Mobile Notary & Apostille",
+    images: [
+      {
+        url: "/images/cities/culver-city.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Mobile Notary Services in Culver City, CA",
+      },
+    ],
   },
   icons: {
     icon: "/favicon.ico",
+  },
+  alternates: {
+    canonical: "https://kathryntong.com/mobile-notary-apostille-culver-city-ca",
   },
 }
 
