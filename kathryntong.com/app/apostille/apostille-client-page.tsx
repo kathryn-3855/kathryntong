@@ -8,15 +8,15 @@ export default function ApostilleClientPage() {
       <Header />
       <main className="pt-8 pb-16 md:pt-12 md:pb-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+          <div className="text-center mb-10">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
               Apostille & Embassy Legalization
             </h1>
           </div>
 
           {/* Apostille Specialist Section */}
-          <div className="mb-20">
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-8 mb-8">
+          <div className="mb-10">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6 mb-6">
               <p className="text-foreground text-base leading-relaxed mb-6">
                 You need an Apostille Specialist because they simplify the complex, time-consuming process of getting your documents (like birth certs, diplomas, or business contracts) certified for use in foreign countries, ensuring they meet specific international standards to avoid costly rejections, especially for big life events like studying abroad, international adoption, or global business. They act as experts, managing the paperwork and submissions to government offices (like the Secretary of State and Department of State) so you don't have to.
               </p>
@@ -72,8 +72,8 @@ export default function ApostilleClientPage() {
           </div>
 
           {/* When Do You Need Embassy Legalization Section */}
-          <div className="mb-20">
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-8 mb-8">
+          <div className="mb-10">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6 mb-6">
               <h2 className="text-3xl font-bold text-foreground mb-6">When Do You Need Embassy Legalization (Apostille vs Legalization)?</h2>
               
               <p className="text-foreground text-base leading-relaxed mb-6">
@@ -101,8 +101,8 @@ export default function ApostilleClientPage() {
           </div>
 
           {/* Embassy Legalization Specialist Section */}
-          <div className="mb-20">
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-8 mb-8">
+          <div className="mb-10">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6 mb-6">
               <p className="text-foreground text-base leading-relaxed mb-6">
                 We are experts in navigating this complex, multi-step process of authenticating documents (like birth certs, diplomas, commercial agreements) for foreign countries, saving you immense time, stress, and costly errors by handling intricate procedures with embassies/consulates, ensuring compliance with specific country rules, and preventing rejections for international business, study, or immigration.
               </p>
