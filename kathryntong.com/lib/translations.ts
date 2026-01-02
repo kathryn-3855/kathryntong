@@ -240,6 +240,133 @@ export const translations = {
     bilingualStaff:
       "We have bilingual (English and Chinese speaking) staff to help answer questions about specific documents that need to be apostilled or authenticated.",
     
+    // City Pages
+    cityPageTitle: "Mobile Notary & Apostille Services in {cityName}, {cityState}",
+    cityPageServices: "Services",
+    cityPagePopularSectors: "Popular Sectors Served",
+    cityPageReadyToGetStarted: "Ready to Get Started?",
+    cityPageCTAText: "Contact us today to schedule your mobile notary or apostille service in {cityName}, {cityState}. We're here to help with all your notarization needs.",
+    cityPageCall: "Call: 626-590-3560",
+    cityPageAndSurroundingAreas: " and surrounding areas",
+    
+    // City Names
+    cityLosAngeles: "Los Angeles",
+    cityBeverlyHills: "Beverly Hills",
+    cityPasadena: "Pasadena",
+    cityCulverCity: "Culver City",
+    citySantaMonica: "Santa Monica",
+    cityWestHollywood: "West Hollywood",
+    cityArcadia: "Arcadia",
+    citySanMarino: "San Marino",
+    citySouthPasadena: "South Pasadena",
+    
+    // Surrounding Areas
+    areaWestLosAngeles: "West Los Angeles",
+    areaCentralLosAngeles: "Central Los Angeles",
+    areaKoreatown: "Koreatown",
+    areaMidWilshire: "Mid-Wilshire",
+    areaSilverlake: "Silverlake",
+    areaVernon: "Vernon",
+    areaCommerce: "Commerce",
+    areaBelAir: "Bel Air",
+    areaBrentwood: "Brentwood",
+    areaBeverlyCrest: "Beverly Crest",
+    areaEastPasadena: "East Pasadena",
+    areaSouthPasadena: "South Pasadena",
+    areaGlendale: "Glendale",
+    areaLaCanada: "La Canada",
+    areaMarVista: "Mar Vista",
+    areaMarinaDelRey: "Marina Del Rey",
+    areaPacificPalisades: "Pacific Palisades",
+    areaVenice: "Venice",
+    areaHollywood: "Hollywood",
+    areaHollywoodHillsWest: "Hollywood Hills West",
+    areaEastHollywood: "East Hollywood",
+    areaStudioCity: "Studio City",
+    areaTempleCity: "Temple City",
+    areaSanGabriel: "San Gabriel",
+    areaRosemead: "Rosemead",
+    areaMonrovia: "Monrovia",
+    areaAlhambra: "Alhambra",
+    areaMontereyPark: "Monterey Park",
+    areaHighlandPark: "Highland Park",
+    areaEagleRock: "Eagle Rock",
+    
+    // Services (common across cities)
+    serviceMobileNotary: "Mobile Notary",
+    serviceStateFederalApostille: "State & Federal Apostille",
+    serviceEmbassyLegalization: "Embassy Legalization",
+    servicePowerOfAttorney: "Power of Attorney",
+    serviceTrustWillHealthcare: "Trust, Will & Advance Healthcare Directives",
+    serviceInternationalBusinessEducation: "International Business & Education Documents",
+    serviceSameDayExpedited: "Same-Day and Expedited Services available",
+    
+    // City Descriptions
+    cityDescLosAngeles: "Professional mobile notary and apostille services throughout Los Angeles, CA. As a trusted mobile notary public, we bring our services directly to your location - whether that's your office in Downtown LA, your home in Hollywood, or any other convenient location. We specialize in same-day notarization and apostille services for businesses, attorneys, and individuals throughout Los Angeles County.",
+    cityDescBeverlyHills: "Professional mobile notary and apostille services in Beverly Hills, CA. Serving high-net-worth individuals, businesses, and entertainment industry professionals throughout Beverly Hills. Our mobile notary service provides discreet, professional notarization at your location. We specialize in estate planning, high-value real estate transactions, business contracts, and apostille services for international use.",
+    cityDescPasadena: "Professional mobile notary and apostille services in Pasadena, CA. Serving residents, businesses, and healthcare facilities throughout Pasadena and the San Gabriel Valley. Our mobile notary service brings professional notarization directly to your location. We specialize in healthcare facility notarizations, real estate documents, and apostille services for international use.",
+    cityDescCulverCity: "Professional mobile notary and apostille services in Culver City, CA. Serving the entertainment industry, local businesses, and residents throughout Culver City. Our mobile notary service brings professional notarization directly to your office, studio, or home. We specialize in same-day service for urgent document needs and apostille services for international use.",
+    cityDescSantaMonica: "Professional mobile notary and apostille services in Santa Monica, CA. Serving residents, businesses, and professionals throughout Santa Monica and the surrounding coastal areas. Our mobile notary service provides convenient, same-day notarization at your office, home, or any location in Santa Monica. We specialize in real estate documents, business contracts, and apostille services for international use.",
+    cityDescWestHollywood: "Professional mobile notary and apostille services in West Hollywood, CA. Serving residents, businesses, and entertainment industry professionals throughout West Hollywood. Our mobile notary service provides convenient, professional notarization at your office, home, or studio. We specialize in entertainment industry documents, business contracts, real estate transactions, and apostille services for international use.",
+    cityDescArcadia: "Professional mobile notary and apostille services in Arcadia, CA. Serving residents, businesses, and healthcare facilities throughout Arcadia and the San Gabriel Valley. Our mobile notary service provides convenient, professional notarization at your location. We specialize in healthcare documents, real estate transactions, and apostille services for international use.",
+    cityDescSanMarino: "Professional mobile notary and apostille services in San Marino, CA. Serving residents, businesses, and estate planning needs throughout San Marino and the San Gabriel Valley. Our mobile notary service provides discreet, professional notarization at your location. We specialize in estate planning documents, high-value real estate transactions, and apostille services for international use.",
+    cityDescSouthPasadena: "Professional mobile notary and apostille services in South Pasadena, CA. Serving residents, businesses, and healthcare facilities throughout South Pasadena and the San Gabriel Valley. Our mobile notary service brings professional notarization directly to your location. We specialize in healthcare documents, real estate transactions, and apostille services for international use.",
+    
+    // Popular Sectors - Los Angeles
+    sectorLA1: "Entertainment & Media Companies",
+    sectorLA2: "Technology & Healthcare Providers",
+    sectorLA3: "International Trade & Logistics",
+    sectorLA4: "Manufacturing from Aerospace to Fashion to Food Products",
+    sectorLA5: "Financial & Professional Services",
+    
+    // Popular Sectors - Santa Monica
+    sectorSM1: "Entertainment & Media Companies",
+    sectorSM2: "Technology & Biotech professionals",
+    sectorSM3: "Start-up & Overseas Business Filing",
+    sectorSM4: "International Students and related companies",
+    
+    // Popular Sectors - Culver City
+    sectorCC1: "Media & Entertainment companies, such as Sony Pictures, Culver Studios etc.",
+    sectorCC2: "Digital & E-Commerce Corporations",
+    sectorCC3: "Health & Wellness Groups",
+    
+    // Popular Sectors - Pasadena
+    sectorP1: "Aerospace & Defence industry such as JPL, Parsons Corp etc.",
+    sectorP2: "Major Hospitals & Healthcare Facilities",
+    sectorP3: "Professional & Technical Services including Engineering, Technology Research, Logistics & Trade firms",
+    sectorP4: "Retail & Hospitality companies such as \"Old Pasadena\"",
+    
+    // Popular Sectors - Arcadia
+    sectorA1: "Healthcare Analytics including Health Management & Data Analysis",
+    sectorA2: "Aerospace such as Arcadia Aerospace Industries",
+    sectorA3: "Manufacturing that focuses on Transportation, Defense & Architectural designs",
+    sectorA4: "Clean Energy Groups that provide Renewable Energy & Utility Data",
+    sectorA5: "Education & Professional Services including CPA, Wealth Management, Law Firms etc.",
+    
+    // Popular Sectors - San Marino
+    sectorSM2_1: "Tourism & Local Retail setups",
+    sectorSM2_2: "Banking & Professional Services",
+    sectorSM2_3: "Light Manufacturing such as Ceramics, Clothing, Furnitures",
+    sectorSM2_4: "Real Estate Brokerages & Service Providers",
+    
+    // Popular Sectors - South Pasadena
+    sectorSP1: "Healthcare & Wellness Companies",
+    sectorSP2: "Retails (Grocery / Specialty) and Restaurants",
+    sectorSP3: "Professional Services such as Wealth Management, Tax Services etc.",
+    sectorSP4: "Local \"Mom & Pop\" Businesses such as Fair Oaks Pharmacy",
+    
+    // Popular Sectors - Beverly Hills
+    sectorBH1: "Luxury Tourism & Hospitality, like Rodeo Drive Shops and Beverly Hills Hotel",
+    sectorBH2: "Entertainment industry - leveraging its Hollywood proximity for Film, TV and Media related activities",
+    sectorBH3: "Retail & High-end services - home to Luxury Fashion Brands and Exclusive Boutiques alike",
+    sectorBH4: "Luxury Real Estate Brokerages & related services",
+    sectorBH5: "Construction - One of the most sought after cities for Celebrity Homes & Development of Exclusive Estates",
+    
+    // Popular Sectors - West Hollywood
+    sectorWH1: "Famous for its Sunset Strip alongside strong Fashion & Retail Shops",
+    sectorWH2: "Thriving Professional Services, e.g. Wealth Management & Business Management, due to its status as a hub for Media, Culture & Entertainment Studios nearby",
+    sectorWH3: "Los Angeles County Metropolitan Transportation Authority (aka LA Metro) with nearly 700 employees",
+    
     // Document names for Apostille page
     docBirthCertificates: "Birth Certificates (certified copy from CA Department of Public Health or County Clerk)",
     docMarriageCertificates: "Marriage Certificates (certified copy from County Clerk)",
@@ -753,6 +880,133 @@ export const translations = {
     keyPointCertifiedCopies: "认证副本",
     keyPointFederalDocuments: "联邦文件",
     keyPointDocumentRequirements: "文件要求",
+    
+    // City Pages (Chinese)
+    cityPageTitle: "{cityName}, {cityState}的移动公证和认证服务",
+    cityPageServices: "服务",
+    cityPagePopularSectors: "服务的热门行业",
+    cityPageReadyToGetStarted: "准备开始了吗？",
+    cityPageCTAText: "立即联系我们，在{cityName}, {cityState}安排您的移动公证或认证服务。我们随时为您提供所有公证需求方面的帮助。",
+    cityPageCall: "致电：626-590-3560",
+    cityPageAndSurroundingAreas: "及周边地区",
+    
+    // City Names (Chinese)
+    cityLosAngeles: "洛杉矶",
+    cityBeverlyHills: "比佛利山庄",
+    cityPasadena: "帕萨迪纳",
+    cityCulverCity: "卡尔弗城",
+    citySantaMonica: "圣莫尼卡",
+    cityWestHollywood: "西好莱坞",
+    cityArcadia: "阿卡迪亚",
+    citySanMarino: "圣马力诺",
+    citySouthPasadena: "南帕萨迪纳",
+    
+    // Surrounding Areas (Chinese)
+    areaWestLosAngeles: "西洛杉矶",
+    areaCentralLosAngeles: "中洛杉矶",
+    areaKoreatown: "韩国城",
+    areaMidWilshire: "中威尔希尔",
+    areaSilverlake: "银湖",
+    areaVernon: "弗农",
+    areaCommerce: "商业区",
+    areaBelAir: "贝尔艾尔",
+    areaBrentwood: "布伦特伍德",
+    areaBeverlyCrest: "比佛利山脊",
+    areaEastPasadena: "东帕萨迪纳",
+    areaSouthPasadena: "南帕萨迪纳",
+    areaGlendale: "格伦代尔",
+    areaLaCanada: "拉卡纳达",
+    areaMarVista: "马维斯塔",
+    areaMarinaDelRey: "玛丽安德尔湾",
+    areaPacificPalisades: "太平洋帕利塞德",
+    areaVenice: "威尼斯",
+    areaHollywood: "好莱坞",
+    areaHollywoodHillsWest: "西好莱坞山",
+    areaEastHollywood: "东好莱坞",
+    areaStudioCity: "影城",
+    areaTempleCity: "天普市",
+    areaSanGabriel: "圣盖博",
+    areaRosemead: "罗斯米德",
+    areaMonrovia: "蒙罗维亚",
+    areaAlhambra: "阿罕布拉",
+    areaMontereyPark: "蒙特利公园",
+    areaHighlandPark: "高地公园",
+    areaEagleRock: "鹰岩",
+    
+    // Services (Chinese)
+    serviceMobileNotary: "移动公证",
+    serviceStateFederalApostille: "州和联邦认证",
+    serviceEmbassyLegalization: "大使馆合法化",
+    servicePowerOfAttorney: "授权委托书",
+    serviceTrustWillHealthcare: "信托、遗嘱和预付费医疗指令",
+    serviceInternationalBusinessEducation: "国际商业和教育文件",
+    serviceSameDayExpedited: "提供当日和加急服务",
+    
+    // City Descriptions (Chinese)
+    cityDescLosAngeles: "在加利福尼亚州洛杉矶提供专业的移动公证和认证服务。作为值得信赖的移动公证员，我们将服务直接送到您的位置 - 无论是您在市中心LA的办公室、好莱坞的家，还是任何其他方便的位置。我们专门为整个洛杉矶县的企业、律师和个人提供当日公证和认证服务。",
+    cityDescBeverlyHills: "在加利福尼亚州比佛利山庄提供专业的移动公证和认证服务。为整个比佛利山庄的高净值个人、企业和娱乐行业专业人士提供服务。我们的移动公证服务在您的位置提供谨慎、专业的公证。我们专门从事遗产规划、高价值房地产交易、商业合同以及国际使用的认证服务。",
+    cityDescPasadena: "在加利福尼亚州帕萨迪纳提供专业的移动公证和认证服务。为整个帕萨迪纳和圣盖博谷的居民、企业和医疗机构提供服务。我们的移动公证服务将专业公证直接送到您的位置。我们专门从事医疗机构公证、房地产文件以及国际使用的认证服务。",
+    cityDescCulverCity: "在加利福尼亚州卡尔弗城提供专业的移动公证和认证服务。为整个卡尔弗城的娱乐行业、本地企业和居民提供服务。我们的移动公证服务将专业公证直接送到您的办公室、工作室或家中。我们专门为紧急文件需求提供当日服务以及国际使用的认证服务。",
+    cityDescSantaMonica: "在加利福尼亚州圣莫尼卡提供专业的移动公证和认证服务。为整个圣莫尼卡及周边沿海地区的居民、企业和专业人士提供服务。我们的移动公证服务在您的办公室、家中或圣莫尼卡的任何位置提供便捷的当日公证。我们专门从事房地产文件、商业合同以及国际使用的认证服务。",
+    cityDescWestHollywood: "在加利福尼亚州西好莱坞提供专业的移动公证和认证服务。为整个西好莱坞的居民、企业和娱乐行业专业人士提供服务。我们的移动公证服务在您的办公室、家中或工作室提供便捷、专业的公证。我们专门从事娱乐行业文件、商业合同、房地产交易以及国际使用的认证服务。",
+    cityDescArcadia: "在加利福尼亚州阿卡迪亚提供专业的移动公证和认证服务。为整个阿卡迪亚和圣盖博谷的居民、企业和医疗机构提供服务。我们的移动公证服务在您的位置提供便捷、专业的公证。我们专门从事医疗文件、房地产交易以及国际使用的认证服务。",
+    cityDescSanMarino: "在加利福尼亚州圣马力诺提供专业的移动公证和认证服务。为整个圣马力诺和圣盖博谷的居民、企业和遗产规划需求提供服务。我们的移动公证服务在您的位置提供谨慎、专业的公证。我们专门从事遗产规划文件、高价值房地产交易以及国际使用的认证服务。",
+    cityDescSouthPasadena: "在加利福尼亚州南帕萨迪纳提供专业的移动公证和认证服务。为整个南帕萨迪纳和圣盖博谷的居民、企业和医疗机构提供服务。我们的移动公证服务将专业公证直接送到您的位置。我们专门从事医疗文件、房地产交易以及国际使用的认证服务。",
+    
+    // Popular Sectors - Los Angeles (Chinese)
+    sectorLA1: "娱乐和媒体公司",
+    sectorLA2: "技术和医疗保健提供商",
+    sectorLA3: "国际贸易和物流",
+    sectorLA4: "从航空航天到时尚到食品产品的制造业",
+    sectorLA5: "金融和专业服务",
+    
+    // Popular Sectors - Santa Monica (Chinese)
+    sectorSM1: "娱乐和媒体公司",
+    sectorSM2: "技术和生物技术专业人士",
+    sectorSM3: "初创企业和海外商业备案",
+    sectorSM4: "国际学生及相关公司",
+    
+    // Popular Sectors - Culver City (Chinese)
+    sectorCC1: "媒体和娱乐公司，如索尼影业、卡尔弗工作室等",
+    sectorCC2: "数字和电子商务公司",
+    sectorCC3: "健康和保健团体",
+    
+    // Popular Sectors - Pasadena (Chinese)
+    sectorP1: "航空航天和国防工业，如JPL、帕森斯公司等",
+    sectorP2: "主要医院和医疗机构",
+    sectorP3: "专业和技术服务，包括工程、技术研究、物流和贸易公司",
+    sectorP4: "零售和酒店公司，如\"老帕萨迪纳\"",
+    
+    // Popular Sectors - Arcadia (Chinese)
+    sectorA1: "医疗保健分析，包括健康管理和数据分析",
+    sectorA2: "航空航天，如阿卡迪亚航空航天工业",
+    sectorA3: "专注于交通、国防和建筑设计的制造业",
+    sectorA4: "提供可再生能源和公用事业数据的清洁能源团体",
+    sectorA5: "教育和专业服务，包括注册会计师、财富管理、律师事务所等",
+    
+    // Popular Sectors - San Marino (Chinese)
+    sectorSM2_1: "旅游业和本地零售设置",
+    sectorSM2_2: "银行和专业服务",
+    sectorSM2_3: "轻工业制造，如陶瓷、服装、家具",
+    sectorSM2_4: "房地产经纪和服务提供商",
+    
+    // Popular Sectors - South Pasadena (Chinese)
+    sectorSP1: "医疗保健和健康公司",
+    sectorSP2: "零售（杂货/专业）和餐厅",
+    sectorSP3: "专业服务，如财富管理、税务服务等",
+    sectorSP4: "本地\"夫妻店\"企业，如费尔奥克斯药房",
+    
+    // Popular Sectors - Beverly Hills (Chinese)
+    sectorBH1: "豪华旅游和酒店业，如罗迪欧大道商店和比佛利山庄酒店",
+    sectorBH2: "娱乐行业 - 利用其靠近好莱坞的优势，从事电影、电视和媒体相关活动",
+    sectorBH3: "零售和高端服务 - 是奢侈时尚品牌和独家精品店的所在地",
+    sectorBH4: "豪华房地产经纪及相关服务",
+    sectorBH5: "建筑 - 最受欢迎的明星住宅和独家庄园开发城市之一",
+    
+    // Popular Sectors - West Hollywood (Chinese)
+    sectorWH1: "以其日落大道以及强大的时尚和零售商店而闻名",
+    sectorWH2: "蓬勃发展的专业服务，例如财富管理和商业管理，因为它作为附近媒体、文化和娱乐工作室的中心地位",
+    sectorWH3: "洛杉矶县大都会交通管理局（又名LA Metro），拥有近700名员工",
     
     // Contact/Service Areas page (Chinese)
     contactUsTitle: "联系我们",

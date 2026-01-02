@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import CityPage from "../mobile-notary-apostille-los-angeles-ca/city-page"
+import SanMarinoCityPageClient from "./city-page-client"
 
 export const metadata: Metadata = {
   title: "Mobile Notary & Apostille Services in San Marino, CA | Estate Planning | Same-Day",
@@ -30,39 +30,7 @@ export const metadata: Metadata = {
   },
 }
 
-const sanMarinoData = {
-  cityName: "San Marino",
-  cityState: "CA",
-  description: "Professional mobile notary and apostille services in San Marino, CA. Serving residents, businesses, and estate planning needs throughout San Marino and the San Gabriel Valley. Our mobile notary service provides discreet, professional notarization at your location. We specialize in estate planning documents, high-value real estate transactions, and apostille services for international use.",
-  imagePath: "/images/cities/san-marino.jpg",
-  imageAlt: "San Marino with mobile notary services",
-  services: [
-    "Mobile Notary",
-    "State & Federal Apostille",
-    "Embassy Legalization",
-    "Power of Attorney",
-    "Trust, Will & Advance Healthcare Directives",
-    "International Business & Education Documents",
-    "Same-Day and Expedited Services available",
-  ],
-  benefits: [
-    "Discreet mobile service throughout San Marino",
-    "Estate planning document expertise",
-    "Same-day appointments available",
-    "Experience with high-value transactions",
-    "Fast apostille processing",
-    "Professional and confidential service",
-  ],
-  surroundingAreas: ["Alhambra", "Monterey Park"],
-  popularSectors: [
-    "Tourism & Local Retail setups",
-    "Banking & Professional Services",
-    "Light Manufacturing such as Ceramics, Clothing, Furnitures",
-    "Real Estate Brokerages & Service Providers",
-  ],
-}
-
 export default function SanMarinoPage() {
-  return <CityPage {...sanMarinoData} />
+  return <SanMarinoCityPageClient />
 }
 

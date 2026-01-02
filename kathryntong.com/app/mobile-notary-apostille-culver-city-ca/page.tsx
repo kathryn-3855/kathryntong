@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import CityPage from "../mobile-notary-apostille-los-angeles-ca/city-page"
+import CulverCityCityPageClient from "./city-page-client"
 
 export const metadata: Metadata = {
   title: "Mobile Notary & Apostille Services in Culver City, CA | Entertainment Industry | Same-Day",
@@ -30,38 +30,7 @@ export const metadata: Metadata = {
   },
 }
 
-const culverCityData = {
-  cityName: "Culver City",
-  cityState: "CA",
-  description: "Professional mobile notary and apostille services in Culver City, CA. Serving the entertainment industry, local businesses, and residents throughout Culver City. Our mobile notary service brings professional notarization directly to your office, studio, or home. We specialize in same-day service for urgent document needs and apostille services for international use.",
-  imagePath: "/images/cities/culver-city.jpg",
-  imageAlt: "Culver City with mobile notary services",
-  services: [
-    "Mobile Notary",
-    "State & Federal Apostille",
-    "Embassy Legalization",
-    "Power of Attorney",
-    "Trust, Will & Advance Healthcare Directives",
-    "International Business & Education Documents",
-    "Same-Day and Expedited Services available",
-  ],
-  benefits: [
-    "Convenient mobile service throughout Culver City",
-    "Same-day appointments available",
-    "Experience with entertainment industry documents",
-    "Flexible scheduling for busy professionals",
-    "Fast apostille processing",
-    "Bilingual support available",
-  ],
-  surroundingAreas: ["Mar Vista", "Marina Del Rey"],
-  popularSectors: [
-    "Media & Entertainment companies, such as Sony Pictures, Culver Studios etc.",
-    "Digital & E-Commerce Corporations",
-    "Health & Wellness Groups",
-  ],
-}
-
 export default function CulverCityPage() {
-  return <CityPage {...culverCityData} />
+  return <CulverCityCityPageClient />
 }
 

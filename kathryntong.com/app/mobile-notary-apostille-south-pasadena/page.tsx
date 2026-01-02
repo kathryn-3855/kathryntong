@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import CityPage from "../mobile-notary-apostille-los-angeles-ca/city-page"
+import SouthPasadenaCityPageClient from "./city-page-client"
 
 export const metadata: Metadata = {
   title: "Mobile Notary & Apostille Services in South Pasadena, CA | San Gabriel Valley | Same-Day",
@@ -30,39 +30,7 @@ export const metadata: Metadata = {
   },
 }
 
-const southPasadenaData = {
-  cityName: "South Pasadena",
-  cityState: "CA",
-  description: "Professional mobile notary and apostille services in South Pasadena, CA. Serving residents, businesses, and healthcare facilities throughout South Pasadena and the San Gabriel Valley. Our mobile notary service brings professional notarization directly to your location. We specialize in healthcare documents, real estate transactions, and apostille services for international use.",
-  imagePath: "/images/cities/south-pasadena.jpg",
-  imageAlt: "South Pasadena with mobile notary services",
-  services: [
-    "Mobile Notary",
-    "State & Federal Apostille",
-    "Embassy Legalization",
-    "Power of Attorney",
-    "Trust, Will & Advance Healthcare Directives",
-    "International Business & Education Documents",
-    "Same-Day and Expedited Services available",
-  ],
-  benefits: [
-    "Mobile service throughout South Pasadena and San Gabriel Valley",
-    "Healthcare facility notarization expertise",
-    "Same-day appointments available",
-    "Experience with real estate and healthcare documents",
-    "Fast apostille processing",
-    "Bilingual services available",
-  ],
-  surroundingAreas: ["Highland Park", "Eagle Rock"],
-  popularSectors: [
-    "Healthcare & Wellness Companies",
-    "Retails (Grocery / Specialty) and Restaurants",
-    "Professional Services such as Wealth Management, Tax Services etc.",
-    "Local \"Mom & Pop\" Businesses such as Fair Oaks Pharmacy",
-  ],
-}
-
 export default function SouthPasadenaPage() {
-  return <CityPage {...southPasadenaData} />
+  return <SouthPasadenaCityPageClient />
 }
 

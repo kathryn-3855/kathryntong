@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import CityPage from "../mobile-notary-apostille-los-angeles-ca/city-page"
+import SantaMonicaCityPageClient from "./city-page-client"
 
 export const metadata: Metadata = {
   title: "Mobile Notary & Apostille Services in Santa Monica, CA | Coastal Areas | Same-Day",
@@ -30,39 +30,7 @@ export const metadata: Metadata = {
   },
 }
 
-const santaMonicaData = {
-  cityName: "Santa Monica",
-  cityState: "CA",
-  description: "Professional mobile notary and apostille services in Santa Monica, CA. Serving residents, businesses, and professionals throughout Santa Monica and the surrounding coastal areas. Our mobile notary service provides convenient, same-day notarization at your office, home, or any location in Santa Monica. We specialize in real estate documents, business contracts, and apostille services for international use.",
-  imagePath: "/images/cities/santa-monica.jpg",
-  imageAlt: "Santa Monica with mobile notary services",
-  services: [
-    "Mobile Notary",
-    "State & Federal Apostille",
-    "Embassy Legalization",
-    "Power of Attorney",
-    "Trust, Will & Advance Healthcare Directives",
-    "International Business & Education Documents",
-    "Same-Day and Expedited Services available",
-  ],
-  benefits: [
-    "Mobile service throughout Santa Monica and coastal areas",
-    "Same-day appointments available",
-    "Experience with high-value real estate transactions",
-    "Flexible scheduling for busy professionals",
-    "Fast apostille processing for international documents",
-    "Professional and discreet service",
-  ],
-  surroundingAreas: ["Pacific Palisades", "Venice"],
-  popularSectors: [
-    "Entertainment & Media Companies",
-    "Technology & Biotech professionals",
-    "Start-up & Overseas Business Filing",
-    "International Students and related companies",
-  ],
-}
-
 export default function SantaMonicaPage() {
-  return <CityPage {...santaMonicaData} />
+  return <SantaMonicaCityPageClient />
 }
 

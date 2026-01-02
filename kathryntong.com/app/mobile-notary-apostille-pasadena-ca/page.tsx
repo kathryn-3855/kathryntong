@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import CityPage from "../mobile-notary-apostille-los-angeles-ca/city-page"
+import PasadenaCityPageClient from "./city-page-client"
 
 export const metadata: Metadata = {
   title: "Mobile Notary & Apostille Services in Pasadena, CA | San Gabriel Valley | Same-Day",
@@ -30,39 +30,7 @@ export const metadata: Metadata = {
   },
 }
 
-const pasadenaData = {
-  cityName: "Pasadena",
-  cityState: "CA",
-  description: "Professional mobile notary and apostille services in Pasadena, CA. Serving residents, businesses, and healthcare facilities throughout Pasadena and the San Gabriel Valley. Our mobile notary service brings professional notarization directly to your location. We specialize in healthcare facility notarizations, real estate documents, and apostille services for international use.",
-  imagePath: "/images/cities/pasadena.jpg",
-  imageAlt: "Pasadena with mobile notary services",
-  services: [
-    "Mobile Notary",
-    "State & Federal Apostille",
-    "Embassy Legalization",
-    "Power of Attorney",
-    "Trust, Will & Advance Healthcare Directives",
-    "International Business & Education Documents",
-    "Same-Day and Expedited Services available",
-  ],
-  benefits: [
-    "Mobile service throughout Pasadena and San Gabriel Valley",
-    "Specialized healthcare facility notarization",
-    "Same-day appointments available",
-    "Experience with complex legal documents",
-    "Fast apostille processing",
-    "Bilingual services available",
-  ],
-  surroundingAreas: ["East Pasadena", "South Pasadena", "Glendale", "La Canada"],
-  popularSectors: [
-    "Aerospace & Defence industry such as JPL, Parsons Corp etc.",
-    "Major Hospitals & Healthcare Facilities",
-    "Professional & Technical Services including Engineering, Technology Research, Logistics & Trade firms",
-    "Retail & Hospitality companies such as \"Old Pasadena\"",
-  ],
-}
-
 export default function PasadenaPage() {
-  return <CityPage {...pasadenaData} />
+  return <PasadenaCityPageClient />
 }
 

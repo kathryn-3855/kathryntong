@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import CityPage from "../mobile-notary-apostille-los-angeles-ca/city-page"
+import BeverlyHillsCityPageClient from "./city-page-client"
 
 export const metadata: Metadata = {
   title: "Mobile Notary & Apostille Services in Beverly Hills, CA | Discreet | Same-Day",
@@ -30,40 +30,7 @@ export const metadata: Metadata = {
   },
 }
 
-const beverlyHillsData = {
-  cityName: "Beverly Hills",
-  cityState: "CA",
-  description: "Professional mobile notary and apostille services in Beverly Hills, CA. Serving high-net-worth individuals, businesses, and entertainment industry professionals throughout Beverly Hills. Our mobile notary service provides discreet, professional notarization at your location. We specialize in estate planning, high-value real estate transactions, business contracts, and apostille services for international use.",
-  imagePath: "/images/cities/beverly-hills.jpg",
-  imageAlt: "Beverly Hills with mobile notary services",
-  services: [
-    "Mobile Notary",
-    "State & Federal Apostille",
-    "Embassy Legalization",
-    "Power of Attorney",
-    "Trust, Will & Advance Healthcare Directives",
-    "International Business & Education Documents",
-    "Same-Day and Expedited Services available",
-  ],
-  benefits: [
-    "Discreet mobile service throughout Beverly Hills",
-    "Estate planning and high-value transaction expertise",
-    "Same-day appointments available",
-    "Experience with entertainment industry documents",
-    "Fast apostille processing",
-    "Professional and confidential service",
-  ],
-  surroundingAreas: ["Bel Air", "Brentwood", "Beverly Crest"],
-  popularSectors: [
-    "Luxury Tourism & Hospitality, like Rodeo Drive Shops and Beverly Hills Hotel",
-    "Entertainment industry - leveraging its Hollywood proximity for Film, TV and Media related activities",
-    "Retail & High-end services - home to Luxury Fashion Brands and Exclusive Boutiques alike",
-    "Luxury Real Estate Brokerages & related services",
-    "Construction - One of the most sought after cities for Celebrity Homes & Development of Exclusive Estates",
-  ],
-}
-
 export default function BeverlyHillsPage() {
-  return <CityPage {...beverlyHillsData} />
+  return <BeverlyHillsCityPageClient />
 }
 

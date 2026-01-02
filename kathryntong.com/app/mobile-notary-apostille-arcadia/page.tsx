@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import CityPage from "../mobile-notary-apostille-los-angeles-ca/city-page"
+import ArcadiaCityPageClient from "./city-page-client"
 
 export const metadata: Metadata = {
   title: "Mobile Notary & Apostille Services in Arcadia, CA | San Gabriel Valley | Same-Day",
@@ -30,40 +30,7 @@ export const metadata: Metadata = {
   },
 }
 
-const arcadiaData = {
-  cityName: "Arcadia",
-  cityState: "CA",
-  description: "Professional mobile notary and apostille services in Arcadia, CA. Serving residents, businesses, and healthcare facilities throughout Arcadia and the San Gabriel Valley. Our mobile notary service provides convenient, professional notarization at your location. We specialize in healthcare documents, real estate transactions, and apostille services for international use.",
-  imagePath: "/images/cities/arcadia.jpg",
-  imageAlt: "Arcadia with mobile notary services",
-  services: [
-    "Mobile Notary",
-    "State & Federal Apostille",
-    "Embassy Legalization",
-    "Power of Attorney",
-    "Trust, Will & Advance Healthcare Directives",
-    "International Business & Education Documents",
-    "Same-Day and Expedited Services available",
-  ],
-  benefits: [
-    "Mobile service throughout Arcadia and San Gabriel Valley",
-    "Healthcare facility notarization expertise",
-    "Same-day appointments available",
-    "Experience with real estate transactions",
-    "Fast apostille processing",
-    "Bilingual services in English, Mandarin, and Cantonese",
-  ],
-  surroundingAreas: ["Temple City", "San Gabriel", "Rosemead", "Monrovia"],
-  popularSectors: [
-    "Healthcare Analytics including Health Management & Data Analysis",
-    "Aerospace such as Arcadia Aerospace Industries",
-    "Manufacturing that focuses on Transportation, Defense & Architectural designs",
-    "Clean Energy Groups that provide Renewable Energy & Utility Data",
-    "Education & Professional Services including CPA, Wealth Management, Law Firms etc.",
-  ],
-}
-
 export default function ArcadiaPage() {
-  return <CityPage {...arcadiaData} />
+  return <ArcadiaCityPageClient />
 }
 

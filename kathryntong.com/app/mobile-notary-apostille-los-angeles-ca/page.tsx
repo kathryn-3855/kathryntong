@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import CityPage from "./city-page"
+import LosAngelesCityPageClient from "./city-page-client"
 
 export const metadata: Metadata = {
   title: "Mobile Notary & Apostille Services in Los Angeles, CA | Same-Day | 626-590-3560",
@@ -30,40 +30,7 @@ export const metadata: Metadata = {
   },
 }
 
-const losAngelesData = {
-  cityName: "Los Angeles",
-  cityState: "CA",
-  description: "Professional mobile notary and apostille services throughout Los Angeles, CA. As a trusted mobile notary public, we bring our services directly to your location - whether that's your office in Downtown LA, your home in Hollywood, or any other convenient location. We specialize in same-day notarization and apostille services for businesses, attorneys, and individuals throughout Los Angeles County.",
-  imagePath: "/images/cities/los-angeles.jpg",
-  imageAlt: "Los Angeles skyline with mobile notary services",
-  services: [
-    "Mobile Notary",
-    "State & Federal Apostille",
-    "Embassy Legalization",
-    "Power of Attorney",
-    "Trust, Will & Advance Healthcare Directives",
-    "International Business & Education Documents",
-    "Same-Day and Expedited Services available",
-  ],
-  benefits: [
-    "Same-day mobile notary service throughout Los Angeles County",
-    "We travel to your office, home, or any convenient location",
-    "Experienced with complex legal and business documents",
-    "Available 7 days a week with flexible scheduling",
-    "Fast apostille processing for international documents",
-    "Bilingual services in English, Mandarin, and Cantonese",
-  ],
-  surroundingAreas: ["West Los Angeles", "Central Los Angeles", "Koreatown", "Mid-Wilshire", "Silverlake", "Vernon", "Commerce"],
-  popularSectors: [
-    "Entertainment & Media Companies",
-    "Technology & Healthcare Providers",
-    "International Trade & Logistics",
-    "Manufacturing from Aerospace to Fashion to Food Products",
-    "Financial & Professional Services",
-  ],
-}
-
 export default function LosAngelesPage() {
-  return <CityPage {...losAngelesData} />
+  return <LosAngelesCityPageClient />
 }
 

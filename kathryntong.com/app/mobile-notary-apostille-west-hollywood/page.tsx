@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import CityPage from "../mobile-notary-apostille-los-angeles-ca/city-page"
+import WestHollywoodCityPageClient from "./city-page-client"
 
 export const metadata: Metadata = {
   title: "Mobile Notary & Apostille Services in West Hollywood, CA | Entertainment | Same-Day",
@@ -30,38 +30,7 @@ export const metadata: Metadata = {
   },
 }
 
-const westHollywoodData = {
-  cityName: "West Hollywood",
-  cityState: "CA",
-  description: "Professional mobile notary and apostille services in West Hollywood, CA. Serving residents, businesses, and entertainment industry professionals throughout West Hollywood. Our mobile notary service provides convenient, professional notarization at your office, home, or studio. We specialize in entertainment industry documents, business contracts, real estate transactions, and apostille services for international use.",
-  imagePath: "/images/cities/west-hollywood.jpg",
-  imageAlt: "West Hollywood with mobile notary services",
-  services: [
-    "Mobile Notary",
-    "State & Federal Apostille",
-    "Embassy Legalization",
-    "Power of Attorney",
-    "Trust, Will & Advance Healthcare Directives",
-    "International Business & Education Documents",
-    "Same-Day and Expedited Services available",
-  ],
-  benefits: [
-    "Mobile service throughout West Hollywood",
-    "Entertainment industry document expertise",
-    "Same-day appointments available",
-    "Flexible scheduling for busy professionals",
-    "Fast apostille processing",
-    "Professional and efficient service",
-  ],
-  surroundingAreas: ["Hollywood", "Hollywood Hills West", "East Hollywood", "Studio City"],
-  popularSectors: [
-    "Famous for its Sunset Strip alongside strong Fashion & Retail Shops",
-    "Thriving Professional Services, e.g. Wealth Management & Business Management, due to its status as a hub for Media, Culture & Entertainment Studios nearby",
-    "Los Angeles County Metropolitan Transportation Authority (aka LA Metro) with nearly 700 employees",
-  ],
-}
-
 export default function WestHollywoodPage() {
-  return <CityPage {...westHollywoodData} />
+  return <WestHollywoodCityPageClient />
 }
 
