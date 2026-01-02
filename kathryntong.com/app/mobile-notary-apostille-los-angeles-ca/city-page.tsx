@@ -28,10 +28,10 @@ export default function CityPage({
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      <main className="py-16 md:py-24">
+      <main className="py-8 md:py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Hero Section */}
-          <div className="mb-16">
+          <div className="mb-8">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h1 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
