@@ -39,6 +39,7 @@ const southPasadenaData = {
     "Fast apostille processing",
     "Bilingual services available",
   ],
+  surroundingAreas: ["Highland Park", "Eagle Rock"],
 }
 
 export default function SouthPasadenaPage() {

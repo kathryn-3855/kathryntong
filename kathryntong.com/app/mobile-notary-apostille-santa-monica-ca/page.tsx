@@ -39,6 +39,7 @@ const santaMonicaData = {
     "Fast apostille processing for international documents",
     "Professional and discreet service",
   ],
+  surroundingAreas: ["Pacific Palisades", "Venice"],
 }
 
 export default function SantaMonicaPage() {
