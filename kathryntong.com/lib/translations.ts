@@ -730,7 +730,7 @@ export const translations = {
     aboutBenefit1Title: "10+年经验",
     aboutBenefit1Desc: "受到加州数百名满意客户的信赖",
     aboutBenefit2Title: "移动服务",
-    aboutBenefit2Desc: "我们上门服务 - 无需前往办公室",
+    aboutBenefit2Desc: "在办公室、住宅或医疗机构的现场移动服务。我们上门服务！",
     aboutBenefit3Title: "每周7天营业",
     aboutBenefit3Desc: "灵活时间从上午8:30到晚上8:30",
     aboutBenefit4Title: "双语服务",
