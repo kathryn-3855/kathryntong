@@ -1,7 +1,7 @@
 "use client"
 
-import { Menu, X, Globe, Phone, Mail, FileText } from "lucide-react"
-import { useState } from "react"
+import { Menu, X, Globe, Phone, Mail, FileText, ChevronDown } from "lucide-react"
+import { useState, useRef, useEffect } from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { useLanguage } from "@/lib/language-context"
@@ -11,8 +11,34 @@ import type React from "react"
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
   const [isQuoteModalOpen, setIsQuoteModalOpen] = useState(false)
+  const [isServiceAreasOpen, setIsServiceAreasOpen] = useState(false)
+  const [isServiceAreasMobileOpen, setIsServiceAreasMobileOpen] = useState(false)
+  const dropdownRef = useRef<HTMLDivElement>(null)
   const { language, setLanguage } = useLanguage()
   const t = useTranslations()
+
+  const cities = [
+    { name: "Los Angeles", slug: "mobile-notary-apostille-los-angeles-ca" },
+    { name: "Culver City", slug: "mobile-notary-apostille-culver-city-ca" },
+    { name: "Santa Monica", slug: "mobile-notary-apostille-santa-monica-ca" },
+    { name: "Pasadena", slug: "mobile-notary-apostille-pasadena-ca" },
+    { name: "Arcadia", slug: "mobile-notary-apostille-arcadia" },
+    { name: "San Marino", slug: "mobile-notary-apostille-san-marino" },
+    { name: "South Pasadena", slug: "mobile-notary-apostille-south-pasadena" },
+    { name: "Beverly Hills", slug: "mobile-notary-apostille-beverly-hills" },
+    { name: "West Hollywood", slug: "mobile-notary-apostille-west-hollywood" },
+  ]
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsServiceAreasOpen(false)
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside)
+    return () => document.removeEventListener("mousedown", handleClickOutside)
+  }, [])
   
   const [formData, setFormData] = useState({
     name: "",
@@ -118,9 +144,38 @@ export default function Header() {
             <Link href="/pricing" className="text-foreground hover:text-primary transition">
               {t.pricing}
             </Link>
-            <Link href="/contact" className="text-foreground hover:text-primary transition">
-              Service Areas
-            </Link>
+            <div className="relative" ref={dropdownRef}>
+              <button
+                onClick={() => setIsServiceAreasOpen(!isServiceAreasOpen)}
+                className="flex items-center gap-1 text-foreground hover:text-primary transition"
+              >
+                Service Areas
+                <ChevronDown size={16} className={isServiceAreasOpen ? "rotate-180" : ""} />
+              </button>
+              {isServiceAreasOpen && (
+                <div className="absolute top-full left-0 mt-2 w-64 bg-white border border-foreground/20 rounded-lg shadow-lg z-50">
+                  <div className="py-2">
+                    {cities.map((city) => (
+                      <Link
+                        key={city.slug}
+                        href={`/${city.slug}`}
+                        className="block px-4 py-2 text-sm text-foreground hover:bg-foreground/10 transition"
+                        onClick={() => setIsServiceAreasOpen(false)}
+                      >
+                        Notary-Apostille {city.name}
+                      </Link>
+                    ))}
+                    <Link
+                      href="/contact"
+                      className="block px-4 py-2 text-sm text-foreground hover:bg-foreground/10 transition border-t border-foreground/20 mt-2"
+                      onClick={() => setIsServiceAreasOpen(false)}
+                    >
+                      View All Service Areas
+                    </Link>
+                  </div>
+                </div>
+              )}
+            </div>
             <button
               onClick={() => setLanguage(language === "en" ? "zh" : "en")}
               className="flex items-center gap-2 px-3 py-2 rounded-lg border border-border hover:bg-accent transition"
@@ -178,13 +233,42 @@ export default function Header() {
             >
               {t.pricing}
             </Link>
-            <Link
-              href="/contact"
-              className="block text-foreground hover:text-primary transition"
-              onClick={() => setIsOpen(false)}
-            >
-              Service Areas
-            </Link>
+            <div>
+              <button
+                onClick={() => setIsServiceAreasMobileOpen(!isServiceAreasMobileOpen)}
+                className="flex items-center justify-between w-full text-foreground hover:text-primary transition"
+              >
+                Service Areas
+                <ChevronDown size={16} className={isServiceAreasMobileOpen ? "rotate-180" : ""} />
+              </button>
+              {isServiceAreasMobileOpen && (
+                <div className="pl-4 mt-2 space-y-2">
+                  {cities.map((city) => (
+                    <Link
+                      key={city.slug}
+                      href={`/${city.slug}`}
+                      className="block text-sm text-foreground/80 hover:text-primary transition"
+                      onClick={() => {
+                        setIsOpen(false)
+                        setIsServiceAreasMobileOpen(false)
+                      }}
+                    >
+                      Notary-Apostille {city.name}
+                    </Link>
+                  ))}
+                  <Link
+                    href="/contact"
+                    className="block text-sm text-foreground/80 hover:text-primary transition pt-2 border-t border-foreground/20"
+                    onClick={() => {
+                      setIsOpen(false)
+                      setIsServiceAreasMobileOpen(false)
+                    }}
+                  >
+                    View All Service Areas
+                  </Link>
+                </div>
+              )}
+            </div>
           </nav>
         )}
       </div>
