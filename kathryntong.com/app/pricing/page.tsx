@@ -9,30 +9,24 @@ export default function PricingPage() {
 
   const pricingPlans = [
     {
-      name: "Healthcare Facility",
-      description: "Starting from $100 per visit, depending on signing location & number of documents",
-      price: "$100",
-      period: "starting per visit",
-      features: ["Starting from $100 per visit", "Depends on signing location", "Based on number of documents", t.appointmentsRequired],
+      name: t.notaryAtOffice,
+      description: t.atOurMontereyPark,
+      price: "$15",
+      period: t.perSignature2,
+      features: ["$15 per Signature", t.fastAndAffordable, t.appointmentsRequired],
     },
     {
-      name: "Professional Offices",
-      description: "Billed per visit or per engagement based on location, urgency and scope of work",
-      price: "Varies",
-      period: "per visit or engagement",
-      features: [
-        "Billed per visit or per engagement",
-        "Based on location",
-        "Based on urgency",
-        "Based on scope of work",
-        t.appointmentsRequired,
-      ],
+      name: "Mobile Notary",
+      description: t.weComeTo,
+      price: "$15",
+      period: t.perSignature2 + " + " + t.travelFeeApplies.toLowerCase(),
+      features: ["$15 per Signature", t.travelFeeApplies, t.upTo30Miles, t.homeOfficeHospital, t.appointmentsRequired],
     },
     {
       name: t.estateEscrow,
       description: t.complexDocuments,
       price: "Varies",
-      period: "depending on package",
+      period: t.dependingOnPackage,
       features: [
         t.priceVaries,
         t.includesPrintScan,
@@ -79,77 +73,32 @@ export default function PricingPage() {
   return (
     <div className="min-h-screen bg-white text-foreground">
       <Header />
-      <main className="pt-8 pb-16 md:pt-12 md:pb-24">
+      <main className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Why Choose Us */}
-          <div className="mb-10">
-            <h2 className="text-2xl font-bold text-foreground mb-4 text-center">Why Choose Us?</h2>
-            <div className="bg-foreground/10 rounded-lg p-5">
-              <div className="grid md:grid-cols-2 gap-4">
-                <div className="flex gap-3">
-                  <div className="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-xs">
-                    ✓
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground mb-1 text-sm">Mobile Services</h3>
-                    <p className="text-foreground/80 text-sm">We come to your office, Residence, Facilities, or Locations of your choice.</p>
-                  </div>
-                </div>
-
-                <div className="flex gap-3">
-                  <div className="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-xs">
-                    ✓
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground mb-1 text-sm">Fast Turnaround</h3>
-                    <p className="text-foreground/80 text-sm">
-                      24 Hours for Notary & Apostille, 2 to 6 weeks for Federal and Embassy Legalization, depending on destination country.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex gap-3">
-                  <div className="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-xs">
-                    ✓
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground mb-1 text-sm">10 Years Experience</h3>
-                    <p className="text-foreground/80 text-sm">Experience with complex and time sensitive documents. Clear communication and dependable follow-through.</p>
-                  </div>
-                </div>
-
-                <div className="flex gap-3">
-                  <div className="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-xs">
-                    ✓
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground mb-1 text-sm">Flexible Hours</h3>
-                    <p className="text-foreground/80 text-sm">Available 7 days a week, 8:30 AM to 8:30 PM for your convenience. Appointments required.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="text-center mb-16">
+            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">{t.pricingTitle}</h1>
+            <p className="text-xl text-foreground/90 max-w-2xl mx-auto">{t.affordableTransparent}</p>
           </div>
 
-          {/* Mobile Notary Pricing */}
-          <div className="mb-12">
-            <h2 className="text-2xl font-bold text-foreground mb-6 text-center">Mobile Notary Pricing</h2>
-            <div className="grid md:grid-cols-3 gap-6">
+          {/* Notary Services Section */}
+          <div className="mb-20">
+            <h2 className="text-3xl font-bold text-foreground mb-8">{t.notaryServices}</h2>
+            <div className="grid md:grid-cols-3 gap-8">
               {pricingPlans.map((plan) => (
                 <div
                   key={plan.name}
-                  className="rounded-lg border border-foreground/30 bg-foreground/10 p-6 flex flex-col hover:bg-foreground/20 transition"
+                  className="rounded-lg border border-foreground/30 bg-foreground/10 p-8 flex flex-col hover:bg-foreground/20 transition"
                 >
-                  <h3 className="text-lg font-bold text-foreground mb-2">{plan.name}</h3>
-                  <p className="text-sm text-foreground/80 mb-4">{plan.description}</p>
-                  <div className="mb-4">
-                    <span className="text-2xl font-bold text-foreground">{plan.price}</span>
+                  <h3 className="text-xl font-bold text-foreground mb-2">{plan.name}</h3>
+                  <p className="text-sm text-foreground/80 mb-6">{plan.description}</p>
+                  <div className="mb-6">
+                    <span className="text-3xl font-bold text-foreground">{plan.price}</span>
                     <span className="text-sm text-foreground/80 ml-2">{plan.period}</span>
                   </div>
-                  <ul className="space-y-2 flex-1">
+                  <ul className="space-y-3 flex-1">
                     {plan.features.map((feature) => (
-                      <li key={feature} className="flex items-start gap-2">
-                        <Check className="w-4 h-4 text-foreground flex-shrink-0 mt-0.5" />
+                      <li key={feature} className="flex items-start gap-3">
+                        <Check className="w-5 h-5 text-foreground flex-shrink-0 mt-0.5" />
                         <span className="text-sm text-foreground">{feature}</span>
                       </li>
                     ))}
@@ -160,21 +109,21 @@ export default function PricingPage() {
           </div>
 
           {/* Apostille & Legalization Section */}
-          <div className="mb-10">
-            <h2 className="text-2xl font-bold text-foreground mb-4 text-center">{t.apostilleAndLegalization}</h2>
-            <div className="grid md:grid-cols-2 gap-5">
+          <div className="mb-16">
+            <h2 className="text-3xl font-bold text-foreground mb-8">{t.apostilleAndLegalization}</h2>
+            <div className="grid md:grid-cols-2 gap-8">
               {apostillePricing.map((category) => (
-                <div key={category.name} className="rounded-lg border border-foreground/30 bg-foreground/10 p-5">
-                  <h3 className="text-base font-bold text-foreground mb-1">{category.name}</h3>
-                  <p className="text-xs text-foreground/80 mb-3">{category.description}</p>
-                  <div className="space-y-2 mb-3">
+                <div key={category.name} className="rounded-lg border border-foreground/30 bg-foreground/10 p-8">
+                  <h3 className="text-xl font-bold text-foreground mb-2">{category.name}</h3>
+                  <p className="text-sm text-foreground/80 mb-6">{category.description}</p>
+                  <div className="space-y-4 mb-6">
                     {category.services.map((service) => (
                       <div
                         key={service.label}
-                        className="flex justify-between items-center pb-2 border-b border-foreground/30 last:border-b-0"
+                        className="flex justify-between items-center pb-4 border-b border-foreground/30 last:border-b-0"
                       >
-                        <span className="text-xs text-foreground">{service.label}</span>
-                        <span className="text-sm font-bold text-foreground">{service.price}</span>
+                        <span className="text-foreground">{service.label}</span>
+                        <span className="text-lg font-bold text-foreground">{service.price}</span>
                       </div>
                     ))}
                   </div>
@@ -185,9 +134,9 @@ export default function PricingPage() {
           </div>
 
           {/* CTA Section */}
-          <div className="bg-foreground/20 border border-foreground/30 rounded-lg p-6 text-center">
-            <h2 className="text-2xl font-bold text-foreground mb-3">{t.readyToGetStarted}</h2>
-            <p className="text-foreground/90 mb-5 max-w-2xl mx-auto">{t.contactToSchedule}</p>
+          <div className="bg-foreground/20 border border-foreground/30 rounded-lg p-8 text-center">
+            <h2 className="text-2xl font-bold text-foreground mb-4">{t.readyToGetStarted}</h2>
+            <p className="text-foreground/90 mb-6 max-w-2xl mx-auto">{t.contactToSchedule}</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="tel:+16265903560"
