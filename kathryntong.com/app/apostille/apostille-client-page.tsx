@@ -1,7 +1,7 @@
 "use client"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import { FileText, Globe, Building2, Users, Lock, AlertCircle } from "lucide-react"
+import { FileText, Building2 } from "lucide-react"
 import { useTranslations } from "@/lib/use-translations"
 
 export default function ApostilleClientPage() {

@@ -395,8 +395,6 @@ export const translations = {
     docCorporateResolutions: "Corporate Resolutions, Operating Agreements, Meeting Minutes (properly notarized)",
     docContractsAgreements: "Contracts & Agreements, Power of Attorney, Commercial Invoices (properly notarized)",
     docTrademarksPatentAssignments: "Federal/Specialized Documents: FDA, EPA, USPTO Certificates, U.S. Court Documents, Trademarks (obtained from relevant authorities)",
-    docCorporateResolutionsDetailed: "Corporate Resolutions, Operating Agreements, Meeting Minutes (properly notarized)",
-    docContractsAgreementsDetailed: "Contracts & Agreements, Power of Attorney, Commercial Invoices (properly notarized)",
     docDiplomas: "Diplomas (notarized by school official or registrar)",
     docTranscripts: "Transcripts (certified or notarized by registrar)",
     docDegreeCertificates: "Degree Certificates (notarized by school official or registrar)",
