@@ -60,10 +60,12 @@ export default function Header() {
             <Link href="/pricing" className="text-foreground hover:text-primary transition">
               {t.pricing}
             </Link>
-            <div className="relative">
+            <div 
+              className="relative"
+              onMouseEnter={() => setIsServiceAreasOpen(true)}
+              onMouseLeave={() => setIsServiceAreasOpen(false)}
+            >
               <button
-                onMouseEnter={() => setIsServiceAreasOpen(true)}
-                onMouseLeave={() => setIsServiceAreasOpen(false)}
                 className="flex items-center gap-1 text-foreground hover:text-primary transition"
               >
                 {t.serviceAreas}
@@ -71,9 +73,7 @@ export default function Header() {
               </button>
               {isServiceAreasOpen && (
                 <div
-                  onMouseEnter={() => setIsServiceAreasOpen(true)}
-                  onMouseLeave={() => setIsServiceAreasOpen(false)}
-                  className="absolute top-full left-0 mt-2 w-64 bg-white border border-border rounded-lg shadow-lg z-50 py-2"
+                  className="absolute top-full left-0 mt-1 w-64 bg-white border border-border rounded-lg shadow-lg z-50 py-2"
                 >
                   {cities.map((city) => (
                     <Link
