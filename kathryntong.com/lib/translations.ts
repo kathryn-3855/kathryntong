@@ -248,6 +248,8 @@ export const translations = {
     cityPageCTAText: "Contact us today to schedule your mobile notary or apostille service in {cityName}, {cityState}. We're here to help with all your notarization needs.",
     cityPageCall: "Call: 626-590-3560",
     cityPageAndSurroundingAreas: " and surrounding areas",
+    serviceAreas: "Service Areas",
+    notaryApostille: "Notary-Apostille",
     
     // City Names
     cityLosAngeles: "Los Angeles",
@@ -889,6 +891,8 @@ export const translations = {
     cityPageCTAText: "立即联系我们，在{cityName}, {cityState}安排您的移动公证或认证服务。我们随时为您提供所有公证需求方面的帮助。",
     cityPageCall: "致电：626-590-3560",
     cityPageAndSurroundingAreas: "及周边地区",
+    serviceAreas: "服务区域",
+    notaryApostille: "公证-认证",
     
     // City Names (Chinese)
     cityLosAngeles: "洛杉矶",
