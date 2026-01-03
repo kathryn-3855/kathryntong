@@ -20,11 +20,11 @@ export default function ApostilleClientPage() {
               {t.apostilleAndLegalizationServices}
             </h1>
             <div className="text-lg text-foreground/90 max-w-4xl mx-auto leading-relaxed">
-              {t.apostilleIntroParagraph?.split('\n').map((line, i) => (
+              {t.apostilleIntroParagraph.split('\n').map((line, i) => (
                 <p key={i} className={i > 0 ? "mt-4" : ""}>
                   {line}
                 </p>
-              )) || <p>{t.apostilleIntroParagraph}</p>}
+              ))}
             </div>
           </div>
 
