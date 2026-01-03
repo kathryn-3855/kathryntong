@@ -17,14 +17,13 @@ export default function ApostilleClientPage() {
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
               {t.apostilleAndLegalizationServices}
             </h1>
-            <p className="text-lg text-foreground/90 max-w-4xl mx-auto leading-relaxed">
-              {t.apostilleIntroParagraph.split('\n').map((line, i, arr) => (
-                <span key={i}>
+            <div className="text-lg text-foreground/90 max-w-4xl mx-auto leading-relaxed">
+              {t.apostilleIntroParagraph.split('\n').map((line, i) => (
+                <p key={i} className={i > 0 ? "mt-4" : ""}>
                   {line}
-                  {i < arr.length - 1 && <br />}
-                </span>
+                </p>
               ))}
-            </p>
+            </div>
           </div>
 
           {/* Document Categories Section */}
