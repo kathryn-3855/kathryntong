@@ -7,6 +7,8 @@ import { useTranslations } from "@/lib/use-translations"
 export default function ApostilleClientPage() {
   const t = useTranslations()
 
+  // Page content updated with new structure and content
+
 
   return (
     <div className="min-h-screen bg-white text-foreground">
