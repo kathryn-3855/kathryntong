@@ -810,6 +810,7 @@ export const translations = {
     academicDocuments: "学术文件",
     federalDocuments: "联邦文件",
     apostilleAndLegalizationServices: "海牙认证和领事馆认证服务",
+    apostilleIntroParagraph: "海牙认证是一种官方证书，用于认证公共文件（如出生证明、结婚证书）或商业文件（如合同、公司状态），或个人文件（如房地产协议、授权委托书）以供国际使用。\n我们处理从公证到海牙认证到联邦认证到领事馆认证服务的整个过程，适用于所有50个州，主要在加利福尼亚州。",
     comprehensiveDocumentAuthentication: "为所有文件类型提供全面的公证、海牙认证和领事馆认证服务",
     ourServices: "我们的服务",
     notarizationServices: "公证服务",
