@@ -1,6 +1,7 @@
 "use client"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
+import ContactBar from "@/components/contact-bar"
 import { Phone, Mail, MapPin, Clock, CheckCircle } from "lucide-react"
 import Image from "next/image"
 import { useTranslations } from "@/lib/use-translations"
@@ -35,6 +36,7 @@ export default function CityPage({
       <Header />
       <main className="py-8 md:py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <ContactBar />
           {/* Hero Section */}
           <div className="mb-8">
             <div className="grid md:grid-cols-2 gap-8 items-center">

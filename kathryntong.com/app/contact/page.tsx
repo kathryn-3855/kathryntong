@@ -1,16 +1,16 @@
 import type { Metadata } from "next"
-import ServiceAreasPage from "./contact-client-page"
+import ContactClientPage from "./contact-client-page"
 
 export const metadata: Metadata = {
-  title: "Service Areas | Kathryn's Mobile Notary",
+  title: "Contact Us | Kathryn's Mobile Notary",
   description:
-    "Professional mobile notary and apostille services throughout Los Angeles County and surrounding areas.",
-  keywords: "service areas, mobile notary locations, notary services near me, Los Angeles notary",
+    "Get in touch with Kathryn's Mobile Notary for notary services, apostille, and legalization. Fast response times and flexible scheduling.",
+  keywords: "contact notary, get in touch, notary services near me, schedule appointment",
   icons: {
     icon: "/favicon.ico",
   },
 }
 
-export default function ServiceAreasPageWrapper() {
-  return <ServiceAreasPage />
+export default function ContactPage() {
+  return <ContactClientPage />
 }

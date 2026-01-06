@@ -3,6 +3,7 @@ import Header from "@/components/header"
 import type React from "react"
 
 import Footer from "@/components/footer"
+import ContactBar from "@/components/contact-bar"
 import { useState } from "react"
 import { useTranslations } from "@/lib/use-translations"
 import { Mail, Phone, Clock } from "lucide-react"
@@ -56,6 +57,7 @@ export default function ContactClientPage() {
       <Header />
       <main className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <ContactBar />
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">{t.contactUsTitle}</h1>
             <p className="text-xl text-foreground/90 max-w-2xl mx-auto">

@@ -1,6 +1,7 @@
 "use client"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
+import ContactBar from "@/components/contact-bar"
 import { FileText, Building2 } from "lucide-react"
 import { useTranslations } from "@/lib/use-translations"
 
@@ -13,10 +14,11 @@ export default function ApostilleClientPage() {
   return (
     <div className="min-h-screen bg-white text-foreground">
       <Header />
-      <main className="py-16 md:py-24">
+      <main className="py-8 md:py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-4">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <ContactBar />
+          <div className="text-center mb-2">
+            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-2">
               {t.apostilleAndLegalizationServices}
             </h1>
             <div className="text-lg text-foreground/90 max-w-4xl mx-auto leading-relaxed">
