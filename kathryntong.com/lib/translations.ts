@@ -476,7 +476,7 @@ export const translations = {
     mobileNotaryRealEstate: "Real Estate Documents",
     mobileNotaryEstatePlanning: "Estate Planning Documents",
     mobileNotaryInternational: "International & Foreign-Language Documents",
-    serviceAreaTitle: "Service Area & Travel",
+    serviceAreaTitle: "Service Areas:",
     serviceAreaDescription: "Mobile notary services throughout Los Angeles County",
     travelFeeDescription: "Travel fee varies based on distance",
     weTravelToTitle: "We Travel To",
