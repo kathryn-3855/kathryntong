@@ -15,8 +15,8 @@ export default function ApostilleClientPage() {
       <Header />
       <main className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-6">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+          <div className="text-center mb-4">
+            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
               {t.apostilleAndLegalizationServices}
             </h1>
             <div className="text-lg text-foreground/90 max-w-4xl mx-auto leading-relaxed">
@@ -25,6 +25,66 @@ export default function ApostilleClientPage() {
                   {line}
                 </p>
               ))}
+            </div>
+          </div>
+
+          {/* Apostille Certification & Legalization Services Section */}
+          <div className="mb-10">
+            <div className="grid md:grid-cols-2 gap-6">
+              {/* Apostille Certification */}
+              <div className="border border-foreground/30 rounded-lg p-6 bg-foreground/10">
+                <h3 className="text-xl font-bold text-foreground mb-4">{t.apostilleCertificationTitle}</h3>
+                <ul className="space-y-2">
+                  <li className="flex items-start gap-3">
+                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                    <p className="text-foreground text-sm">{t.apostilleCertificationPoint1}</p>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                    <p className="text-foreground text-sm">{t.apostilleCertificationPoint2}</p>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                    <p className="text-foreground text-sm">{t.apostilleCertificationPoint3}</p>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                    <p className="text-foreground text-sm">{t.apostilleCertificationPoint4}</p>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                    <p className="text-foreground text-sm">{t.apostilleCertificationPoint5}</p>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Legalization Services */}
+              <div className="border border-foreground/30 rounded-lg p-6 bg-foreground/10">
+                <h3 className="text-xl font-bold text-foreground mb-2">{t.legalizationServicesTitle}</h3>
+                <p className="text-sm text-foreground/80 mb-4">{t.legalizationServicesSubtitle}</p>
+                <ul className="space-y-2">
+                  <li className="flex items-start gap-3">
+                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                    <p className="text-foreground text-sm">{t.legalizationServicesPoint1}</p>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                    <p className="text-foreground text-sm">{t.legalizationServicesPoint2}</p>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                    <p className="text-foreground text-sm">{t.legalizationServicesPoint3}</p>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                    <p className="text-foreground text-sm">{t.legalizationServicesPoint4}</p>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                    <p className="text-foreground text-sm">{t.legalizationServicesPoint5}</p>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
 
@@ -87,66 +147,6 @@ export default function ApostilleClientPage() {
                       <p className="text-sm text-foreground">{doc}</p>
                     </li>
                   ))}
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* Apostille Certification & Legalization Services Section */}
-          <div className="mb-10">
-            <div className="grid md:grid-cols-2 gap-6">
-              {/* Apostille Certification */}
-              <div className="border border-foreground/30 rounded-lg p-6 bg-foreground/10">
-                <h3 className="text-xl font-bold text-foreground mb-4">{t.apostilleCertificationTitle}</h3>
-                <ul className="space-y-2">
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm">{t.apostilleCertificationPoint1}</p>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm">{t.apostilleCertificationPoint2}</p>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm">{t.apostilleCertificationPoint3}</p>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm">{t.apostilleCertificationPoint4}</p>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm">{t.apostilleCertificationPoint5}</p>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Legalization Services */}
-              <div className="border border-foreground/30 rounded-lg p-6 bg-foreground/10">
-                <h3 className="text-xl font-bold text-foreground mb-2">{t.legalizationServicesTitle}</h3>
-                <p className="text-sm text-foreground/80 mb-4">{t.legalizationServicesSubtitle}</p>
-                <ul className="space-y-2">
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm">{t.legalizationServicesPoint1}</p>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm">{t.legalizationServicesPoint2}</p>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm">{t.legalizationServicesPoint3}</p>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm">{t.legalizationServicesPoint4}</p>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm">{t.legalizationServicesPoint5}</p>
-                  </li>
                 </ul>
               </div>
             </div>
