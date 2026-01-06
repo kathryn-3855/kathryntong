@@ -5,7 +5,6 @@ import { CheckCircle } from "lucide-react"
 import Image from "next/image"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import ContactBar from "@/components/contact-bar"
 
 export default function AboutClientPage() {
   const t = useTranslations()
@@ -16,7 +15,6 @@ export default function AboutClientPage() {
 
       <main className="min-h-screen bg-background">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <ContactBar />
           {/* Hero Section */}
           <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
             <div className="relative h-80 md:h-96 rounded-lg overflow-hidden shadow-lg">

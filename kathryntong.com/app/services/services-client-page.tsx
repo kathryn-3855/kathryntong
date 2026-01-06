@@ -1,7 +1,6 @@
 "use client"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import ContactBar from "@/components/contact-bar"
 import { MapPin, Home } from "lucide-react"
 import { useTranslations } from "@/lib/use-translations"
 
@@ -36,7 +35,6 @@ export default function ServicesClientPage() {
       <Header />
       <main className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <ContactBar />
           {/* Hero Section */}
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">

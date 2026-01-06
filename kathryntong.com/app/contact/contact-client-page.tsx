@@ -3,7 +3,6 @@ import Header from "@/components/header"
 import type React from "react"
 
 import Footer from "@/components/footer"
-import ContactBar from "@/components/contact-bar"
 import { useState } from "react"
 import { useSearchParams } from "next/navigation"
 import { useTranslations } from "@/lib/use-translations"
@@ -60,7 +59,6 @@ export default function ContactClientPage() {
       <Header />
       <main className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <ContactBar />
           {!isQuoteRequest && (
             <>
               <div className="text-center mb-16">
