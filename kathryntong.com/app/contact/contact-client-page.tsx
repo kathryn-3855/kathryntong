@@ -5,11 +5,14 @@ import type React from "react"
 import Footer from "@/components/footer"
 import ContactBar from "@/components/contact-bar"
 import { useState } from "react"
+import { useSearchParams } from "next/navigation"
 import { useTranslations } from "@/lib/use-translations"
 import { Mail, Phone, Clock } from "lucide-react"
 
 export default function ContactClientPage() {
   const t = useTranslations()
+  const searchParams = useSearchParams()
+  const isQuoteRequest = searchParams?.get("quote") === "true"
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -58,40 +61,52 @@ export default function ContactClientPage() {
       <main className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <ContactBar />
-          <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">{t.contactUsTitle}</h1>
-            <p className="text-xl text-foreground/90 max-w-2xl mx-auto">
-              {t.contactUsSubtitle}
-            </p>
-          </div>
+          {!isQuoteRequest && (
+            <>
+              <div className="text-center mb-16">
+                <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">{t.contactUsTitle}</h1>
+                <p className="text-xl text-foreground/90 max-w-2xl mx-auto">
+                  {t.contactUsSubtitle}
+                </p>
+              </div>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
-            {/* Contact Info Cards */}
-            <div className="bg-foreground/10 rounded-lg p-8 text-center">
-              <Phone className="w-12 h-12 text-primary mx-auto mb-4" />
-              <h3 className="text-xl font-bold text-foreground mb-2">{t.contactPhone}</h3>
-              <a href="tel:+16265903560" className="text-primary font-semibold hover:underline">
-                626-590-3560
-              </a>
-              <p className="text-sm text-foreground/70 mt-2">{t.contactAvailable7Days}</p>
-            </div>
+              <div className="grid md:grid-cols-3 gap-8 mb-16">
+                {/* Contact Info Cards */}
+                <div className="bg-foreground/10 rounded-lg p-8 text-center">
+                  <Phone className="w-12 h-12 text-primary mx-auto mb-4" />
+                  <h3 className="text-xl font-bold text-foreground mb-2">{t.contactPhone}</h3>
+                  <a href="tel:+16265903560" className="text-primary font-semibold hover:underline">
+                    626-590-3560
+                  </a>
+                  <p className="text-sm text-foreground/70 mt-2">{t.contactAvailable7Days}</p>
+                </div>
 
-            <div className="bg-foreground/10 rounded-lg p-8 text-center">
-              <Mail className="w-12 h-12 text-primary mx-auto mb-4" />
-              <h3 className="text-xl font-bold text-foreground mb-2">{t.contactEmail}</h3>
-              <a href="mailto:Kathryn@KathrynTong.com" className="text-primary font-semibold hover:underline">
-                Kathryn@KathrynTong.com
-              </a>
-              <p className="text-sm text-foreground/70 mt-2">{t.contactFastResponse}</p>
-            </div>
+                <div className="bg-foreground/10 rounded-lg p-8 text-center">
+                  <Mail className="w-12 h-12 text-primary mx-auto mb-4" />
+                  <h3 className="text-xl font-bold text-foreground mb-2">{t.contactEmail}</h3>
+                  <a href="mailto:Kathryn@KathrynTong.com" className="text-primary font-semibold hover:underline">
+                    Kathryn@KathrynTong.com
+                  </a>
+                  <p className="text-sm text-foreground/70 mt-2">{t.contactFastResponse}</p>
+                </div>
 
-            <div className="bg-foreground/10 rounded-lg p-8 text-center">
-              <Clock className="w-12 h-12 text-primary mx-auto mb-4" />
-              <h3 className="text-xl font-bold text-foreground mb-2">{t.contactHours}</h3>
-              <p className="text-foreground font-semibold">{t.contactHoursValue}</p>
-              <p className="text-sm text-foreground/70 mt-2">{t.contact7DaysAWeek}</p>
+                <div className="bg-foreground/10 rounded-lg p-8 text-center">
+                  <Clock className="w-12 h-12 text-primary mx-auto mb-4" />
+                  <h3 className="text-xl font-bold text-foreground mb-2">{t.contactHours}</h3>
+                  <p className="text-foreground font-semibold">{t.contactHoursValue}</p>
+                  <p className="text-sm text-foreground/70 mt-2">{t.contact7DaysAWeek}</p>
+                </div>
+              </div>
+            </>
+          )}
+          {isQuoteRequest && (
+            <div className="text-center mb-16">
+              <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Request A Quote</h1>
+              <p className="text-xl text-foreground/90 max-w-2xl mx-auto">
+                Fill out the form below and we'll get back to you with a quote for your notary or apostille needs.
+              </p>
             </div>
-          </div>
+          )}
 
           <div className="grid md:grid-cols-2 gap-16 items-start">
             {/* Contact Form */}

@@ -23,7 +23,7 @@ export default function ContactBar() {
           <MessageCircle className="w-4 h-4" />
           <span>WhatsApp</span>
         </a>
-        <Link href="/contact" className="flex items-center gap-2 hover:opacity-80 transition border-l border-primary-foreground/30 pl-6">
+        <Link href="/contact?quote=true" className="flex items-center gap-2 hover:opacity-80 transition border-l border-primary-foreground/30 pl-6">
           <span>Request A Quote</span>
         </Link>
       </div>

@@ -33,22 +33,6 @@ export default function AboutClientPage() {
             </div>
           </div>
 
-          {/* Mission & Values */}
-          <div className="grid md:grid-cols-3 gap-8 mb-20">
-            <Card className="p-8 text-center">
-              <h3 className="text-xl font-bold text-foreground mb-4">{t.aboutMissionTitle}</h3>
-              <p className="text-muted-foreground">{t.aboutMissionDesc}</p>
-            </Card>
-            <Card className="p-8 text-center">
-              <h3 className="text-xl font-bold text-foreground mb-4">{t.aboutValuesTitle}</h3>
-              <p className="text-muted-foreground">{t.aboutValuesDesc}</p>
-            </Card>
-            <Card className="p-8 text-center">
-              <h3 className="text-xl font-bold text-foreground mb-4">{t.aboutPromiseTitle}</h3>
-              <p className="text-muted-foreground">{t.aboutPromiseDesc}</p>
-            </Card>
-          </div>
-
           {/* Why Choose Kathryn */}
           <div className="mb-20">
             <h2 className="text-3xl font-bold text-foreground mb-12 text-center">{t.aboutWhyChoose}</h2>
