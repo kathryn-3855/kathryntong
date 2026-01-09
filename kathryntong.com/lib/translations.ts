@@ -260,7 +260,7 @@ export const translations = {
     cityPageCall: "Call: 626-590-3560",
     cityPageAndSurroundingAreas: " and surrounding areas",
     serviceAreas: "Service Areas",
-    notaryApostille: "Notary-Apostille",
+    notaryApostille: "Mobile Notary-Apostille",
     
     // City Names
     cityLosAngeles: "Los Angeles",
@@ -315,15 +315,15 @@ export const translations = {
     serviceSameDayExpedited: "Same-Day and Expedited Services available",
     
     // City Descriptions
-    cityDescLosAngeles: "Professional mobile notary and apostille services throughout Los Angeles, CA. As a trusted mobile notary public, we bring our services directly to your location - whether that's your office in Downtown LA, your home in Hollywood, or any other convenient location. We specialize in same-day notarization and apostille services for businesses, attorneys, and individuals throughout Los Angeles County.",
-    cityDescBeverlyHills: "Professional mobile notary and apostille services in Beverly Hills, CA. Serving high-net-worth individuals, businesses, and entertainment industry professionals throughout Beverly Hills. Our mobile notary service provides discreet, professional notarization at your location. We specialize in estate planning, high-value real estate transactions, business contracts, and apostille services for international use.",
-    cityDescPasadena: "Professional mobile notary and apostille services in Pasadena, CA. Serving residents, businesses, and healthcare facilities throughout Pasadena and the San Gabriel Valley. Our mobile notary service brings professional notarization directly to your location. We specialize in healthcare facility notarizations, real estate documents, and apostille services for international use.",
-    cityDescCulverCity: "Professional mobile notary and apostille services in Culver City, CA. Serving the entertainment industry, local businesses, and residents throughout Culver City. Our mobile notary service brings professional notarization directly to your office, studio, or home. We specialize in same-day service for urgent document needs and apostille services for international use.",
-    cityDescSantaMonica: "Professional mobile notary and apostille services in Santa Monica, CA. Serving residents, businesses, and professionals throughout Santa Monica and the surrounding coastal areas. Our mobile notary service provides convenient, same-day notarization at your office, home, or any location in Santa Monica. We specialize in real estate documents, business contracts, and apostille services for international use.",
-    cityDescWestHollywood: "Professional mobile notary and apostille services in West Hollywood, CA. Serving residents, businesses, and entertainment industry professionals throughout West Hollywood. Our mobile notary service provides convenient, professional notarization at your office, home, or studio. We specialize in entertainment industry documents, business contracts, real estate transactions, and apostille services for international use.",
-    cityDescArcadia: "Professional mobile notary and apostille services in Arcadia, CA. Serving residents, businesses, and healthcare facilities throughout Arcadia and the San Gabriel Valley. Our mobile notary service provides convenient, professional notarization at your location. We specialize in healthcare documents, real estate transactions, and apostille services for international use.",
-    cityDescSanMarino: "Professional mobile notary and apostille services in San Marino, CA. Serving residents, businesses, and estate planning needs throughout San Marino and the San Gabriel Valley. Our mobile notary service provides discreet, professional notarization at your location. We specialize in estate planning documents, high-value real estate transactions, and apostille services for international use.",
-    cityDescSouthPasadena: "Professional mobile notary and apostille services in South Pasadena, CA. Serving residents, businesses, and healthcare facilities throughout South Pasadena and the San Gabriel Valley. Our mobile notary service brings professional notarization directly to your location. We specialize in healthcare documents, real estate transactions, and apostille services for international use.",
+    cityDescLosAngeles: "Professional mobile notary and apostille services serving Los Angeles and surrounding areas including Chinatown, Echo Park, Westlake, Koreatown, Mid-Wilshire, Mid-City, West Los Angeles, Silverlake, Vernon, Commerce and Lynwood.",
+    cityDescBeverlyHills: "Professional mobile notary and apostille services serving Beverly Hills and surrounding areas of Beverlywood, Beverly Crest, Century City, Bel Air, and Brentwood.",
+    cityDescPasadena: "Professional mobile notary and apostille services serving Pasadena and surrounding areas of East Pasadena, Altadena, Glendale, La Canada Flintridge and Burbank.",
+    cityDescCulverCity: "Professional mobile notary and apostille services serving Culver City and surrounding areas including Inglewood, Gardena, Torrance, El Segundo, LAX, and Manhattan Beach.",
+    cityDescSantaMonica: "Professional mobile notary and apostille services serving Santa Monica and surrounding areas of Pacific Palisades, Malibu, Venice, Marina Del Rey.",
+    cityDescWestHollywood: "Professional mobile notary and apostille services serving West Hollywood and surrounding areas of Hollywood Hills, Hollywood, East Hollywood and San Fernando Cities.",
+    cityDescArcadia: "Professional mobile notary and apostille services serving Arcadia and surrounding areas of Monrovia, Duarte, Temple City, San Gabrial, El Monte, Rosemead and City of Industry.",
+    cityDescSanMarino: "Professional mobile notary and apostille services serving San Marino and surrounding areas of Rosemead, Alhambra, Monterey Park and Montebello.",
+    cityDescSouthPasadena: "Professional mobile notary and apostille services serving South Pasadena and surrounding areas of Highland Park, Eagle Rock, Lincoln Heights and Montecito Heights.",
     
     // Popular Sectors - Los Angeles
     sectorLA1: "Entertainment & Media Companies",
