@@ -35,32 +35,34 @@ export default function AboutClientPage() {
           <div className="mb-20">
             <h2 className="text-3xl font-bold text-foreground mb-12 text-center">{t.aboutWhyChoose}</h2>
             <div className="grid md:grid-cols-2 gap-8">
-              {[
-                {
-                  title: t.aboutBenefit1Title,
-                  desc: t.aboutBenefit1Desc,
-                },
-                {
-                  title: t.aboutBenefit2Title,
-                  desc: t.aboutBenefit2Desc,
-                },
-                {
-                  title: t.aboutBenefit3Title,
-                  desc: t.aboutBenefit3Desc,
-                },
-                {
-                  title: t.aboutBenefit4Title,
-                  desc: t.aboutBenefit4Desc,
-                },
-              ].map((item, index) => (
-                <div key={index} className="flex gap-4">
-                  <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                  <div>
-                    <h3 className="font-semibold text-foreground mb-2">{item.title}</h3>
-                    <p className="text-muted-foreground">{item.desc}</p>
-                  </div>
+              <div className="flex gap-4">
+                <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="font-semibold text-foreground mb-2">Concierge Service:</h3>
+                  <p className="text-muted-foreground">Specialize in VIP Notary Assignments, ensuring absolute discretion and meticulous attention to detail for every signature.</p>
                 </div>
-              ))}
+              </div>
+              <div className="flex gap-4">
+                <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="font-semibold text-foreground mb-2">Discretion & Privacy:</h3>
+                  <p className="text-muted-foreground">For executives and international clients, we provide secure, confidential, and timely document execution, handling everything from complex international contracts to sensitive estate documents, with Utmost Confidentiality, wherever and whenever you need us.</p>
+                </div>
+              </div>
+              <div className="flex gap-4">
+                <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="font-semibold text-foreground mb-2">Convenience:</h3>
+                  <p className="text-muted-foreground">Flexible scheduling with same-day, evening, after-hours, and weekend appointments at Your Office or Home or other locations of your choice, 7 days per week.</p>
+                </div>
+              </div>
+              <div className="flex gap-4">
+                <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="font-semibold text-foreground mb-2">Expertise:</h3>
+                  <p className="text-muted-foreground">Expertise in Corporate Mobile Notary, Estate Planning Notary and International Apostille.</p>
+                </div>
+              </div>
             </div>
           </div>
 
