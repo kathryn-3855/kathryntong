@@ -192,8 +192,8 @@ export default function ServicesClientPage() {
           </div>
 
           {/* CTA Section */}
-          <div className="bg-foreground rounded-lg p-8 text-center">
-            <h2 className="text-2xl font-bold mb-4 text-red-600">{t.scheduleMobileNotaryCTA}</h2>
+          <div className="bg-red-600 rounded-lg p-8 text-center">
+            <h2 className="text-2xl font-bold mb-4 text-white">{t.scheduleMobileNotaryCTA}</h2>
             <p className="mb-6 max-w-2xl mx-auto text-white/90">{t.scheduleMobileNotaryCTAText}</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
