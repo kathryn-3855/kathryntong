@@ -52,14 +52,6 @@ export default function AboutClientPage() {
                   title: t.aboutBenefit4Title,
                   desc: t.aboutBenefit4Desc,
                 },
-                {
-                  title: t.aboutBenefit5Title,
-                  desc: t.aboutBenefit5Desc,
-                },
-                {
-                  title: t.aboutBenefit6Title,
-                  desc: t.aboutBenefit6Desc,
-                },
               ].map((item, index) => (
                 <div key={index} className="flex gap-4">
                   <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
