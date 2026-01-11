@@ -518,7 +518,7 @@ export const translations = {
     faqA6: "We operate 7 days a week from 8:30 AM to 8:30 PM to accommodate your schedule. We can also arrange out-of-town travel for clients in other parts of California.",
 
     faqQ7: "Do you speak other languages?",
-    faqA7: "Yes! Kathryn is bilingual and can provide services in English and Mandarin Chinese. If you need services in other languages, please contact us to discuss your needs.",
+    faqA7: "Yes! Kathryn is bilingual and can provide services in English, Cantonese and Mandarin Chinese. If you need services in other languages, please contact us to discuss your needs.",
 
     faqQ8: "What is the cost for notary services?",
     faqA8: "Basic notary services start at $15 per signature for office visits or mobile service. Apostille and legalization services have different pricing. Please visit our pricing page or contact us for a quote based on your specific needs.",
