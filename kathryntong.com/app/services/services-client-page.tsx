@@ -46,7 +46,7 @@ export default function ServicesClientPage() {
           </div>
 
           {/* Core Services Section */}
-          <div className="mb-20">
+          <div className="mb-12">
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-8 mb-8">
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
@@ -78,8 +78,8 @@ export default function ServicesClientPage() {
           </div>
 
           {/* Service Area & Travel Section */}
-          <div className="mb-20">
-            <div className="grid md:grid-cols-2 gap-8">
+          <div className="mb-12">
+            <div className="grid md:grid-cols-2 gap-6">
               <div className="border border-foreground/30 rounded-lg p-8 bg-foreground/10">
                 <div className="flex items-center gap-3 mb-4">
                   <MapPin className="w-6 h-6 text-foreground" />
