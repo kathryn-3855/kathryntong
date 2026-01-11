@@ -88,88 +88,88 @@ export default function ServicesClientPage() {
                 <p className="text-foreground mb-4">{t.serviceAreaDescription}</p>
                 <p className="text-foreground/80 text-sm mb-4">{t.travelFeeDescription}</p>
                 <div className="mt-4">
-                  <ul className="space-y-2">
-                    <li className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Los Angeles</p>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Beverly Hills</p>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">West Hollywood</p>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Hollywood</p>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Silverlake</p>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Culver City</p>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">West Los Angeles</p>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Santa Monica</p>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Pasadena</p>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Glendale</p>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Monrovia</p>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">South Pasadena</p>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">San Marino</p>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Arcadia</p>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">San Gabriel</p>
-                    </li>
-                    <li className="flex items-start gap-3">
+                  <div className="grid grid-cols-2 gap-x-4 gap-y-2">
+                    <div className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
                       <p className="text-foreground text-sm">Alhambra</p>
-                    </li>
-                    <li className="flex items-start gap-3">
+                    </div>
+                    <div className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Monterey Park</p>
-                    </li>
-                    <li className="flex items-start gap-3">
+                      <p className="text-foreground text-sm">Arcadia</p>
+                    </div>
+                    <div className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Vernon</p>
-                    </li>
-                    <li className="flex items-start gap-3">
+                      <p className="text-foreground text-sm">Beverly Hills</p>
+                    </div>
+                    <div className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
                       <p className="text-foreground text-sm">Commerce</p>
-                    </li>
-                    <li className="flex items-start gap-3">
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                      <p className="text-foreground text-sm">Culver City</p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                      <p className="text-foreground text-sm">Glendale</p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                      <p className="text-foreground text-sm">Hollywood</p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                      <p className="text-foreground text-sm">Los Angeles</p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                      <p className="text-foreground text-sm">Monterey Park</p>
+                    </div>
+                    <div className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
                       <p className="text-foreground text-sm">Montebello</p>
-                    </li>
-                  </ul>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                      <p className="text-foreground text-sm">Monrovia</p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                      <p className="text-foreground text-sm">Pasadena</p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                      <p className="text-foreground text-sm">San Gabriel</p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                      <p className="text-foreground text-sm">San Marino</p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                      <p className="text-foreground text-sm">Santa Monica</p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                      <p className="text-foreground text-sm">Silverlake</p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                      <p className="text-foreground text-sm">South Pasadena</p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                      <p className="text-foreground text-sm">Vernon</p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                      <p className="text-foreground text-sm">West Hollywood</p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                      <p className="text-foreground text-sm">West Los Angeles</p>
+                    </div>
+                  </div>
                 </div>
               </div>
 
