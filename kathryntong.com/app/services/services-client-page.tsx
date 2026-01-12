@@ -38,10 +38,11 @@ export default function ServicesClientPage() {
           {/* Hero Section */}
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              Providing Premium Mobile Notary Services: We Come to You, 7 Days A Week!
+              Providing Premium Mobile Notary Services:<br />
+              We Come to You, 7 Days A Week!
             </h1>
-            <p className="text-xl text-foreground/90 max-w-3xl mx-auto">
-              With 10+ years notary experience, we serve as Notary Partners for many Estate-Trust Attorneys, Corporate Executives, High-Net Worth Individuals, Financial Institutions, Escrow-Title Companies, and Government Agencies throughout Los Angeles County of California.
+            <p className="text-xl text-foreground/90">
+              With 10+ years notary experience, we serve as Notary Partners for many Estate-Trust Attorneys, Corporate Executives, High-Net Worth Individuals, Financial Institutions, Escrow-Title Companies, Healthcare Facilities and Government Agencies throughout Los Angeles County of California.
             </p>
           </div>
 
