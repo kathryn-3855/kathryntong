@@ -36,8 +36,8 @@ export default function ServicesClientPage() {
       <main className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Hero Section */}
-          <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <div className="text-center mb-8">
+            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-2">
               Providing Premium Mobile Notary Services:<br />
               We Come to You, 7 Days A Week!
             </h1>
@@ -47,8 +47,8 @@ export default function ServicesClientPage() {
           </div>
 
           {/* Core Services Section */}
-          <div className="mb-12">
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-8 mb-8">
+          <div className="mb-8">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-8">
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
