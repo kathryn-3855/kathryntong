@@ -38,10 +38,10 @@ export default function ServicesClientPage() {
           {/* Hero Section */}
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              {t.mobileNotaryHeroHeadline}
+              Providing Premium Mobile Notary Services: We Come to You, 7 Days A Week!
             </h1>
             <p className="text-xl text-foreground/90 max-w-3xl mx-auto">
-              {t.mobileNotaryHeroSubheadline}
+              With 10+ years notary experience, we serve as Notary Partners for many Estate-Trust Attorneys, Corporate Executives, High-Net Worth Individuals, Financial Institutions, Escrow-Title Companies, and Government Agencies throughout Los Angeles County of California.
             </p>
           </div>
 
@@ -52,25 +52,19 @@ export default function ServicesClientPage() {
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
                   <p className="text-foreground text-base">
-                    <strong>Concierge Service:</strong> Our concierge-level service ensures a seamless experience, saving you time and providing peace of mind. We specialize in VIP assignments, ensuring absolute discretion and meticulous attention to detail for every signature.
+                    <strong>Value-Added Service:</strong> We specialized in handling complicated local & international, personal and business contracts, agreements & sensitive estate documents, ensuring absolute discretion, privacy and utmost confidentiality.
                   </p>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
                   <p className="text-foreground text-base">
-                    <strong>Discretion & Privacy:</strong> For executives and international clients, we provide secure, confidential, and timely document execution, handling everything from complex international contracts to sensitive estate documents, with Utmost Confidentiality, wherever and whenever you need us.
+                    <strong>Convenience – Easy Scheduling & We travel to you!</strong> With our mobile notary services, we ensure that your firm and clients can conduct business at any time, pace and any locations, which will significantly increase productivity.
                   </p>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
                   <p className="text-foreground text-base">
-                    <strong>Convenience:</strong> Flexible scheduling with same-day, evening, after-hours, and weekend appointments at Your Office or Home or other locations of your choice, 7 days per week.
-                  </p>
-                </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                  <p className="text-foreground text-base">
-                    <strong>Expertise:</strong> Consider us as your Expert "Corporate Mobile Notary", "Estate Planning Notary", and "International Apostille Specialist" for all your Mobile Notary Needs.
+                    <strong>Reliable Partner:</strong> We serve as a reliable partner to your business and will certainly show up at your doorstep with prior scheduling. Will also answer client's phone calls, texts and emails 7 days a week.
                   </p>
                 </li>
               </ul>
