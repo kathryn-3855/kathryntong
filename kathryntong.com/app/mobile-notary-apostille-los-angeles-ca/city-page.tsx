@@ -39,12 +39,12 @@ export default function CityPage({
           <div className="mb-8">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
-                <h1 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-                  {t.cityPageTitle.replace("{cityName}", cityName).replace("{cityState}", cityState)}
+                <h1 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
+                  We provide Mobile Notary & Apostille Services in {cityName}
+                  {surroundingAreas.length > 0 && (
+                    <span className="font-normal text-xl"> and surrounding areas of {surroundingAreas.join(", ")}</span>
+                  )}
                 </h1>
-                <p className="text-base text-foreground/90 mb-6 leading-relaxed">
-                  {description}
-                </p>
                 
                 {/* Why Choose Section */}
                 <div className="mb-6">
@@ -80,34 +80,36 @@ export default function CityPage({
                 </div>
 
                 {/* Services Section */}
-                <div className="mb-4">
-                  <h3 className="font-semibold text-foreground mb-2 text-sm">Services:</h3>
-                  <ul className="space-y-1 text-foreground/90">
-                    <li className="flex items-start gap-2 text-sm">
-                      <span className="text-primary mt-1">•</span>
-                      <span>Mobile Notary at your Location, 7 Days a week</span>
-                    </li>
-                    <li className="flex items-start gap-2 text-sm">
-                      <span className="text-primary mt-1">•</span>
-                      <span>Personal, Business and Education Documents Notary</span>
-                    </li>
-                    <li className="flex items-start gap-2 text-sm">
-                      <span className="text-primary mt-1">•</span>
-                      <span>Estate Documents Notary (Trust/Will/Deed/Advance Healthcare Directives etc.)</span>
-                    </li>
-                    <li className="flex items-start gap-2 text-sm">
-                      <span className="text-primary mt-1">•</span>
-                      <span>Business, Personal, Education and Federal Documents Apostille (e.g. FBI Background Check) for International Use (All 50 States)</span>
-                    </li>
-                    <li className="flex items-start gap-2 text-sm">
-                      <span className="text-primary mt-1">•</span>
-                      <span>Embassy Legalization (For Non-Hague Countries)</span>
-                    </li>
-                    <li className="flex items-start gap-2 text-sm">
-                      <span className="text-primary mt-1">•</span>
-                      <span>Same-Day and Expedited Services available</span>
-                    </li>
-                  </ul>
+                <div className="mb-6">
+                  <h2 className="text-xl font-bold text-foreground mb-4">Services:</h2>
+                  <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+                    <ul className="space-y-2">
+                      <li className="flex items-start gap-2">
+                        <span className="text-primary mt-1">•</span>
+                        <span className="text-foreground text-sm">Mobile Notary at your Location, 7 Days a week</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-primary mt-1">•</span>
+                        <span className="text-foreground text-sm">Personal, Business and Education Documents Notary</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-primary mt-1">•</span>
+                        <span className="text-foreground text-sm">Estate Documents Notary (Trust/Will/Deed/Advance Healthcare Directives etc.)</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-primary mt-1">•</span>
+                        <span className="text-foreground text-sm">Business, Personal, Education and Federal Documents Apostille (e.g. FBI Background Check) for International Use (All 50 States)</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-primary mt-1">•</span>
+                        <span className="text-foreground text-sm">Embassy Legalization (For Non-Hague Countries)</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-primary mt-1">•</span>
+                        <span className="text-foreground text-sm">Same-Day and Expedited Services available</span>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
               <div className="relative h-96 rounded-lg overflow-hidden">
