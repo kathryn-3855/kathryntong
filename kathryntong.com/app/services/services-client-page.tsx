@@ -42,7 +42,7 @@ export default function ServicesClientPage() {
               We Come to You, 7 Days A Week!
             </h1>
             <p className="text-xl text-foreground/90">
-              With 10+ years notary experience, we serve as Notary Partners for many Estate-Trust Attorneys, Corporate Executives, High-Net Worth Individuals, Financial Institutions, Escrow-Title Companies, Healthcare Facilities and Government Agencies throughout Los Angeles County of California.
+              With 10+ years professional notary experience, we serve as Notary Partners for many Estate-Trust Attorneys, Corporate Executives, High-Net Worth Individuals, Financial Institutions, Escrow-Title Companies, Healthcare Facilities and Government Agencies throughout Los Angeles County of California.
             </p>
           </div>
 
