@@ -83,13 +83,9 @@ export default function AboutClientPage() {
           {/* CTA */}
           <div className="text-center">
             <h2 className="text-3xl font-bold text-foreground mb-4">{t.aboutReadyTitle}</h2>
-            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">{t.aboutReadyDesc}</p>
-            <a
-              href="/#contact"
-              className="inline-block bg-primary text-primary-foreground px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition"
-            >
-              {t.contact}
-            </a>
+            <p className="text-lg text-foreground mb-4">
+              Email, <a href="tel:+16265903560" className="text-primary hover:underline">Call or Text (626) 590-3560</a> to schedule an appointment, 7 days a week.
+            </p>
           </div>
         </div>
       </main>
