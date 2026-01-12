@@ -45,15 +45,68 @@ export default function CityPage({
                 <p className="text-base text-foreground/90 mb-6 leading-relaxed">
                   {description}
                 </p>
+                
+                {/* Why Choose Section */}
+                <div className="mb-6">
+                  <h2 className="text-xl font-bold text-foreground mb-4">
+                    Why choose our Mobile Notary & Apostille Services in {cityName}?
+                  </h2>
+                  <div className="space-y-4">
+                    <div className="flex gap-3">
+                      <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                      <div>
+                        <p className="text-foreground text-sm leading-relaxed">
+                          <strong>Value-Added Service:</strong> We specialized in working with Lawyers, Corporate Executives, Small Businesses, and High-Profile individuals, handling complicated local & international contracts, agreements & sensitive estate documents etc, ensuring absolute discretion, privacy and confidentiality.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex gap-3">
+                      <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                      <div>
+                        <p className="text-foreground text-sm leading-relaxed">
+                          <strong>Convenience – We travel to you!</strong> With our mobile notary services, we ensure that your firm and clients can conduct businesses at any time, pace and any locations, which will significantly increase productivity.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex gap-3">
+                      <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                      <div>
+                        <p className="text-foreground text-sm leading-relaxed">
+                          <strong>Reliable Partner:</strong> We serve as a reliable partner to your business and will certainly show up at your doorstep with prior scheduling. Will also answer client's phone calls, texts and emails 7 days a week. Notarized and Apostilled documents can be expedited and ready within 24 hours or same day.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Services Section */}
                 <div className="mb-4">
-                  <h3 className="font-semibold text-foreground mb-2 text-sm">{t.cityPageServices}:</h3>
+                  <h3 className="font-semibold text-foreground mb-2 text-sm">Services:</h3>
                   <ul className="space-y-1 text-foreground/90">
-                    {services.map((service, index) => (
-                      <li key={index} className="flex items-start gap-2 text-sm">
-                        <span className="text-primary mt-1">•</span>
-                        <span>{service}</span>
-                      </li>
-                    ))}
+                    <li className="flex items-start gap-2 text-sm">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Mobile Notary at your Location, 7 Days a week</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Personal, Business and Education Documents Notary</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Estate Documents Notary (Trust/Will/Deed/Advance Healthcare Directives etc.)</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Business, Personal, Education and Federal Documents Apostille (e.g. FBI Background Check) for International Use (All 50 States)</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Embassy Legalization (For Non-Hague Countries)</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Same-Day and Expedited Services available</span>
+                    </li>
                   </ul>
                 </div>
               </div>
