@@ -19,14 +19,25 @@ export default function HeroSection() {
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold leading-tight mb-4 text-foreground">{t.heroTitle}</h2>
             </div>
-            <div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
-              <Image
-                src="/images/hero-apostille.jpg"
-                alt="California Apostille Certificate - Trusted Mobile Notary & Certified Apostille Agent"
-                fill
-                className="object-contain"
-                priority
-              />
+            <div className="grid grid-cols-2 gap-4">
+              <div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
+                <Image
+                  src="/images/ca-acknowledgment-jurat.png"
+                  alt="California Notary Acknowledgment Jurat"
+                  fill
+                  className="object-contain"
+                  priority
+                />
+              </div>
+              <div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
+                <Image
+                  src="/images/hero-apostille.jpg"
+                  alt="California Apostille Certificate - Trusted Mobile Notary & Certified Apostille Agent"
+                  fill
+                  className="object-contain"
+                  priority
+                />
+              </div>
             </div>
           </div>
 
