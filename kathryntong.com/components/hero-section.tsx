@@ -21,10 +21,10 @@ export default function HeroSection() {
             </div>
             <div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
               <Image
-                src="/images/kathryn.webp"
-                alt="Kathryn - Trusted Mobile Notary & Certified Apostille Agent"
+                src="/images/hero-apostille.jpg"
+                alt="California Apostille Certificate - Trusted Mobile Notary & Certified Apostille Agent"
                 fill
-                className="object-cover"
+                className="object-contain"
                 priority
               />
             </div>
