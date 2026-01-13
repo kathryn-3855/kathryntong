@@ -253,6 +253,7 @@ export const translations = {
 
     // City Pages
     cityPageTitle: "Mobile Notary & Apostille Services in {cityName}, {cityState}",
+    cityWhyChoose: "Why choose our Mobile Notary & Apostille Services in {cityName}?",
     cityPageServices: "Services",
     cityPagePopularSectors: "Popular Sectors Served",
     cityPageReadyToGetStarted: "Ready to Get Started?",
@@ -463,9 +464,12 @@ export const translations = {
     mobileNotaryServicesPageTitle: "Mobile Notary Services in Los Angeles County",
     mobileNotaryServicesPageMetaDescription:
       "Convenient mobile notary services throughout Los Angeles County. Same-day, evening, and weekend appointments available. Experienced with legal, medical, real estate, and international documents.",
-    mobileNotaryHeroHeadline: "Premium Mobile Notary Services: We Come to You Wherever and Whenever!",
+    mobileNotaryHeroHeadline: "Providing Premium Mobile Notary Services: We Come to You, 7 Days A Week!",
     mobileNotaryHeroSubheadline:
-      "Professional mobile notary services delivered to your home, office, hospital, care facility, or other secure locations throughout Los Angeles County.",
+      "With 10+ years professional notary experience, we serve as Notary Partners for many Estate-Trust Attorneys, Corporate Executives, High-Net Worth Individuals, Financial Institutions, Escrow-Title Companies, Healthcare Facilities and Government Agencies throughout Los Angeles County of California.",
+    mobileNotaryValueAdded: "Value-Added Service: We specialized in handling complicated local & international, personal and business contracts, agreements & sensitive estate documents, ensuring absolute discretion, privacy and utmost confidentiality.",
+    mobileNotaryConvenience: "Convenience – Easy Scheduling & We travel to you! With our mobile notary services, we ensure that your firm and clients can conduct business at any time, pace and any locations, which will significantly increase productivity.",
+    mobileNotaryReliable: "Reliable Partner: We serve as a reliable partner to your business and will certainly show up at your doorstep with prior scheduling. Will also answer client's phone calls, texts and emails 7 days a week.",
     mobileNotaryServicesInclude: "Mobile Notary Services Include:",
     mobileNotaryConvenient: "Convenient mobile notary services to your home, office, hospital, assisted living facility, federal detention center, or location of your choice",
     mobileNotaryFlexible: "Flexible scheduling with same-day, evening, after-hours, and weekend appointments, available 7 days per week",
@@ -547,6 +551,13 @@ export const translations = {
     aboutPromiseTitle: "Our Promise",
     aboutPromiseDesc: "Every client receives the same level of attention to detail and commitment to excellence, no matter the size or complexity of their needs.",
     aboutWhyChoose: "Why Choose Kathryn's Mobile Notary?",
+    aboutNicheExpertise: "Niche & Expertise",
+    aboutNicheExpertise1: "Specialized in Mobile Notary Assignments and Apostille Services for Lawyers, Corporate Executives, and High-Profile individuals, handling complicated international contracts to sensitive estate documents, ensuring absolute discretion, privacy and confidentiality.",
+    aboutNicheExpertise2: "With over 10 years of professional notary and apostille experience, we have the skills and expertise to notarize a broad variety of personal, business and legal documents in a timely, securely and accurate manner.",
+    aboutCustomersExperience: "Customers Experience",
+    aboutCustomersExperience1: "Value-Added Notary & Apostille Services: Our Services are Faster, Friendlier, with more Streamlined processes and Tailor-Made solutions to each client's needs.",
+    aboutCustomersExperience2: "Reliability & Availability: Hunting for a reliable mobile notary sometimes can be a bit of challenge for many law firms and businesses. We endeavor to provide consistent & dependable service and we always answer client's phone calls / texts / emails.",
+    aboutCustomersExperience3: "Convenience - Mobile Notary & Apostille Services At Your Doorstep : Having a mobile notary ensures that your firm can conduct business at any place and at any time, which will significantly increase productivity. We provide easy scheduling with same-day, evening, after-hours, and weekend appointments at your or your clients' location, 7 days a week.",
     aboutBenefit1Title: "10+ Years of Experience",
     aboutBenefit1Desc: "Trusted by hundreds of satisfied clients across California",
     aboutBenefit2Title: "Mobile Service",
@@ -641,14 +652,14 @@ export const translations = {
     phone: "致电或短信",
     email: "邮箱",
     aboutMe: "关于我",
-    mobileNotary: "移动公证服务",
+    mobileNotary: "上门公证服务",
     apostilleLegalization: "海牙认证-领事馆认证",
     scheduleNow: "立即安排",
     pricing: "价格",
     contact: "联系我们",
 
     // Hero Section
-    heroTitle: "受信赖的移动公证员和海牙认证代理",
+    heroTitle: "受信赖的上门公证员和海牙认证代理",
     heroSubtitle:
       "为移民、商业、教育和个人文件提供快速、准确和便捷的公证和海牙认证服务。服务范围包括洛杉矶县、东文图拉、西圣贝纳迪诺和北橙县。",
     getStarted: "开始",
@@ -670,7 +681,7 @@ export const translations = {
     // Services Grid
     servicesTitle: "我们的服务",
     servicesSubtitle: "为您的需求量身定制的全面公证和海牙认证服务",
-    notarizationTitle: "移动公证",
+    notarizationTitle: "上门公证",
     notarizationDesc: "在您的位置或我们的办公室提供专业公证服务",
     apostilleTitle: "海牙认证",
     apostilleDesc: "为180多个国家提供国际文件海牙认证",
@@ -682,7 +693,7 @@ export const translations = {
     batchDesc: "多份文件或企业需求的特殊定价",
     federalTitle: "联邦认证/认可",
     federalDesc: "联邦政府文件认证",
-    mobileNotaryTitle: "移动公证服务",
+    mobileNotaryTitle: "上门公证服务",
     mobileNotaryDesc: "为各类文件提供常规公证服务。我们可以前往您的家里、办公室、医院或您选择的任何位置。",
     realEstateTitle: "房地产和贷款文件",
     realEstateDesc: "为抵押文件、产权文件提供专业公证，以及为贷方和房屋所有者提供托管签署服务。",
@@ -707,7 +718,7 @@ export const translations = {
     hoursLabel: "营业时间",
     hoursValue: "上午8:30至晚上8:30，每周7天",
     serviceAreaLabel: "服务区域",
-    serviceAreaValue: "整个加州的移动公证服务",
+    serviceAreaValue: "整个加州的上门公证服务",
     whyChooseUs: "为什么选择我们？",
     experience: "10年以上公证经验",
     comeToYou: "我们上门服务",
@@ -724,9 +735,9 @@ export const translations = {
     footerQuickLinks: "快速链接",
     footerContact: "联系方式",
     footerRights: "版权所有。",
-    footerCompany: "凯瑟琳移动公证处",
+    footerCompany: "凯瑟琳上门公证处",
     footerServices: "服务",
-    footerMobileNotary: "移动公证",
+    footerMobileNotary: "上门公证",
     footerApostille: "海牙认证服务",
     footerRealEstate: "房地产文件",
     footerCommercialServices: "商业服务",
@@ -734,12 +745,12 @@ export const translations = {
     footerMonday: "星期一至星期日",
     footerTime: "上午8:30至晚上8:30",
     footerSameDay: "提供当日服务",
-    footerCopyright: "凯瑟琳移动公证处。版权所有。",
+    footerCopyright: "凯瑟琳上门公证处。版权所有。",
 
     // Pricing Page
     pricingTitle: "透明定价",
     pricingSubtitle: "所有公证和领事馆认证服务的简单、直接费率",
-    serviceNotarization: "移动公证",
+    serviceNotarization: "上门公证",
     perSignature: "每个签名",
     officeService: "办公室公证",
     mobileService: "流动服务",
@@ -909,11 +920,12 @@ export const translations = {
     keyPointDocumentRequirements: "文件要求",
     
     // City Pages (Chinese)
-    cityPageTitle: "{cityName}, {cityState}的移动公证和海牙认证服务",
+    cityPageTitle: "{cityName}, {cityState}的上门公证和海牙认证服务",
+    cityWhyChoose: "为什么选择我们在{cityName}的上门公证和海牙认证服务？",
     cityPageServices: "服务",
     cityPagePopularSectors: "服务的热门行业",
     cityPageReadyToGetStarted: "准备开始了吗？",
-    cityPageCTAText: "立即联系我们，在{cityName}, {cityState}安排您的移动公证或海牙认证服务。我们随时为您提供所有公证需求方面的帮助。",
+    cityPageCTAText: "立即联系我们，在{cityName}, {cityState}安排您的上门公证或海牙认证服务。我们随时为您提供所有公证需求方面的帮助。",
     cityPageCall: "致电：626-590-3560",
     cityPageAndSurroundingAreas: "及周边地区",
     serviceAreas: "服务区域",
@@ -963,7 +975,7 @@ export const translations = {
     areaEagleRock: "鹰岩",
     
     // Services (Chinese)
-    serviceMobileNotary: "移动公证",
+    serviceMobileNotary: "上门公证",
     serviceStateFederalApostille: "州和联邦海牙认证",
     serviceEmbassyLegalization: "领事馆认证",
     servicePowerOfAttorney: "授权委托书",
@@ -972,15 +984,15 @@ export const translations = {
     serviceSameDayExpedited: "提供当日和加急服务",
     
     // City Descriptions (Chinese)
-    cityDescLosAngeles: "在加利福尼亚州洛杉矶提供专业的移动公证和海牙认证服务。作为值得信赖的移动公证员，我们将服务直接送到您的位置 - 无论是您在市中心LA的办公室、好莱坞的家，还是任何其他方便的位置。我们专门为整个洛杉矶县的企业、律师和个人提供当日公证和海牙认证服务。",
-    cityDescBeverlyHills: "在加利福尼亚州比佛利山庄提供专业的移动公证和海牙认证服务。为整个比佛利山庄的高净值个人、企业和娱乐行业专业人士提供服务。我们的移动公证服务在您的位置提供谨慎、专业的公证。我们专门从事遗产规划、高价值房地产交易、商业合同以及国际使用的海牙认证服务。",
-    cityDescPasadena: "在加利福尼亚州帕萨迪纳提供专业的移动公证和海牙认证服务。为整个帕萨迪纳和圣盖博谷的居民、企业和医疗机构提供服务。我们的移动公证服务将专业公证直接送到您的位置。我们专门从事医疗机构公证、房地产文件以及国际使用的海牙认证服务。",
-    cityDescCulverCity: "在加利福尼亚州卡尔弗城提供专业的移动公证和海牙认证服务。为整个卡尔弗城的娱乐行业、本地企业和居民提供服务。我们的移动公证服务将专业公证直接送到您的办公室、工作室或家中。我们专门为紧急文件需求提供当日服务以及国际使用的海牙认证服务。",
-    cityDescSantaMonica: "在加利福尼亚州圣莫尼卡提供专业的移动公证和海牙认证服务。为整个圣莫尼卡及周边沿海地区的居民、企业和专业人士提供服务。我们的移动公证服务在您的办公室、家中或圣莫尼卡的任何位置提供便捷的当日公证。我们专门从事房地产文件、商业合同以及国际使用的海牙认证服务。",
-    cityDescWestHollywood: "在加利福尼亚州西好莱坞提供专业的移动公证和海牙认证服务。为整个西好莱坞的居民、企业和娱乐行业专业人士提供服务。我们的移动公证服务在您的办公室、家中或工作室提供便捷、专业的公证。我们专门从事娱乐行业文件、商业合同、房地产交易以及国际使用的海牙认证服务。",
-    cityDescArcadia: "在加利福尼亚州阿卡迪亚提供专业的移动公证和海牙认证服务。为整个阿卡迪亚和圣盖博谷的居民、企业和医疗机构提供服务。我们的移动公证服务在您的位置提供便捷、专业的公证。我们专门从事医疗文件、房地产交易以及国际使用的海牙认证服务。",
-    cityDescSanMarino: "在加利福尼亚州圣马力诺提供专业的移动公证和海牙认证服务。为整个圣马力诺和圣盖博谷的居民、企业和遗产规划需求提供服务。我们的移动公证服务在您的位置提供谨慎、专业的公证。我们专门从事遗产规划文件、高价值房地产交易以及国际使用的海牙认证服务。",
-    cityDescSouthPasadena: "在加利福尼亚州南帕萨迪纳提供专业的移动公证和海牙认证服务。为整个南帕萨迪纳和圣盖博谷的居民、企业和医疗机构提供服务。我们的移动公证服务将专业公证直接送到您的位置。我们专门从事医疗文件、房地产交易以及国际使用的海牙认证服务。",
+    cityDescLosAngeles: "在加利福尼亚州洛杉矶提供专业的上门公证和海牙认证服务。作为值得信赖的上门公证员，我们将服务直接送到您的位置 - 无论是您在市中心LA的办公室、好莱坞的家，还是任何其他方便的位置。我们专门为整个洛杉矶县的企业、律师和个人提供当日公证和海牙认证服务。",
+    cityDescBeverlyHills: "在加利福尼亚州比佛利山庄提供专业的上门公证和海牙认证服务。为整个比佛利山庄的高净值个人、企业和娱乐行业专业人士提供服务。我们的上门公证服务在您的位置提供谨慎、专业的公证。我们专门从事遗产规划、高价值房地产交易、商业合同以及国际使用的海牙认证服务。",
+    cityDescPasadena: "在加利福尼亚州帕萨迪纳提供专业的上门公证和海牙认证服务。为整个帕萨迪纳和圣盖博谷的居民、企业和医疗机构提供服务。我们的上门公证服务将专业公证直接送到您的位置。我们专门从事医疗机构公证、房地产文件以及国际使用的海牙认证服务。",
+    cityDescCulverCity: "在加利福尼亚州卡尔弗城提供专业的上门公证和海牙认证服务。为整个卡尔弗城的娱乐行业、本地企业和居民提供服务。我们的上门公证服务将专业公证直接送到您的办公室、工作室或家中。我们专门为紧急文件需求提供当日服务以及国际使用的海牙认证服务。",
+    cityDescSantaMonica: "在加利福尼亚州圣莫尼卡提供专业的上门公证和海牙认证服务。为整个圣莫尼卡及周边沿海地区的居民、企业和专业人士提供服务。我们的上门公证服务在您的办公室、家中或圣莫尼卡的任何位置提供便捷的当日公证。我们专门从事房地产文件、商业合同以及国际使用的海牙认证服务。",
+    cityDescWestHollywood: "在加利福尼亚州西好莱坞提供专业的上门公证和海牙认证服务。为整个西好莱坞的居民、企业和娱乐行业专业人士提供服务。我们的上门公证服务在您的办公室、家中或工作室提供便捷、专业的公证。我们专门从事娱乐行业文件、商业合同、房地产交易以及国际使用的海牙认证服务。",
+    cityDescArcadia: "在加利福尼亚州阿卡迪亚提供专业的上门公证和海牙认证服务。为整个阿卡迪亚和圣盖博谷的居民、企业和医疗机构提供服务。我们的上门公证服务在您的位置提供便捷、专业的公证。我们专门从事医疗文件、房地产交易以及国际使用的海牙认证服务。",
+    cityDescSanMarino: "在加利福尼亚州圣马力诺提供专业的上门公证和海牙认证服务。为整个圣马力诺和圣盖博谷的居民、企业和遗产规划需求提供服务。我们的上门公证服务在您的位置提供谨慎、专业的公证。我们专门从事遗产规划文件、高价值房地产交易以及国际使用的海牙认证服务。",
+    cityDescSouthPasadena: "在加利福尼亚州南帕萨迪纳提供专业的上门公证和海牙认证服务。为整个南帕萨迪纳和圣盖博谷的居民、企业和医疗机构提供服务。我们的上门公证服务将专业公证直接送到您的位置。我们专门从事医疗文件、房地产交易以及国际使用的海牙认证服务。",
     
     // Popular Sectors - Los Angeles (Chinese)
     sectorLA1: "娱乐和媒体公司",
@@ -1039,7 +1051,7 @@ export const translations = {
     
     // Contact/Service Areas page (Chinese)
     contactUsTitle: "联系我们",
-    contactUsSubtitle: "与Kathryn的移动公证和海牙认证服务取得联系。我们随时为您提供所有公证、海牙认证和领事馆认证需求方面的帮助。",
+    contactUsSubtitle: "与Kathryn的上门公证和海牙认证服务取得联系。我们随时为您提供所有公证、海牙认证和领事馆认证需求方面的帮助。",
     contactPhone: "电话",
     contactEmail: "电子邮件",
     contactHours: "营业时间",
@@ -1066,7 +1078,7 @@ export const translations = {
     thankYouMessage: "谢谢！我们会尽快回复您。",
     errorMessage: "发生错误。请重试或直接致电我们。",
     whyChooseUsTitle: "为什么选择我们？",
-    whyChooseUsMobileService: "移动服务",
+    whyChooseUsMobileService: "上门服务",
     whyChooseUsMobileServiceDesc: "我们到您的家、办公室或首选地点为您服务",
     whyChooseUsBilingual: "双语服务",
     whyChooseUsBilingualDesc: "提供英语和普通话服务",
@@ -1082,14 +1094,17 @@ export const translations = {
     dependingOnPackage: "取决于包裹",
 
     // Mobile Notary Services Page (Updated)
-    mobileNotaryServicesPageTitle: "洛杉矶县移动公证服务",
+    mobileNotaryServicesPageTitle: "洛杉矶县上门公证服务",
     mobileNotaryServicesPageMetaDescription:
-      "整个洛杉矶县便捷的移动公证服务。提供当日、晚间和周末预约。在法律、医疗、房地产和国际文件方面经验丰富。",
-    mobileNotaryHeroHeadline: "便捷的移动公证服务 — 我们上门服务",
+      "整个洛杉矶县便捷的上门公证服务。提供当日、晚间和周末预约。在法律、医疗、房地产和国际文件方面经验丰富。",
+    mobileNotaryHeroHeadline: "提供优质上门公证服务：我们上门服务，每周7天！",
     mobileNotaryHeroSubheadline:
-      "专业的移动公证服务，可送达您的家、办公室、医院、护理机构或整个洛杉矶县的其他安全地点。",
-    mobileNotaryServicesInclude: "移动公证服务包括：",
-    mobileNotaryConvenient: "便捷的移动公证服务，可前往您的家、办公室、医院、辅助生活设施、联邦拘留中心或您选择的地点",
+      "拥有10年以上专业公证经验，我们作为许多遗产信托律师、企业高管、高净值个人、金融机构、托管产权公司、医疗机构和政府机构在整个加利福尼亚州洛杉矶县的公证合作伙伴。",
+    mobileNotaryValueAdded: "增值服务：我们专门处理复杂的本地和国际、个人和商业合同、协议和敏感遗产文件，确保绝对谨慎、隐私和最高机密性。",
+    mobileNotaryConvenience: "便利性 – 轻松安排 & 我们上门服务！通过我们的上门公证服务，我们确保您的公司和客户可以在任何时间、任何节奏和任何地点开展业务，这将显著提高生产力。",
+    mobileNotaryReliable: "可靠合作伙伴：我们作为您业务的可靠合作伙伴，将按照事先安排准时出现在您的门口。我们也会在每周7天回答客户的电话、短信和电子邮件。",
+    mobileNotaryServicesInclude: "上门公证服务包括：",
+    mobileNotaryConvenient: "增值服务：我们专门处理复杂的本地和国际、个人和商业合同、协议和敏感遗产文件，确保绝对谨慎、隐私和最高机密性。",
     mobileNotaryFlexible: "灵活的日程安排，提供当日、晚间、非营业时间和周末预约，每周7天可用",
     mobileNotaryTrusted: "受到移民、国际客户、律师和本地企业的信赖",
     mobileNotaryExperienced: "经验丰富，包括：",
@@ -1099,7 +1114,7 @@ export const translations = {
     mobileNotaryEstatePlanning: "遗产规划文件",
     mobileNotaryInternational: "国际和外语文件",
     serviceAreaTitle: "服务区域和出行",
-    serviceAreaDescription: "整个洛杉矶县的移动公证服务",
+    serviceAreaDescription: "整个洛杉矶县的上门公证服务",
     travelFeeDescription: "出行费用根据距离而定",
     weTravelToTitle: "我们前往",
     weTravelToHospital: "医院和辅助生活设施",
@@ -1111,8 +1126,8 @@ export const translations = {
     apostilleSupportingDesc1: "公证后可提供完整的海牙认证和领事馆认证服务",
     apostilleSupportingDesc2: "用于国际使用的文件认证服务",
     apostilleSupportingDesc3: "适合在国外使用的文件",
-    scheduleMobileNotaryCTA: "立即安排移动公证预约",
-    scheduleMobileNotaryCTAText: "联系我们，在适合您的时间和地点安排便捷的移动公证预约。",
+    scheduleMobileNotaryCTA: "立即安排上门公证预约",
+    scheduleMobileNotaryCTAText: "联系我们，在适合您的时间和地点安排便捷的上门公证预约。",
 
     // FAQ Section
     faqTitle: "常见问题",
@@ -1132,7 +1147,7 @@ export const translations = {
     faqQ4: "公证过程需要多长时间？",
     faqA4: "简单的公证通常需要10-15分钟。海牙认证服务可以在24-48小时内完成，具体取决于文件类型。我们还为紧急需求提供加急当日服务。",
 
-    faqQ5: "您提供移动公证服务吗？",
+    faqQ5: "您提供上门公证服务吗？",
     faqA5: "是的！我们会到您的家、办公室、医院或您选择的任何地点为您服务。无需前往办公室 - 我们为您提供便利的公证服务。",
 
     faqQ6: "您的营业时间是什么？",
@@ -1142,12 +1157,12 @@ export const translations = {
     faqA7: "是的！Kathryn是双语的，可以提供英语和普通话服务。如果您需要其他语言的服务，请联系我们讨论您的需求。",
 
     faqQ8: "公证服务的费用是多少？",
-    faqA8: "基本公证服务从每个签名15美元起，适用于办公室访问或移动服务。海牙认证和领事馆认证服务有不同的定价。请访问我们的定价页面或联系我们，根据您的具体需求获取报价。",
+    faqA8: "基本公证服务从每个签名15美元起，适用于办公室访问或上门服务。海牙认证和领事馆认证服务有不同的定价。请访问我们的定价页面或联系我们，根据您的具体需求获取报价。",
 
     // Chatbot
     chatbotTitle: "与我们聊天",
     chatbotPlaceholder: "输入您的问题...",
-    chatbotWelcome: "您好！我是Kathryn移动公证助手。今天我能帮您什么？",
+    chatbotWelcome: "您好！我是Kathryn上门公证助手。今天我能帮您什么？",
     chatbotPriceResponse: "我们的标准公证服务从25美元起。我们还提供海牙认证服务（35美元）和领事馆认证服务（50美元）。访问我们的定价页面了解更多详情！",
     chatbotHoursResponse: "我们每周7天营业！致电或短信626.590.3560，在适合您的时间安排预约。",
     chatbotDocumentResponse: "我们可以公证大多数文件，包括授权书、宣誓书、贷款文件、旅行许可证等。您需要公证什么具体文件？",
@@ -1158,20 +1173,27 @@ export const translations = {
     chatbotDefaultResponse: "好问题！有关更详细的信息，请访问我们的服务页面或致电626.590.3560。我们随时为您提供帮助！",
 
     // About Page
-    aboutTitle: "关于Kathryn",
+    aboutTitle: "关于我",
     aboutBio1: "Kathryn拥有超过10年的专业公证经验，已成为服务加州社区的值得信赖和可靠的公证人。她对卓越和客户满意度的承诺使她成为个人和企业的首选。",
-    aboutBio2: "Kathryn专门从事移动公证服务、海牙认证和领事馆认证服务。她了解每个客户都有独特的需求，这就是为什么她提供灵活的时间安排和根据您的具体要求量身定制的个性化服务。",
+    aboutBio2: "Kathryn专门从事上门公证服务、海牙认证和领事馆认证服务。她了解每个客户都有独特的需求，这就是为什么她提供灵活的时间安排和根据您的具体要求量身定制的个性化服务。",
     aboutMissionTitle: "我们的使命",
     aboutMissionDesc: "提供可靠、专业的公证和海牙认证服务，达到最高的准确性和诚信标准。",
     aboutValuesTitle: "我们的价值观",
     aboutValuesDesc: "我们相信透明度、守时、专业精神，并超越客户期望。",
     aboutPromiseTitle: "我们的承诺",
     aboutPromiseDesc: "无论需求的规模或复杂性如何，每位客户都会获得同样的关注细节和卓越承诺。",
-    aboutWhyChoose: "为什么选择Kathryn移动公证？",
+    aboutWhyChoose: "为什么选择Kathryn上门公证？",
+    aboutNicheExpertise: "专业领域与专长",
+    aboutNicheExpertise1: "专门为律师、企业高管和高知名度个人提供上门公证和海牙认证服务，处理复杂的国际合同到敏感遗产文件，确保绝对谨慎、隐私和机密性。",
+    aboutNicheExpertise2: "拥有超过10年的专业公证和海牙认证经验，我们具备及时、安全、准确地公证各种个人、商业和法律文件的技能和专业知识。",
+    aboutCustomersExperience: "客户体验",
+    aboutCustomersExperience1: "增值公证和海牙认证服务：我们的服务更快、更友好，流程更简化，为每位客户量身定制解决方案。",
+    aboutCustomersExperience2: "可靠性和可用性：为许多律师事务所和企业寻找可靠的上门公证有时可能有点挑战。我们努力提供一致和可靠的服务，我们总是回答客户的电话/短信/电子邮件。",
+    aboutCustomersExperience3: "便利性 - 上门公证和海牙认证服务：拥有上门公证服务可确保您的公司可以在任何地点和任何时间开展业务，这将显著提高生产力。我们提供轻松安排，包括当日、晚间、非营业时间和周末预约，在您或您客户的位置，每周7天。",
     aboutBenefit1Title: "10+年经验",
     aboutBenefit1Desc: "受到加州数百名满意客户的信赖",
-    aboutBenefit2Title: "移动服务",
-    aboutBenefit2Desc: "在办公室、住宅或医疗机构的现场移动服务。我们上门服务！",
+    aboutBenefit2Title: "上门服务",
+    aboutBenefit2Desc: "在办公室、住宅或医疗机构的现场上门服务。我们上门服务！",
     aboutBenefit3Title: "每周7天营业",
     aboutBenefit3Desc: "灵活时间从上午8:30到晚上8:30",
     aboutBenefit4Title: "双语服务",
@@ -1189,7 +1211,7 @@ export const translations = {
     aboutCred3Title: "背景验证",
     aboutCred3Desc: "通过彻底的背景调查",
     aboutReadyTitle: "准备好合作了吗？",
-    aboutReadyDesc: "立即联系Kathryn移动公证，安排您的公证预约。",
+    aboutReadyDesc: "立即联系Kathryn上门公证，安排您的公证预约。",
 
     // Appointment Page
     appointmentTitle: "安排您的预约",
@@ -1198,7 +1220,7 @@ export const translations = {
     appointmentFlexDatesDesc: "每周7天营业",
     appointmentFlexHours: "灵活时间",
     appointmentFlexHoursDesc: "每天上午8:30至晚上8:30",
-    appointmentMobileService: "移动服务",
+    appointmentMobileService: "上门服务",
     appointmentMobileServiceDesc: "我们上门服务",
     appointmentSubmitted: "请求已提交！",
     appointmentSubmittedDesc: "感谢您的预约请求。我们将在24小时内与您联系以确认预约详情。",
@@ -1253,7 +1275,7 @@ export const translations = {
 
     // Testimonials Page
     testimonialsTitle: "客户评价",
-    testimonialsSubtitle: "不要只听我们的话。看看为什么数百名客户信任Kathryn移动公证服务来满足他们的公证和海牙认证需求。",
+    testimonialsSubtitle: "不要只听我们的话。看看为什么数百名客户信任Kathryn上门公证服务来满足他们的公证和海牙认证需求。",
     testimonialsCta: "加入数百名满意的客户",
     testimonialsCtaDesc: "我们致力于提供您可以信赖的专业、可靠的公证和海牙认证服务。",
   },

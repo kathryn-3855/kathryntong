@@ -39,11 +39,11 @@ export default function ServicesClientPage() {
           {/* Hero Section */}
           <div className="text-center mb-8">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-2">
-              Providing Premium Mobile Notary Services:<br />
-              We Come to You, 7 Days A Week!
+              {t.mobileNotaryHeroHeadline.split(':')[0]}:<br />
+              {t.mobileNotaryHeroHeadline.split(':')[1]}
             </h1>
             <p className="text-xl text-foreground/90">
-              With 10+ years professional notary experience, we serve as Notary Partners for many Estate-Trust Attorneys, Corporate Executives, High-Net Worth Individuals, Financial Institutions, Escrow-Title Companies, Healthcare Facilities and Government Agencies throughout Los Angeles County of California.
+              {t.mobileNotaryHeroSubheadline}
             </p>
           </div>
 
@@ -54,19 +54,19 @@ export default function ServicesClientPage() {
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
                   <p className="text-foreground text-base">
-                    <strong>Value-Added Service:</strong> We specialized in handling complicated local & international, personal and business contracts, agreements & sensitive estate documents, ensuring absolute discretion, privacy and utmost confidentiality.
+                    {t.mobileNotaryValueAdded}
                   </p>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
                   <p className="text-foreground text-base">
-                    <strong>Convenience – Easy Scheduling & We travel to you!</strong> With our mobile notary services, we ensure that your firm and clients can conduct business at any time, pace and any locations, which will significantly increase productivity.
+                    {t.mobileNotaryConvenience}
                   </p>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
                   <p className="text-foreground text-base">
-                    <strong>Reliable Partner:</strong> We serve as a reliable partner to your business and will certainly show up at your doorstep with prior scheduling. Will also answer client's phone calls, texts and emails 7 days a week.
+                    {t.mobileNotaryReliable}
                   </p>
                 </li>
               </ul>

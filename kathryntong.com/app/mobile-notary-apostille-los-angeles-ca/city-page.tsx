@@ -50,7 +50,7 @@ export default function CityPage({
                 {/* Why Choose Section */}
                 <div className="mb-6">
                   <h2 className="text-xl font-bold text-foreground mb-4">
-                    Why choose our Mobile Notary & Apostille Services in {cityName}?
+                    {t.cityWhyChoose.replace('{cityName}', cityName)}
                   </h2>
                   <div className="space-y-4">
                     <div className="flex gap-3">
