@@ -1,6 +1,7 @@
 "use client"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
+import GoogleReviews from "@/components/google-reviews"
 import { MapPin, Home } from "lucide-react"
 import { useTranslations } from "@/lib/use-translations"
 
@@ -185,6 +186,9 @@ export default function ServicesClientPage() {
               </div>
             </div>
           </div>
+
+          {/* Google Reviews */}
+          <GoogleReviews />
 
           {/* CTA Section */}
           <div className="bg-primary rounded-lg p-8 text-center">

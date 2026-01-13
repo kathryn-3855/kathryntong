@@ -1,6 +1,7 @@
 "use client"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
+import GoogleReviews from "@/components/google-reviews"
 import { Phone, Mail, MapPin, Clock, CheckCircle } from "lucide-react"
 import Image from "next/image"
 import { useTranslations } from "@/lib/use-translations"
@@ -140,6 +141,9 @@ export default function CityPage({
               </div>
             </div>
           )}
+
+          {/* Google Reviews */}
+          <GoogleReviews />
 
           {/* CTA Section */}
           <div className="bg-primary rounded-lg p-8 text-center">

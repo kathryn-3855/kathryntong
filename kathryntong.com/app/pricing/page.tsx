@@ -1,6 +1,7 @@
 "use client"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
+import GoogleReviews from "@/components/google-reviews"
 import { Check } from "lucide-react"
 import { useTranslations } from "@/lib/use-translations"
 
@@ -132,6 +133,9 @@ export default function PricingPage() {
               ))}
             </div>
           </div>
+
+          {/* Google Reviews */}
+          <GoogleReviews />
 
           {/* CTA Section */}
           <div className="bg-foreground/20 border border-foreground/30 rounded-lg p-8 text-center">

@@ -5,6 +5,7 @@ import { CheckCircle } from "lucide-react"
 import Image from "next/image"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
+import GoogleReviews from "@/components/google-reviews"
 
 export default function AboutClientPage() {
   const t = useTranslations()
@@ -82,6 +83,9 @@ export default function AboutClientPage() {
               </div>
             </div>
           </div>
+
+          {/* Google Reviews */}
+          <GoogleReviews />
 
           {/* CTA */}
           <div className="text-center">
