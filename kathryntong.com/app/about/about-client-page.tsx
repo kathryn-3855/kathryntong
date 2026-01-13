@@ -23,13 +23,13 @@ export default function AboutClientPage() {
             </div>
             <div>
               <h1 className="text-4xl font-bold text-foreground mb-4">{t.aboutTitle}</h1>
-              <p className="text-base text-foreground mb-2 leading-relaxed">
+              <p className="text-base text-foreground mb-2 leading-normal">
                 With more than 10 years' hands-on experience as a licensed Mobile Notary Public and Certified Apostille Agent, I am known for a detail-oriented, value-added approach that goes beyond basic notarization - anticipating issues, verifying requirements, and ensuring documents are executed correctly the first time.
               </p>
-              <p className="text-base text-foreground mb-2 leading-relaxed">
+              <p className="text-base text-foreground mb-2 leading-normal">
                 Over the years, I have worked extensively with attorneys, corporate executives, business owners, mortgage lenders, individuals, and government agencies on high stakes matters where precision, compliance, and confidentiality are essential, many of whom rely on my expertise, reliability, and ability to handle sensitive documents with professionalism and care.
               </p>
-              <p className="text-base text-foreground leading-relaxed">
+              <p className="text-base text-foreground leading-normal">
                 My professional background in Project Management and Commercial Real Estate provides a strong foundation for navigating complicated local, international documents, and regulatory requirements. This multidisciplinary experience allows me to communicate effectively with different clients and manage time-sensitive transactions with accuracy and efficiency.
               </p>
             </div>
