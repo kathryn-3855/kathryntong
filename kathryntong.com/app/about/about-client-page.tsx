@@ -16,16 +16,16 @@ export default function AboutClientPage() {
       <main className="min-h-screen bg-background">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           {/* Hero Section */}
-          <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
+          <div className="grid md:grid-cols-2 gap-12 items-start mb-12">
             <div className="relative h-80 md:h-96 rounded-lg overflow-hidden shadow-lg">
               <Image src="/images/kathryn.webp" alt="Kathryn's professional portrait" fill className="object-contain" />
             </div>
             <div>
-              <h1 className="text-4xl font-bold text-foreground mb-6">{t.aboutTitle}</h1>
-              <p className="text-base text-foreground mb-3 leading-relaxed">
+              <h1 className="text-4xl font-bold text-foreground mb-4">{t.aboutTitle}</h1>
+              <p className="text-base text-foreground mb-2 leading-relaxed">
                 With more than 10 years' hands-on experience as a licensed Mobile Notary Public and Certified Apostille Agent, I am known for a detail-oriented, value-added approach that goes beyond basic notarization - anticipating issues, verifying requirements, and ensuring documents are executed correctly the first time.
               </p>
-              <p className="text-base text-foreground mb-3 leading-relaxed">
+              <p className="text-base text-foreground mb-2 leading-relaxed">
                 Over the years, I have worked extensively with attorneys, corporate executives, business owners, mortgage lenders, individuals, and government agencies on high stakes matters where precision, compliance, and confidentiality are essential, many of whom rely on my expertise, reliability, and ability to handle sensitive documents with professionalism and care.
               </p>
               <p className="text-base text-foreground leading-relaxed">
@@ -35,7 +35,7 @@ export default function AboutClientPage() {
           </div>
 
           {/* Why Choose Kathryn */}
-          <div className="mb-20">
+          <div className="mb-12">
             <h2 className="text-3xl font-bold text-foreground mb-8 text-center">{t.aboutWhyChoose}</h2>
             
             {/* Niche & Expertise */}
