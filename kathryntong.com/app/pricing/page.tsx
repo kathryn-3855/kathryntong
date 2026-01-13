@@ -74,29 +74,29 @@ export default function PricingPage() {
   return (
     <div className="min-h-screen bg-white text-foreground">
       <Header />
-      <main className="py-16 md:py-24">
+      <main className="py-8 md:py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">{t.pricingTitle}</h1>
+          <div className="text-center mb-8">
+            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-2">{t.pricingTitle}</h1>
             <p className="text-xl text-foreground/90 max-w-2xl mx-auto">{t.affordableTransparent}</p>
           </div>
 
           {/* Notary Services Section */}
-          <div className="mb-20">
-            <h2 className="text-3xl font-bold text-foreground mb-8">{t.notaryServices}</h2>
-            <div className="grid md:grid-cols-3 gap-8">
+          <div className="mb-12">
+            <h2 className="text-3xl font-bold text-foreground mb-4">{t.notaryServices}</h2>
+            <div className="grid md:grid-cols-3 gap-6">
               {pricingPlans.map((plan) => (
                 <div
                   key={plan.name}
-                  className="rounded-lg border border-foreground/30 bg-foreground/10 p-8 flex flex-col hover:bg-foreground/20 transition"
+                  className="rounded-lg border border-foreground/30 bg-foreground/10 p-6 flex flex-col hover:bg-foreground/20 transition"
                 >
-                  <h3 className="text-xl font-bold text-foreground mb-2">{plan.name}</h3>
-                  <p className="text-sm text-foreground/80 mb-6">{plan.description}</p>
-                  <div className="mb-6">
+                  <h3 className="text-xl font-bold text-foreground mb-1">{plan.name}</h3>
+                  <p className="text-sm text-foreground/80 mb-4">{plan.description}</p>
+                  <div className="mb-4">
                     <span className="text-3xl font-bold text-foreground">{plan.price}</span>
                     <span className="text-sm text-foreground/80 ml-2">{plan.period}</span>
                   </div>
-                  <ul className="space-y-3 flex-1">
+                  <ul className="space-y-2 flex-1">
                     {plan.features.map((feature) => (
                       <li key={feature} className="flex items-start gap-3">
                         <Check className="w-5 h-5 text-foreground flex-shrink-0 mt-0.5" />
@@ -110,14 +110,14 @@ export default function PricingPage() {
           </div>
 
           {/* Apostille & Legalization Section */}
-          <div className="mb-16">
-            <h2 className="text-3xl font-bold text-foreground mb-8">{t.apostilleAndLegalization}</h2>
-            <div className="grid md:grid-cols-2 gap-8">
+          <div className="mb-12">
+            <h2 className="text-3xl font-bold text-foreground mb-4">{t.apostilleAndLegalization}</h2>
+            <div className="grid md:grid-cols-2 gap-6">
               {apostillePricing.map((category) => (
-                <div key={category.name} className="rounded-lg border border-foreground/30 bg-foreground/10 p-8">
-                  <h3 className="text-xl font-bold text-foreground mb-2">{category.name}</h3>
-                  <p className="text-sm text-foreground/80 mb-6">{category.description}</p>
-                  <div className="space-y-4 mb-6">
+                <div key={category.name} className="rounded-lg border border-foreground/30 bg-foreground/10 p-6">
+                  <h3 className="text-xl font-bold text-foreground mb-1">{category.name}</h3>
+                  <p className="text-sm text-foreground/80 mb-4">{category.description}</p>
+                  <div className="space-y-3 mb-4">
                     {category.services.map((service) => (
                       <div
                         key={service.label}
@@ -138,9 +138,9 @@ export default function PricingPage() {
           <GoogleReviews />
 
           {/* CTA Section */}
-          <div className="bg-foreground/20 border border-foreground/30 rounded-lg p-8 text-center">
-            <h2 className="text-2xl font-bold text-foreground mb-4">{t.readyToGetStarted}</h2>
-            <p className="text-foreground/90 mb-6 max-w-2xl mx-auto">{t.contactToSchedule}</p>
+          <div className="bg-foreground/20 border border-foreground/30 rounded-lg p-6 text-center">
+            <h2 className="text-2xl font-bold text-foreground mb-2">{t.readyToGetStarted}</h2>
+            <p className="text-foreground/90 mb-4 max-w-2xl mx-auto">{t.contactToSchedule}</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="tel:+16265903560"
