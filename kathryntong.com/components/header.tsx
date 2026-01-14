@@ -68,16 +68,16 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            <Link href="/about" className="text-foreground hover:text-primary transition">
+            <Link href="/about" className="text-gray-700 font-bold hover:text-primary transition">
               {t.aboutMe}
             </Link>
-            <Link href="/services" className="text-foreground hover:text-primary transition">
+            <Link href="/services" className="text-gray-700 font-bold hover:text-primary transition">
               {t.mobileNotary}
             </Link>
-            <Link href="/apostille" className="text-foreground hover:text-primary transition">
+            <Link href="/apostille" className="text-gray-700 font-bold hover:text-primary transition">
               {t.apostilleLegalization}
             </Link>
-            <Link href="/pricing" className="text-foreground hover:text-primary transition">
+            <Link href="/pricing" className="text-gray-700 font-bold hover:text-primary transition">
               {t.pricing}
             </Link>
             <div 
@@ -86,7 +86,7 @@ export default function Header() {
               onMouseLeave={() => setIsServiceAreasOpen(false)}
             >
               <button
-                className="flex items-center gap-1 text-foreground hover:text-primary transition"
+                className="flex items-center gap-1 text-gray-700 font-bold hover:text-primary transition"
               >
                 {t.serviceAreas}
                 <ChevronDown size={16} className={isServiceAreasOpen ? "rotate-180 transition" : "transition"} />
@@ -138,28 +138,28 @@ export default function Header() {
           <nav className="md:hidden pb-4 space-y-3">
             <Link
               href="/about"
-              className="block text-foreground hover:text-primary transition"
+              className="block text-gray-700 font-bold hover:text-primary transition"
               onClick={() => setIsOpen(false)}
             >
               {t.aboutMe}
             </Link>
             <Link
               href="/services"
-              className="block text-foreground hover:text-primary transition"
+              className="block text-gray-700 font-bold hover:text-primary transition"
               onClick={() => setIsOpen(false)}
             >
               {t.mobileNotary}
             </Link>
             <Link
               href="/apostille"
-              className="block text-foreground hover:text-primary transition"
+              className="block text-gray-700 font-bold hover:text-primary transition"
               onClick={() => setIsOpen(false)}
             >
               {t.apostilleLegalization}
             </Link>
             <Link
               href="/pricing"
-              className="block text-foreground hover:text-primary transition"
+              className="block text-gray-700 font-bold hover:text-primary transition"
               onClick={() => setIsOpen(false)}
             >
               {t.pricing}
@@ -167,7 +167,7 @@ export default function Header() {
             <div>
               <button
                 onClick={() => setIsServiceAreasOpen(!isServiceAreasOpen)}
-                className="flex items-center justify-between w-full text-foreground hover:text-primary transition"
+                className="flex items-center justify-between w-full text-gray-700 font-bold hover:text-primary transition"
               >
                 {t.serviceAreas}
                 <ChevronDown size={16} className={isServiceAreasOpen ? "rotate-180 transition" : "transition"} />

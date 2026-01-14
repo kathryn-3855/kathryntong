@@ -41,7 +41,7 @@ export default function CityPage({
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h1 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
-                  We provide Mobile Notary & Apostille Services in {cityName}
+                  Mobile Notary + Apostille in {cityName}
                   {surroundingAreas.length > 0 && (
                     <span className="font-normal text-xl"> and surrounding areas of {surroundingAreas.join(", ")}</span>
                   )}
