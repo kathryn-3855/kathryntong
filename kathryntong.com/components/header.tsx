@@ -184,7 +184,7 @@ export default function Header() {
                         setIsServiceAreasOpen(false)
                       }}
                     >
-                      {t.notaryApostille} {city.name}
+                      Mobile Notary + Apostille in {city.name}
                     </Link>
                   ))}
                 </div>
