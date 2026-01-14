@@ -101,7 +101,7 @@ export default function Header() {
                       href={city.path}
                       className="block px-4 py-2 text-foreground hover:bg-accent hover:text-primary transition"
                     >
-                      {t.notaryApostille} {city.name}
+                      Mobile Notary + Apostille in {city.name}
                     </Link>
                   ))}
                 </div>
