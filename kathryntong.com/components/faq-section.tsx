@@ -1,84 +1,51 @@
 "use client"
 
-import { useState } from "react"
-import { ChevronDown } from "lucide-react"
-import { Card } from "@/components/ui/card"
-import { useTranslations } from "@/lib/use-translations"
-
-interface FAQItem {
-  question: string
-  answer: string
-}
-
 export default function FAQSection() {
-  const [expandedIndex, setExpandedIndex] = useState<number | null>(null)
-  const t = useTranslations()
-
-  const faqs: FAQItem[] = [
-    {
-      question: t.faqQ1,
-      answer: t.faqA1,
-    },
-    {
-      question: t.faqQ3,
-      answer: t.faqA3,
-    },
-    {
-      question: t.faqQ4,
-      answer: t.faqA4,
-    },
-    {
-      question: t.faqQ5,
-      answer: t.faqA5,
-    },
-    {
-      question: t.faqQ6,
-      answer: t.faqA6,
-    },
-    {
-      question: t.faqQ7,
-      answer: t.faqA7,
-    },
-  ]
-
   return (
-    <section className="py-8 bg-accent rounded-lg">
-      <div className="max-w-3xl mx-auto px-4">
-        <div className="text-center mb-8">
-          <h2 className="text-2xl font-bold text-foreground mb-2">{t.faqTitle}</h2>
-          <p className="text-white text-sm">{t.faqSubtitle}</p>
-        </div>
-
-        <div className="space-y-3">
-          {faqs.map((faq, index) => (
-            <Card key={index} className="overflow-hidden">
-              <button
-                onClick={() => setExpandedIndex(expandedIndex === index ? null : index)}
-                className="w-full p-4 flex items-center justify-between hover:bg-accent transition"
-              >
-                <h3 className="text-left font-semibold text-foreground text-sm">{faq.question}</h3>
-                <ChevronDown
-                  size={18}
-                  className={`text-primary flex-shrink-0 transition-transform ${
-                    expandedIndex === index ? "rotate-180" : ""
-                  }`}
-                />
-              </button>
-
-              {expandedIndex === index && (
-                <div className="px-4 pb-4 border-t border-border">
-                  <p className="text-muted-foreground leading-relaxed text-sm">{faq.answer}</p>
-                </div>
-              )}
-            </Card>
-          ))}
-        </div>
-
-        <div className="mt-8 p-4 bg-background rounded-lg text-center">
-          <p className="text-muted-foreground mb-2 text-sm">{t.faqStillHaveQuestions}</p>
-          <a href="/#contact" className="inline-block text-primary font-semibold hover:underline text-sm">
-            {t.faqContactUs}
-          </a>
+    <section className="py-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="mb-6">
+          <h2 className="text-xl font-bold text-foreground mb-4">Frequently Asked Questions</h2>
+          <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+            <ul className="space-y-2">
+              <li className="flex items-start gap-3">
+                <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                <p className="text-foreground text-base">
+                  <strong>What is an apostille?</strong> An apostille is a government certification that authenticates a document for use in a foreign country that is a member of the Hague Apostille Convention.
+                </p>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                <p className="text-foreground text-base">
+                  <strong>When do I need an apostille?</strong> You need an apostille when a foreign government, school, or institution requires proof that your U.S. document is legitimate.
+                </p>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                <p className="text-foreground text-base">
+                  <strong>How long does an apostille take in California?</strong> Processing time varies. Same-day and expedited apostille services are available for eligible documents.
+                </p>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                <p className="text-foreground text-base">
+                  <strong>Can you apostille immigration documents?</strong> Yes. We routinely assist with apostilles for immigration, dual citizenship, and overseas residency applications.
+                </p>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                <p className="text-foreground text-base">
+                  <strong>Do you provide mobile notary services?</strong> Yes. We are a mobile notary and travel to your location throughout Los Angeles.
+                </p>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                <p className="text-foreground text-base">
+                  <strong>Do you speak Chinese?</strong> Yes. Chinese-language assistance is available, and WeChat communication is supported.
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
