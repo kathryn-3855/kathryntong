@@ -2,6 +2,7 @@
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import GoogleReviews from "@/components/google-reviews"
+import FAQSection from "@/components/faq-section"
 import { FileText, Building2 } from "lucide-react"
 import { useTranslations } from "@/lib/use-translations"
 
@@ -20,13 +21,11 @@ export default function ApostilleClientPage() {
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-2">
               {t.apostilleAndLegalizationServices}
             </h1>
-            <div className="text-lg text-foreground/90 max-w-4xl mx-auto leading-normal">
-              {t.apostilleIntroParagraph.split('\n').map((line, i) => (
-                <p key={i} className={i > 0 ? "mt-2" : ""}>
-                  {line}
-                </p>
-              ))}
-            </div>
+          </div>
+
+          {/* FAQ Section */}
+          <div className="mb-6">
+            <FAQSection />
           </div>
 
           {/* Apostille Certification & Legalization Services Section */}
