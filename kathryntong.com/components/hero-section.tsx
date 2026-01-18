@@ -33,17 +33,18 @@ export default function HeroSection() {
               </div>
             </div>
 
-            {/* Right column: Infographic */}
-            <div className="relative w-full h-auto">
-              <div className="sticky top-24">
+            {/* Right column: Infographic - 20% larger and more visible */}
+            <div className="relative w-full h-auto flex items-start justify-end">
+              <div className="sticky top-24" style={{ maxWidth: '100%' }}>
                 <img
                   src="/images/TrustedMobileNotaryServicesOverview.png"
                   alt="Trusted Mobile Notary Services Overview"
-                  className="w-full h-auto object-contain rounded-lg shadow-lg"
+                  className="h-auto object-contain rounded-lg shadow-xl border-2 border-gray-200"
                   style={{
-                    width: '100%',
+                    width: '120%',
                     height: 'auto',
                     display: 'block',
+                    maxWidth: 'none',
                   }}
                 />
               </div>
@@ -84,14 +85,14 @@ export default function HeroSection() {
                     <strong>Serving Local & International Clients:</strong> We serve individuals, families, attorneys, corporations, and international clients. Chinese-speaking clients are welcome, and WeChat communication is available.
                   </p>
                 </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                  <p className="text-foreground text-base">
+                    <strong>Mobile, Professional, Reliable:</strong> This is a mobile service. We travel to homes, offices, hospitals, schools, and public locations. No walk-in office is required. Contact us today for prompt assistance.
+                  </p>
+                </li>
               </ul>
             </div>
-          </div>
-
-          <div className="mb-6">
-            <p className="text-base text-foreground/90 leading-relaxed">
-              This is a mobile service. We travel to homes, offices, hospitals, schools, and public locations. No walk-in office is required. Contact us today for prompt assistance.
-            </p>
           </div>
 
           <div className="mb-6">
