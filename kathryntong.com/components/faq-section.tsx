@@ -2,12 +2,12 @@
 
 export default function FAQSection() {
   return (
-    <section className="py-8">
+    <section className="py-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="mb-6">
-          <h2 className="text-xl font-bold text-foreground mb-4">Frequently Asked Questions</h2>
-          <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
-            <ul className="space-y-2">
+        <div className="mb-4">
+          <h2 className="text-lg font-bold text-foreground mb-3">Frequently Asked Questions</h2>
+          <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
+            <ul className="space-y-1.5">
               <li className="flex items-start gap-3">
                 <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
                 <p className="text-foreground text-base">

@@ -12,7 +12,7 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       <Header />
       <HeroSection />
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
         <FAQSection />
       </div>
       <ContactSection />
