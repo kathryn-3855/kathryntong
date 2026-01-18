@@ -33,7 +33,7 @@ export default function HeroSection() {
               </div>
             </div>
 
-            {/* Right column: Infographic - 20% larger and more visible */}
+            {/* Right column: Infographic - 10% larger and more visible */}
             <div className="relative w-full h-auto flex items-start justify-end">
               <div className="sticky top-24" style={{ maxWidth: '100%' }}>
                 <img
@@ -41,7 +41,7 @@ export default function HeroSection() {
                   alt="Trusted Mobile Notary Services Overview"
                   className="h-auto object-contain rounded-lg shadow-xl border-2 border-gray-200"
                   style={{
-                    width: '120%',
+                    width: '110%',
                     height: 'auto',
                     display: 'block',
                     maxWidth: 'none',
