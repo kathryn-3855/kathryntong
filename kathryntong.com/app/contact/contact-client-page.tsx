@@ -106,7 +106,7 @@ export default function ContactClientPage() {
             </div>
           )}
 
-          <div className="grid md:grid-cols-2 gap-16 items-start">
+          <div className={isQuoteRequest ? "max-w-2xl mx-auto" : "grid md:grid-cols-2 gap-16 items-start"}>
             {/* Contact Form */}
             <div className="bg-foreground/10 rounded-lg p-8">
               <h2 className="text-2xl font-bold text-foreground mb-6">{t.sendUsMessage}</h2>
@@ -213,61 +213,63 @@ export default function ContactClientPage() {
               </form>
             </div>
 
-            {/* Additional Info */}
-            <div>
-              <h2 className="text-2xl font-bold text-foreground mb-6">{t.whyChooseUsTitle}</h2>
-              <div className="space-y-6">
-                <div className="flex gap-4">
-                  <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
-                    ✓
+            {/* Additional Info - Only show when NOT requesting a quote */}
+            {!isQuoteRequest && (
+              <div>
+                <h2 className="text-2xl font-bold text-foreground mb-6">{t.whyChooseUsTitle}</h2>
+                <div className="space-y-6">
+                  <div className="flex gap-4">
+                    <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
+                      ✓
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-foreground mb-2">{t.whyChooseUsMobileService}</h3>
+                      <p className="text-foreground/80">{t.whyChooseUsMobileServiceDesc}</p>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground mb-2">{t.whyChooseUsMobileService}</h3>
-                    <p className="text-foreground/80">{t.whyChooseUsMobileServiceDesc}</p>
-                  </div>
-                </div>
 
-                <div className="flex gap-4">
-                  <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
-                    ✓
+                  <div className="flex gap-4">
+                    <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
+                      ✓
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-foreground mb-2">{t.whyChooseUsBilingual}</h3>
+                      <p className="text-foreground/80">{t.whyChooseUsBilingualDesc}</p>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground mb-2">{t.whyChooseUsBilingual}</h3>
-                    <p className="text-foreground/80">{t.whyChooseUsBilingualDesc}</p>
-                  </div>
-                </div>
 
-                <div className="flex gap-4">
-                  <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
-                    ✓
+                  <div className="flex gap-4">
+                    <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
+                      ✓
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-foreground mb-2">{t.whyChooseUsFastTurnaround}</h3>
+                      <p className="text-foreground/80">{t.whyChooseUsFastTurnaroundDesc}</p>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground mb-2">{t.whyChooseUsFastTurnaround}</h3>
-                    <p className="text-foreground/80">{t.whyChooseUsFastTurnaroundDesc}</p>
-                  </div>
-                </div>
 
-                <div className="flex gap-4">
-                  <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
-                    ✓
+                  <div className="flex gap-4">
+                    <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
+                      ✓
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-foreground mb-2">{t.whyChooseUs10Years}</h3>
+                      <p className="text-foreground/80">{t.whyChooseUs10YearsDesc}</p>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground mb-2">{t.whyChooseUs10Years}</h3>
-                    <p className="text-foreground/80">{t.whyChooseUs10YearsDesc}</p>
-                  </div>
-                </div>
 
-                <div className="flex gap-4">
-                  <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
-                    ✓
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground mb-2">{t.whyChooseUsFlexibleHours}</h3>
-                    <p className="text-foreground/80">{t.whyChooseUsFlexibleHoursDesc}</p>
+                  <div className="flex gap-4">
+                    <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
+                      ✓
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-foreground mb-2">{t.whyChooseUsFlexibleHours}</h3>
+                      <p className="text-foreground/80">{t.whyChooseUsFlexibleHoursDesc}</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+            )}
           </div>
         </div>
       </main>
