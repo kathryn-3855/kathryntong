@@ -52,14 +52,39 @@ export default function HeroSection() {
 
           <div className="mb-6">
             <h3 className="text-xl font-bold text-foreground mb-4">Our Services</h3>
-            <div className="space-y-4">
-              <p className="text-base text-foreground/90 leading-relaxed">
-                We provide mobile notary services traveling to you for notarization of legal, personal, and business documents. Our apostille services offer certified processing through the California Secretary of State with expedited options available.
-              </p>
-              
-              <p className="text-base text-foreground/90 leading-relaxed">
-                We also handle authentication and legalization for non-Hague Convention countries, and specialize in immigration and international documents with expert handling for USCIS, consulates, and overseas use. We serve individuals, families, attorneys, corporations, and international clients who require reliable document handling. Chinese-speaking clients are welcome, and WeChat communication is available.
-              </p>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+              <ul className="space-y-2">
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                  <p className="text-foreground text-base">
+                    <strong>Mobile Notary Services:</strong> We travel to you for notarization of legal, personal, and business documents.
+                  </p>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                  <p className="text-foreground text-base">
+                    <strong>Apostille Services (California):</strong> Certified processing through the California Secretary of State with expedited options available.
+                  </p>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                  <p className="text-foreground text-base">
+                    <strong>Authentication & Legalization:</strong> For non-Hague Convention countries requiring additional authentication.
+                  </p>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                  <p className="text-foreground text-base">
+                    <strong>Immigration & International Documents:</strong> Specialized handling for USCIS, consulates, and overseas use.
+                  </p>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                  <p className="text-foreground text-base">
+                    <strong>Serving Local & International Clients:</strong> We serve individuals, families, attorneys, corporations, and international clients. Chinese-speaking clients are welcome, and WeChat communication is available.
+                  </p>
+                </li>
+              </ul>
             </div>
           </div>
 
