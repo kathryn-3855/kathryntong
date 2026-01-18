@@ -54,11 +54,11 @@ export default function HeroSection() {
             <h3 className="text-xl font-bold text-foreground mb-4">Our Services</h3>
             <div className="space-y-4">
               <p className="text-base text-foreground/90 leading-relaxed">
-                We provide <strong>mobile notary services</strong> traveling to you for notarization of legal, personal, and business documents. Our <strong>apostille services</strong> offer certified processing through the California Secretary of State with expedited options available.
+                We provide mobile notary services traveling to you for notarization of legal, personal, and business documents. Our apostille services offer certified processing through the California Secretary of State with expedited options available.
               </p>
               
               <p className="text-base text-foreground/90 leading-relaxed">
-                We also handle <strong>authentication and legalization</strong> for non-Hague Convention countries, and specialize in <strong>immigration and international documents</strong> with expert handling for USCIS, consulates, and overseas use. We serve individuals, families, attorneys, corporations, and international clients who require reliable document handling. Chinese-speaking clients are welcome, and WeChat communication is available.
+                We also handle authentication and legalization for non-Hague Convention countries, and specialize in immigration and international documents with expert handling for USCIS, consulates, and overseas use. We serve individuals, families, attorneys, corporations, and international clients who require reliable document handling. Chinese-speaking clients are welcome, and WeChat communication is available.
               </p>
             </div>
           </div>
