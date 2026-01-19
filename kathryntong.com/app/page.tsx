@@ -11,10 +11,10 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       <Header />
       <HeroSection />
-      <ContactSection />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <GoogleReviews />
       </div>
+      <ContactSection />
       <Footer />
       <Chatbot />
     </div>
