@@ -122,10 +122,6 @@ export default function HeroSection() {
               </ul>
             </div>
           </div>
-
-          <div className="text-center">
-            <p className="text-base text-foreground font-semibold">{t.homeScheduleText} <a href="tel:+16265903560" className="text-primary hover:underline">(626)590-3560</a></p>
-          </div>
         </div>
       </div>
     </section>

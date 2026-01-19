@@ -131,18 +131,11 @@ export default function DocumentChecklistClient() {
           </div>
 
           {/* CTA */}
-          <div className="mt-16 bg-accent rounded-lg p-8 text-center">
-            <h2 className="text-2xl font-bold text-foreground mb-4">{t.checklistReady || "Ready to Schedule?"}</h2>
-            <p className="text-muted-foreground mb-6">
-              {t.checklistReadyDesc ||
-                "Once you've checked everything off, you're ready to schedule your appointment!"}
+          <div className="mt-8 bg-white py-4 text-center">
+            <h2 className="text-lg lg:text-xl font-bold mb-2 text-foreground">{t.readyToStart}</h2>
+            <p className="text-sm text-foreground/90">
+              Call or Text <a href="tel:+16265903560" className="text-primary hover:underline font-semibold">(626) 590-3560</a>, 7 days a week or email to: <a href="mailto:Kathryn@KathrynTong.com" className="text-primary hover:underline font-semibold">Kathryn@KathrynTong.com</a>
             </p>
-            <a
-              href="/appointment"
-              className="inline-block bg-primary text-primary-foreground px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition"
-            >
-              {t.checklistSchedule || "Schedule Appointment"}
-            </a>
           </div>
         </div>
       </main>

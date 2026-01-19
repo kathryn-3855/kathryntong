@@ -177,26 +177,11 @@ export default function OtherStatesPage() {
           </div>
 
           {/* CTA Section */}
-          <div className="bg-primary rounded-lg p-8 text-center text-primary-foreground">
-            <h2 className="text-2xl font-bold mb-4">Need Notary Services in Your State?</h2>
-            <p className="mb-6 max-w-2xl mx-auto">
-              Contact us today to inquire about services in your state. We can help with notarization, apostille, and
-              legalization services nationwide.
+          <div className="bg-white py-4 text-center">
+            <h2 className="text-lg lg:text-xl font-bold mb-2 text-foreground">Ready to Get Started?</h2>
+            <p className="text-sm text-foreground/90">
+              Call or Text <a href="tel:+16265903560" className="text-primary hover:underline font-semibold">(626) 590-3560</a>, 7 days a week or email to: <a href="mailto:Kathryn@KathrynTong.com" className="text-primary hover:underline font-semibold">Kathryn@KathrynTong.com</a>
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="tel:+16265903560"
-                className="inline-block bg-primary-foreground text-primary px-6 py-3 rounded-lg font-medium hover:bg-primary-foreground/90 transition"
-              >
-                Call (626) 590-3560
-              </a>
-              <a
-                href="mailto:Kathryn@CAMobileApostille.com"
-                className="inline-block border border-primary-foreground text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary-foreground/10 transition"
-              >
-                Email Us
-              </a>
-            </div>
           </div>
         </div>
       </main>

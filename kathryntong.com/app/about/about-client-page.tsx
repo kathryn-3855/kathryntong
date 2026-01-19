@@ -88,10 +88,10 @@ export default function AboutClientPage() {
           <GoogleReviews />
 
           {/* CTA */}
-          <div className="text-center">
-            <h2 className="text-3xl font-bold text-foreground mb-4">{t.aboutReadyTitle}</h2>
-            <p className="text-lg text-foreground mb-4">
-              Email, <a href="tel:+16265903560" className="text-primary hover:underline">Call or Text (626) 590-3560</a> to schedule an appointment, 7 days a week.
+          <div className="text-center py-4">
+            <h2 className="text-lg lg:text-xl font-bold text-foreground mb-2">{t.aboutReadyTitle}</h2>
+            <p className="text-sm text-foreground/90">
+              Call or Text <a href="tel:+16265903560" className="text-primary hover:underline font-semibold">(626) 590-3560</a>, 7 days a week or email to: <a href="mailto:Kathryn@KathrynTong.com" className="text-primary hover:underline font-semibold">Kathryn@KathrynTong.com</a>
             </p>
           </div>
         </div>
