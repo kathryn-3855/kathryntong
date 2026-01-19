@@ -33,7 +33,7 @@ export default function GoogleReviews() {
 
   return (
     <div 
-      className="mb-8 w-full overflow-x-auto" 
+      className="mb-2 w-full overflow-x-auto" 
       id="google-reviews-wrapper" 
       style={{ 
         position: 'relative', 

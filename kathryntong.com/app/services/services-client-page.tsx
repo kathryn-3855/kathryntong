@@ -74,7 +74,7 @@ export default function ServicesClientPage() {
           </div>
 
           {/* Service Area & Travel Section */}
-          <div className="mb-12">
+          <div className="mb-4">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="border border-foreground/30 rounded-lg p-8 bg-foreground/10">
                 <div className="flex items-center gap-3 mb-4">

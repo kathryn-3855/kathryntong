@@ -36,7 +36,7 @@ export default function AboutClientPage() {
           </div>
 
           {/* Why Choose Kathryn */}
-          <div className="mb-12">
+          <div className="mb-6">
             <h2 className="text-3xl font-bold text-foreground mb-8 text-center">{t.aboutWhyChoose}</h2>
             
             {/* Niche & Expertise */}

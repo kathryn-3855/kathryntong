@@ -131,7 +131,7 @@ export default function DocumentChecklistClient() {
           </div>
 
           {/* CTA */}
-          <div className="mt-8 bg-white py-4 text-center">
+          <div className="mt-2 bg-white py-4 text-center">
             <h2 className="text-lg lg:text-xl font-bold mb-2 text-foreground">{t.readyToStart}</h2>
             <p className="text-sm text-foreground/90">
               Call or Text <a href="tel:+16265903560" className="text-primary hover:underline font-semibold">(626) 590-3560</a>, 7 days a week or email to: <a href="mailto:Kathryn@KathrynTong.com" className="text-primary hover:underline font-semibold">Kathryn@KathrynTong.com</a>

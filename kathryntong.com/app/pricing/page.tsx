@@ -110,7 +110,7 @@ export default function PricingPage() {
           </div>
 
           {/* Apostille & Legalization Section */}
-          <div className="mb-12">
+          <div className="mb-4">
             <h2 className="text-3xl font-bold text-foreground mb-4">{t.apostilleAndLegalization}</h2>
             <div className="grid md:grid-cols-2 gap-6">
               {apostillePricing.map((category) => (

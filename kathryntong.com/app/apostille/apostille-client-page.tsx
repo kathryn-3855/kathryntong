@@ -153,7 +153,7 @@ export default function ApostilleClientPage() {
           </div>
 
           {/* Key Points Section */}
-          <div className="bg-foreground/20 border border-foreground/30 rounded-lg p-8 mb-16">
+          <div className="bg-foreground/20 border border-foreground/30 rounded-lg p-8 mb-4">
             <h2 className="text-2xl font-bold text-foreground mb-6">{t.importantKeyPoints}</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div>

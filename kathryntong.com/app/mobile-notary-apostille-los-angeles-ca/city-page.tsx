@@ -127,7 +127,7 @@ export default function CityPage({
 
           {/* Popular Sectors Served Section */}
           {popularSectors.length > 0 && (
-            <div className="mb-8">
+            <div className="mb-4">
               <h2 className="text-xl font-bold text-foreground mb-4">{t.cityPagePopularSectors}:</h2>
               <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
                 <ul className="space-y-2">
