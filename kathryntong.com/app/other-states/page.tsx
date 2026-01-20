@@ -2,6 +2,7 @@
 import { useState } from "react"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
+import GoogleReviews from "@/components/google-reviews"
 import { Check } from "lucide-react"
 
 const statesData = [
@@ -175,6 +176,9 @@ export default function OtherStatesPage() {
               </div>
             </div>
           </div>
+
+          {/* Google Reviews */}
+          <GoogleReviews />
 
           {/* CTA Section */}
           <div className="bg-white py-4 text-center">

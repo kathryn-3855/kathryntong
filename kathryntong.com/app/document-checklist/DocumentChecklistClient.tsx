@@ -4,6 +4,7 @@ import { CheckCircle, Circle } from "lucide-react"
 import { Card } from "@/components/ui/card"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
+import GoogleReviews from "@/components/google-reviews"
 import { useTranslations } from "@/lib/use-translations"
 
 interface ChecklistItem {
@@ -129,6 +130,9 @@ export default function DocumentChecklistClient() {
               </div>
             ))}
           </div>
+
+          {/* Google Reviews */}
+          <GoogleReviews />
 
           {/* CTA */}
           <div className="mt-2 bg-white py-4 text-center">

@@ -3,6 +3,7 @@ import Header from "@/components/header"
 import type React from "react"
 
 import Footer from "@/components/footer"
+import GoogleReviews from "@/components/google-reviews"
 import { useState } from "react"
 import { useSearchParams } from "next/navigation"
 import { useTranslations } from "@/lib/use-translations"
@@ -270,6 +271,11 @@ export default function ContactClientPage() {
                 </div>
               </div>
             )}
+          </div>
+
+          {/* Google Reviews */}
+          <div className="mt-8">
+            <GoogleReviews />
           </div>
         </div>
       </main>
