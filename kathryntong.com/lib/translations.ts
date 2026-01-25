@@ -276,8 +276,7 @@ export const translations = {
     bilingualStaff:
       "We have bilingual (English and Chinese speaking) staff to help answer questions about specific documents that need to be apostilled or authenticated.",
 
-    // City Pages
-    cityPageTitle: "We provide Mobile Notary + Apostille Services in {cityName}, {cityState}",
+    // City Pages (old keys - keeping for backward compatibility if needed)
     cityWhyChoose: "Why choose our Mobile Notary & Apostille Services in {cityName}?",
     cityPageServices: "Services",
     cityPagePopularSectors: "Popular Sectors Served",
@@ -1166,8 +1165,7 @@ export const translations = {
     keyPointFederalDocuments: "联邦文件",
     keyPointDocumentRequirements: "文件要求",
     
-    // City Pages (Chinese)
-    cityPageTitle: "我们在{cityName}, {cityState}提供上门公证 + 海牙认证服务",
+    // City Pages (old keys - keeping for backward compatibility if needed)
     cityWhyChoose: "为什么选择我们在{cityName}的上门公证和海牙认证服务？",
     cityPageServices: "服务",
     cityPagePopularSectors: "服务的热门行业",
