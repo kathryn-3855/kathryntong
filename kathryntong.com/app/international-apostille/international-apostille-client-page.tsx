@@ -174,12 +174,12 @@ export default function InternationalApostilleClientPage() {
                   </p>
                 </Link>
 
-                <div className="border-l-4 border-primary pl-3">
+                <Link href="/international-apostille/south-korea" className="block border-l-4 border-primary pl-3 hover:bg-foreground/5 transition rounded-r">
                   <h3 className="text-lg font-bold text-foreground mb-1">South Korea</h3>
                   <p className="text-foreground text-base">
                     Hague member. Commonly requested for employment, education, and background checks.
                   </p>
-                </div>
+                </Link>
 
                 <div className="border-l-4 border-primary pl-3">
                   <h3 className="text-lg font-bold text-foreground mb-1">Philippines</h3>

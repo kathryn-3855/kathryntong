@@ -150,16 +150,22 @@ export default function Header() {
                     Apostille Services for Hong Kong
                   </Link>
                   <Link
+                    href="/international-apostille/taiwan"
+                    className="block px-4 py-2 text-foreground hover:bg-accent hover:text-primary transition"
+                  >
+                    Apostille Services for Taiwan
+                  </Link>
+                  <Link
                     href="/international-apostille/mexico"
                     className="block px-4 py-2 text-foreground hover:bg-accent hover:text-primary transition"
                   >
                     Apostille Services for Mexico
                   </Link>
                   <Link
-                    href="/international-apostille/taiwan"
+                    href="/international-apostille/south-korea"
                     className="block px-4 py-2 text-foreground hover:bg-accent hover:text-primary transition"
                   >
-                    Apostille Services for Taiwan
+                    Apostille Services for South Korea
                   </Link>
                 </div>
               )}
@@ -321,6 +327,16 @@ export default function Header() {
                     Apostille Services for Hong Kong
                   </Link>
                   <Link
+                    href="/international-apostille/taiwan"
+                    className="block text-foreground hover:text-primary transition text-sm"
+                    onClick={() => {
+                      setIsOpen(false)
+                      setIsInternationalApostilleOpen(false)
+                    }}
+                  >
+                    Apostille Services for Taiwan
+                  </Link>
+                  <Link
                     href="/international-apostille/mexico"
                     className="block text-foreground hover:text-primary transition text-sm"
                     onClick={() => {
@@ -331,14 +347,14 @@ export default function Header() {
                     Apostille Services for Mexico
                   </Link>
                   <Link
-                    href="/international-apostille/taiwan"
+                    href="/international-apostille/south-korea"
                     className="block text-foreground hover:text-primary transition text-sm"
                     onClick={() => {
                       setIsOpen(false)
                       setIsInternationalApostilleOpen(false)
                     }}
                   >
-                    Apostille Services for Taiwan
+                    Apostille Services for South Korea
                   </Link>
                 </div>
               )}
