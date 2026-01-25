@@ -1,6 +1,6 @@
 "use client"
 
-import { Menu, X, Globe, ChevronDown, Phone, Mail, MessageCircle } from "lucide-react"
+import { Menu, X, Globe, ChevronDown, Phone, Mail, MessageCircle, MessageSquare } from "lucide-react"
 import { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
@@ -47,6 +47,10 @@ export default function Header() {
             <MessageCircle className="w-4 h-4" />
             <span>WhatsApp</span>
           </a>
+          <div className="flex items-center gap-2 hover:opacity-80 transition border-l border-primary-foreground/30 pl-6">
+            <MessageSquare className="w-4 h-4" />
+            <span className="font-bold">WeChat: USANotaryApostille</span>
+          </div>
           <Link href="/contact" className="flex items-center gap-2 hover:opacity-80 transition border-l border-primary-foreground/30 pl-6">
             <span>Request A Quote</span>
           </Link>
