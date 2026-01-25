@@ -3,10 +3,10 @@ import { Suspense } from "react"
 import ContactClientPage from "./contact-client-page"
 
 export const metadata: Metadata = {
-  title: "Contact Us | Kathryn's Mobile Notary",
+  title: "Contact Kathryn's Mobile Notary & Apostille | Get in Touch",
   description:
-    "Get in touch with Kathryn's Mobile Notary for notary services, apostille, and legalization. Fast response times and flexible scheduling.",
-  keywords: "contact notary, get in touch, notary services near me, schedule appointment",
+    "Contact Kathryn's Mobile Notary & Apostille for questions about apostille eligibility, timelines, or international document requirements. Phone, email, and WeChat available.",
+  keywords: "contact notary, get in touch, notary services near me, schedule appointment, apostille questions",
   icons: {
     icon: "/favicon.ico",
   },

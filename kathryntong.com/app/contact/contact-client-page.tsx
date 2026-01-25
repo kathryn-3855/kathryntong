@@ -58,42 +58,53 @@ export default function ContactClientPage() {
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      <main className="py-16 md:py-24">
+      <main className="py-8 md:py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {!isQuoteRequest && (
             <>
-              <div className="text-center mb-16">
-                <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">{t.contactUsTitle}</h1>
-                <p className="text-xl text-foreground/90 max-w-2xl mx-auto">
-                  {t.contactUsSubtitle}
+              <div className="text-center mb-8">
+                <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+                  Contact Kathryn's Mobile Notary & Apostille
+                </h1>
+                <p className="text-xl text-foreground/90 max-w-2xl mx-auto mb-6">
+                  For questions about apostille eligibility, timelines, or international document requirements, please contact us directly.
                 </p>
               </div>
 
-              <div className="grid md:grid-cols-3 gap-8 mb-16">
-                {/* Contact Info Cards */}
-                <div className="bg-foreground/10 rounded-lg p-8 text-center">
-                  <Phone className="w-12 h-12 text-primary mx-auto mb-4" />
-                  <h3 className="text-xl font-bold text-foreground mb-2">{t.contactPhone}</h3>
-                  <a href="tel:+16265903560" className="text-primary font-semibold hover:underline">
-                    626-590-3560
-                  </a>
-                  <p className="text-sm text-foreground/70 mt-2">{t.contactAvailable7Days}</p>
+              {/* Contact Information Section */}
+              <div className="max-w-4xl mx-auto mb-8">
+                <div className="bg-foreground/10 rounded-lg p-6 mb-6">
+                  <div className="space-y-4">
+                    <div>
+                      <h3 className="text-lg font-bold text-foreground mb-2">Phone / Text:</h3>
+                      <a href="tel:+16265903560" className="text-primary font-semibold hover:underline text-lg">
+                        626-590-3560
+                      </a>
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-bold text-foreground mb-2">Email:</h3>
+                      <a href="mailto:Kathryn@KathrynTong.com" className="text-primary font-semibold hover:underline text-lg">
+                        Kathryn@KathrynTong.com
+                      </a>
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-bold text-foreground mb-2">WeChat:</h3>
+                      <p className="text-foreground text-lg">USANotaryApostille</p>
+                    </div>
+                  </div>
                 </div>
 
-                <div className="bg-foreground/10 rounded-lg p-8 text-center">
-                  <Mail className="w-12 h-12 text-primary mx-auto mb-4" />
-                  <h3 className="text-xl font-bold text-foreground mb-2">{t.contactEmail}</h3>
-                  <a href="mailto:Kathryn@KathrynTong.com" className="text-primary font-semibold hover:underline">
-                    Kathryn@KathrynTong.com
-                  </a>
-                  <p className="text-sm text-foreground/70 mt-2">{t.contactFastResponse}</p>
+                <div className="bg-foreground/10 rounded-lg p-6 mb-6">
+                  <h3 className="text-lg font-bold text-foreground mb-3">Business Hours:</h3>
+                  <p className="text-foreground mb-2">Monday – Friday: 8:30 am - 8:30 pm</p>
+                  <p className="text-foreground">Weekend & after-hours service available by appointment</p>
                 </div>
 
-                <div className="bg-foreground/10 rounded-lg p-8 text-center">
-                  <Clock className="w-12 h-12 text-primary mx-auto mb-4" />
-                  <h3 className="text-xl font-bold text-foreground mb-2">{t.contactHours}</h3>
-                  <p className="text-foreground font-semibold">{t.contactHoursValue}</p>
-                  <p className="text-sm text-foreground/70 mt-2">{t.contact7DaysAWeek}</p>
+                <div className="bg-primary/10 border border-primary/30 rounded-lg p-6">
+                  <h3 className="text-lg font-bold text-foreground mb-2">Service Area Notice</h3>
+                  <p className="text-foreground">
+                    We provide mobile and mail-in apostille services throughout Los Angeles County and serve clients nationwide by mail.
+                  </p>
                 </div>
               </div>
             </>
@@ -107,10 +118,10 @@ export default function ContactClientPage() {
             </div>
           )}
 
-          <div className={isQuoteRequest ? "max-w-2xl mx-auto" : "grid md:grid-cols-2 gap-16 items-start"}>
+          <div className={isQuoteRequest ? "max-w-2xl mx-auto" : "max-w-4xl mx-auto"}>
             {/* Contact Form */}
-            <div className="bg-foreground/10 rounded-lg p-8">
-              <h2 className="text-2xl font-bold text-foreground mb-6">{t.sendUsMessage}</h2>
+            <div className="bg-foreground/10 rounded-lg p-8 mb-8">
+              <h2 className="text-2xl font-bold text-foreground mb-6">Send Us a Message</h2>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-semibold text-foreground mb-2">
@@ -214,63 +225,6 @@ export default function ContactClientPage() {
               </form>
             </div>
 
-            {/* Additional Info - Only show when NOT requesting a quote */}
-            {!isQuoteRequest && (
-              <div>
-                <h2 className="text-2xl font-bold text-foreground mb-6">{t.whyChooseUsTitle}</h2>
-                <div className="space-y-6">
-                  <div className="flex gap-4">
-                    <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
-                      ✓
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-foreground mb-2">{t.whyChooseUsMobileService}</h3>
-                      <p className="text-foreground/80">{t.whyChooseUsMobileServiceDesc}</p>
-                    </div>
-                  </div>
-
-                  <div className="flex gap-4">
-                    <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
-                      ✓
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-foreground mb-2">{t.whyChooseUsBilingual}</h3>
-                      <p className="text-foreground/80">{t.whyChooseUsBilingualDesc}</p>
-                    </div>
-                  </div>
-
-                  <div className="flex gap-4">
-                    <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
-                      ✓
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-foreground mb-2">{t.whyChooseUsFastTurnaround}</h3>
-                      <p className="text-foreground/80">{t.whyChooseUsFastTurnaroundDesc}</p>
-                    </div>
-                  </div>
-
-                  <div className="flex gap-4">
-                    <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
-                      ✓
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-foreground mb-2">{t.whyChooseUs10Years}</h3>
-                      <p className="text-foreground/80">{t.whyChooseUs10YearsDesc}</p>
-                    </div>
-                  </div>
-
-                  <div className="flex gap-4">
-                    <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 font-bold text-sm">
-                      ✓
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-foreground mb-2">{t.whyChooseUsFlexibleHours}</h3>
-                      <p className="text-foreground/80">{t.whyChooseUsFlexibleHoursDesc}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            )}
           </div>
 
           {/* Google Reviews */}
