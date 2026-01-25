@@ -28,3 +28,6 @@ export default function WestHollywoodCityPageClient() {
   return <CityPage {...westHollywoodData} />
 }
 
+
+
+

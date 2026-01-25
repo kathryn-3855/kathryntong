@@ -28,3 +28,6 @@ export default function BeverlyHillsCityPageClient() {
   return <CityPage {...beverlyHillsData} />
 }
 
+
+
+

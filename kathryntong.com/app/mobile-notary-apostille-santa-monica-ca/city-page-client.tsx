@@ -28,3 +28,6 @@ export default function SantaMonicaCityPageClient() {
   return <CityPage {...santaMonicaData} />
 }
 
+
+
+
