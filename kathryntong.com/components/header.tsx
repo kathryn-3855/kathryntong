@@ -101,12 +101,6 @@ export default function Header() {
                     Apostille & Legalization Services
                   </Link>
                   <Link
-                    href="/international-apostille"
-                    className="block px-4 py-2 text-foreground hover:bg-accent hover:text-primary transition"
-                  >
-                    International Apostille & Document Legalization Services
-                  </Link>
-                  <Link
                     href="/apostille/same-day-apostille-services"
                     className="block px-4 py-2 text-foreground hover:bg-accent hover:text-primary transition"
                   >
@@ -121,6 +115,9 @@ export default function Header() {
                 </div>
               )}
             </div>
+            <Link href="/international-apostille" className="text-gray-700 font-bold hover:text-primary transition">
+              International Apostille
+            </Link>
             <Link href="/pricing" className="text-gray-700 font-bold hover:text-primary transition">
               {t.pricing}
             </Link>
@@ -215,16 +212,6 @@ export default function Header() {
                     Apostille & Legalization Services
                   </Link>
                   <Link
-                    href="/international-apostille"
-                    className="block text-foreground hover:text-primary transition text-sm"
-                    onClick={() => {
-                      setIsOpen(false)
-                      setIsApostilleOpen(false)
-                    }}
-                  >
-                    International Apostille & Document Legalization Services
-                  </Link>
-                  <Link
                     href="/apostille/same-day-apostille-services"
                     className="block text-foreground hover:text-primary transition text-sm"
                     onClick={() => {
@@ -247,6 +234,13 @@ export default function Header() {
                 </div>
               )}
             </div>
+            <Link
+              href="/international-apostille"
+              className="block text-gray-700 font-bold hover:text-primary transition"
+              onClick={() => setIsOpen(false)}
+            >
+              International Apostille
+            </Link>
             <Link
               href="/pricing"
               className="block text-gray-700 font-bold hover:text-primary transition"
