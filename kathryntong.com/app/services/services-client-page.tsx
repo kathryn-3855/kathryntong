@@ -2,187 +2,122 @@
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import GoogleReviews from "@/components/google-reviews"
-import { MapPin, Home } from "lucide-react"
-import { useTranslations } from "@/lib/use-translations"
+import { CheckCircle, Phone, Mail, MapPin } from "lucide-react"
+import Link from "next/link"
 
 export default function ServicesClientPage() {
-  const t = useTranslations()
-
-  const mobileNotaryServices = [
-    t.mobileNotaryConvenient,
-    t.mobileNotaryFlexible,
-    t.mobileNotaryTrusted,
-  ]
-
-  const experiencedWith = [
-    t.mobileNotaryFinancialMedical,
-    t.mobileNotaryAffidavits,
-    t.mobileNotaryRealEstate,
-    t.mobileNotaryEstatePlanning,
-    t.mobileNotaryInternational,
-  ]
-
-  const weTravelTo = [
-    t.weTravelToHospital,
-    t.weTravelToDetention,
-    t.weTravelToLawOffices,
-    t.weTravelToResidences,
-    t.weTravelToAnyLocation,
-  ]
-
-
   return (
     <div className="min-h-screen bg-white text-foreground">
       <Header />
-      <main className="py-16 md:py-24">
+      <main className="py-8 md:py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Hero Section */}
           <div className="text-center mb-8">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-2">
-              {t.mobileNotaryHeroHeadline.split(':')[0]}:<br />
-              {t.mobileNotaryHeroHeadline.split(':')[1]}
+            <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              Mobile Notary Services in Los Angeles & Surrounding Areas
             </h1>
-            <p className="text-xl text-foreground/90">
-              {t.mobileNotaryHeroSubheadline}
+            <p className="text-lg text-foreground/90">
+              Convenient, professional mobile notary services for individuals, families, and businesses - available by appointment at your location.
             </p>
           </div>
 
-          {/* Core Services Section */}
+          {/* What Is a Mobile Notary Section */}
           <div className="mb-8">
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-8">
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                  <p className="text-foreground text-base">
-                    {t.mobileNotaryValueAdded}
-                  </p>
-                </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                  <p className="text-foreground text-base">
-                    {t.mobileNotaryConvenience}
-                  </p>
-                </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                  <p className="text-foreground text-base">
-                    {t.mobileNotaryReliable}
-                  </p>
-                </li>
-              </ul>
+            <h2 className="text-2xl font-bold text-foreground mb-4">What Is a Mobile Notary?</h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+              <p className="text-foreground text-base leading-relaxed">
+                A mobile notary travels to your home, office, hospital, or other agreed location to notarize documents in person. This service is ideal when travel is difficult, time is limited, or documents are urgent.
+              </p>
             </div>
           </div>
 
-          {/* Service Area & Travel Section */}
-          <div className="mb-4">
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="border border-foreground/30 rounded-lg p-8 bg-foreground/10">
-                <div className="flex items-center gap-3 mb-4">
-                  <MapPin className="w-6 h-6 text-foreground" />
-                  <h3 className="text-xl font-bold text-foreground">{t.serviceAreaTitle}</h3>
-                </div>
-                <p className="text-foreground mb-4">{t.serviceAreaDescription}</p>
-                <p className="text-foreground/80 text-sm mb-4">{t.travelFeeDescription}</p>
-                <div className="mt-4">
-                  <div className="grid grid-cols-2 gap-x-4 gap-y-2">
-                    <div className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Alhambra</p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Arcadia</p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Beverly Hills</p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Commerce</p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Culver City</p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Glendale</p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Hollywood</p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Los Angeles</p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Monterey Park</p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Montebello</p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Monrovia</p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Pasadena</p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">San Gabriel</p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">San Marino</p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Santa Monica</p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Silverlake</p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">South Pasadena</p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">Vernon</p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">West Hollywood</p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">West Los Angeles</p>
-                    </div>
+          {/* Mobile Notary Services Offered Section */}
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold text-foreground mb-4">Mobile Notary Services Offered</h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Acknowledgments</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Jurats</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Power of Attorney documents</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Immigration-related documents</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Real estate and loan documents</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Business and corporate paperwork</span>
+                </li>
+              </ul>
+              <p className="text-foreground text-base mt-4">
+                Each appointment includes ID verification and proper notarial completion in accordance with California law.
+              </p>
+            </div>
+          </div>
+
+          {/* How Mobile Notary Service Works Section */}
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold text-foreground mb-4">How Mobile Notary Service Works</h2>
+            <div className="space-y-4">
+              <div className="border border-foreground/30 rounded-lg p-6 bg-foreground/10">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center font-bold">
+                    1
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-foreground mb-2">Contact us via phone, text, or email</h3>
                   </div>
                 </div>
               </div>
-
-              {/* We Travel To Section */}
-              <div className="border border-foreground/30 rounded-lg p-8 bg-foreground/10">
-                <div className="flex items-center gap-3 mb-4">
-                  <Home className="w-6 h-6 text-foreground" />
-                  <h3 className="text-xl font-bold text-foreground">{t.weTravelToTitle}</h3>
+              <div className="border border-foreground/30 rounded-lg p-6 bg-foreground/10">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center font-bold">
+                    2
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-foreground mb-2">Confirm document type and ID requirements</h3>
+                  </div>
                 </div>
-                <ul className="space-y-3">
-                  {weTravelTo.map((location, index) => (
-                    <li key={index} className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-foreground text-sm">{location}</p>
-                    </li>
-                  ))}
-                </ul>
+              </div>
+              <div className="border border-foreground/30 rounded-lg p-6 bg-foreground/10">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center font-bold">
+                    3
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-foreground mb-2">Meet at your preferred location for notarization</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Service Area Callout */}
+          <div className="mb-8">
+            <div className="bg-primary/10 border border-primary/30 rounded-lg p-6">
+              <div className="flex items-start gap-3">
+                <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="text-lg font-bold text-foreground mb-2">Service Area</h3>
+                  <p className="text-foreground text-base mb-2">
+                    Mobile notary services are available throughout Los Angeles and surrounding areas.
+                  </p>
+                  <Link href="/contact" className="text-primary hover:underline font-semibold inline-flex items-center gap-1">
+                    👉 Visit the Service Areas page for full coverage details.
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -190,12 +125,30 @@ export default function ServicesClientPage() {
           {/* Google Reviews */}
           <GoogleReviews />
 
-          {/* CTA Section */}
-          <div className="bg-white py-4 text-center">
-            <h2 className="text-2xl lg:text-3xl font-bold mb-3 text-foreground">{t.readyToStart}</h2>
-            <p className="text-base lg:text-lg text-foreground/90">
-              Call or Text <a href="tel:+16265903560" className="text-primary hover:underline font-semibold">(626) 590-3560</a>, 7 days a week or email to: <a href="mailto:Kathryn@KathrynTong.com" className="text-primary hover:underline font-semibold">Kathryn@KathrynTong.com</a>
-            </p>
+          {/* Call to Action */}
+          <div className="text-center py-4">
+            <h2 className="text-2xl lg:text-3xl font-bold mb-3 text-foreground">Call to Action</h2>
+            <div className="bg-primary/10 border border-primary/30 rounded-lg p-6 max-w-3xl mx-auto">
+              <p className="text-base text-foreground mb-4">
+                Phone or text or email to schedule a mobile notary visit today.
+              </p>
+              <div className="flex flex-wrap gap-4 items-center justify-center">
+                <a 
+                  href="tel:+16265903560" 
+                  className="flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
+                >
+                  <Phone className="w-5 h-5" />
+                  <span>626-590-3560</span>
+                </a>
+                <a 
+                  href="mailto:Kathryn@KathrynTong.com" 
+                  className="flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
+                >
+                  <Mail className="w-5 h-5" />
+                  <span>Kathryn@KathrynTong.com</span>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </main>
