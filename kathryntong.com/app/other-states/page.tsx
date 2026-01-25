@@ -4,6 +4,7 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 import GoogleReviews from "@/components/google-reviews"
 import { Check } from "lucide-react"
+import { useTranslations } from "@/lib/use-translations"
 
 const statesData = [
   {
@@ -50,6 +51,7 @@ const statesData = [
 
 export default function OtherStatesPage() {
   const [selectedState, setSelectedState] = useState<string>(statesData[0].name)
+  const t = useTranslations()
 
   const currentState = statesData.find((state) => state.name === selectedState)
   const allCities = statesData.flatMap((state) => state.cities)
@@ -61,17 +63,17 @@ export default function OtherStatesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              Notary Services Across the United States
+              {t.otherStatesTitle}
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              We provide professional notary, apostille, and legalization services in multiple states across the nation.
+              {t.otherStatesSubtitle}
             </p>
           </div>
 
           {/* State Selector */}
           <div className="mb-16">
             <div className="max-w-md mx-auto">
-              <label className="block text-lg font-semibold text-foreground mb-4">Select a State:</label>
+              <label className="block text-lg font-semibold text-foreground mb-4">{t.otherStatesSelectLabel}</label>
               <select
                 value={selectedState}
                 onChange={(e) => setSelectedState(e.target.value)}
@@ -89,7 +91,7 @@ export default function OtherStatesPage() {
           {/* Cities in Selected State */}
           {currentState && (
             <div className="mb-20 bg-primary/5 border border-primary/20 rounded-lg p-8">
-              <h2 className="text-3xl font-bold text-foreground mb-6">Service Areas in {currentState.name}</h2>
+              <h2 className="text-3xl font-bold text-foreground mb-6">{t.otherStatesServiceAreasTitle} {currentState.name}</h2>
               <div className="grid md:grid-cols-2 gap-4">
                 {currentState.cities.map((city) => (
                   <div key={city} className="flex items-center gap-3">
@@ -99,78 +101,77 @@ export default function OtherStatesPage() {
                 ))}
               </div>
               <p className="text-muted-foreground mt-6 text-sm">
-                Mobile notary services available throughout {currentState.name}. Contact us for services in additional
-                cities and surrounding areas.
+                {t.otherStatesServiceAreasDesc} {currentState.name}. {t.otherStatesServiceAreasContact}
               </p>
             </div>
           )}
 
           {/* Pricing Section */}
           <div className="mb-20">
-            <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Multi-State Pricing</h2>
+            <h2 className="text-3xl font-bold text-foreground mb-8 text-center">{t.otherStatesPricingTitle}</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="border border-border rounded-lg p-8 bg-card">
-                <h3 className="text-xl font-bold text-foreground mb-4">Mobile Notary</h3>
+                <h3 className="text-xl font-bold text-foreground mb-4">{t.otherStatesMobileNotaryTitle}</h3>
                 <div className="mb-6">
-                  <span className="text-3xl font-bold text-primary">$15</span>
-                  <span className="text-muted-foreground ml-2">per signature</span>
+                  <span className="text-3xl font-bold text-primary">{t.otherStatesMobileNotaryPrice}</span>
+                  <span className="text-muted-foreground ml-2">{t.otherStatesMobileNotaryPriceUnit}</span>
                 </div>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-foreground">We come to your location</span>
+                    <span className="text-foreground">{t.otherStatesMobileNotaryFeature1}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-foreground">Travel fee applies</span>
+                    <span className="text-foreground">{t.otherStatesMobileNotaryFeature2}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-foreground">Professional service</span>
+                    <span className="text-foreground">{t.otherStatesMobileNotaryFeature3}</span>
                   </li>
                 </ul>
               </div>
 
               <div className="border border-border rounded-lg p-8 bg-card">
-                <h3 className="text-xl font-bold text-foreground mb-4">Apostille Service</h3>
+                <h3 className="text-xl font-bold text-foreground mb-4">{t.otherStatesApostilleTitle}</h3>
                 <div className="mb-6">
-                  <span className="text-3xl font-bold text-primary">$160</span>
-                  <span className="text-muted-foreground ml-2">1st document</span>
+                  <span className="text-3xl font-bold text-primary">{t.otherStatesApostillePrice}</span>
+                  <span className="text-muted-foreground ml-2">{t.otherStatesApostillePriceUnit}</span>
                 </div>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-foreground">2-4 business days</span>
+                    <span className="text-foreground">{t.otherStatesApostilleFeature1}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-foreground">Valid in 190+ countries</span>
+                    <span className="text-foreground">{t.otherStatesApostilleFeature2}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-foreground">$120 per additional doc</span>
+                    <span className="text-foreground">{t.otherStatesApostilleFeature3}</span>
                   </li>
                 </ul>
               </div>
 
               <div className="border border-border rounded-lg p-8 bg-card">
-                <h3 className="text-xl font-bold text-foreground mb-4">Legalization</h3>
+                <h3 className="text-xl font-bold text-foreground mb-4">{t.otherStatesLegalizationTitle}</h3>
                 <div className="mb-6">
-                  <span className="text-3xl font-bold text-primary">Call</span>
-                  <span className="text-muted-foreground ml-2">for quote</span>
+                  <span className="text-3xl font-bold text-primary">{t.otherStatesLegalizationPrice}</span>
+                  <span className="text-muted-foreground ml-2">{t.otherStatesLegalizationPriceUnit}</span>
                 </div>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-foreground">Embassy coordination</span>
+                    <span className="text-foreground">{t.otherStatesLegalizationFeature1}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-foreground">Translation services</span>
+                    <span className="text-foreground">{t.otherStatesLegalizationFeature2}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-foreground">Full authentication</span>
+                    <span className="text-foreground">{t.otherStatesLegalizationFeature3}</span>
                   </li>
                 </ul>
               </div>
@@ -182,9 +183,9 @@ export default function OtherStatesPage() {
 
           {/* CTA Section */}
           <div className="bg-white py-4 text-center">
-            <h2 className="text-2xl lg:text-3xl font-bold mb-3 text-foreground">Ready to Get Started?</h2>
+            <h2 className="text-2xl lg:text-3xl font-bold mb-3 text-foreground">{t.readyToStart}</h2>
             <p className="text-base lg:text-lg text-foreground/90">
-              Call or Text <a href="tel:+16265903560" className="text-primary hover:underline font-semibold">(626) 590-3560</a>, 7 days a week or email to: <a href="mailto:Kathryn@KathrynTong.com" className="text-primary hover:underline font-semibold">Kathryn@KathrynTong.com</a>
+              {t.callOrTextLabel} <a href="tel:+16265903560" className="text-primary hover:underline font-semibold">(626) 590-3560</a>, 7 days a week or email to: <a href="mailto:Kathryn@KathrynTong.com" className="text-primary hover:underline font-semibold">Kathryn@KathrynTong.com</a>
             </p>
           </div>
         </div>
