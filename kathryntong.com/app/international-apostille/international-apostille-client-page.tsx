@@ -181,12 +181,12 @@ export default function InternationalApostilleClientPage() {
                   </p>
                 </Link>
 
-                <div className="border-l-4 border-primary pl-3">
+                <Link href="/international-apostille/philippines" className="block border-l-4 border-primary pl-3 hover:bg-foreground/5 transition rounded-r">
                   <h3 className="text-lg font-bold text-foreground mb-1">Philippines</h3>
                   <p className="text-foreground text-base">
                     Hague member. Apostille only for immigration, family, and citizenship-related documents.
                   </p>
-                </div>
+                </Link>
               </div>
 
               <p className="text-foreground text-base mt-3 flex items-center gap-2">
