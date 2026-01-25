@@ -101,6 +101,12 @@ export default function Header() {
                     Apostille & Legalization Services
                   </Link>
                   <Link
+                    href="/international-apostille"
+                    className="block px-4 py-2 text-foreground hover:bg-accent hover:text-primary transition"
+                  >
+                    International Apostille & Document Legalization Services
+                  </Link>
+                  <Link
                     href="/apostille/same-day-apostille-services"
                     className="block px-4 py-2 text-foreground hover:bg-accent hover:text-primary transition"
                   >
@@ -207,6 +213,16 @@ export default function Header() {
                     }}
                   >
                     Apostille & Legalization Services
+                  </Link>
+                  <Link
+                    href="/international-apostille"
+                    className="block text-foreground hover:text-primary transition text-sm"
+                    onClick={() => {
+                      setIsOpen(false)
+                      setIsApostilleOpen(false)
+                    }}
+                  >
+                    International Apostille & Document Legalization Services
                   </Link>
                   <Link
                     href="/apostille/same-day-apostille-services"
