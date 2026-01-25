@@ -221,6 +221,9 @@ export default function ApostilleClientPage() {
               <p className="text-foreground text-base font-semibold mb-3">
                 {t.apostilleCTAText2}
               </p>
+              <p className="text-foreground text-base mb-3">
+                We're open 7 Days per Week, 8:30 am - 8:30 pm.
+              </p>
               <div className="flex flex-wrap gap-4 items-center">
                 <a 
                   href="tel:+16265903560" 
