@@ -11,6 +11,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
   const [isServiceAreasOpen, setIsServiceAreasOpen] = useState(false)
   const [isApostilleOpen, setIsApostilleOpen] = useState(false)
+  const [isInternationalApostilleOpen, setIsInternationalApostilleOpen] = useState(false)
   const { language, setLanguage } = useLanguage()
   const t = useTranslations()
   
@@ -115,9 +116,48 @@ export default function Header() {
                 </div>
               )}
             </div>
-            <Link href="/international-apostille" className="text-gray-700 font-bold hover:text-primary transition">
-              International Apostille
-            </Link>
+            <div 
+              className="relative"
+              onMouseEnter={() => setIsInternationalApostilleOpen(true)}
+              onMouseLeave={() => setIsInternationalApostilleOpen(false)}
+            >
+              <button
+                className="flex items-center gap-1 text-gray-700 font-bold hover:text-primary transition"
+              >
+                International Apostille
+                <ChevronDown size={16} className={isInternationalApostilleOpen ? "rotate-180 transition" : "transition"} />
+              </button>
+              {isInternationalApostilleOpen && (
+                <div
+                  className="absolute top-full left-0 mt-1 w-64 bg-white border border-border rounded-lg shadow-lg z-50 py-2"
+                >
+                  <Link
+                    href="/international-apostille"
+                    className="block px-4 py-2 text-foreground hover:bg-accent hover:text-primary transition"
+                  >
+                    International Apostille Services
+                  </Link>
+                  <Link
+                    href="/international-apostille/china"
+                    className="block px-4 py-2 text-foreground hover:bg-accent hover:text-primary transition"
+                  >
+                    Apostille Services for China
+                  </Link>
+                  <Link
+                    href="/international-apostille/hong-kong"
+                    className="block px-4 py-2 text-foreground hover:bg-accent hover:text-primary transition"
+                  >
+                    Apostille Services for Hong Kong
+                  </Link>
+                  <Link
+                    href="/international-apostille/mexico"
+                    className="block px-4 py-2 text-foreground hover:bg-accent hover:text-primary transition"
+                  >
+                    Apostille Services for Mexico
+                  </Link>
+                </div>
+              )}
+            </div>
             <Link href="/pricing" className="text-gray-700 font-bold hover:text-primary transition">
               {t.pricing}
             </Link>
@@ -234,13 +274,59 @@ export default function Header() {
                 </div>
               )}
             </div>
-            <Link
-              href="/international-apostille"
-              className="block text-gray-700 font-bold hover:text-primary transition"
-              onClick={() => setIsOpen(false)}
-            >
-              International Apostille
-            </Link>
+            <div>
+              <button
+                onClick={() => setIsInternationalApostilleOpen(!isInternationalApostilleOpen)}
+                className="flex items-center justify-between w-full text-gray-700 font-bold hover:text-primary transition"
+              >
+                International Apostille
+                <ChevronDown size={16} className={isInternationalApostilleOpen ? "rotate-180 transition" : "transition"} />
+              </button>
+              {isInternationalApostilleOpen && (
+                <div className="mt-2 ml-4 space-y-2">
+                  <Link
+                    href="/international-apostille"
+                    className="block text-foreground hover:text-primary transition text-sm"
+                    onClick={() => {
+                      setIsOpen(false)
+                      setIsInternationalApostilleOpen(false)
+                    }}
+                  >
+                    International Apostille Services
+                  </Link>
+                  <Link
+                    href="/international-apostille/china"
+                    className="block text-foreground hover:text-primary transition text-sm"
+                    onClick={() => {
+                      setIsOpen(false)
+                      setIsInternationalApostilleOpen(false)
+                    }}
+                  >
+                    Apostille Services for China
+                  </Link>
+                  <Link
+                    href="/international-apostille/hong-kong"
+                    className="block text-foreground hover:text-primary transition text-sm"
+                    onClick={() => {
+                      setIsOpen(false)
+                      setIsInternationalApostilleOpen(false)
+                    }}
+                  >
+                    Apostille Services for Hong Kong
+                  </Link>
+                  <Link
+                    href="/international-apostille/mexico"
+                    className="block text-foreground hover:text-primary transition text-sm"
+                    onClick={() => {
+                      setIsOpen(false)
+                      setIsInternationalApostilleOpen(false)
+                    }}
+                  >
+                    Apostille Services for Mexico
+                  </Link>
+                </div>
+              )}
+            </div>
             <Link
               href="/pricing"
               className="block text-gray-700 font-bold hover:text-primary transition"
