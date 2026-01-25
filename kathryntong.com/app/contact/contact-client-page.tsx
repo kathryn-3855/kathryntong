@@ -96,8 +96,8 @@ export default function ContactClientPage() {
 
                 <div className="bg-foreground/10 rounded-lg p-6 mb-6">
                   <h3 className="text-lg font-bold text-foreground mb-3">Business Hours:</h3>
-                  <p className="text-foreground mb-2">Monday – Friday: 8:30 am - 8:30 pm</p>
-                  <p className="text-foreground">Weekend & after-hours service available by appointment</p>
+                  <p className="text-foreground mb-2">7 Days per Week: 8:30 am - 8:30 pm</p>
+                  <p className="text-foreground">After-hours service available by appointment</p>
                 </div>
 
                 <div className="bg-primary/10 border border-primary/30 rounded-lg p-6">
