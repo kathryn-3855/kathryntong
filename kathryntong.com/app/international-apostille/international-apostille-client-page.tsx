@@ -9,19 +9,19 @@ export default function InternationalApostilleClientPage() {
   return (
     <div className="min-h-screen bg-white text-foreground">
       <Header />
-      <main className="py-8 md:py-12">
+      <main className="py-6 md:py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Hero Section */}
-          <div className="text-center mb-8">
-            <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+          <div className="text-center mb-6">
+            <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-3">
               International Apostille & Document Legalization Services
             </h1>
           </div>
 
           {/* Introduction Section */}
-          <div className="mb-8">
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
-              <p className="text-foreground text-base leading-relaxed mb-4">
+          <div className="mb-6">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
+              <p className="text-foreground text-base leading-relaxed mb-3">
                 Documents intended for use outside the United States must meet the legal requirements of the destination country. Apostille and legalization rules vary by country, and using the wrong process can result in document rejection, delays, or costly resubmissions.
               </p>
               <p className="text-foreground text-base leading-relaxed">
@@ -31,27 +31,27 @@ export default function InternationalApostilleClientPage() {
           </div>
 
           {/* Hague vs. Non-Hague Countries Section */}
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-foreground mb-4">
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
               Hague vs. Non-Hague Countries — Why It Matters
             </h2>
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
-              <p className="text-foreground text-base leading-relaxed mb-4">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
+              <p className="text-foreground text-base leading-relaxed mb-3">
                 The first and most important step is determining whether your destination country is a member of the Hague Apostille Convention.
               </p>
               
-              <div className="mb-4">
-                <h3 className="text-xl font-bold text-foreground mb-3">Hague Apostille Countries</h3>
-                <ul className="space-y-2 mb-4">
-                  <li className="flex items-start gap-3">
+              <div className="mb-3">
+                <h3 className="text-xl font-bold text-foreground mb-2">Hague Apostille Countries</h3>
+                <ul className="space-y-1.5 mb-3">
+                  <li className="flex items-start gap-2">
                     <span className="text-primary mt-1 font-bold">•</span>
                     <span className="text-foreground text-base">Accept a standard apostille issued by a U.S. Secretary of State or federal authority</span>
                   </li>
-                  <li className="flex items-start gap-3">
+                  <li className="flex items-start gap-2">
                     <span className="text-primary mt-1 font-bold">•</span>
                     <span className="text-foreground text-base">No embassy or consulate legalization required</span>
                   </li>
-                  <li className="flex items-start gap-3">
+                  <li className="flex items-start gap-2">
                     <span className="text-primary mt-1 font-bold">•</span>
                     <span className="text-foreground text-base">Generally faster and more streamlined</span>
                   </li>
@@ -59,17 +59,17 @@ export default function InternationalApostilleClientPage() {
               </div>
 
               <div>
-                <h3 className="text-xl font-bold text-foreground mb-3">Non-Hague Countries</h3>
-                <ul className="space-y-2 mb-4">
-                  <li className="flex items-start gap-3">
+                <h3 className="text-xl font-bold text-foreground mb-2">Non-Hague Countries</h3>
+                <ul className="space-y-1.5 mb-3">
+                  <li className="flex items-start gap-2">
                     <span className="text-primary mt-1 font-bold">•</span>
                     <span className="text-foreground text-base">Do not accept standard apostilles</span>
                   </li>
-                  <li className="flex items-start gap-3">
+                  <li className="flex items-start gap-2">
                     <span className="text-primary mt-1 font-bold">•</span>
                     <div>
                       <span className="text-foreground text-base">Require a multi-step legalization process, which may include:</span>
-                      <ul className="ml-6 mt-2 space-y-1">
+                      <ul className="ml-5 mt-1.5 space-y-1">
                         <li className="flex items-start gap-2">
                           <span className="text-primary mt-1">o</span>
                           <span className="text-foreground text-base">State or federal authentication</span>
@@ -95,36 +95,36 @@ export default function InternationalApostilleClientPage() {
           </div>
 
           {/* Why Country-Specific Rules Are Critical Section */}
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-foreground mb-4">
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
               Why Country-Specific Rules Are Critical
             </h2>
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
-              <p className="text-foreground text-base leading-relaxed mb-4">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
+              <p className="text-foreground text-base leading-relaxed mb-3">
                 Each country has its own requirements regarding:
               </p>
-              <ul className="space-y-2 mb-4">
-                <li className="flex items-start gap-3">
+              <ul className="space-y-1.5 mb-3">
+                <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
                   <span className="text-foreground text-base">Accepted document types</span>
                 </li>
-                <li className="flex items-start gap-3">
+                <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
                   <span className="text-foreground text-base">Original vs. certified copy rules</span>
                 </li>
-                <li className="flex items-start gap-3">
+                <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
                   <span className="text-foreground text-base">Notarization requirements</span>
                 </li>
-                <li className="flex items-start gap-3">
+                <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
                   <span className="text-foreground text-base">Translation requirements</span>
                 </li>
-                <li className="flex items-start gap-3">
+                <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
                   <span className="text-foreground text-base">Validity periods</span>
                 </li>
-                <li className="flex items-start gap-3">
+                <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
                   <span className="text-foreground text-base">Mail-in eligibility</span>
                 </li>
@@ -136,60 +136,60 @@ export default function InternationalApostilleClientPage() {
           </div>
 
           {/* Popular Destination Countries Section */}
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-foreground mb-4">
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
               Popular Destination Countries We Frequently Handle
             </h2>
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
-              <p className="text-foreground text-base leading-relaxed mb-4">
-                The following countries represent the highest volume of apostille and legalization requests from U.S. clients, particularly in California. Each destination has its own dedicated page with detailed requirements.
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
+              <p className="text-foreground text-base leading-relaxed mb-3">
+                The following countries represent the highest volume of apostille and legalization requests from U.S. clients, particularly in California. Each destination has its own dedicated page with detailed requirements. For other countries' specific requirements, please call or email us for questions and details.
               </p>
               
-              <div className="space-y-4">
-                <div className="border-l-4 border-primary pl-4">
-                  <h3 className="text-lg font-bold text-foreground mb-2">China</h3>
+              <div className="space-y-3">
+                <div className="border-l-4 border-primary pl-3">
+                  <h3 className="text-lg font-bold text-foreground mb-1">China</h3>
                   <p className="text-foreground text-base">
                     Non-Hague country. Documents require authentication and Chinese embassy or consulate legalization.
                   </p>
                 </div>
 
-                <div className="border-l-4 border-primary pl-4">
-                  <h3 className="text-lg font-bold text-foreground mb-2">Taiwan</h3>
+                <div className="border-l-4 border-primary pl-3">
+                  <h3 className="text-lg font-bold text-foreground mb-1">Taiwan</h3>
                   <p className="text-foreground text-base">
                     Non-Hague destination with document-specific authentication rules depending on use.
                   </p>
                 </div>
 
-                <div className="border-l-4 border-primary pl-4">
-                  <h3 className="text-lg font-bold text-foreground mb-2">Hong Kong</h3>
+                <div className="border-l-4 border-primary pl-3">
+                  <h3 className="text-lg font-bold text-foreground mb-1">Hong Kong</h3>
                   <p className="text-foreground text-base">
                     Hague Apostille Convention member. Apostille only; no embassy legalization required.
                   </p>
                 </div>
 
-                <div className="border-l-4 border-primary pl-4">
-                  <h3 className="text-lg font-bold text-foreground mb-2">Mexico</h3>
+                <div className="border-l-4 border-primary pl-3">
+                  <h3 className="text-lg font-bold text-foreground mb-1">Mexico</h3>
                   <p className="text-foreground text-base">
                     Hague member. Apostille only for most civil, academic, and legal documents.
                   </p>
                 </div>
 
-                <div className="border-l-4 border-primary pl-4">
-                  <h3 className="text-lg font-bold text-foreground mb-2">South Korea</h3>
+                <div className="border-l-4 border-primary pl-3">
+                  <h3 className="text-lg font-bold text-foreground mb-1">South Korea</h3>
                   <p className="text-foreground text-base">
                     Hague member. Commonly requested for employment, education, and background checks.
                   </p>
                 </div>
 
-                <div className="border-l-4 border-primary pl-4">
-                  <h3 className="text-lg font-bold text-foreground mb-2">Philippines</h3>
+                <div className="border-l-4 border-primary pl-3">
+                  <h3 className="text-lg font-bold text-foreground mb-1">Philippines</h3>
                   <p className="text-foreground text-base">
                     Hague member. Apostille only for immigration, family, and citizenship-related documents.
                   </p>
                 </div>
               </div>
 
-              <p className="text-foreground text-base mt-4 flex items-center gap-2">
+              <p className="text-foreground text-base mt-3 flex items-center gap-2">
                 <span>👉</span>
                 <span>Please select your destination country from the dropdown menu for detailed instructions.</span>
               </p>
@@ -197,44 +197,44 @@ export default function InternationalApostilleClientPage() {
           </div>
 
           {/* Common International Document Types Section */}
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-foreground mb-4">
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
               Common International Document Types
             </h2>
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
-              <p className="text-foreground text-base leading-relaxed mb-4">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
+              <p className="text-foreground text-base leading-relaxed mb-3">
                 We regularly assist with apostille or legalization for:
               </p>
-              <ul className="space-y-2">
-                <li className="flex items-start gap-3">
+              <ul className="space-y-1.5">
+                <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
                   <span className="text-foreground text-base">Birth certificates</span>
                 </li>
-                <li className="flex items-start gap-3">
+                <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
                   <span className="text-foreground text-base">Marriage certificates</span>
                 </li>
-                <li className="flex items-start gap-3">
+                <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
                   <span className="text-foreground text-base">Divorce decrees</span>
                 </li>
-                <li className="flex items-start gap-3">
+                <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
                   <span className="text-foreground text-base">FBI background checks</span>
                 </li>
-                <li className="flex items-start gap-3">
+                <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
                   <span className="text-foreground text-base">Power of Attorney</span>
                 </li>
-                <li className="flex items-start gap-3">
+                <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
                   <span className="text-foreground text-base">Academic diplomas and transcripts</span>
                 </li>
-                <li className="flex items-start gap-3">
+                <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
                   <span className="text-foreground text-base">Corporate and business documents</span>
                 </li>
-                <li className="flex items-start gap-3">
+                <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
                   <span className="text-foreground text-base">Immigration and residency paperwork</span>
                 </li>
@@ -243,18 +243,18 @@ export default function InternationalApostilleClientPage() {
           </div>
 
           {/* Mail-In Apostille & Legalization Section */}
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-foreground mb-4">
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
               Mail-In Apostille & Legalization Available
             </h2>
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
-              <p className="text-foreground text-base leading-relaxed mb-4">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
+              <p className="text-foreground text-base leading-relaxed mb-3">
                 Many international documents can be processed through our Mail-In Apostille Service, depending on document type and issuing authority.
               </p>
-              <p className="text-foreground text-base leading-relaxed mb-4">
+              <p className="text-foreground text-base leading-relaxed mb-3">
                 We confirm eligibility before you send documents to avoid delays or rejection.
               </p>
-              <div className="flex flex-wrap gap-4 mt-4">
+              <div className="flex flex-wrap gap-4 mt-3">
                 <Link 
                   href="/apostille"
                   className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
@@ -272,29 +272,29 @@ export default function InternationalApostilleClientPage() {
           </div>
 
           {/* Why Clients Choose Section */}
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-foreground mb-4">
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
               Why Clients Choose Kathryn's Mobile Notary & Apostille
             </h2>
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
-              <ul className="space-y-3">
-                <li className="flex items-start gap-3">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
+              <ul className="space-y-2">
+                <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                   <span className="text-foreground text-base">Certified Apostille Specialist (California)</span>
                 </li>
-                <li className="flex items-start gap-3">
+                <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                   <span className="text-foreground text-base">Experience with Hague and non-Hague countries</span>
                 </li>
-                <li className="flex items-start gap-3">
+                <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                   <span className="text-foreground text-base">High-volume handling of China, Taiwan, and Hong Kong documents</span>
                 </li>
-                <li className="flex items-start gap-3">
+                <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                   <span className="text-foreground text-base">Mobile and mail-in convenience</span>
                 </li>
-                <li className="flex items-start gap-3">
+                <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                   <span className="text-foreground text-base">Clear communication and error prevention</span>
                 </li>
@@ -303,9 +303,9 @@ export default function InternationalApostilleClientPage() {
           </div>
 
           {/* Important Notice Section */}
-          <div className="mb-8">
-            <div className="bg-primary/10 border border-primary/30 rounded-lg p-6">
-              <h2 className="text-xl font-bold text-foreground mb-3">
+          <div className="mb-6">
+            <div className="bg-primary/10 border border-primary/30 rounded-lg p-4">
+              <h2 className="text-xl font-bold text-foreground mb-2">
                 Important Notice
               </h2>
               <p className="text-foreground text-base leading-relaxed">
@@ -315,15 +315,15 @@ export default function InternationalApostilleClientPage() {
           </div>
 
           {/* Call to Action Section */}
-          <div className="mb-8">
-            <div className="bg-primary/10 border border-primary/30 rounded-lg p-6">
-              <h2 className="text-2xl font-bold text-foreground mb-3">
+          <div className="mb-6">
+            <div className="bg-primary/10 border border-primary/30 rounded-lg p-4">
+              <h2 className="text-2xl font-bold text-foreground mb-2">
                 Ready to Get Started?
               </h2>
-              <p className="text-foreground text-base mb-3">
+              <p className="text-foreground text-base mb-2">
                 Contact us today for expert international apostille and legalization services.
               </p>
-              <p className="text-foreground text-base font-semibold mb-3">
+              <p className="text-foreground text-base font-semibold mb-2">
                 We're open 7 Days per Week, 8:30 am - 8:30 pm.
               </p>
               <div className="flex flex-wrap gap-4 items-center">
