@@ -12,23 +12,23 @@ export default function ApostilleClientPage() {
       <main className="py-8 md:py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Hero Section */}
-          <div className="text-center mb-8">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <div className="text-center mb-6">
+            <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-3">
               California Apostille & Document Legalization Services
             </h1>
-            <p className="text-xl text-foreground/90 mb-4">
+            <p className="text-lg text-foreground/90 mb-3">
               Professional apostille and document legalization services for California-issued documents, handled accurately and efficiently for domestic and international use.
             </p>
-            <p className="text-lg text-primary font-semibold">
+            <p className="text-base text-primary font-semibold">
               Certified Apostille Specialist • Same-Day & Mail-In Options Available
             </p>
           </div>
 
           {/* What is an Apostille Section */}
-          <div className="mb-10">
-            <h2 className="text-3xl font-bold text-foreground mb-4">WHAT IS AN APOSTILLE?</h2>
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
-              <p className="text-foreground text-base leading-relaxed mb-4">
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">WHAT IS AN APOSTILLE?</h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
+              <p className="text-foreground text-base leading-relaxed mb-3">
                 An apostille is a certification issued by the California Secretary of State that authenticates the signature and seal on a public document for use in another country that is a member of the Hague Apostille Convention.
               </p>
               <p className="text-foreground text-base leading-relaxed">
@@ -38,9 +38,9 @@ export default function ApostilleClientPage() {
           </div>
 
           {/* Common Documents Section */}
-          <div className="mb-10">
-            <h2 className="text-3xl font-bold text-foreground mb-4">COMMON DOCUMENTS THAT REQUIRE AN APOSTILLE</h2>
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">COMMON DOCUMENTS THAT REQUIRE AN APOSTILLE</h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
@@ -78,14 +78,14 @@ export default function ApostilleClientPage() {
           </div>
 
           {/* Service Options Section */}
-          <div className="mb-10">
-            <h2 className="text-3xl font-bold text-foreground mb-4">APOSTILLE & LEGALIZATION SERVICE OPTIONS</h2>
-            <p className="text-foreground text-base mb-6">
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">APOSTILLE & LEGALIZATION SERVICE OPTIONS</h2>
+            <p className="text-foreground text-base mb-4">
               This page provides an overview of all available apostille workflows. Please select the option that best matches your situation.
             </p>
-            <div className="space-y-4">
-              <div className="border border-foreground/30 rounded-lg p-6 bg-foreground/10 hover:bg-foreground/15 transition">
-                <h3 className="text-xl font-bold text-foreground mb-2">Same-Day Apostille Services</h3>
+            <div className="space-y-3">
+              <div className="border border-foreground/30 rounded-lg p-5 bg-foreground/10 hover:bg-foreground/15 transition">
+                <h3 className="text-lg font-bold text-foreground mb-2">Same-Day Apostille Services</h3>
                 <p className="text-foreground text-base mb-4">
                   For time-sensitive documents that qualify for expedited processing in California.
                 </p>
@@ -96,8 +96,8 @@ export default function ApostilleClientPage() {
                   Same-Day Apostille Services <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>
-              <div className="border border-foreground/30 rounded-lg p-6 bg-foreground/10 hover:bg-foreground/15 transition">
-                <h3 className="text-xl font-bold text-foreground mb-2">Mail-In Apostille Services</h3>
+              <div className="border border-foreground/30 rounded-lg p-5 bg-foreground/10 hover:bg-foreground/15 transition">
+                <h3 className="text-lg font-bold text-foreground mb-2">Mail-In Apostille Services</h3>
                 <p className="text-foreground text-base mb-4">
                   For clients who are not able to appear in person, including out-of-state and international clients.
                 </p>
@@ -108,8 +108,8 @@ export default function ApostilleClientPage() {
                   Mail-In Apostille Services <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>
-              <div className="border border-foreground/30 rounded-lg p-6 bg-foreground/10 hover:bg-foreground/15 transition">
-                <h3 className="text-xl font-bold text-foreground mb-2">Authentication & Legalization (Non-Hague Countries)</h3>
+              <div className="border border-foreground/30 rounded-lg p-5 bg-foreground/10 hover:bg-foreground/15 transition">
+                <h3 className="text-lg font-bold text-foreground mb-2">Authentication & Legalization (Non-Hague Countries)</h3>
                 <p className="text-foreground text-base mb-4">
                   For documents destined for countries that do not accept apostilles.
                 </p>
@@ -124,10 +124,10 @@ export default function ApostilleClientPage() {
           </div>
 
           {/* International Clients Section */}
-          <div className="mb-10">
-            <h2 className="text-3xl font-bold text-foreground mb-4">INTERNATIONAL CLIENTS & OVERSEAS USE</h2>
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
-              <p className="text-foreground text-base leading-relaxed mb-4">
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">INTERNATIONAL CLIENTS & OVERSEAS USE</h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
+              <p className="text-foreground text-base leading-relaxed mb-3">
                 U.S. citizens and international clients located outside California or overseas may use secure mail-in apostille services. Documents are reviewed for accuracy before submission to prevent rejection by the Secretary of State or foreign authorities.
               </p>
               <p className="text-foreground text-base leading-relaxed">
@@ -137,9 +137,9 @@ export default function ApostilleClientPage() {
           </div>
 
           {/* Why Work With Us Section */}
-          <div className="mb-10">
-            <h2 className="text-3xl font-bold text-foreground mb-4">WHY WORK WITH KATHRYN'S MOBILE NOTARY & APOSTILLE</h2>
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">WHY WORK WITH KATHRYN'S MOBILE NOTARY & APOSTILLE</h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
               <ul className="space-y-2">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
@@ -166,13 +166,13 @@ export default function ApostilleClientPage() {
           </div>
 
           {/* Call to Action Section */}
-          <div className="mb-10">
-            <h2 className="text-3xl font-bold text-foreground mb-4">CALL TO ACTION</h2>
-            <div className="bg-primary/10 border border-primary/30 rounded-lg p-6">
-              <p className="text-foreground text-base mb-4">
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">CALL TO ACTION</h2>
+            <div className="bg-primary/10 border border-primary/30 rounded-lg p-5">
+              <p className="text-foreground text-base mb-3">
                 Before submitting documents, confirm apostille eligibility and destination country requirements.
               </p>
-              <p className="text-foreground text-base font-semibold mb-4">
+              <p className="text-foreground text-base font-semibold mb-3">
                 Call, text, or email to get started.
               </p>
               <div className="flex flex-wrap gap-4 items-center">
