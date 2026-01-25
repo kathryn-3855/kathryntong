@@ -39,7 +39,7 @@ export default function ApostilleClientPage() {
 
           {/* Key Reasons to Use an Apostille Specialist Section */}
           <div className="mb-6">
-            <h2 className="text-2xl font-bold text-foreground mb-3">Key Reasons to Use an Apostille Specialist:</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-3">KEY REASONS TO USE AN APOSTILLE SPECIALIST:</h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
