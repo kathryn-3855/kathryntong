@@ -160,12 +160,12 @@ export default function InternationalApostilleClientPage() {
                   </p>
                 </div>
 
-                <div className="border-l-4 border-primary pl-3">
+                <Link href="/international-apostille/hong-kong" className="block border-l-4 border-primary pl-3 hover:bg-foreground/5 transition rounded-r">
                   <h3 className="text-lg font-bold text-foreground mb-1">Hong Kong</h3>
                   <p className="text-foreground text-base">
                     Hague Apostille Convention member. Apostille only; no embassy legalization required.
                   </p>
-                </div>
+                </Link>
 
                 <div className="border-l-4 border-primary pl-3">
                   <h3 className="text-lg font-bold text-foreground mb-1">Mexico</h3>
