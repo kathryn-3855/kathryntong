@@ -137,6 +137,9 @@ export default function SameDayApostilleClientPage() {
               <p className="text-foreground text-base mb-4">
                 {t.sameDayApostilleCTADesc}
               </p>
+              <p className="text-foreground text-base mb-4">
+                We're open 7 Days per Week, 8:30 am - 8:30 pm.
+              </p>
               <div className="flex flex-wrap gap-4 items-center">
                 <a 
                   href="tel:+16265903560" 
