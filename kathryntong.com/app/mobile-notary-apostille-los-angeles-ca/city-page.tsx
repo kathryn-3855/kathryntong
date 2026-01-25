@@ -42,7 +42,7 @@ export default function CityPage({
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             {/* Hero Section */}
             <div className="mb-8">
-              <div className="grid md:grid-cols-2 gap-8 items-center">
+              <div className="grid md:grid-cols-2 gap-8 items-start">
                 <div>
                   <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
                     Los Angeles Mobile Notary & Apostille Services
@@ -267,7 +267,7 @@ export default function CityPage({
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Hero Section */}
           <div className="mb-8">
-            <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div className="grid md:grid-cols-2 gap-8 items-start">
               <div>
                 <h1 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
                   We provide Mobile Notary + Apostille Services in {cityName}
