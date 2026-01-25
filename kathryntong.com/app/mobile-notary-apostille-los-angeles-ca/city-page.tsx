@@ -45,25 +45,25 @@ export default function CityPage({
               <div className="grid md:grid-cols-2 gap-8 items-start">
                 <div>
                   <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                    Los Angeles Mobile Notary & Apostille Services
+                    {t.cityPageTitle.replace('{cityName}', cityName)}
                   </h1>
                   
                   <div className="space-y-4 mb-6">
                     <p className="text-foreground text-base leading-relaxed">
-                      Kathryn's Mobile Notary & Apostille provides professional mobile notary and apostille services throughout Los Angeles. We specialize in serving individuals, families, businesses, and students who need documents notarized or apostilled for local or international use—without leaving your home or office.
+                      {t.cityPageIntro1.replace('{cityName}', cityName)}
                     </p>
                     <p className="text-foreground text-base leading-relaxed">
-                      Our mobile service ensures convenience, accuracy, and fast turnaround, whether you need same-day notarization, mail-in apostille processing, or international document legalization.
+                      {t.cityPageIntro2}
                     </p>
                   </div>
 
                   {/* Areas We Serve Section */}
                   <div className="mb-6">
                     <h2 className="text-2xl font-bold text-foreground mb-4">
-                      Areas We Serve in Los Angeles
+                      {t.cityPageLAAreasWeServe}
                     </h2>
                     <p className="text-foreground text-base mb-4">
-                      We provide mobile notary and apostille services in neighborhoods and communities across Los Angeles, including:
+                      {t.cityPageLAAreasDesc}
                     </p>
                     <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
                       <ul className="space-y-2">
@@ -110,7 +110,7 @@ export default function CityPage({
                       </ul>
                     </div>
                     <p className="text-foreground text-sm mt-4 italic">
-                      If your neighborhood is not listed, please contact us—we travel throughout Los Angeles County.
+                      {t.cityPageLATravelNote}
                     </p>
                   </div>
                 </div>
@@ -129,44 +129,44 @@ export default function CityPage({
             {/* Services Section */}
             <div className="mb-8">
               <h2 className="text-2xl font-bold text-foreground mb-4">
-                Our Los Angeles Mobile Notary & Apostille Services
+                {t.cityPageServicesTitle.replace('{cityName}', cityName)}
               </h2>
               <p className="text-foreground text-base mb-4">
-                We handle a wide range of notarization and apostille services:
+                {t.cityPageServicesDesc}
               </p>
               <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <span className="text-primary mt-1 font-bold">•</span>
                     <div>
-                      <span className="text-foreground text-base font-semibold">Same-Day Apostille</span>
-                      <span className="text-foreground text-base"> – expedited apostille processing for eligible documents</span>
+                      <span className="text-foreground text-base font-semibold">{t.cityPageService1}</span>
+                      <span className="text-foreground text-base">{t.cityPageService1Desc}</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-primary mt-1 font-bold">•</span>
                     <div>
-                      <span className="text-foreground text-base font-semibold">Mail-In Apostille Services</span>
-                      <span className="text-foreground text-base"> – convenient submission and return for clients nationwide</span>
+                      <span className="text-foreground text-base font-semibold">{t.cityPageService2}</span>
+                      <span className="text-foreground text-base">{t.cityPageService2Desc}</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-primary mt-1 font-bold">•</span>
                     <div>
-                      <span className="text-foreground text-base font-semibold">International Apostille & Legalization</span>
-                      <span className="text-foreground text-base"> – China, Taiwan, Hong Kong, Mexico, South Korea, Philippines, and other countries</span>
+                      <span className="text-foreground text-base font-semibold">{t.cityPageService3}</span>
+                      <span className="text-foreground text-base">{t.cityPageService3Desc}</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-primary mt-1 font-bold">•</span>
                     <div>
-                      <span className="text-foreground text-base font-semibold">General Mobile Notary Services</span>
-                      <span className="text-foreground text-base"> – powers of attorney, affidavits, contracts, corporate documents, and more</span>
+                      <span className="text-foreground text-base font-semibold">{t.cityPageService4}</span>
+                      <span className="text-foreground text-base">{t.cityPageService4Desc}</span>
                     </div>
                   </li>
                 </ul>
                 <p className="text-foreground text-sm mt-4">
-                  Each document is carefully reviewed to prevent errors and ensure compliance with U.S. and destination country requirements.
+                  {t.cityPageServicesNote}
                 </p>
               </div>
             </div>
@@ -174,29 +174,29 @@ export default function CityPage({
             {/* Why Choose Section */}
             <div className="mb-8">
               <h2 className="text-2xl font-bold text-foreground mb-4">
-                Why Choose Kathryn's Mobile Notary & Apostille in Los Angeles
+                {t.cityPageWhyChooseTitle.replace('{cityName}', cityName)}
               </h2>
               <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
                 <ul className="space-y-2">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-foreground text-base">Certified Apostille Specialist in California</span>
+                    <span className="text-foreground text-base">{t.cityPageWhyChoose1}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-foreground text-base">Experience with both Hague and non-Hague countries</span>
+                    <span className="text-foreground text-base">{t.cityPageWhyChoose2}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-foreground text-base">Mobile & mail-in services for maximum convenience</span>
+                    <span className="text-foreground text-base">{t.cityPageWhyChoose3}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-foreground text-base">Expertise in immigration, business, academic, and legal documents</span>
+                    <span className="text-foreground text-base">{t.cityPageWhyChoose4}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-foreground text-base">Clear communication to prevent costly mistakes</span>
+                    <span className="text-foreground text-base">{t.cityPageWhyChoose5}</span>
                   </li>
                 </ul>
               </div>
@@ -205,40 +205,40 @@ export default function CityPage({
             {/* Contact Section */}
             <div className="mb-8">
               <h2 className="text-2xl font-bold text-foreground mb-4">
-                Contact Kathryn in Los Angeles
+                {t.cityPageContactTitle.replace('{cityName}', cityName)}
               </h2>
               <p className="text-foreground text-base mb-4">
-                For questions or to schedule a mobile appointment:
+                {t.cityPageContactDesc}
               </p>
               <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
                     <Phone className="w-5 h-5 text-primary flex-shrink-0" />
                     <span className="text-foreground text-base">
-                      Phone / Text: <a href="tel:+16265903560" className="text-primary hover:underline font-semibold">626-590-3560</a>
+                      {t.cityPagePhoneText} <a href="tel:+16265903560" className="text-primary hover:underline font-semibold">626-590-3560</a>
                     </span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Mail className="w-5 h-5 text-primary flex-shrink-0" />
                     <span className="text-foreground text-base">
-                      Email: <a href="mailto:Kathryn@KathrynTong.com" className="text-primary hover:underline font-semibold">Kathryn@KathrynTong.com</a>
+                      {t.cityPageEmail} <a href="mailto:Kathryn@KathrynTong.com" className="text-primary hover:underline font-semibold">Kathryn@KathrynTong.com</a>
                     </span>
                   </div>
                   <div className="flex items-start gap-3">
-                    <span className="text-foreground text-base font-semibold">WeChat:</span>
+                    <span className="text-foreground text-base font-semibold">{t.cityPageWeChat}</span>
                     <span className="text-foreground text-base">USANotaryApostille</span>
                   </div>
                   <div className="flex items-start gap-3">
-                    <span className="text-foreground text-base font-semibold">Business Hours:</span>
-                    <span className="text-foreground text-base">Monday – Friday: [Your Hours]</span>
+                    <span className="text-foreground text-base font-semibold">{t.cityPageBusinessHours}</span>
+                    <span className="text-foreground text-base">{t.cityPageBusinessHoursValue}</span>
                   </div>
                   <p className="text-foreground text-sm mt-2">
-                    Weekend & after-hours service available by appointment
+                    {t.cityPageWeekendService}
                   </p>
                 </div>
               </div>
               <p className="text-foreground text-sm mt-4 italic">
-                Mobile Service Disclaimer: Services are provided by appointment only; we do not maintain a public walk-in office.
+                {t.cityPageMobileDisclaimer}
               </p>
             </div>
 
@@ -249,7 +249,7 @@ export default function CityPage({
             <div className="bg-white py-4 text-center">
               <h2 className="text-2xl lg:text-3xl font-bold mb-3 text-foreground">{t.readyToStart}</h2>
               <p className="text-base lg:text-lg text-foreground/90">
-                Call or Text <a href="tel:+16265903560" className="text-primary hover:underline font-semibold">(626) 590-3560</a>, 7 days a week or email to: <a href="mailto:Kathryn@KathrynTong.com" className="text-primary hover:underline font-semibold">Kathryn@KathrynTong.com</a>
+                {t.callOrTextLabel} <a href="tel:+16265903560" className="text-primary hover:underline font-semibold">(626) 590-3560</a>, 7 days a week or email to: <a href="mailto:Kathryn@KathrynTong.com" className="text-primary hover:underline font-semibold">Kathryn@KathrynTong.com</a>
               </p>
             </div>
           </div>
@@ -270,15 +270,15 @@ export default function CityPage({
             <div className="grid md:grid-cols-2 gap-8 items-start">
               <div>
                 <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                  {cityName} Mobile Notary & Apostille Services
+                  {t.cityPageTitle.replace('{cityName}', cityName)}
                 </h1>
                 
                 <div className="space-y-4 mb-6">
                   <p className="text-foreground text-base leading-relaxed">
-                    Kathryn's Mobile Notary & Apostille provides professional mobile notary and apostille services throughout {cityName}. We specialize in serving individuals, families, businesses, and students who need documents notarized or apostilled for local or international use—without leaving your home or office.
+                    {t.cityPageIntro1.replace('{cityName}', cityName)}
                   </p>
                   <p className="text-foreground text-base leading-relaxed">
-                    Our mobile service ensures convenience, accuracy, and fast turnaround, whether you need same-day notarization, mail-in apostille processing, or international document legalization.
+                    {t.cityPageIntro2}
                   </p>
                 </div>
 
@@ -286,10 +286,10 @@ export default function CityPage({
                 {surroundingAreas.length > 0 && (
                   <div className="mb-6">
                     <h2 className="text-2xl font-bold text-foreground mb-4">
-                      Areas We Serve in {cityName}
+                      {t.cityPageAreasWeServe.replace('{cityName}', cityName)}
                     </h2>
                     <p className="text-foreground text-base mb-4">
-                      We provide mobile notary and apostille services in neighborhoods and communities across {cityName}, including:
+                      {t.cityPageAreasWeServeDesc.replace('{cityName}', cityName)}
                     </p>
                     <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
                       <ul className="space-y-2">
@@ -302,7 +302,7 @@ export default function CityPage({
                       </ul>
                     </div>
                     <p className="text-foreground text-sm mt-4 italic">
-                      If your neighborhood is not listed, please contact us—we travel throughout the area.
+                      {t.cityPageAreasNotListed}
                     </p>
                   </div>
                 )}
@@ -322,44 +322,44 @@ export default function CityPage({
           {/* Services Section */}
           <div className="mb-8">
             <h2 className="text-2xl font-bold text-foreground mb-4">
-              Our {cityName} Mobile Notary & Apostille Services
+              {t.cityPageServicesTitle.replace('{cityName}', cityName)}
             </h2>
             <p className="text-foreground text-base mb-4">
-              We handle a wide range of notarization and apostille services:
+              {t.cityPageServicesDesc}
             </p>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
                   <div>
-                    <span className="text-foreground text-base font-semibold">Same-Day Apostille</span>
-                    <span className="text-foreground text-base"> – expedited apostille processing for eligible documents</span>
+                    <span className="text-foreground text-base font-semibold">{t.cityPageService1}</span>
+                    <span className="text-foreground text-base">{t.cityPageService1Desc}</span>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
                   <div>
-                    <span className="text-foreground text-base font-semibold">Mail-In Apostille Services</span>
-                    <span className="text-foreground text-base"> – convenient submission and return for clients nationwide</span>
+                    <span className="text-foreground text-base font-semibold">{t.cityPageService2}</span>
+                    <span className="text-foreground text-base">{t.cityPageService2Desc}</span>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
                   <div>
-                    <span className="text-foreground text-base font-semibold">International Apostille & Legalization</span>
-                    <span className="text-foreground text-base"> – China, Taiwan, Hong Kong, Mexico, South Korea, Philippines, and other countries</span>
+                    <span className="text-foreground text-base font-semibold">{t.cityPageService3}</span>
+                    <span className="text-foreground text-base">{t.cityPageService3Desc}</span>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
                   <div>
-                    <span className="text-foreground text-base font-semibold">General Mobile Notary Services</span>
-                    <span className="text-foreground text-base"> – powers of attorney, affidavits, contracts, corporate documents, and more</span>
+                    <span className="text-foreground text-base font-semibold">{t.cityPageService4}</span>
+                    <span className="text-foreground text-base">{t.cityPageService4Desc}</span>
                   </div>
                 </li>
               </ul>
               <p className="text-foreground text-sm mt-4">
-                Each document is carefully reviewed to prevent errors and ensure compliance with U.S. and destination country requirements.
+                {t.cityPageServicesNote}
               </p>
             </div>
           </div>
@@ -367,29 +367,29 @@ export default function CityPage({
           {/* Why Choose Section */}
           <div className="mb-8">
             <h2 className="text-2xl font-bold text-foreground mb-4">
-              Why Choose Kathryn's Mobile Notary & Apostille in {cityName}
+              {t.cityPageWhyChooseTitle.replace('{cityName}', cityName)}
             </h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
               <ul className="space-y-2">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-foreground text-base">Certified Apostille Specialist in California</span>
+                  <span className="text-foreground text-base">{t.cityPageWhyChoose1}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-foreground text-base">Experience with both Hague and non-Hague countries</span>
+                  <span className="text-foreground text-base">{t.cityPageWhyChoose2}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-foreground text-base">Mobile & mail-in services for maximum convenience</span>
+                  <span className="text-foreground text-base">{t.cityPageWhyChoose3}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-foreground text-base">Expertise in immigration, business, academic, and legal documents</span>
+                  <span className="text-foreground text-base">{t.cityPageWhyChoose4}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-foreground text-base">Clear communication to prevent costly mistakes</span>
+                  <span className="text-foreground text-base">{t.cityPageWhyChoose5}</span>
                 </li>
               </ul>
             </div>
@@ -398,40 +398,40 @@ export default function CityPage({
           {/* Contact Section */}
           <div className="mb-8">
             <h2 className="text-2xl font-bold text-foreground mb-4">
-              Contact Kathryn in {cityName}
+              {t.cityPageContactTitle.replace('{cityName}', cityName)}
             </h2>
             <p className="text-foreground text-base mb-4">
-              For questions or to schedule a mobile appointment:
+              {t.cityPageContactDesc}
             </p>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-primary flex-shrink-0" />
                   <span className="text-foreground text-base">
-                    Phone / Text: <a href="tel:+16265903560" className="text-primary hover:underline font-semibold">626-590-3560</a>
+                    {t.cityPagePhoneText} <a href="tel:+16265903560" className="text-primary hover:underline font-semibold">626-590-3560</a>
                   </span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-primary flex-shrink-0" />
                   <span className="text-foreground text-base">
-                    Email: <a href="mailto:Kathryn@KathrynTong.com" className="text-primary hover:underline font-semibold">Kathryn@KathrynTong.com</a>
+                    {t.cityPageEmail} <a href="mailto:Kathryn@KathrynTong.com" className="text-primary hover:underline font-semibold">Kathryn@KathrynTong.com</a>
                   </span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="text-foreground text-base font-semibold">WeChat:</span>
+                  <span className="text-foreground text-base font-semibold">{t.cityPageWeChat}</span>
                   <span className="text-foreground text-base">USANotaryApostille</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="text-foreground text-base font-semibold">Business Hours:</span>
-                  <span className="text-foreground text-base">Monday – Friday: [Your Hours]</span>
+                  <span className="text-foreground text-base font-semibold">{t.cityPageBusinessHours}</span>
+                  <span className="text-foreground text-base">{t.cityPageBusinessHoursValue}</span>
                 </div>
                 <p className="text-foreground text-sm mt-2">
-                  Weekend & after-hours service available by appointment
+                  {t.cityPageWeekendService}
                 </p>
               </div>
             </div>
             <p className="text-foreground text-sm mt-4 italic">
-              Mobile Service Disclaimer: Services are provided by appointment only; we do not maintain a public walk-in office.
+              {t.cityPageMobileDisclaimer}
             </p>
           </div>
 
@@ -442,7 +442,7 @@ export default function CityPage({
           <div className="bg-white py-4 text-center">
             <h2 className="text-2xl lg:text-3xl font-bold mb-3 text-foreground">{t.readyToStart}</h2>
             <p className="text-base lg:text-lg text-foreground/90">
-              Call or Text <a href="tel:+16265903560" className="text-primary hover:underline font-semibold">(626) 590-3560</a>, 7 days a week or email to: <a href="mailto:Kathryn@KathrynTong.com" className="text-primary hover:underline font-semibold">Kathryn@KathrynTong.com</a>
+              {t.callOrTextLabel} <a href="tel:+16265903560" className="text-primary hover:underline font-semibold">(626) 590-3560</a>, 7 days a week or email to: <a href="mailto:Kathryn@KathrynTong.com" className="text-primary hover:underline font-semibold">Kathryn@KathrynTong.com</a>
             </p>
           </div>
         </div>
