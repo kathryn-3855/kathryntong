@@ -2,175 +2,194 @@
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import GoogleReviews from "@/components/google-reviews"
-import FAQSection from "@/components/faq-section"
-import { FileText, Building2 } from "lucide-react"
-import { useTranslations } from "@/lib/use-translations"
+import { CheckCircle, Phone, Mail, ArrowRight } from "lucide-react"
+import Link from "next/link"
 
 export default function ApostilleClientPage() {
-  const t = useTranslations()
-
-  // Page content updated with new structure and content
-
-
   return (
     <div className="min-h-screen bg-white text-foreground">
       <Header />
       <main className="py-8 md:py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-2">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-2">
-              {t.apostilleAndLegalizationServices}
+          {/* Hero Section */}
+          <div className="text-center mb-8">
+            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+              California Apostille & Document Legalization Services
             </h1>
+            <p className="text-xl text-foreground/90 mb-4">
+              Professional apostille and document legalization services for California-issued documents, handled accurately and efficiently for domestic and international use.
+            </p>
+            <p className="text-lg text-primary font-semibold">
+              Certified Apostille Specialist • Same-Day & Mail-In Options Available
+            </p>
           </div>
 
-          {/* FAQ Section */}
-          <div className="mb-6">
-            <FAQSection />
-          </div>
-
-          {/* Apostille Certification & Legalization Services Section */}
+          {/* What is an Apostille Section */}
           <div className="mb-10">
-            <div className="grid md:grid-cols-2 gap-6">
-              {/* Apostille Certification */}
-              <div className="border border-foreground/30 rounded-lg p-6 bg-foreground/10">
-                <h3 className="text-xl font-bold text-foreground mb-4">{t.apostilleCertificationTitle}</h3>
-                <ul className="space-y-2">
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm">{t.apostilleCertificationPoint1}</p>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm">{t.apostilleCertificationPoint2}</p>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm">{t.apostilleCertificationPoint3}</p>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm">{t.apostilleCertificationPoint4}</p>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm">{t.apostilleCertificationPoint5}</p>
-                  </li>
-                </ul>
-              </div>
+            <h2 className="text-3xl font-bold text-foreground mb-4">WHAT IS AN APOSTILLE?</h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+              <p className="text-foreground text-base leading-relaxed mb-4">
+                An apostille is a certification issued by the California Secretary of State that authenticates the signature and seal on a public document for use in another country that is a member of the Hague Apostille Convention.
+              </p>
+              <p className="text-foreground text-base leading-relaxed">
+                If the destination country is not a Hague member, the document must go through an authentication and legalization process instead.
+              </p>
+            </div>
+          </div>
 
-              {/* Legalization Services */}
-              <div className="border border-foreground/30 rounded-lg p-6 bg-foreground/10">
-                <h3 className="text-xl font-bold text-foreground mb-2">{t.legalizationServicesTitle}</h3>
-                <p className="text-sm text-foreground/80 mb-4">{t.legalizationServicesSubtitle}</p>
-                <ul className="space-y-2">
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm">{t.legalizationServicesPoint1}</p>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm">{t.legalizationServicesPoint2}</p>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm">{t.legalizationServicesPoint3}</p>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm">{t.legalizationServicesPoint4}</p>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                    <p className="text-foreground text-sm">{t.legalizationServicesPoint5}</p>
-                  </li>
-                </ul>
+          {/* Common Documents Section */}
+          <div className="mb-10">
+            <h2 className="text-3xl font-bold text-foreground mb-4">COMMON DOCUMENTS THAT REQUIRE AN APOSTILLE</h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Birth, marriage, and death certificates</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Powers of attorney</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">FBI background checks</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Court documents</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Academic transcripts and diplomas</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Business and corporate documents</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Immigration-related documents</span>
+                </li>
+              </ul>
+              <p className="text-foreground text-sm mt-4 italic">
+                Each document type has specific preparation requirements. Errors often result in rejection or delays.
+              </p>
+            </div>
+          </div>
+
+          {/* Service Options Section */}
+          <div className="mb-10">
+            <h2 className="text-3xl font-bold text-foreground mb-4">APOSTILLE & LEGALIZATION SERVICE OPTIONS</h2>
+            <p className="text-foreground text-base mb-6">
+              This page provides an overview of all available apostille workflows. Please select the option that best matches your situation.
+            </p>
+            <div className="space-y-4">
+              <div className="border border-foreground/30 rounded-lg p-6 bg-foreground/10 hover:bg-foreground/15 transition">
+                <h3 className="text-xl font-bold text-foreground mb-2">Same-Day Apostille Services</h3>
+                <p className="text-foreground text-base mb-4">
+                  For time-sensitive documents that qualify for expedited processing in California.
+                </p>
+                <Link 
+                  href="/apostille/same-day-apostille-services"
+                  className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
+                >
+                  Same-Day Apostille Services <ArrowRight className="w-4 h-4" />
+                </Link>
+              </div>
+              <div className="border border-foreground/30 rounded-lg p-6 bg-foreground/10 hover:bg-foreground/15 transition">
+                <h3 className="text-xl font-bold text-foreground mb-2">Mail-In Apostille Services</h3>
+                <p className="text-foreground text-base mb-4">
+                  For clients who are not able to appear in person, including out-of-state and international clients.
+                </p>
+                <Link 
+                  href="/apostille/mail-in-apostille-services"
+                  className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
+                >
+                  Mail-In Apostille Services <ArrowRight className="w-4 h-4" />
+                </Link>
+              </div>
+              <div className="border border-foreground/30 rounded-lg p-6 bg-foreground/10 hover:bg-foreground/15 transition">
+                <h3 className="text-xl font-bold text-foreground mb-2">Authentication & Legalization (Non-Hague Countries)</h3>
+                <p className="text-foreground text-base mb-4">
+                  For documents destined for countries that do not accept apostilles.
+                </p>
+                <Link 
+                  href="/apostille/authentication-legalization"
+                  className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
+                >
+                  Authentication / Legalization <ArrowRight className="w-4 h-4" />
+                </Link>
               </div>
             </div>
           </div>
 
-          {/* Document Categories Section */}
-          <div className="mb-6">
-            <h2 className="text-3xl font-bold text-foreground mb-6">{t.mostCommonDocuments}</h2>
-            <div className="grid md:grid-cols-2 gap-6">
-              {/* Personal Documents */}
-              <div className="border border-foreground/30 rounded-lg p-6 bg-foreground/10">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-lg bg-foreground/20 flex items-center justify-center flex-shrink-0">
-                    <FileText className="w-5 h-5 text-foreground" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-foreground">{t.personalDocumentsCategory}</h3>
-                    <p className="text-sm text-foreground/80">{t.commonlyNeededPersonal}</p>
-                  </div>
-                </div>
-                <ul className="space-y-2">
-                  {[
-                    t.docBirthCertificates,
-                    t.docMarriageCertificates,
-                    t.docDeathCertificates,
-                    t.docDivorceDecrees,
-                    t.docMedicalRecords,
-                    t.docAffidavits,
-                    t.docPowerOfAttorney,
-                    t.docAdoptionPapers,
-                  ].map((doc) => (
-                    <li key={doc} className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-sm text-foreground">{doc}</p>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              {/* Business Documents */}
-              <div className="border border-foreground/30 rounded-lg p-6 bg-foreground/10">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-lg bg-foreground/20 flex items-center justify-center flex-shrink-0">
-                    <Building2 className="w-5 h-5 text-foreground" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-foreground">{t.businessDocumentsCategory}</h3>
-                    <p className="text-sm text-foreground/80 mb-3">{t.commonlyNeededBusiness}</p>
-                  </div>
-                </div>
-                <ul className="space-y-2">
-                  {[
-                    t.docArticlesOfIncorporation,
-                    t.docCertificateOfFormation,
-                    t.docCertificatesOfGoodStanding,
-                    t.docCorporateResolutions,
-                    t.docContractsAgreements,
-                    t.docTrademarksPatentAssignments,
-                  ].map((doc) => (
-                    <li key={doc} className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0" />
-                      <p className="text-sm text-foreground">{doc}</p>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+          {/* International Clients Section */}
+          <div className="mb-10">
+            <h2 className="text-3xl font-bold text-foreground mb-4">INTERNATIONAL CLIENTS & OVERSEAS USE</h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+              <p className="text-foreground text-base leading-relaxed mb-4">
+                U.S. citizens and international clients located outside California or overseas may use secure mail-in apostille services. Documents are reviewed for accuracy before submission to prevent rejection by the Secretary of State or foreign authorities.
+              </p>
+              <p className="text-foreground text-base leading-relaxed">
+                Country-specific requirements vary. Please refer to the International Apostille Services section for detailed guidance.
+              </p>
             </div>
           </div>
 
-          {/* Key Points Section */}
-          <div className="bg-foreground/20 border border-foreground/30 rounded-lg p-8 mb-4">
-            <h2 className="text-2xl font-bold text-foreground mb-6">{t.importantKeyPoints}</h2>
-            <div className="grid md:grid-cols-2 gap-6">
-              <div>
-                <h4 className="font-bold text-foreground mb-2">{t.keyPointNotarization}</h4>
-                <p className="text-foreground/90">{t.notarizationKeyPoint}</p>
-              </div>
-              <div>
-                <h4 className="font-bold text-foreground mb-2">{t.keyPointCertifiedCopies}</h4>
-                <p className="text-foreground/90">{t.certifiedCopiesKeyPoint}</p>
-              </div>
-              <div>
-                <h4 className="font-bold text-foreground mb-2">{t.keyPointFederalDocuments}</h4>
-                <p className="text-foreground/90">{t.federalDocumentsKeyPoint}</p>
-              </div>
-              <div>
-                <h4 className="font-bold text-foreground mb-2">{t.keyPointDocumentRequirements}</h4>
-                <p className="text-foreground/90">{t.documentRequirementsKeyPoint}</p>
+          {/* Why Work With Us Section */}
+          <div className="mb-10">
+            <h2 className="text-3xl font-bold text-foreground mb-4">WHY WORK WITH KATHRYN'S MOBILE NOTARY & APOSTILLE</h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+              <ul className="space-y-2">
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-foreground text-base">Certified Apostille Specialist (California)</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-foreground text-base">Accuracy-first process to prevent costly rejections</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-foreground text-base">Experience with international document requirements</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-foreground text-base">Same-day, mail-in, and international workflows available</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-foreground text-base">Clear communication throughout the process</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Call to Action Section */}
+          <div className="mb-10">
+            <h2 className="text-3xl font-bold text-foreground mb-4">CALL TO ACTION</h2>
+            <div className="bg-primary/10 border border-primary/30 rounded-lg p-6">
+              <p className="text-foreground text-base mb-4">
+                Before submitting documents, confirm apostille eligibility and destination country requirements.
+              </p>
+              <p className="text-foreground text-base font-semibold mb-4">
+                Call, text, or email to get started.
+              </p>
+              <div className="flex flex-wrap gap-4 items-center">
+                <a 
+                  href="tel:+16265903560" 
+                  className="flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
+                >
+                  <Phone className="w-5 h-5" />
+                  <span>626-590-3560</span>
+                </a>
+                <a 
+                  href="mailto:Kathryn@KathrynTong.com" 
+                  className="flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
+                >
+                  <Mail className="w-5 h-5" />
+                  <span>Kathryn@KathrynTong.com</span>
+                </a>
               </div>
             </div>
           </div>
@@ -180,7 +199,7 @@ export default function ApostilleClientPage() {
 
           {/* CTA Section */}
           <div className="bg-white py-4 text-center">
-            <h2 className="text-2xl lg:text-3xl font-bold mb-3 text-foreground">{t.readyToStart}</h2>
+            <h2 className="text-2xl lg:text-3xl font-bold mb-3 text-foreground">Ready to Get Started?</h2>
             <p className="text-base lg:text-lg text-foreground/90">
               Call or Text <a href="tel:+16265903560" className="text-primary hover:underline font-semibold">(626) 590-3560</a>, 7 days a week or email to: <a href="mailto:Kathryn@KathrynTong.com" className="text-primary hover:underline font-semibold">Kathryn@KathrynTong.com</a>
             </p>

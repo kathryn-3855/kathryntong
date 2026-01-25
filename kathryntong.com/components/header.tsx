@@ -10,6 +10,7 @@ import { useTranslations } from "@/lib/use-translations"
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
   const [isServiceAreasOpen, setIsServiceAreasOpen] = useState(false)
+  const [isApostilleOpen, setIsApostilleOpen] = useState(false)
   const { language, setLanguage } = useLanguage()
   const t = useTranslations()
   
@@ -74,9 +75,42 @@ export default function Header() {
             <Link href="/services" className="text-gray-700 font-bold hover:text-primary transition">
               {t.mobileNotary}
             </Link>
-            <Link href="/apostille" className="text-gray-700 font-bold hover:text-primary transition">
-              {t.apostilleLegalization}
-            </Link>
+            <div 
+              className="relative"
+              onMouseEnter={() => setIsApostilleOpen(true)}
+              onMouseLeave={() => setIsApostilleOpen(false)}
+            >
+              <button
+                className="flex items-center gap-1 text-gray-700 font-bold hover:text-primary transition"
+              >
+                {t.apostilleLegalization}
+                <ChevronDown size={16} className={isApostilleOpen ? "rotate-180 transition" : "transition"} />
+              </button>
+              {isApostilleOpen && (
+                <div
+                  className="absolute top-full left-0 mt-1 w-64 bg-white border border-border rounded-lg shadow-lg z-50 py-2"
+                >
+                  <Link
+                    href="/apostille"
+                    className="block px-4 py-2 text-foreground hover:bg-accent hover:text-primary transition"
+                  >
+                    Apostille & Legalization Services
+                  </Link>
+                  <Link
+                    href="/apostille/same-day-apostille-services"
+                    className="block px-4 py-2 text-foreground hover:bg-accent hover:text-primary transition"
+                  >
+                    Same-Day Apostille Services
+                  </Link>
+                  <Link
+                    href="/apostille/mail-in-apostille-services"
+                    className="block px-4 py-2 text-foreground hover:bg-accent hover:text-primary transition"
+                  >
+                    Mail-In Apostille Services
+                  </Link>
+                </div>
+              )}
+            </div>
             <Link href="/pricing" className="text-gray-700 font-bold hover:text-primary transition">
               {t.pricing}
             </Link>
@@ -150,13 +184,49 @@ export default function Header() {
             >
               {t.mobileNotary}
             </Link>
-            <Link
-              href="/apostille"
-              className="block text-gray-700 font-bold hover:text-primary transition"
-              onClick={() => setIsOpen(false)}
-            >
-              {t.apostilleLegalization}
-            </Link>
+            <div>
+              <button
+                onClick={() => setIsApostilleOpen(!isApostilleOpen)}
+                className="flex items-center justify-between w-full text-gray-700 font-bold hover:text-primary transition"
+              >
+                {t.apostilleLegalization}
+                <ChevronDown size={16} className={isApostilleOpen ? "rotate-180 transition" : "transition"} />
+              </button>
+              {isApostilleOpen && (
+                <div className="mt-2 ml-4 space-y-2">
+                  <Link
+                    href="/apostille"
+                    className="block text-foreground hover:text-primary transition text-sm"
+                    onClick={() => {
+                      setIsOpen(false)
+                      setIsApostilleOpen(false)
+                    }}
+                  >
+                    Apostille & Legalization Services
+                  </Link>
+                  <Link
+                    href="/apostille/same-day-apostille-services"
+                    className="block text-foreground hover:text-primary transition text-sm"
+                    onClick={() => {
+                      setIsOpen(false)
+                      setIsApostilleOpen(false)
+                    }}
+                  >
+                    Same-Day Apostille Services
+                  </Link>
+                  <Link
+                    href="/apostille/mail-in-apostille-services"
+                    className="block text-foreground hover:text-primary transition text-sm"
+                    onClick={() => {
+                      setIsOpen(false)
+                      setIsApostilleOpen(false)
+                    }}
+                  >
+                    Mail-In Apostille Services
+                  </Link>
+                </div>
+              )}
+            </div>
             <Link
               href="/pricing"
               className="block text-gray-700 font-bold hover:text-primary transition"
