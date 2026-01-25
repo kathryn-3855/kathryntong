@@ -3,7 +3,7 @@ export const translations = {
     // Header
     phone: "Call or text",
     email: "Email",
-    aboutMe: "About Me",
+    aboutMe: "About",
     mobileNotary: "Mobile Notary Service",
     apostilleLegalization: "Apostille-Legalization",
     scheduleNow: "Schedule Now",
