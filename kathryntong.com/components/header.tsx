@@ -176,6 +176,9 @@ export default function Header() {
                 </div>
               )}
             </div>
+            <Link href="/contact" className="text-gray-700 font-bold hover:text-primary transition">
+              {t.contact}
+            </Link>
             <Link href="/pricing" className="text-gray-700 font-bold hover:text-primary transition">
               {t.pricing}
             </Link>
@@ -375,6 +378,13 @@ export default function Header() {
                 </div>
               )}
             </div>
+            <Link
+              href="/contact"
+              className="block text-gray-700 font-bold hover:text-primary transition"
+              onClick={() => setIsOpen(false)}
+            >
+              {t.contact}
+            </Link>
             <Link
               href="/pricing"
               className="block text-gray-700 font-bold hover:text-primary transition"
