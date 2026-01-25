@@ -37,6 +37,50 @@ export default function ApostilleClientPage() {
             </div>
           </div>
 
+          {/* Key Reasons to Use an Apostille Specialist Section */}
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">Key Reasons to Use an Apostille Specialist:</h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <div>
+                    <span className="text-foreground text-base font-semibold">Expertise & Efficiency:</span>
+                    <span className="text-foreground text-base"> We know the exact requirements of different countries and government agencies, preventing errors and delays.</span>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <div>
+                    <span className="text-foreground text-base font-semibold">Stress Reduction:</span>
+                    <span className="text-foreground text-base"> We handle running around, form-filling, and submission, saving you significant time and frustration.</span>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <div>
+                    <span className="text-foreground text-base font-semibold">Risk Mitigation:</span>
+                    <span className="text-foreground text-base"> We ensure documents are formatted correctly and meet legal standards, reducing the chance of rejection by foreign authorities.</span>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <div>
+                    <span className="text-foreground text-base font-semibold">Handles Various Documents:</span>
+                    <span className="text-foreground text-base"> We specialize in personal (birth/marriage certs, diplomas), educational, and business (contracts, incorporation) documents.</span>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <div>
+                    <span className="text-foreground text-base font-semibold">Follow up on the entire process from beginning to end,</span>
+                    <span className="text-foreground text-base"> making sure that your documents are ready within the specified timeframe.</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
           {/* Common Documents Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-foreground mb-3">COMMON DOCUMENTS THAT REQUIRE AN APOSTILLE</h2>
