@@ -101,7 +101,7 @@ export default function Header() {
                       href={city.path}
                       className="block px-4 py-2 text-foreground hover:bg-accent hover:text-primary transition"
                     >
-                      Mobile Notary + Apostille in {city.name}
+                      {city.name} Mobile Notary & Apostille Services
                     </Link>
                   ))}
                 </div>
@@ -184,7 +184,7 @@ export default function Header() {
                         setIsServiceAreasOpen(false)
                       }}
                     >
-                      Mobile Notary + Apostille in {city.name}
+                      {city.name} Mobile Notary & Apostille Services
                     </Link>
                   ))}
                 </div>
