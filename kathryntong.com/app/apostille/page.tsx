@@ -2,9 +2,9 @@ import type { Metadata } from "next"
 import ApostilleClientPage from "./apostille-client-page"
 
 export const metadata: Metadata = {
-  title: "Apostille & Legalization Services | Kathryn's Mobile Notary",
+  title: "Apostille Services California | Same-Day & Mail-In Apostille",
   description:
-    "Professional apostille and legalization services for international document authentication. Fast turnaround times, expert guidance, and certified services.",
+    "Professional California apostille services for birth certificates, FBI background checks, powers of attorney, and more. Same-day and mail-in available.",
   keywords:
     "apostille services, legalization services, international documents, authentication, notary, California apostille",
   icons: {
