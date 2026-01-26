@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import SouthPasadenaCityPageClient from "./city-page-client"
+import FAQSchema from "@/components/faq-schema"
 
 export const metadata: Metadata = {
   title: "South Pasadena Mobile Notary & Apostille Services",
@@ -31,6 +32,30 @@ export const metadata: Metadata = {
 }
 
 export default function SouthPasadenaPage() {
-  return <SouthPasadenaCityPageClient />
+  const southPasadenaFAQs = [
+    {
+      question: "Is mobile notary service available in South Pasadena?",
+      answer: "Yes. Mobile notary services are available throughout South Pasadena by appointment."
+    },
+    {
+      question: "Can I obtain an apostille without traveling outside the city?",
+      answer: "Yes. Apostille services are available via mobile service or mail-in processing."
+    },
+    {
+      question: "Do you assist with apostilles for international education or immigration?",
+      answer: "Yes. Documents for education, immigration, and international use are commonly handled."
+    },
+    {
+      question: "Are appointments required?",
+      answer: "Yes. All services are provided by appointment only."
+    }
+  ]
+
+  return (
+    <>
+      <FAQSchema faqs={southPasadenaFAQs} />
+      <SouthPasadenaCityPageClient />
+    </>
+  )
 }
 
