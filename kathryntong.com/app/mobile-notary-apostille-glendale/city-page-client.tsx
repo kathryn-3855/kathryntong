@@ -13,17 +13,17 @@ export default function GlendaleCityPageClient() {
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      <main className="py-8 md:py-12">
+      <main className="py-6 md:py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Hero Section */}
-          <div className="mb-8">
-            <div className="grid md:grid-cols-2 gap-8 items-start">
+          <div className="mb-6">
+            <div className="grid md:grid-cols-2 gap-6 items-start">
               <div>
                 <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
                   Glendale Mobile Notary & Apostille Services
                 </h1>
                 
-                <div className="space-y-4 mb-6">
+                <div className="space-y-3 mb-3">
                   <p className="text-foreground text-base leading-relaxed">
                     Kathryn's Mobile Notary & Apostille provides professional <Link href="/mobile-notary-apostille-los-angeles-ca" className="text-primary hover:underline font-semibold">mobile notary and apostille services</Link> in Glendale, serving individuals, families, and businesses by appointment. Mobile service is available throughout Glendale for clients who need documents notarized accurately and efficiently.
                   </p>
@@ -32,7 +32,7 @@ export default function GlendaleCityPageClient() {
                   </p>
                 </div>
               </div>
-              <div className="relative h-96 rounded-lg overflow-hidden">
+              <div className="relative h-80 rounded-lg overflow-hidden">
                 <Image
                   src="/images/cities/glendale.jpg"
                   alt="Glendale with mobile notary services"
@@ -45,12 +45,12 @@ export default function GlendaleCityPageClient() {
           </div>
 
           {/* Apostille Services for International Use Section */}
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-foreground mb-4">
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
               Apostille Services for International Use
             </h2>
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
-              <p className="text-foreground text-base leading-relaxed mb-4">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
+              <p className="text-foreground text-base leading-relaxed mb-3">
                 Glendale clients frequently require documents for use outside the United States. We assist with <Link href="/international-apostille" className="text-primary hover:underline font-semibold">international apostille and document authentication services</Link> for both Hague and non-Hague countries, including China, Taiwan, Hong Kong, Mexico, South Korea, and the Philippines.
               </p>
               <p className="text-foreground text-base leading-relaxed">
@@ -60,11 +60,11 @@ export default function GlendaleCityPageClient() {
           </div>
 
           {/* Services Offered Section */}
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-foreground mb-4">
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
               Services Offered
             </h2>
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
@@ -87,12 +87,12 @@ export default function GlendaleCityPageClient() {
           </div>
 
           {/* Appointment-Based Mobile Service Section */}
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-foreground mb-4">
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
               Appointment-Based Mobile Service
             </h2>
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
-              <p className="text-foreground text-base leading-relaxed mb-4">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
+              <p className="text-foreground text-base leading-relaxed mb-3">
                 All services are provided by appointment only. Mobile notary service is available throughout Glendale, and <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:underline font-semibold">mail-in options</Link> are available for apostille processing depending on document type and destination country.
               </p>
               <p className="text-foreground text-base leading-relaxed">
@@ -102,11 +102,11 @@ export default function GlendaleCityPageClient() {
           </div>
 
           {/* FAQ Section */}
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-foreground mb-4">
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
               Frequently Asked Questions – Glendale Apostille & Notary
             </h2>
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6 space-y-6">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5 space-y-4">
               <div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">
                   Q: Do you provide mobile notary services throughout Glendale?
@@ -143,11 +143,11 @@ export default function GlendaleCityPageClient() {
           </div>
 
           {/* Contact Section */}
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-foreground mb-4">
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
               Contact
             </h2>
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-primary flex-shrink-0" />
@@ -173,9 +173,9 @@ export default function GlendaleCityPageClient() {
           </div>
 
           {/* Internal Links Section */}
-          <div className="mb-8">
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
-              <h3 className="text-xl font-bold text-foreground mb-4">Internal Links</h3>
+          <div className="mb-6">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
+              <h3 className="text-xl font-bold text-foreground mb-3">Internal Links</h3>
               <div className="flex flex-wrap gap-4">
                 <Link href="/apostille" className="text-primary hover:underline font-semibold">
                   Apostille Services

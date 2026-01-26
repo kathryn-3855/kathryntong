@@ -13,17 +13,17 @@ export default function WestHollywoodCityPageClient() {
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      <main className="py-8 md:py-12">
+      <main className="py-6 md:py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Hero Section */}
-          <div className="mb-8">
-            <div className="grid md:grid-cols-2 gap-8 items-start">
+          <div className="mb-6">
+            <div className="grid md:grid-cols-2 gap-6 items-start">
               <div>
                 <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
                   West Hollywood Mobile Notary & Apostille Services
                 </h1>
                 
-                <div className="space-y-4 mb-6">
+                <div className="space-y-3 mb-4">
                   <p className="text-foreground text-base leading-relaxed">
                     Kathryn's Mobile Notary & Apostille serves West Hollywood with flexible mobile appointments for apostille, notarization, and international document processing.
                   </p>
@@ -31,10 +31,10 @@ export default function WestHollywoodCityPageClient() {
 
                 {/* Neighborhoods Served Section */}
                 <div className="mb-6">
-                  <h2 className="text-2xl font-bold text-foreground mb-4">
+                  <h2 className="text-2xl font-bold text-foreground mb-3">
                     Neighborhoods Served
                   </h2>
-                  <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+                  <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
                         <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
@@ -56,7 +56,7 @@ export default function WestHollywoodCityPageClient() {
                   </div>
                 </div>
               </div>
-              <div className="relative h-96 rounded-lg overflow-hidden">
+              <div className="relative h-80 rounded-lg overflow-hidden">
                 <Image
                   src="/images/cities/west-hollywood.jpg"
                   alt="West Hollywood with mobile notary services"
@@ -69,11 +69,11 @@ export default function WestHollywoodCityPageClient() {
           </div>
 
           {/* Services Offered Section */}
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-foreground mb-4">
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
               Services Offered
             </h2>
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
@@ -96,11 +96,11 @@ export default function WestHollywoodCityPageClient() {
           </div>
 
           {/* Contact Section */}
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-foreground mb-4">
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
               Contact
             </h2>
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-primary flex-shrink-0" />
@@ -126,9 +126,9 @@ export default function WestHollywoodCityPageClient() {
           </div>
 
           {/* Internal Links Section */}
-          <div className="mb-8">
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
-              <h3 className="text-xl font-bold text-foreground mb-4">Internal Links</h3>
+          <div className="mb-6">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
+              <h3 className="text-xl font-bold text-foreground mb-3">Internal Links</h3>
               <div className="flex flex-wrap gap-4">
                 <Link href="/apostille" className="text-primary hover:underline font-semibold">
                   International Apostille Overview

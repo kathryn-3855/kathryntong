@@ -38,11 +38,11 @@ export default function CityPage({
     return (
       <div className="min-h-screen bg-white">
         <Header />
-        <main className="py-8 md:py-12">
+        <main className="py-6 md:py-10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             {/* Hero Section */}
-            <div className="mb-8">
-              <div className="grid md:grid-cols-2 gap-8 items-start">
+            <div className="mb-6">
+              <div className="grid md:grid-cols-2 gap-6 items-start">
                 <div>
                   <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
                     {t.cityPageTitle.replace('{cityName}', cityName)} | Kathryn's
@@ -59,13 +59,13 @@ export default function CityPage({
 
                   {/* Areas We Serve Section */}
                   <div className="mb-6">
-                    <h2 className="text-2xl font-bold text-foreground mb-4">
+                    <h2 className="text-2xl font-bold text-foreground mb-3">
                       {t.cityPageLAAreasWeServe}
                     </h2>
                     <p className="text-foreground text-base mb-4">
                       {t.cityPageLAAreasDesc}
                     </p>
-                    <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+                    <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
                       <ul className="space-y-2">
                         <li className="flex items-start gap-2">
                           <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
@@ -114,7 +114,7 @@ export default function CityPage({
                     </p>
                   </div>
                 </div>
-                <div className="relative h-96 rounded-lg overflow-hidden">
+                <div className="relative h-80 rounded-lg overflow-hidden">
                   <Image
                     src={imagePath}
                     alt={imageAlt}
@@ -127,14 +127,14 @@ export default function CityPage({
             </div>
 
             {/* Services Section */}
-            <div className="mb-8">
-              <h2 className="text-2xl font-bold text-foreground mb-4">
+            <div className="mb-6">
+              <h2 className="text-2xl font-bold text-foreground mb-3">
                 {t.cityPageServicesTitle.replace('{cityName}', cityName)}
               </h2>
               <p className="text-foreground text-base mb-4">
                 {t.cityPageServicesDesc}
               </p>
-              <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+              <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <span className="text-primary mt-1 font-bold">•</span>
@@ -172,11 +172,11 @@ export default function CityPage({
             </div>
 
             {/* Why Choose Section */}
-            <div className="mb-8">
-              <h2 className="text-2xl font-bold text-foreground mb-4">
+            <div className="mb-6">
+              <h2 className="text-2xl font-bold text-foreground mb-3">
                 {t.cityPageWhyChooseTitle.replace('{cityName}', cityName)}
               </h2>
-              <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+              <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
                 <ul className="space-y-2">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
@@ -203,14 +203,14 @@ export default function CityPage({
             </div>
 
             {/* Contact Section */}
-            <div className="mb-8">
-              <h2 className="text-2xl font-bold text-foreground mb-4">
+            <div className="mb-6">
+              <h2 className="text-2xl font-bold text-foreground mb-3">
                 {t.cityPageContactTitle.replace('{cityName}', cityName)}
               </h2>
               <p className="text-foreground text-base mb-4">
                 {t.cityPageContactDesc}
               </p>
-              <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+              <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
                     <Phone className="w-5 h-5 text-primary flex-shrink-0" />
@@ -266,8 +266,8 @@ export default function CityPage({
       <main className="py-8 md:py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Hero Section */}
-          <div className="mb-8">
-            <div className="grid md:grid-cols-2 gap-8 items-start">
+          <div className="mb-6">
+            <div className="grid md:grid-cols-2 gap-6 items-start">
               <div>
                 <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
                   {t.cityPageTitle.replace('{cityName}', cityName)}
@@ -285,13 +285,13 @@ export default function CityPage({
                 {/* Areas We Serve Section */}
                 {surroundingAreas.length > 0 && (
                   <div className="mb-6">
-                    <h2 className="text-2xl font-bold text-foreground mb-4">
+                    <h2 className="text-2xl font-bold text-foreground mb-3">
                       {t.cityPageAreasWeServe.replace('{cityName}', cityName)}
                     </h2>
                     <p className="text-foreground text-base mb-4">
                       {t.cityPageAreasWeServeDesc.replace('{cityName}', cityName)}
                     </p>
-                    <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+                    <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
                       <ul className="space-y-2">
                         {surroundingAreas.map((area, index) => (
                           <li key={index} className="flex items-start gap-2">
@@ -320,14 +320,14 @@ export default function CityPage({
           </div>
 
           {/* Services Section */}
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-foreground mb-4">
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
               {t.cityPageServicesTitle.replace('{cityName}', cityName)}
             </h2>
             <p className="text-foreground text-base mb-4">
               {t.cityPageServicesDesc}
             </p>
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
@@ -365,11 +365,11 @@ export default function CityPage({
           </div>
 
           {/* Why Choose Section */}
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-foreground mb-4">
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
               {t.cityPageWhyChooseTitle.replace('{cityName}', cityName)}
             </h2>
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
               <ul className="space-y-2">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
@@ -396,14 +396,14 @@ export default function CityPage({
           </div>
 
           {/* Contact Section */}
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-foreground mb-4">
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
               {t.cityPageContactTitle.replace('{cityName}', cityName)}
             </h2>
             <p className="text-foreground text-base mb-4">
               {t.cityPageContactDesc}
             </p>
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-primary flex-shrink-0" />
