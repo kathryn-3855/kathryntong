@@ -27,6 +27,13 @@ export default function HongKongApostilleClientPage() {
             </div>
           </div>
 
+          {/* Language Disclaimer */}
+          <div className="mb-6">
+            <p className="text-foreground text-sm italic text-foreground/70">
+              For reference only. Final requirements are determined by the receiving authority.
+            </p>
+          </div>
+
           {/* Hong Kong Apostille Requirements Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-foreground mb-3">
