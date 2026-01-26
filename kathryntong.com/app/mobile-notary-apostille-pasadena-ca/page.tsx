@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import PasadenaCityPageClient from "./city-page-client"
+import FAQSchema from "@/components/faq-schema"
 
 export const metadata: Metadata = {
   title: "Pasadena Mobile Notary & Apostille Services",
@@ -31,6 +32,30 @@ export const metadata: Metadata = {
 }
 
 export default function PasadenaPage() {
-  return <PasadenaCityPageClient />
+  const pasadenaFAQs = [
+    {
+      question: "Do you offer mobile notary services in Pasadena?",
+      answer: "Yes. Mobile notary services are available throughout Pasadena by appointment."
+    },
+    {
+      question: "Can you assist with apostilles for academic or educational documents?",
+      answer: "Yes. We frequently assist with apostilles for diplomas, transcripts, and education-related documents."
+    },
+    {
+      question: "Are federal documents eligible for apostille services?",
+      answer: "Federal documents may require U.S. Department of State processing. Guidance is provided based on document type."
+    },
+    {
+      question: "Do you handle international document use cases?",
+      answer: "Yes. Apostille and authentication services are available for documents used outside the United States."
+    }
+  ]
+
+  return (
+    <>
+      <FAQSchema faqs={pasadenaFAQs} />
+      <PasadenaCityPageClient />
+    </>
+  )
 }
 
