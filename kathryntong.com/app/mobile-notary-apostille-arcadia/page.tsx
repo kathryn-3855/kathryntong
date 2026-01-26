@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import ArcadiaCityPageClient from "./city-page-client"
+import FAQSchema from "@/components/faq-schema"
 
 export const metadata: Metadata = {
   title: "Arcadia Mobile Notary & Apostille Services",
@@ -31,6 +32,30 @@ export const metadata: Metadata = {
 }
 
 export default function ArcadiaPage() {
-  return <ArcadiaCityPageClient />
+  const arcadiaFAQs = [
+    {
+      question: "Do you offer mobile notary services in Arcadia?",
+      answer: "Yes. Mobile notary services are available throughout Arcadia by appointment."
+    },
+    {
+      question: "Can you assist with apostilles for family-related documents?",
+      answer: "Yes. We commonly assist with apostilles for birth certificates, marriage certificates, and family documents."
+    },
+    {
+      question: "Do you provide apostille services for international use?",
+      answer: "Yes. Apostille and authentication services are available for documents used abroad."
+    },
+    {
+      question: "Is same-day apostille service available in Arcadia?",
+      answer: "Same-day service may be available depending on document eligibility."
+    }
+  ]
+
+  return (
+    <>
+      <FAQSchema faqs={arcadiaFAQs} />
+      <ArcadiaCityPageClient />
+    </>
+  )
 }
 
