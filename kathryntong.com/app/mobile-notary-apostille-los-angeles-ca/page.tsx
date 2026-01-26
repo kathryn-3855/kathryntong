@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import LosAngelesCityPageClient from "./city-page-client"
+import LocalBusinessSchema from "@/components/local-business-schema"
 
 export const metadata: Metadata = {
   title: "Los Angeles Mobile Notary & Apostille Services | Kathryn's",
@@ -31,6 +32,11 @@ export const metadata: Metadata = {
 }
 
 export default function LosAngelesPage() {
-  return <LosAngelesCityPageClient />
+  return (
+    <>
+      <LocalBusinessSchema />
+      <LosAngelesCityPageClient />
+    </>
+  )
 }
 

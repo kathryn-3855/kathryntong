@@ -2,12 +2,14 @@
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import GoogleReviews from "@/components/google-reviews"
+import LocalBusinessSchema from "@/components/local-business-schema"
 import { CheckCircle, Phone, Mail, MapPin } from "lucide-react"
 import Link from "next/link"
 
 export default function ServicesClientPage() {
   return (
     <div className="min-h-screen bg-white text-foreground">
+      <LocalBusinessSchema />
       <Header />
       <main className="py-8 md:py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -5,6 +5,7 @@ import ContactSection from "@/components/contact-section"
 import Footer from "@/components/footer"
 import Chatbot from "@/components/chatbot"
 import GoogleReviews from "@/components/google-reviews"
+import LocalBusinessSchema from "@/components/local-business-schema"
 
 export const metadata: Metadata = {
   title: "Mobile Notary & Apostille Services Los Angeles | Kathryn's",
@@ -15,6 +16,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
+      <LocalBusinessSchema />
       <Header />
       <HeroSection />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
