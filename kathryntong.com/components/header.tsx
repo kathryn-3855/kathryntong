@@ -23,7 +23,6 @@ export default function Header() {
     { name: t.citySantaMonica, path: "/mobile-notary-apostille-santa-monica-ca" },
     { name: t.cityWestHollywood, path: "/mobile-notary-apostille-west-hollywood" },
     { name: t.cityArcadia, path: "/mobile-notary-apostille-arcadia" },
-    { name: t.citySanMarino, path: "/mobile-notary-apostille-san-marino" },
     { name: t.citySouthPasadena, path: "/mobile-notary-apostille-south-pasadena" },
   ]
 

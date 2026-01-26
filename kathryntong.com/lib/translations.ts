@@ -295,7 +295,6 @@ export const translations = {
     citySantaMonica: "Santa Monica",
     cityWestHollywood: "West Hollywood",
     cityArcadia: "Arcadia",
-    citySanMarino: "San Marino",
     citySouthPasadena: "South Pasadena",
     
     // Surrounding Areas
@@ -347,7 +346,6 @@ export const translations = {
     cityDescSantaMonica: "Professional mobile notary and apostille services serving Santa Monica and surrounding areas of Pacific Palisades, Malibu, Venice, Marina Del Rey.",
     cityDescWestHollywood: "Professional mobile notary and apostille services serving West Hollywood and surrounding areas of Hollywood Hills, Hollywood, East Hollywood and San Fernando Cities.",
     cityDescArcadia: "Professional mobile notary and apostille services serving Arcadia and surrounding areas of Monrovia, Duarte, Temple City, San Gabrial, El Monte, Rosemead and City of Industry.",
-    cityDescSanMarino: "Professional mobile notary and apostille services serving San Marino and surrounding areas of Rosemead, Alhambra, Monterey Park and Montebello.",
     cityDescSouthPasadena: "Professional mobile notary and apostille services serving South Pasadena and surrounding areas of Highland Park, Eagle Rock, Lincoln Heights and Montecito Heights.",
     
     // Popular Sectors - Los Angeles
@@ -380,12 +378,6 @@ export const translations = {
     sectorA3: "Manufacturing that focuses on Transportation, Defense & Architectural designs",
     sectorA4: "Clean Energy Groups that provide Renewable Energy & Utility Data",
     sectorA5: "Education & Professional Services including CPA, Wealth Management, Law Firms etc.",
-    
-    // Popular Sectors - San Marino
-    sectorSM2_1: "Tourism & Local Retail setups",
-    sectorSM2_2: "Banking & Professional Services",
-    sectorSM2_3: "Light Manufacturing such as Ceramics, Clothing, Furnitures",
-    sectorSM2_4: "Real Estate Brokerages & Service Providers",
     
     // Popular Sectors - South Pasadena
     sectorSP1: "Healthcare & Wellness Companies",
@@ -1184,7 +1176,6 @@ export const translations = {
     citySantaMonica: "圣莫尼卡",
     cityWestHollywood: "西好莱坞",
     cityArcadia: "阿卡迪亚",
-    citySanMarino: "圣马力诺",
     citySouthPasadena: "南帕萨迪纳",
     
     // Surrounding Areas (Chinese)
@@ -1236,7 +1227,6 @@ export const translations = {
     cityDescSantaMonica: "在加利福尼亚州圣莫尼卡提供专业的上门公证和海牙认证服务。为整个圣莫尼卡及周边沿海地区的居民、企业和专业人士提供服务。我们的上门公证服务在您的办公室、家中或圣莫尼卡的任何位置提供便捷的当日公证。我们专门从事房地产文件、商业合同以及国际使用的海牙认证服务。",
     cityDescWestHollywood: "在加利福尼亚州西好莱坞提供专业的上门公证和海牙认证服务。为整个西好莱坞的居民、企业和娱乐行业专业人士提供服务。我们的上门公证服务在您的办公室、家中或工作室提供便捷、专业的公证。我们专门从事娱乐行业文件、商业合同、房地产交易以及国际使用的海牙认证服务。",
     cityDescArcadia: "在加利福尼亚州阿卡迪亚提供专业的上门公证和海牙认证服务。为整个阿卡迪亚和圣盖博谷的居民、企业和医疗机构提供服务。我们的上门公证服务在您的位置提供便捷、专业的公证。我们专门从事医疗文件、房地产交易以及国际使用的海牙认证服务。",
-    cityDescSanMarino: "在加利福尼亚州圣马力诺提供专业的上门公证和海牙认证服务。为整个圣马力诺和圣盖博谷的居民、企业和遗产规划需求提供服务。我们的上门公证服务在您的位置提供谨慎、专业的公证。我们专门从事遗产规划文件、高价值房地产交易以及国际使用的海牙认证服务。",
     cityDescSouthPasadena: "在加利福尼亚州南帕萨迪纳提供专业的上门公证和海牙认证服务。为整个南帕萨迪纳和圣盖博谷的居民、企业和医疗机构提供服务。我们的上门公证服务将专业公证直接送到您的位置。我们专门从事医疗文件、房地产交易以及国际使用的海牙认证服务。",
     
     // Popular Sectors - Los Angeles (Chinese)
@@ -1269,12 +1259,6 @@ export const translations = {
     sectorA3: "专注于交通、国防和建筑设计的制造业",
     sectorA4: "提供可再生能源和公用事业数据的清洁能源团体",
     sectorA5: "教育和专业服务，包括注册会计师、财富管理、律师事务所等",
-    
-    // Popular Sectors - San Marino (Chinese)
-    sectorSM2_1: "旅游业和本地零售设置",
-    sectorSM2_2: "银行和专业服务",
-    sectorSM2_3: "轻工业制造，如陶瓷、服装、家具",
-    sectorSM2_4: "房地产经纪和服务提供商",
     
     // Popular Sectors - South Pasadena (Chinese)
     sectorSP1: "医疗保健和健康公司",
