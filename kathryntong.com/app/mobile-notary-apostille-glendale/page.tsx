@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import GlendaleCityPageClient from "./city-page-client"
+import FAQSchema from "@/components/faq-schema"
 
 export const metadata: Metadata = {
   title: "Glendale Mobile Notary & Apostille Services | Kathryn's",
@@ -31,6 +32,30 @@ export const metadata: Metadata = {
 }
 
 export default function GlendalePage() {
-  return <GlendaleCityPageClient />
+  const glendaleFAQs = [
+    {
+      question: "Do you provide mobile notary services throughout Glendale?",
+      answer: "Yes. Mobile notary services are available throughout Glendale by appointment."
+    },
+    {
+      question: "Can I get an apostille without visiting an office?",
+      answer: "Yes. Apostille services are available through mobile pickup or mail-in processing, depending on the document."
+    },
+    {
+      question: "Do you handle apostilles for documents used in other countries?",
+      answer: "Yes. We assist with international apostille and document authentication for many countries, including China, Taiwan, and Hong Kong."
+    },
+    {
+      question: "Is same-day apostille available for Glendale clients?",
+      answer: "Same-day apostille may be available for eligible California documents. Availability depends on document type and submission timing."
+    }
+  ]
+
+  return (
+    <>
+      <FAQSchema faqs={glendaleFAQs} />
+      <GlendaleCityPageClient />
+    </>
+  )
 }
 

@@ -25,10 +25,10 @@ export default function GlendaleCityPageClient() {
                 
                 <div className="space-y-4 mb-6">
                   <p className="text-foreground text-base leading-relaxed">
-                    Kathryn's Mobile Notary & Apostille provides professional mobile notary and apostille services in Glendale, serving individuals, families, and businesses by appointment. Mobile service is available throughout Glendale for clients who need documents notarized accurately and efficiently.
+                    Kathryn's Mobile Notary & Apostille provides professional <Link href="/mobile-notary-apostille-los-angeles-ca" className="text-primary hover:underline font-semibold">mobile notary and apostille services</Link> in Glendale, serving individuals, families, and businesses by appointment. Mobile service is available throughout Glendale for clients who need documents notarized accurately and efficiently.
                   </p>
                   <p className="text-foreground text-base leading-relaxed">
-                    We specialize in California apostille services, including same-day and mail-in apostille processing for birth certificates, FBI background checks, powers of attorney, affidavits, and other official documents. Each request is reviewed carefully to ensure compliance before submission.
+                    We specialize in California <Link href="/apostille" className="text-primary hover:underline font-semibold">apostille services</Link>, including same-day and <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:underline font-semibold">mail-in apostille processing</Link> for birth certificates, FBI background checks, powers of attorney, affidavits, and other official documents. Each request is reviewed carefully to ensure compliance before submission.
                   </p>
                 </div>
               </div>
@@ -51,10 +51,10 @@ export default function GlendaleCityPageClient() {
             </h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
               <p className="text-foreground text-base leading-relaxed mb-4">
-                Glendale clients frequently require documents for use outside the United States. We assist with international apostille and document authentication services for both Hague and non-Hague countries, including China, Taiwan, Hong Kong, Mexico, South Korea, and the Philippines.
+                Glendale clients frequently require documents for use outside the United States. We assist with <Link href="/international-apostille" className="text-primary hover:underline font-semibold">international apostille and document authentication services</Link> for both Hague and non-Hague countries, including China, Taiwan, Hong Kong, Mexico, South Korea, and the Philippines.
               </p>
               <p className="text-foreground text-base leading-relaxed">
-                Mail-in apostille service is available nationwide, making the process convenient even when in-person service is not required.
+                <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:underline font-semibold">Mail-in apostille service</Link> is available nationwide, making the process convenient even when in-person service is not required.
               </p>
             </div>
           </div>
@@ -93,11 +93,52 @@ export default function GlendaleCityPageClient() {
             </h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
               <p className="text-foreground text-base leading-relaxed mb-4">
-                All services are provided by appointment only. Mobile notary service is available throughout Glendale, and mail-in options are available for apostille processing depending on document type and destination country.
+                All services are provided by appointment only. Mobile notary service is available throughout Glendale, and <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:underline font-semibold">mail-in options</Link> are available for apostille processing depending on document type and destination country.
               </p>
               <p className="text-foreground text-base leading-relaxed">
                 For additional service areas, visit our <Link href="/mobile-notary-apostille-los-angeles-ca" className="text-primary hover:underline font-semibold">Los Angeles Mobile Notary & Apostille Services</Link> page.
               </p>
+            </div>
+          </div>
+
+          {/* FAQ Section */}
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold text-foreground mb-4">
+              Frequently Asked Questions – Glendale Apostille & Notary
+            </h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6 space-y-6">
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Do you provide mobile notary services throughout Glendale?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. Mobile notary services are available throughout Glendale by appointment.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Can I get an apostille without visiting an office?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. <Link href="/apostille" className="text-primary hover:underline font-semibold">Apostille services</Link> are available through mobile pickup or <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:underline font-semibold">mail-in processing</Link>, depending on the document.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Do you handle apostilles for documents used in other countries?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. We assist with <Link href="/international-apostille" className="text-primary hover:underline font-semibold">international apostille and document authentication</Link> for many countries, including China, Taiwan, and Hong Kong.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Is same-day apostille available for Glendale clients?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Same-day apostille may be available for eligible California documents. Availability depends on document type and submission timing.
+                </p>
+              </div>
             </div>
           </div>
 
@@ -137,15 +178,19 @@ export default function GlendaleCityPageClient() {
               <h3 className="text-xl font-bold text-foreground mb-4">Internal Links</h3>
               <div className="flex flex-wrap gap-4">
                 <Link href="/apostille" className="text-primary hover:underline font-semibold">
-                  International Apostille Overview
+                  Apostille Services
                 </Link>
                 <span className="text-foreground">|</span>
                 <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:underline font-semibold">
                   Mail-In Apostille Services
                 </Link>
                 <span className="text-foreground">|</span>
+                <Link href="/international-apostille" className="text-primary hover:underline font-semibold">
+                  International Apostille Services
+                </Link>
+                <span className="text-foreground">|</span>
                 <Link href="/mobile-notary-apostille-los-angeles-ca" className="text-primary hover:underline font-semibold">
-                  Nearby cities
+                  Los Angeles Mobile Notary & Apostille Services
                 </Link>
               </div>
             </div>
