@@ -2,9 +2,9 @@ import type { Metadata } from "next"
 import PhilippinesApostilleClientPage from "./philippines-client-page"
 
 export const metadata: Metadata = {
-  title: "Apostille Services for the Philippines | Kathryn's Mobile Notary",
+  title: "Philippines Apostille Services | U.S. Apostille",
   description:
-    "Professional apostille services for the Philippines. Hague Apostille Convention member. Expert guidance for U.S. documents intended for use in the Philippines.",
+    "The Philippines accepts Hague apostilles. We assist with apostille services for U.S. documents used for immigration, family, and legal matters.",
   keywords:
     "Philippines apostille, Philippines document legalization, Hague Convention Philippines, Philippines apostille services, Philippines document authentication",
   icons: {
