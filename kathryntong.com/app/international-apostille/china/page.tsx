@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import ChinaApostilleClientPage from "./china-client-page"
+import FAQSchema from "@/components/faq-schema"
 
 export const metadata: Metadata = {
   title: "中国文件海牙认证 Apostille 服务 | 美国文件",
@@ -24,6 +25,22 @@ export const metadata: Metadata = {
 }
 
 export default function ChinaApostillePage() {
-  return <ChinaApostilleClientPage />
+  const chinaFAQs = [
+    {
+      question: "Is China a Hague Apostille country?",
+      answer: "Yes. China joined the Hague Apostille Convention in 2023."
+    },
+    {
+      question: "Can I mail my documents for China apostille?",
+      answer: "Yes. Mail-in apostille services are available for eligible U.S. documents."
+    }
+  ]
+
+  return (
+    <>
+      <FAQSchema faqs={chinaFAQs} />
+      <ChinaApostilleClientPage />
+    </>
+  )
 }
 

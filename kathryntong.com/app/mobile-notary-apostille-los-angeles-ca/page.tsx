@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import LosAngelesCityPageClient from "./city-page-client"
 import LocalBusinessSchema from "@/components/local-business-schema"
+import FAQSchema from "@/components/faq-schema"
 
 export const metadata: Metadata = {
   title: "Los Angeles Mobile Notary & Apostille Services | Kathryn's",
@@ -32,9 +33,25 @@ export const metadata: Metadata = {
 }
 
 export default function LosAngelesPage() {
+  const losAngelesFAQs = [
+    {
+      question: "Do you provide mobile notary services throughout Los Angeles?",
+      answer: "Yes. Mobile notary services are available throughout Los Angeles by appointment."
+    },
+    {
+      question: "Do I need to visit your office for apostille services?",
+      answer: "No. Apostille services are available via mail-in or mobile pickup, depending on the document."
+    },
+    {
+      question: "Do you handle international apostilles?",
+      answer: "Yes. We assist with apostille and document authentication for many countries, including China, Taiwan, and Hong Kong."
+    }
+  ]
+
   return (
     <>
       <LocalBusinessSchema />
+      <FAQSchema faqs={losAngelesFAQs} />
       <LosAngelesCityPageClient />
     </>
   )
