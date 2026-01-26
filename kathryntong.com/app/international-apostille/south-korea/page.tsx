@@ -2,9 +2,9 @@ import type { Metadata } from "next"
 import SouthKoreaApostilleClientPage from "./south-korea-client-page"
 
 export const metadata: Metadata = {
-  title: "Apostille Services for South Korea | Kathryn's Mobile Notary",
+  title: "South Korea Apostille Services | Hague Apostille",
   description:
-    "Professional apostille services for South Korea. Hague Apostille Convention member. Expert guidance for U.S. documents intended for use in South Korea.",
+    "Apostille services for U.S. documents used in South Korea. Common for FBI background checks, education, and employment purposes.",
   keywords:
     "South Korea apostille, South Korea document legalization, Hague Convention South Korea, South Korea apostille services, South Korea document authentication",
   icons: {
