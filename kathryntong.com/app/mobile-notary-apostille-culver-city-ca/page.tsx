@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import CulverCityCityPageClient from "./city-page-client"
+import FAQSchema from "@/components/faq-schema"
 
 export const metadata: Metadata = {
   title: "Culver City Mobile Notary & Apostille Services",
@@ -31,6 +32,30 @@ export const metadata: Metadata = {
 }
 
 export default function CulverCityPage() {
-  return <CulverCityCityPageClient />
+  const culverCityFAQs = [
+    {
+      question: "Is mobile notary service available in Culver City?",
+      answer: "Yes. Mobile notary services are available throughout Culver City by appointment."
+    },
+    {
+      question: "Can I get an apostille for entertainment or business-related documents?",
+      answer: "Yes. We assist with apostille services for business, contract, and industry-related documents."
+    },
+    {
+      question: "Do you offer expedited apostille processing?",
+      answer: "Expedited and same-day apostille services may be available depending on document eligibility."
+    },
+    {
+      question: "Is mail-in apostille an option for Culver City clients?",
+      answer: "Yes. Mail-in apostille services are available nationwide."
+    }
+  ]
+
+  return (
+    <>
+      <FAQSchema faqs={culverCityFAQs} />
+      <CulverCityCityPageClient />
+    </>
+  )
 }
 
