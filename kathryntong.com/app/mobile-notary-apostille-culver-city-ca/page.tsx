@@ -2,13 +2,13 @@ import type { Metadata } from "next"
 import CulverCityCityPageClient from "./city-page-client"
 
 export const metadata: Metadata = {
-  title: "Mobile Notary & Apostille Services in Culver City, CA | Entertainment Industry | Same-Day",
+  title: "Culver City Mobile Notary & Apostille Services",
   description:
-    "Licensed mobile notary public serving Culver City, CA. Same-day notarization & apostille services for entertainment industry, studios, businesses. We travel to offices, studios, homes in Culver City, Mar Vista, Marina Del Rey. California certified apostille agent. Available 7 days/week.",
+    "Trusted mobile notary and apostille services in Culver City. Serving individuals and businesses with mail-in and same-day options.",
   keywords: "mobile notary Culver City, notary public Culver City CA, traveling notary Culver City, on-site notary Culver City, same day notary Culver City, 24 hour notary Culver City, apostille services Culver City, California apostille Culver City, notary near me Culver City, Mar Vista notary, Marina Del Rey notary, entertainment industry notary Culver City, studio notary Culver City, Sony Pictures notary, business contract notary Culver City, real estate notary Culver City, power of attorney notary Culver City, embassy legalization Culver City, certified apostille agent Culver City, bilingual notary Culver City",
   openGraph: {
-    title: "Mobile Notary & Apostille Services in Culver City, CA | Entertainment Industry",
-    description: "Licensed mobile notary public serving Culver City, CA. Same-day notarization & apostille services for entertainment industry, studios, businesses.",
+    title: "Culver City Mobile Notary & Apostille Services",
+    description: "Trusted mobile notary and apostille services in Culver City. Serving individuals and businesses with mail-in and same-day options.",
     type: "website",
     locale: "en_US",
     url: "https://kathryntong.com/mobile-notary-apostille-culver-city-ca",
