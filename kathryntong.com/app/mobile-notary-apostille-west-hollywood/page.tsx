@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import WestHollywoodCityPageClient from "./city-page-client"
+import FAQSchema from "@/components/faq-schema"
 
 export const metadata: Metadata = {
   title: "West Hollywood Mobile Notary & Apostille Services",
@@ -31,6 +32,30 @@ export const metadata: Metadata = {
 }
 
 export default function WestHollywoodPage() {
-  return <WestHollywoodCityPageClient />
+  const westHollywoodFAQs = [
+    {
+      question: "Is mobile notary service available in West Hollywood?",
+      answer: "Yes. Mobile notary services are available throughout West Hollywood by appointment."
+    },
+    {
+      question: "Can you notarize and apostille personal legal documents?",
+      answer: "Yes. Common documents include powers of attorney, affidavits, and sworn statements."
+    },
+    {
+      question: "Do you offer discreet, appointment-only service?",
+      answer: "Yes. All services are appointment-based and handled professionally and confidentially."
+    },
+    {
+      question: "Is mail-in apostille available?",
+      answer: "Yes. Mail-in apostille services are available when in-person service is not required."
+    }
+  ]
+
+  return (
+    <>
+      <FAQSchema faqs={westHollywoodFAQs} />
+      <WestHollywoodCityPageClient />
+    </>
+  )
 }
 
