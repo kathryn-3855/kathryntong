@@ -2,13 +2,13 @@ import type { Metadata } from "next"
 import WestHollywoodCityPageClient from "./city-page-client"
 
 export const metadata: Metadata = {
-  title: "Mobile Notary & Apostille Services in West Hollywood, CA | Entertainment | Same-Day",
+  title: "West Hollywood Mobile Notary & Apostille Services",
   description:
-    "Licensed mobile notary public serving West Hollywood, CA. Same-day notarization & apostille services for entertainment industry, businesses, residents. We travel to offices, studios, homes in West Hollywood, Hollywood, Hollywood Hills West, East Hollywood, Studio City. California certified apostille agent.",
+    "Professional mobile notary and apostille services in West Hollywood. Appointment-based service for local and international documents.",
   keywords: "mobile notary West Hollywood, notary public West Hollywood CA, traveling notary West Hollywood, on-site notary West Hollywood, same day notary West Hollywood, 24 hour notary West Hollywood, apostille services West Hollywood, California apostille West Hollywood, notary near me West Hollywood, Hollywood notary, Hollywood Hills West notary, East Hollywood notary, Studio City notary, Sunset Strip notary, entertainment industry notary West Hollywood, studio notary West Hollywood, business contract notary West Hollywood, real estate notary West Hollywood, power of attorney notary West Hollywood, estate planning notary West Hollywood, embassy legalization West Hollywood, certified apostille agent West Hollywood",
   openGraph: {
-    title: "Mobile Notary & Apostille Services in West Hollywood, CA | Entertainment Industry",
-    description: "Licensed mobile notary public serving West Hollywood, CA. Same-day notarization & apostille services for entertainment industry, businesses, residents.",
+    title: "West Hollywood Mobile Notary & Apostille Services",
+    description: "Professional mobile notary and apostille services in West Hollywood. Appointment-based service for local and international documents.",
     type: "website",
     locale: "en_US",
     url: "https://kathryntong.com/mobile-notary-apostille-west-hollywood",
