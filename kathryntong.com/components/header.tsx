@@ -17,13 +17,13 @@ export default function Header() {
   
   const cities = [
     { name: t.cityLosAngeles, path: "/mobile-notary-apostille-los-angeles-ca" },
+    { name: t.cityGlendale, path: "/mobile-notary-apostille-glendale" },
     { name: t.cityBeverlyHills, path: "/mobile-notary-apostille-beverly-hills" },
     { name: t.cityPasadena, path: "/mobile-notary-apostille-pasadena-ca" },
     { name: t.cityCulverCity, path: "/mobile-notary-apostille-culver-city-ca" },
     { name: t.citySantaMonica, path: "/mobile-notary-apostille-santa-monica-ca" },
     { name: t.cityWestHollywood, path: "/mobile-notary-apostille-west-hollywood" },
     { name: t.cityArcadia, path: "/mobile-notary-apostille-arcadia" },
-    { name: t.cityGlendale, path: "/mobile-notary-apostille-glendale" },
     { name: t.citySouthPasadena, path: "/mobile-notary-apostille-south-pasadena" },
   ]
 
