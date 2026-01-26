@@ -332,7 +332,7 @@ export default function InternationalApostilleClientPage() {
                   className="flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
                 >
                   <Phone className="w-5 h-5" />
-                  <span>626-590-3560</span>
+                  <span>(626) 590-3560</span>
                 </a>
                 <a 
                   href="mailto:Kathryn@KathrynTong.com" 

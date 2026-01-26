@@ -105,7 +105,7 @@ export default function SantaMonicaCityPageClient() {
                 <div className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-primary flex-shrink-0" />
                   <span className="text-foreground text-base">
-                    Phone / Text: <a href="tel:+16265903560" className="text-primary hover:underline font-semibold">626-590-3560</a>
+                    Phone / Text: <a href="tel:+16265903560" className="text-primary hover:underline font-semibold">(626) 590-3560</a>
                   </span>
                 </div>
                 <div className="flex items-center gap-3">

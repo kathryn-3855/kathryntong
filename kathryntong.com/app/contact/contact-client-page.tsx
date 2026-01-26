@@ -78,7 +78,7 @@ export default function ContactClientPage() {
                     <div>
                       <h3 className="text-lg font-bold text-foreground mb-2">Phone / Text:</h3>
                       <a href="tel:+16265903560" className="text-primary font-semibold hover:underline text-lg">
-                        626-590-3560
+                        (626) 590-3560
                       </a>
                     </div>
                     <div>
