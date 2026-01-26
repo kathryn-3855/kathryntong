@@ -45,7 +45,7 @@ export default function CityPage({
               <div className="grid md:grid-cols-2 gap-8 items-start">
                 <div>
                   <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                    {t.cityPageTitle.replace('{cityName}', cityName)}
+                    {t.cityPageTitle.replace('{cityName}', cityName)} | Kathryn's
                   </h1>
                   
                   <div className="space-y-4 mb-6">
