@@ -34,7 +34,7 @@ export default function MontereyParkCityPageClient() {
               </div>
               <div className="relative h-96 rounded-lg overflow-hidden">
                 <Image
-                  src="/images/cities/monterey-park.jpg"
+                  src="/images/cities/monterey-park.webp"
                   alt="Monterey Park with mobile notary services"
                   fill
                   className="object-cover"

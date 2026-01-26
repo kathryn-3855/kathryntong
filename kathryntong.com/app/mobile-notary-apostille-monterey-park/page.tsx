@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: "Kathryn's Mobile Notary & Apostille",
     images: [
       {
-        url: "/images/cities/monterey-park.jpg",
+        url: "/images/cities/monterey-park.webp",
         width: 1200,
         height: 630,
         alt: "Mobile Notary Services in Monterey Park, CA",
