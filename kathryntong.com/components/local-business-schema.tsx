@@ -3,10 +3,37 @@
 export default function LocalBusinessSchema() {
   const localBusinessSchema = {
     "@context": "https://schema.org",
-    "@type": ["LocalBusiness", "Notary"],
+    "@type": ["LocalBusiness", "Notary", "LegalService"],
     "name": "Kathryn's Mobile Notary & Apostille",
     "description": "Mobile Notary & Apostille Services - Serving Los Angeles County by appointment. No storefront location.",
-    "serviceType": "Mobile Notary & Apostille Services",
+    "serviceType": ["Mobile Notary & Apostille Services", "Legal Services", "Document Services"],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Notary and Apostille Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Mobile Notary Services"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Apostille Services"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Document Legalization Services"
+          }
+        }
+      ]
+    },
     "telephone": "(626) 590-3560",
     "url": "https://kathrynsmobilenotary.com",
     "email": "Kathryn@KathrynTong.com",
