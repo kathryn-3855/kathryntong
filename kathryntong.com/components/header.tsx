@@ -18,6 +18,7 @@ export default function Header() {
   const cities = [
     { name: t.cityLosAngeles, path: "/mobile-notary-apostille-los-angeles-ca" },
     { name: t.cityGlendale, path: "/mobile-notary-apostille-glendale" },
+    { name: t.cityMontereyPark, path: "/mobile-notary-apostille-monterey-park" },
     { name: t.cityBeverlyHills, path: "/mobile-notary-apostille-beverly-hills" },
     { name: t.cityPasadena, path: "/mobile-notary-apostille-pasadena-ca" },
     { name: t.cityCulverCity, path: "/mobile-notary-apostille-culver-city-ca" },

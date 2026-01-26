@@ -296,6 +296,7 @@ export const translations = {
     cityWestHollywood: "West Hollywood",
     cityArcadia: "Arcadia",
     cityGlendale: "Glendale",
+    cityMontereyPark: "Monterey Park",
     citySouthPasadena: "South Pasadena",
     
     // Surrounding Areas
@@ -1178,6 +1179,7 @@ export const translations = {
     cityWestHollywood: "西好莱坞",
     cityArcadia: "阿卡迪亚",
     cityGlendale: "格伦代尔",
+    cityMontereyPark: "蒙特利公园",
     citySouthPasadena: "南帕萨迪纳",
     
     // Surrounding Areas (Chinese)

@@ -1,0 +1,219 @@
+"use client"
+import Header from "@/components/header"
+import Footer from "@/components/footer"
+import GoogleReviews from "@/components/google-reviews"
+import { Phone, Mail } from "lucide-react"
+import Image from "next/image"
+import Link from "next/link"
+import { useTranslations } from "@/lib/use-translations"
+
+export default function MontereyParkCityPageClient() {
+  const t = useTranslations()
+  
+  return (
+    <div className="min-h-screen bg-white">
+      <Header />
+      <main className="py-8 md:py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Hero Section */}
+          <div className="mb-8">
+            <div className="grid md:grid-cols-2 gap-8 items-start">
+              <div>
+                <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+                  Monterey Park Mobile Notary & Apostille Services
+                </h1>
+                
+                <div className="space-y-4 mb-6">
+                  <p className="text-foreground text-base leading-relaxed">
+                    Kathryn's Mobile Notary & Apostille provides professional <Link href="/mobile-notary-apostille-los-angeles-ca" className="text-primary hover:underline font-semibold">mobile notary and apostille services</Link> in Monterey Park, serving individuals, families, and businesses by appointment. Mobile service is available throughout Monterey Park for clients who require accurate, reliable notarization without visiting an office.
+                  </p>
+                  <p className="text-foreground text-base leading-relaxed">
+                    Monterey Park clients frequently require documents for international use, including immigration, education, business, and family matters. We assist with California <Link href="/apostille" className="text-primary hover:underline font-semibold">apostille services</Link>, including same-day and <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:underline font-semibold">mail-in apostille processing</Link>, for birth certificates, FBI background checks, powers of attorney, affidavits, and other official documents.
+                  </p>
+                </div>
+              </div>
+              <div className="relative h-96 rounded-lg overflow-hidden">
+                <Image
+                  src="/images/cities/monterey-park.jpg"
+                  alt="Monterey Park with mobile notary services"
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* International Apostille Services Section */}
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold text-foreground mb-4">
+              International Apostille Services for Monterey Park Clients
+            </h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+              <p className="text-foreground text-base leading-relaxed mb-4">
+                Monterey Park has a strong demand for documents used outside the United States. We assist with <Link href="/international-apostille" className="text-primary hover:underline font-semibold">international apostille and document authentication services</Link> for both Hague and non-Hague countries, including China, Taiwan, Hong Kong, Mexico, South Korea, and the Philippines.
+              </p>
+              <p className="text-foreground text-base leading-relaxed">
+                <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:underline font-semibold">Mail-in apostille service</Link> is available nationwide, making the process convenient for clients who do not require in-person service.
+              </p>
+            </div>
+          </div>
+
+          {/* Services Offered Section */}
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold text-foreground mb-4">
+              Services Offered
+            </h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Same-Day Apostille</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Mail-In Apostille Services</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">International Apostille & Legalization</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Mobile Notary Services</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Appointment-Based Mobile Service Section */}
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold text-foreground mb-4">
+              Appointment-Based Mobile Service
+            </h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+              <p className="text-foreground text-base leading-relaxed mb-4">
+                All services are provided by appointment only. Mobile notary service is available throughout Monterey Park, and <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:underline font-semibold">mail-in options</Link> are available for apostille processing depending on document type and destination country requirements.
+              </p>
+              <p className="text-foreground text-base leading-relaxed">
+                For additional locations, visit our <Link href="/mobile-notary-apostille-los-angeles-ca" className="text-primary hover:underline font-semibold">Los Angeles Mobile Notary & Apostille Services</Link> page.
+              </p>
+            </div>
+          </div>
+
+          {/* FAQ Section */}
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold text-foreground mb-4">
+              Frequently Asked Questions – Monterey Park Apostille & Notary
+            </h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6 space-y-6">
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Do you provide mobile notary services throughout Monterey Park?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. Mobile notary services are available throughout Monterey Park by appointment.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Can I get an apostille without visiting an office?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. <Link href="/apostille" className="text-primary hover:underline font-semibold">Apostille services</Link> are available through <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:underline font-semibold">mail-in processing</Link> or mobile pickup, depending on the document.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Do you handle apostilles for documents used in China, Taiwan, or Hong Kong?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. We assist with <Link href="/international-apostille" className="text-primary hover:underline font-semibold">apostille and document authentication</Link> for documents used in <Link href="/international-apostille/china" className="text-primary hover:underline font-semibold">China</Link>, Taiwan, Hong Kong, and other countries.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Is same-day apostille available for Monterey Park clients?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Same-day apostille may be available for eligible California documents, depending on document type and submission timing.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Contact Section */}
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold text-foreground mb-4">
+              Contact
+            </h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+              <div className="space-y-3">
+                <div className="flex items-center gap-3">
+                  <Phone className="w-5 h-5 text-primary flex-shrink-0" />
+                  <span className="text-foreground text-base">
+                    Phone / Text: <a href="tel:+16265903560" className="text-primary hover:underline font-semibold">(626) 590-3560</a>
+                  </span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Mail className="w-5 h-5 text-primary flex-shrink-0" />
+                  <span className="text-foreground text-base">
+                    Email: <a href="mailto:Kathryn@KathrynTong.com" className="text-primary hover:underline font-semibold">Kathryn@KathrynTong.com</a>
+                  </span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-foreground text-base font-semibold">WeChat:</span>
+                  <span className="text-foreground text-base">USANotaryApostille</span>
+                </div>
+              </div>
+            </div>
+            <p className="text-foreground text-sm mt-4 italic">
+              Mobile Service Disclaimer: Appointment required.
+            </p>
+          </div>
+
+          {/* Internal Links Section */}
+          <div className="mb-8">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+              <h3 className="text-xl font-bold text-foreground mb-4">Internal Links</h3>
+              <div className="flex flex-wrap gap-4">
+                <Link href="/apostille" className="text-primary hover:underline font-semibold">
+                  Apostille Services
+                </Link>
+                <span className="text-foreground">|</span>
+                <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:underline font-semibold">
+                  Mail-In Apostille Services
+                </Link>
+                <span className="text-foreground">|</span>
+                <Link href="/international-apostille" className="text-primary hover:underline font-semibold">
+                  International Apostille Services
+                </Link>
+                <span className="text-foreground">|</span>
+                <Link href="/international-apostille/china" className="text-primary hover:underline font-semibold">
+                  China Apostille Services
+                </Link>
+                <span className="text-foreground">|</span>
+                <Link href="/mobile-notary-apostille-los-angeles-ca" className="text-primary hover:underline font-semibold">
+                  Los Angeles Mobile Notary & Apostille Services
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Google Reviews */}
+          <GoogleReviews />
+
+          {/* CTA Section */}
+          <div className="bg-white py-4 text-center">
+            <h2 className="text-2xl lg:text-3xl font-bold mb-3 text-foreground">{t.readyToStart}</h2>
+            <p className="text-base lg:text-lg text-foreground/90">
+              {t.callOrTextLabel} <a href="tel:+16265903560" className="text-primary hover:underline font-semibold">(626) 590-3560</a>, 7 days a week or email to: <a href="mailto:Kathryn@KathrynTong.com" className="text-primary hover:underline font-semibold">Kathryn@KathrynTong.com</a>
+            </p>
+          </div>
+        </div>
+      </main>
+      <Footer />
+    </div>
+  )
+}
+
