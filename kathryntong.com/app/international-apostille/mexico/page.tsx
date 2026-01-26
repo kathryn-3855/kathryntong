@@ -2,9 +2,9 @@ import type { Metadata } from "next"
 import MexicoApostilleClientPage from "./mexico-client-page"
 
 export const metadata: Metadata = {
-  title: "Apostille Services for Mexico | Kathryn's Mobile Notary",
+  title: "Mexico Apostille Services | U.S. Documents",
   description:
-    "Professional apostille services for Mexico. Hague Apostille Convention member. Expert guidance for U.S. documents intended for use in Mexico.",
+    "Mexico is a Hague Apostille member. Apostille services for U.S. documents used in Mexico, including birth certificates and powers of attorney.",
   keywords:
     "Mexico apostille, Mexico document legalization, Hague Convention Mexico, Mexico apostille services, Mexico document authentication",
   icons: {
