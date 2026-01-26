@@ -36,15 +36,19 @@ export default function LosAngelesPage() {
   const losAngelesFAQs = [
     {
       question: "Do you provide mobile notary services throughout Los Angeles?",
-      answer: "Yes. Mobile notary services are available throughout Los Angeles by appointment."
+      answer: "Yes. Mobile notary services are available across Los Angeles by appointment, including residential, business, and institutional locations."
     },
     {
-      question: "Do I need to visit your office for apostille services?",
-      answer: "No. Apostille services are available via mail-in or mobile pickup, depending on the document."
+      question: "Can I obtain an apostille for documents issued outside Los Angeles County?",
+      answer: "Yes. Apostille services are based on the issuing authority, not the city. California-issued documents from any county may be eligible."
     },
     {
-      question: "Do you handle international apostilles?",
-      answer: "Yes. We assist with apostille and document authentication for many countries, including China, Taiwan, and Hong Kong."
+      question: "Do you offer same-day apostille services in Los Angeles?",
+      answer: "Same-day apostille may be available for eligible California documents, subject to document type and submission timing."
+    },
+    {
+      question: "Are international apostille services available for Los Angeles clients?",
+      answer: "Yes. We assist with apostille and document authentication for Hague and non-Hague countries."
     }
   ]
 
