@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import BeverlyHillsCityPageClient from "./city-page-client"
+import FAQSchema from "@/components/faq-schema"
 
 export const metadata: Metadata = {
   title: "Beverly Hills Mobile Notary & Apostille Services",
@@ -31,6 +32,30 @@ export const metadata: Metadata = {
 }
 
 export default function BeverlyHillsPage() {
-  return <BeverlyHillsCityPageClient />
+  const beverlyHillsFAQs = [
+    {
+      question: "Do you provide mobile notary services in Beverly Hills?",
+      answer: "Yes. Mobile notary services are available throughout Beverly Hills by appointment."
+    },
+    {
+      question: "Can business and corporate documents be apostilled?",
+      answer: "Yes. We assist with apostille services for business, corporate, and legal documents used internationally."
+    },
+    {
+      question: "Is mail-in apostille service available for Beverly Hills clients?",
+      answer: "Yes. Mail-in apostille processing is available nationwide and may be suitable depending on document type."
+    },
+    {
+      question: "Do I need to visit an office in Beverly Hills?",
+      answer: "No. Services are provided by appointment, either via mobile service or mail-in processing."
+    }
+  ]
+
+  return (
+    <>
+      <FAQSchema faqs={beverlyHillsFAQs} />
+      <BeverlyHillsCityPageClient />
+    </>
+  )
 }
 
