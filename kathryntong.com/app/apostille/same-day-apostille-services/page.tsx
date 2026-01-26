@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import SameDayApostilleClientPage from "./same-day-apostille-client-page"
+import ServiceSchema from "@/components/service-schema"
 
 export const metadata: Metadata = {
   title: "Same-Day Apostille Services California | Fast Apostille",
@@ -13,6 +14,15 @@ export const metadata: Metadata = {
 }
 
 export default function SameDayApostillePage() {
-  return <SameDayApostilleClientPage />
+  return (
+    <>
+      <ServiceSchema 
+        serviceName="Same-Day Apostille Services"
+        description="Need an apostille fast? We offer same-day apostille services in California for eligible documents. Serving Los Angeles and clients nationwide."
+        serviceType="Same-Day Apostille Services"
+      />
+      <SameDayApostilleClientPage />
+    </>
+  )
 }
 

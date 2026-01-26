@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import MailInApostilleClientPage from "./mail-in-apostille-client-page"
+import ServiceSchema from "@/components/service-schema"
 
 export const metadata: Metadata = {
   title: "Mail-In Apostille Services California | Nationwide Service",
@@ -13,6 +14,15 @@ export const metadata: Metadata = {
 }
 
 export default function MailInApostillePage() {
-  return <MailInApostilleClientPage />
+  return (
+    <>
+      <ServiceSchema 
+        serviceName="Mail-In Apostille Services"
+        description="Secure mail-in apostille services for clients nationwide. Simple process, clear instructions, and reliable turnaround for U.S. documents."
+        serviceType="Mail-In Apostille Services"
+      />
+      <MailInApostilleClientPage />
+    </>
+  )
 }
 

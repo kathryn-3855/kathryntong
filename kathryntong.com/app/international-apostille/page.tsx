@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import InternationalApostilleClientPage from "./international-apostille-client-page"
+import ServiceSchema from "@/components/service-schema"
 
 export const metadata: Metadata = {
   title: "International Apostille Services | Hague & Non-Hague Countries",
@@ -13,6 +14,15 @@ export const metadata: Metadata = {
 }
 
 export default function InternationalApostillePage() {
-  return <InternationalApostilleClientPage />
+  return (
+    <>
+      <ServiceSchema 
+        serviceName="International Apostille & Legalization"
+        description="International apostille and document legalization services for Hague and non-Hague countries. Expert guidance for China, Taiwan, Hong Kong, and more."
+        serviceType="International Apostille & Legalization"
+      />
+      <InternationalApostilleClientPage />
+    </>
+  )
 }
 
