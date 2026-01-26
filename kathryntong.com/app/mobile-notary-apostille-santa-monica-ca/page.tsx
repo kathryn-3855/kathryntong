@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import SantaMonicaCityPageClient from "./city-page-client"
+import FAQSchema from "@/components/faq-schema"
 
 export const metadata: Metadata = {
   title: "Santa Monica Mobile Notary & Apostille Services",
@@ -31,6 +32,30 @@ export const metadata: Metadata = {
 }
 
 export default function SantaMonicaPage() {
-  return <SantaMonicaCityPageClient />
+  const santaMonicaFAQs = [
+    {
+      question: "Do you provide mobile notary services in Santa Monica?",
+      answer: "Yes. Mobile notary services are available throughout Santa Monica by appointment."
+    },
+    {
+      question: "Can you assist with apostilles for travel or overseas relocation?",
+      answer: "Yes. Apostille services are commonly requested for immigration, relocation, and overseas residency purposes."
+    },
+    {
+      question: "Are same-day apostilles available for Santa Monica clients?",
+      answer: "Same-day service may be available for eligible California-issued documents."
+    },
+    {
+      question: "Do you handle documents for both Hague and non-Hague countries?",
+      answer: "Yes. Services are available for both apostille and non-Hague legalization requirements."
+    }
+  ]
+
+  return (
+    <>
+      <FAQSchema faqs={santaMonicaFAQs} />
+      <SantaMonicaCityPageClient />
+    </>
+  )
 }
 
