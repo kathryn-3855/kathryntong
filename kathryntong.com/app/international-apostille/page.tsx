@@ -18,7 +18,7 @@ export default function InternationalApostillePage() {
   const internationalFAQs = [
     {
       question: "What countries do you provide international apostille services for?",
-      answer: "We assist with apostille and document authentication for many countries, including China, Taiwan, Hong Kong, Mexico, South Korea, and the Philippines."
+      answer: "We assist with apostille and document authentication for many countries, including China, Taiwan, Hong Kong, Mexico, South Korea, the Philippines, and more..."
     },
     {
       question: "What is the difference between Hague and non-Hague countries?",

@@ -51,7 +51,7 @@ export default function GlendaleCityPageClient() {
             </h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
               <p className="text-foreground text-base leading-relaxed mb-3">
-                Glendale clients frequently require documents for use outside the United States. We assist with <Link href="/international-apostille" className="text-primary hover:underline font-semibold">international apostille and document authentication services</Link> for both Hague and non-Hague countries, including China, Taiwan, Hong Kong, Mexico, South Korea, and the Philippines.
+                Glendale clients frequently require documents for use outside the United States. We assist with <Link href="/international-apostille" className="text-primary hover:underline font-semibold">international apostille and document authentication services</Link> for both Hague and non-Hague countries, including China, Taiwan, Hong Kong, Mexico, South Korea, the Philippines, and more...
               </p>
               <p className="text-foreground text-base leading-relaxed">
                 <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:underline font-semibold">Mail-in apostille service</Link> is available nationwide, making the process convenient even when in-person service is not required.

@@ -839,7 +839,7 @@ export const translations = {
     cityPageService2: "Mail-In Apostille Services",
     cityPageService2Desc: " – convenient submission and return for clients nationwide",
     cityPageService3: "International Apostille & Legalization",
-    cityPageService3Desc: " – China, Taiwan, Hong Kong, Mexico, South Korea, Philippines, and other countries",
+    cityPageService3Desc: " – China, Taiwan, Hong Kong, Mexico, South Korea, Philippines, and more...",
     cityPageService4: "General Mobile Notary Services",
     cityPageService4Desc: " – powers of attorney, affidavits, contracts, corporate documents, and more",
     cityPageServicesNote: "Each document is carefully reviewed to prevent errors and ensure compliance with U.S. and destination country requirements.",
