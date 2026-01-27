@@ -95,6 +95,47 @@ export default function WestHollywoodCityPageClient() {
             </div>
           </div>
 
+          {/* FAQ Section */}
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
+              Frequently Asked Questions – West Hollywood Apostille & Notary
+            </h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5 space-y-4">
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Is mobile notary service available in West Hollywood?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. Mobile notary services are available throughout West Hollywood by appointment.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Can you notarize and apostille personal legal documents?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. Common documents include powers of attorney, affidavits, and sworn statements.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Do you offer discreet, appointment-only service?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. All services are appointment-based and handled professionally and confidentially.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Is mail-in apostille available?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. Mail-in apostille services are available when in-person service is not required.
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* Contact Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-foreground mb-3">

@@ -95,6 +95,47 @@ export default function CulverCityCityPageClient() {
             </div>
           </div>
 
+          {/* FAQ Section */}
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
+              Frequently Asked Questions – Culver City Apostille & Notary
+            </h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5 space-y-4">
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Is mobile notary service available in Culver City?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. Mobile notary services are available throughout Culver City by appointment.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Can I get an apostille for entertainment or business-related documents?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. We assist with apostille services for business, contract, and industry-related documents.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Do you offer expedited apostille processing?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Expedited and same-day apostille services may be available depending on document eligibility.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Is mail-in apostille an option for Culver City clients?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. Mail-in apostille services are available nationwide.
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* Contact Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-foreground mb-3">

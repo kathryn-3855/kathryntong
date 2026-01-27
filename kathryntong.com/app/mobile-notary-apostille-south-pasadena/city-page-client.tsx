@@ -91,6 +91,47 @@ export default function SouthPasadenaCityPageClient() {
             </div>
           </div>
 
+          {/* FAQ Section */}
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
+              Frequently Asked Questions – South Pasadena Apostille & Notary
+            </h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5 space-y-4">
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Is mobile notary service available in South Pasadena?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. Mobile notary services are available throughout South Pasadena by appointment.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Can I obtain an apostille without traveling outside the city?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. Apostille services are available via mobile service or mail-in processing.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Do you assist with apostilles for international education or immigration?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. Documents for education, immigration, and international use are commonly handled.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Are appointments required?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. All services are provided by appointment only.
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* Contact Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-foreground mb-3">

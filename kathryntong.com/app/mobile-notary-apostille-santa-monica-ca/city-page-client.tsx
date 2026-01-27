@@ -95,6 +95,47 @@ export default function SantaMonicaCityPageClient() {
             </div>
           </div>
 
+          {/* FAQ Section */}
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
+              Frequently Asked Questions – Santa Monica Apostille & Notary
+            </h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5 space-y-4">
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Do you provide mobile notary services in Santa Monica?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. Mobile notary services are available throughout Santa Monica by appointment.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Can you assist with apostilles for travel or overseas relocation?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. Apostille services are commonly requested for immigration, relocation, and overseas residency purposes.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Are same-day apostilles available for Santa Monica clients?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Same-day service may be available for eligible California-issued documents.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Do you handle documents for both Hague and non-Hague countries?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. Services are available for both apostille and non-Hague legalization requirements.
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* Contact Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-foreground mb-3">

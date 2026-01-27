@@ -202,6 +202,47 @@ export default function CityPage({
               </div>
             </div>
 
+            {/* FAQ Section */}
+            <div className="mb-6">
+              <h2 className="text-2xl font-bold text-foreground mb-3">
+                Frequently Asked Questions – Los Angeles Mobile Notary & Apostille
+              </h2>
+              <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5 space-y-4">
+                <div>
+                  <h3 className="text-lg font-semibold text-foreground mb-2">
+                    Q: Do you provide mobile notary services throughout Los Angeles?
+                  </h3>
+                  <p className="text-foreground text-base">
+                    A: Yes. Mobile notary services are available across Los Angeles by appointment, including residential, business, and institutional locations.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-foreground mb-2">
+                    Q: Can I obtain an apostille for documents issued outside Los Angeles County?
+                  </h3>
+                  <p className="text-foreground text-base">
+                    A: Yes. Apostille services are based on the issuing authority, not the city. California-issued documents from any county may be eligible.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-foreground mb-2">
+                    Q: Do you offer same-day apostille services in Los Angeles?
+                  </h3>
+                  <p className="text-foreground text-base">
+                    A: Same-day apostille may be available for eligible California documents, subject to document type and submission timing.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-foreground mb-2">
+                    Q: Are international apostille services available for Los Angeles clients?
+                  </h3>
+                  <p className="text-foreground text-base">
+                    A: Yes. We assist with apostille and document authentication for Hague and non-Hague countries.
+                  </p>
+                </div>
+              </div>
+            </div>
+
             {/* Contact Section */}
             <div className="mb-6">
               <h2 className="text-2xl font-bold text-foreground mb-3">

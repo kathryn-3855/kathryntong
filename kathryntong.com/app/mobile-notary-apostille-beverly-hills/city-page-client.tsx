@@ -99,6 +99,47 @@ export default function BeverlyHillsCityPageClient() {
             </div>
           </div>
 
+          {/* FAQ Section */}
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
+              Frequently Asked Questions – Beverly Hills Apostille & Notary
+            </h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5 space-y-4">
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Do you provide mobile notary services in Beverly Hills?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. Mobile notary services are available throughout Beverly Hills by appointment.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Can business and corporate documents be apostilled?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. We assist with apostille services for business, corporate, and legal documents used internationally.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Is mail-in apostille service available for Beverly Hills clients?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. Mail-in apostille processing is available nationwide and may be suitable depending on document type.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Do I need to visit an office in Beverly Hills?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: No. Services are provided by appointment, either via mobile service or mail-in processing.
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* Contact Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-foreground mb-3">

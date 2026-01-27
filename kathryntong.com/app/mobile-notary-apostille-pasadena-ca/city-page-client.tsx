@@ -99,6 +99,47 @@ export default function PasadenaCityPageClient() {
             </div>
           </div>
 
+          {/* FAQ Section */}
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
+              Frequently Asked Questions – Pasadena Apostille & Notary
+            </h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5 space-y-4">
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Do you offer mobile notary services in Pasadena?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. Mobile notary services are available throughout Pasadena by appointment.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Can you assist with apostilles for academic or educational documents?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. We frequently assist with apostilles for diplomas, transcripts, and education-related documents.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Are federal documents eligible for apostille services?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Federal documents may require U.S. Department of State processing. Guidance is provided based on document type.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Do you handle international document use cases?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. Apostille and authentication services are available for documents used outside the United States.
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* Contact Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-foreground mb-3">

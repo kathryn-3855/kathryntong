@@ -91,6 +91,47 @@ export default function ArcadiaCityPageClient() {
             </div>
           </div>
 
+          {/* FAQ Section */}
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
+              Frequently Asked Questions – Arcadia Apostille & Notary
+            </h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5 space-y-4">
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Do you offer mobile notary services in Arcadia?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. Mobile notary services are available throughout Arcadia by appointment.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Can you assist with apostilles for family-related documents?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. We commonly assist with apostilles for birth certificates, marriage certificates, and family documents.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Do you provide apostille services for international use?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. Apostille and authentication services are available for documents used abroad.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Is same-day apostille service available in Arcadia?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Same-day service may be available depending on document eligibility.
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* Contact Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-foreground mb-3">
