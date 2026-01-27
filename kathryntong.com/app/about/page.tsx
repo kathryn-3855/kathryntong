@@ -1,5 +1,7 @@
 import type { Metadata } from "next"
 import AboutClientPage from "./about-client-page"
+import LocalBusinessSchema from "@/components/local-business-schema"
+import AboutPageSchema from "@/components/about-page-schema"
 
 export const metadata: Metadata = {
   title: "About Kathryn - Mobile Notary Professional",
@@ -9,5 +11,11 @@ export const metadata: Metadata = {
 }
 
 export default function AboutPage() {
-  return <AboutClientPage />
+  return (
+    <>
+      <LocalBusinessSchema />
+      <AboutPageSchema />
+      <AboutClientPage />
+    </>
+  )
 }

@@ -190,6 +190,20 @@ export default function InternationalApostilleClientPage() {
                     Hague member. Apostille only for immigration, family, and citizenship-related documents.
                   </p>
                 </Link>
+
+                <Link href="/international-apostille/japan" className="block border-l-4 border-primary pl-3 hover:bg-foreground/5 transition rounded-r">
+                  <h3 className="text-lg font-bold text-foreground mb-1">Japan</h3>
+                  <p className="text-foreground text-base">
+                    Hague member. Apostille only for personal, academic, and business documents.
+                  </p>
+                </Link>
+
+                <Link href="/international-apostille/saudi-arabia" className="block border-l-4 border-primary pl-3 hover:bg-foreground/5 transition rounded-r">
+                  <h3 className="text-lg font-bold text-foreground mb-1">Saudi Arabia</h3>
+                  <p className="text-foreground text-base">
+                    Hague member. Apostille only for personal, academic, and business documents.
+                  </p>
+                </Link>
               </div>
 
               <p className="text-foreground text-base mt-3 flex items-center gap-2">

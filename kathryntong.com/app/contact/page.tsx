@@ -1,6 +1,8 @@
 import type { Metadata } from "next"
 import { Suspense } from "react"
 import ContactClientPage from "./contact-client-page"
+import LocalBusinessSchema from "@/components/local-business-schema"
+import ContactPageSchema from "@/components/contact-page-schema"
 
 export const metadata: Metadata = {
   title: "Contact Kathryn's Mobile Notary & Apostille | Get in Touch",
@@ -14,8 +16,12 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
-      <ContactClientPage />
-    </Suspense>
+    <>
+      <LocalBusinessSchema />
+      <ContactPageSchema />
+      <Suspense fallback={<div>Loading...</div>}>
+        <ContactClientPage />
+      </Suspense>
+    </>
   )
 }

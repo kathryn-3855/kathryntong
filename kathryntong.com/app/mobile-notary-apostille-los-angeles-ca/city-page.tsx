@@ -2,8 +2,10 @@
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import GoogleReviews from "@/components/google-reviews"
+import Breadcrumb from "@/components/breadcrumb"
 import { Phone, Mail, CheckCircle } from "lucide-react"
 import Image from "next/image"
+import Link from "next/link"
 import { useTranslations } from "@/lib/use-translations"
 
 interface CityPageProps {
@@ -40,6 +42,12 @@ export default function CityPage({
         <Header />
         <main className="py-6 md:py-10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            {/* Breadcrumb */}
+            <Breadcrumb items={[
+              { label: "Home", href: "/" },
+              { label: "Service Areas", href: "/services" },
+              { label: "Los Angeles", href: "/mobile-notary-apostille-los-angeles-ca" }
+            ]} />
             {/* Hero Section */}
             <div className="mb-6">
               <div className="grid md:grid-cols-2 gap-6 items-start">
@@ -202,6 +210,15 @@ export default function CityPage({
               </div>
             </div>
 
+            {/* International Services Paragraph */}
+            <div className="mb-6">
+              <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
+                <p className="text-foreground text-base leading-relaxed">
+                  In addition to local services, we also assist clients with <Link href="/international-apostille" className="text-primary hover:text-primary/80 font-semibold underline">international apostille and document authentication services</Link> for documents used in <Link href="/international-apostille/china" className="text-primary hover:text-primary/80 font-semibold underline">China</Link>, <Link href="/international-apostille/taiwan" className="text-primary hover:text-primary/80 font-semibold underline">Taiwan</Link>, <Link href="/international-apostille/hong-kong" className="text-primary hover:text-primary/80 font-semibold underline">Hong Kong</Link>, <Link href="/international-apostille/mexico" className="text-primary hover:text-primary/80 font-semibold underline">Mexico</Link>, <Link href="/international-apostille/philippines" className="text-primary hover:text-primary/80 font-semibold underline">the Philippines</Link>, <Link href="/international-apostille/south-korea" className="text-primary hover:text-primary/80 font-semibold underline">South Korea</Link>, <Link href="/international-apostille/japan" className="text-primary hover:text-primary/80 font-semibold underline">Japan</Link>, and more. Our experience includes preparing U.S. documents for international use across multiple regions, including Asia and the Middle East, with country-specific requirements carefully followed.
+                </p>
+              </div>
+            </div>
+
             {/* FAQ Section */}
             <div className="mb-6">
               <h2 className="text-2xl font-bold text-foreground mb-3">
@@ -238,6 +255,22 @@ export default function CityPage({
                   </h3>
                   <p className="text-foreground text-base">
                     A: Yes. We assist with apostille and document authentication for Hague and non-Hague countries.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-foreground mb-2">
+                    Q: How quickly can I get an apostille completed in Los Angeles County?
+                  </h3>
+                  <p className="text-foreground text-base">
+                    A: Processing time depends on the document type, issuing authority, and destination country. Same-day and expedited apostille services may be available for certain California documents, while mail-in processing is commonly used for federal and international requests.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-foreground mb-2">
+                    Q: Do you handle apostille and document authentication for countries outside the Hague Convention?
+                  </h3>
+                  <p className="text-foreground text-base">
+                    A: Yes. In addition to Hague Apostille countries, we assist with document authentication for non-Hague destinations, including Taiwan and other regions that require additional certification steps instead of a Hague Apostille.
                   </p>
                 </div>
               </div>
@@ -306,6 +339,12 @@ export default function CityPage({
       <Header />
       <main className="py-8 md:py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Breadcrumb */}
+          <Breadcrumb items={[
+            { label: "Home", href: "/" },
+            { label: "Service Areas", href: "/services" },
+            { label: cityName }
+          ]} />
           {/* Hero Section */}
           <div className="mb-6">
             <div className="grid md:grid-cols-2 gap-6 items-start">
@@ -405,6 +444,15 @@ export default function CityPage({
             </div>
           </div>
 
+          {/* International Services Paragraph */}
+          <div className="mb-6">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
+              <p className="text-foreground text-base leading-relaxed">
+                In addition to local services, we also assist clients with <Link href="/international-apostille" className="text-primary hover:text-primary/80 font-semibold underline">international apostille and document authentication services</Link> for documents used in <Link href="/international-apostille/china" className="text-primary hover:text-primary/80 font-semibold underline">China</Link>, <Link href="/international-apostille/taiwan" className="text-primary hover:text-primary/80 font-semibold underline">Taiwan</Link>, <Link href="/international-apostille/hong-kong" className="text-primary hover:text-primary/80 font-semibold underline">Hong Kong</Link>, <Link href="/international-apostille/mexico" className="text-primary hover:text-primary/80 font-semibold underline">Mexico</Link>, <Link href="/international-apostille/philippines" className="text-primary hover:text-primary/80 font-semibold underline">the Philippines</Link>, <Link href="/international-apostille/south-korea" className="text-primary hover:text-primary/80 font-semibold underline">South Korea</Link>, <Link href="/international-apostille/japan" className="text-primary hover:text-primary/80 font-semibold underline">Japan</Link>, and more. Our experience includes preparing U.S. documents for international use across multiple regions, including Asia and the Middle East, with country-specific requirements carefully followed.
+              </p>
+            </div>
+          </div>
+
           {/* Why Choose Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-foreground mb-3">
@@ -433,6 +481,31 @@ export default function CityPage({
                   <span className="text-foreground text-base">{t.cityPageWhyChoose5}</span>
                 </li>
               </ul>
+            </div>
+          </div>
+
+          {/* FAQ Section - Universal FAQs added at end */}
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
+              Frequently Asked Questions
+            </h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5 space-y-4">
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: How quickly can I get an apostille completed in Los Angeles County?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Processing time depends on the document type, issuing authority, and destination country. Same-day and expedited apostille services may be available for certain California documents, while mail-in processing is commonly used for federal and international requests.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Do you handle apostille and document authentication for countries outside the Hague Convention?
+                </h3>
+                <p className="text-foreground text-base">
+                  A: Yes. In addition to Hague Apostille countries, we assist with document authentication for non-Hague destinations, including Taiwan and other regions that require additional certification steps instead of a Hague Apostille.
+                </p>
+              </div>
             </div>
           </div>
 

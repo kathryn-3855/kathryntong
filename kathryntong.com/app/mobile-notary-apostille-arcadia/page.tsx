@@ -1,5 +1,7 @@
 import type { Metadata } from "next"
 import ArcadiaCityPageClient from "./city-page-client"
+import LocalBusinessSchema from "@/components/local-business-schema"
+import ServiceSchema from "@/components/service-schema"
 import FAQSchema from "@/components/faq-schema"
 
 export const metadata: Metadata = {
@@ -53,6 +55,13 @@ export default function ArcadiaPage() {
 
   return (
     <>
+      <LocalBusinessSchema />
+      <ServiceSchema 
+        serviceName="Mobile Notary & Apostille Services in Arcadia"
+        description="Mobile notary and apostille services in Arcadia. Serving families and businesses with mail-in and international apostille options."
+        serviceType="Mobile Notary Services"
+        areaServed={["Arcadia", "Los Angeles County"]}
+      />
       <FAQSchema faqs={arcadiaFAQs} />
       <ArcadiaCityPageClient />
     </>

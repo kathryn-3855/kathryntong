@@ -1,5 +1,7 @@
 import type { Metadata } from "next"
 import ServicesClientPage from "./services-client-page"
+import LocalBusinessSchema from "@/components/local-business-schema"
+import ServiceSchema from "@/components/service-schema"
 
 export const metadata: Metadata = {
   title: "Service Areas | Mobile Notary & Apostille Los Angeles",
@@ -10,5 +12,15 @@ export const metadata: Metadata = {
 }
 
 export default function ServicesPage() {
-  return <ServicesClientPage />
+  return (
+    <>
+      <LocalBusinessSchema />
+      <ServiceSchema 
+        serviceName="Mobile Notary Services"
+        description="Mobile notary and apostille services throughout Los Angeles County. Serving Los Angeles, Pasadena, Beverly Hills, Santa Monica, and nearby cities."
+        serviceType="Mobile Notary Services"
+      />
+      <ServicesClientPage />
+    </>
+  )
 }

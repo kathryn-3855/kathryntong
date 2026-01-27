@@ -1,5 +1,7 @@
 import type { Metadata } from "next"
 import CulverCityCityPageClient from "./city-page-client"
+import LocalBusinessSchema from "@/components/local-business-schema"
+import ServiceSchema from "@/components/service-schema"
 import FAQSchema from "@/components/faq-schema"
 
 export const metadata: Metadata = {
@@ -53,6 +55,13 @@ export default function CulverCityPage() {
 
   return (
     <>
+      <LocalBusinessSchema />
+      <ServiceSchema 
+        serviceName="Mobile Notary & Apostille Services in Culver City"
+        description="Trusted mobile notary and apostille services in Culver City. Serving individuals and businesses with mail-in and same-day options."
+        serviceType="Mobile Notary Services"
+        areaServed={["Culver City", "Los Angeles County"]}
+      />
       <FAQSchema faqs={culverCityFAQs} />
       <CulverCityCityPageClient />
     </>

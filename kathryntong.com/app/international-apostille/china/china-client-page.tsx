@@ -184,6 +184,14 @@ export default function ChinaApostilleClientPage() {
                   A: Yes. Mail-in apostille services are available nationwide for China-bound documents.
                 </p>
               </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Do you handle apostille and document authentication for countries outside the Hague Convention?
+                </h3>
+                <p className="text-foreground text-base leading-relaxed">
+                  A: Yes. In addition to Hague Apostille countries, we assist with document authentication for non-Hague destinations, including Taiwan and other regions that require additional certification steps instead of a Hague Apostille.
+                </p>
+              </div>
             </div>
           </div>
 
@@ -219,6 +227,15 @@ export default function ChinaApostilleClientPage() {
                   Los Angeles Mobile Notary & Apostille Services <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>
+            </div>
+          </div>
+
+          {/* Mail-In Loop Paragraph */}
+          <div className="mb-6">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-5">
+              <p className="text-foreground text-base leading-relaxed">
+                Most international apostille and document authentication requests qualify for our <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:text-primary/80 font-semibold underline">Mail-In Apostille Services</Link>, which are available nationwide for clients submitting documents from anywhere in the United States or abroad.
+              </p>
             </div>
           </div>
 

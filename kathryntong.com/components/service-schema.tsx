@@ -4,13 +4,29 @@ interface ServiceSchemaProps {
   serviceName: string
   description: string
   serviceType?: string
+  areaServed?: string | string[]
 }
 
 export default function ServiceSchema({ 
   serviceName, 
   description,
-  serviceType 
+  serviceType,
+  areaServed
 }: ServiceSchemaProps) {
+  // Handle areaServed - can be string, array, or default to Los Angeles County
+  let areaServedValue: any = {
+    "@type": "City",
+    "name": areaServed || "Los Angeles County"
+  }
+  
+  // If areaServed is an array, create multiple areaServed entries
+  if (Array.isArray(areaServed)) {
+    areaServedValue = areaServed.map(area => ({
+      "@type": "City",
+      "name": area
+    }))
+  }
+
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -19,19 +35,16 @@ export default function ServiceSchema({
     "provider": {
       "@type": "LocalBusiness",
       "name": "Kathryn's Mobile Notary & Apostille",
-      "telephone": "(626) 590-3560",
-      "url": "https://kathrynsmobilenotary.com",
+      "telephone": "+1-626-590-3560",
+      "url": "https://www.kathrynsmobilenotary.com",
       "email": "Kathryn@KathrynTong.com"
     },
-    "areaServed": {
-      "@type": "City",
-      "name": "Los Angeles County"
-    },
+    "areaServed": areaServedValue,
     "serviceType": serviceType || serviceName,
     "availableChannel": {
       "@type": "ServiceChannel",
-      "serviceUrl": "https://kathrynsmobilenotary.com",
-      "servicePhone": "(626) 590-3560"
+      "serviceUrl": "https://www.kathrynsmobilenotary.com",
+      "servicePhone": "+1-626-590-3560"
     }
   }
 

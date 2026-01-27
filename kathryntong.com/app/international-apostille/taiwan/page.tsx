@@ -1,5 +1,7 @@
 import type { Metadata } from "next"
 import TaiwanApostilleClientPage from "./taiwan-client-page"
+import LocalBusinessSchema from "@/components/local-business-schema"
+import ServiceSchema from "@/components/service-schema"
 import FAQSchema from "@/components/faq-schema"
 
 export const metadata: Metadata = {
@@ -42,6 +44,13 @@ export default function TaiwanApostillePage() {
 
   return (
     <>
+      <LocalBusinessSchema />
+      <ServiceSchema 
+        serviceName="Document Authentication Services for Documents Used in Taiwan"
+        description="Authentication services for U.S. documents used in Taiwan. Mail-in and expedited processing available nationwide."
+        serviceType="Document Authentication"
+        areaServed="Los Angeles County"
+      />
       <FAQSchema faqs={taiwanFAQs} />
       <TaiwanApostilleClientPage />
     </>

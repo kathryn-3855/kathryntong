@@ -55,6 +55,12 @@ export default function LosAngelesPage() {
   return (
     <>
       <LocalBusinessSchema />
+      <ServiceSchema 
+        serviceName="Mobile Notary & Apostille Services in Los Angeles"
+        description="Mobile notary and apostille services throughout Los Angeles. Same-day and mail-in apostille for local and international documents."
+        serviceType="Mobile Notary Services"
+        areaServed={["Los Angeles", "Los Angeles County"]}
+      />
       <FAQSchema faqs={losAngelesFAQs} />
       <LosAngelesCityPageClient />
     </>

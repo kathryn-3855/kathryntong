@@ -1,5 +1,7 @@
 import type { Metadata } from "next"
 import PhilippinesApostilleClientPage from "./philippines-client-page"
+import LocalBusinessSchema from "@/components/local-business-schema"
+import ServiceSchema from "@/components/service-schema"
 import FAQSchema from "@/components/faq-schema"
 
 export const metadata: Metadata = {
@@ -42,6 +44,13 @@ export default function PhilippinesApostillePage() {
 
   return (
     <>
+      <LocalBusinessSchema />
+      <ServiceSchema 
+        serviceName="Apostille Services for Documents Used in Philippines"
+        description="Apostille services for U.S. documents used in the Philippines. Mail-in and expedited apostille available nationwide."
+        serviceType="Apostille Services"
+        areaServed="Los Angeles County"
+      />
       <FAQSchema faqs={philippinesFAQs} />
       <PhilippinesApostilleClientPage />
     </>

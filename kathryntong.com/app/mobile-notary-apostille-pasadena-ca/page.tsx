@@ -1,5 +1,7 @@
 import type { Metadata } from "next"
 import PasadenaCityPageClient from "./city-page-client"
+import LocalBusinessSchema from "@/components/local-business-schema"
+import ServiceSchema from "@/components/service-schema"
 import FAQSchema from "@/components/faq-schema"
 
 export const metadata: Metadata = {
@@ -53,6 +55,13 @@ export default function PasadenaPage() {
 
   return (
     <>
+      <LocalBusinessSchema />
+      <ServiceSchema 
+        serviceName="Mobile Notary & Apostille Services in Pasadena"
+        description="Mobile notary and apostille services in Pasadena. Same-day apostille and international document processing available."
+        serviceType="Mobile Notary Services"
+        areaServed={["Pasadena", "Los Angeles County"]}
+      />
       <FAQSchema faqs={pasadenaFAQs} />
       <PasadenaCityPageClient />
     </>

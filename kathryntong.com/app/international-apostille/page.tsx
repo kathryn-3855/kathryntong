@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import InternationalApostilleClientPage from "./international-apostille-client-page"
+import LocalBusinessSchema from "@/components/local-business-schema"
 import ServiceSchema from "@/components/service-schema"
 import FAQSchema from "@/components/faq-schema"
 
@@ -32,6 +33,7 @@ export default function InternationalApostillePage() {
 
   return (
     <>
+      <LocalBusinessSchema />
       <ServiceSchema 
         serviceName="International Apostille & Legalization"
         description="International apostille and document legalization services for Hague and non-Hague countries. Expert guidance for China, Taiwan, Hong Kong, and more."

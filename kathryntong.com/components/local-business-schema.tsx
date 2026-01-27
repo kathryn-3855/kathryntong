@@ -34,9 +34,13 @@ export default function LocalBusinessSchema() {
         }
       ]
     },
-    "telephone": "(626) 590-3560",
-    "url": "https://kathrynsmobilenotary.com",
+    "telephone": "+1-626-590-3560",
+    "url": "https://www.kathrynsmobilenotary.com",
     "email": "Kathryn@KathrynTong.com",
+    "sameAs": [
+      "https://www.yelp.com/biz/kathryns-mobile-notary-apostille",
+      "https://www.google.com/maps?cid=REPLACE_WITH_MY_GBP_CID"
+    ],
     "areaServed": {
       "@type": "City",
       "name": "Los Angeles County"
@@ -45,8 +49,9 @@ export default function LocalBusinessSchema() {
       {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-        "opens": "00:00",
-        "closes": "23:59"
+        "opens": "08:30",
+        "closes": "20:30",
+        "description": "By appointment only"
       }
     ],
     "hoursAvailable": "By appointment only - Available 7 days a week",
