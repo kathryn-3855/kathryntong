@@ -2,7 +2,7 @@
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import GoogleReviews from "@/components/google-reviews"
-import { CheckCircle, Phone, Mail, ArrowRight } from "lucide-react"
+import { Phone, Mail, ArrowRight } from "lucide-react"
 import Link from "next/link"
 
 export default function HongKongApostilleClientPage() {
@@ -14,24 +14,20 @@ export default function HongKongApostilleClientPage() {
           {/* Hero Section */}
           <div className="text-center mb-6">
             <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-3">
-              Apostille Services for Hong Kong
+              Hong Kong Apostille Services – U.S. Document Legalization
             </h1>
+            <h2 className="text-2xl md:text-3xl font-semibold text-foreground/90 mb-4">
+              Apostille for U.S. Documents Used in Hong Kong
+            </h2>
           </div>
 
-          {/* Introduction Section */}
+          {/* Core Page Content */}
           <div className="mb-6">
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
-              <p className="text-foreground text-base leading-relaxed">
-                Hong Kong is a Hague Apostille Convention member and accepts standard apostilles.
+              <p className="text-foreground text-base leading-relaxed mb-3">
+                Kathryn's Mobile Notary & Apostille provides <Link href="/apostille" className="text-primary hover:text-primary/80 font-semibold underline">apostille services for documents used in Hong Kong</Link>, including personal, educational, and business documents. Services are available by appointment and through <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:text-primary/80 font-semibold underline">mail-in apostille processing</Link> for clients located anywhere in the United States or abroad.
               </p>
             </div>
-          </div>
-
-          {/* Language Disclaimer */}
-          <div className="mb-6">
-            <p className="text-foreground text-sm italic text-foreground/70">
-              For reference only. Final requirements are determined by the receiving authority.
-            </p>
           </div>
 
           {/* Hong Kong Apostille Requirements Section */}
@@ -40,37 +36,16 @@ export default function HongKongApostilleClientPage() {
               Hong Kong Apostille Requirements
             </h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
-              <div className="space-y-2">
-                <div className="flex items-start gap-2">
-                  <span className="text-foreground text-base font-semibold">Hague Status:</span>
-                  <span className="text-foreground text-base">✅ Hague Member</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <span className="text-foreground text-base font-semibold">Required Process:</span>
-                  <span className="text-foreground text-base">Apostille only</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <span className="text-foreground text-base font-semibold">Embassy or Consulate Legalization:</span>
-                  <span className="text-foreground text-base">No embassy or consulate legalization is required.</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Common Documents Section */}
-          <div className="mb-6">
-            <h2 className="text-2xl font-bold text-foreground mb-3">
-              Common Documents for Hong Kong
-            </h2>
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
-              <ul className="space-y-1.5">
+              <p className="text-foreground text-base leading-relaxed mb-3">
+                Hong Kong is a recognized participant in the Hague Apostille Convention. U.S. documents intended for use in Hong Kong generally require a Hague Apostille, rather than consular legalization.
+              </p>
+              <p className="text-foreground text-base leading-relaxed mb-3">
+                Common documents apostilled for use in Hong Kong include:
+              </p>
+              <ul className="space-y-1.5 mb-3">
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Birth certificates</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Marriage certificates</span>
+                  <span className="text-foreground text-base">U.S. birth and marriage certificates</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
@@ -78,70 +53,180 @@ export default function HongKongApostilleClientPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Power of Attorney</span>
+                  <span className="text-foreground text-base">Powers of attorney</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Business and corporate documents</span>
+                  <span className="text-foreground text-base">Affidavits and sworn statements</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Immigration-related paperwork</span>
+                  <span className="text-foreground text-base">Corporate and business documents</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Educational records</span>
                 </li>
               </ul>
+              <p className="text-foreground text-base leading-relaxed">
+                Apostilles are issued by the Secretary of State for state-issued documents or the U.S. Department of State for federal documents.
+              </p>
             </div>
           </div>
 
-          {/* Mail-In Apostille Section */}
+          {/* Important Hong Kong-Specific Considerations Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-foreground mb-3">
-              Mail-In Apostille Available
+              Important Hong Kong-Specific Considerations
             </h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
               <p className="text-foreground text-base leading-relaxed mb-3">
-                Most Hong Kong documents are eligible for mail-in apostille processing.
+                Although Hong Kong recognizes Hague Apostilles, receiving authorities in Hong Kong may impose additional requirements, including:
+              </p>
+              <ul className="space-y-1.5 mb-3">
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Certified English or Chinese translations (when applicable)</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Specific document formatting</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Validity periods for certain documents</span>
+                </li>
+              </ul>
+              <p className="text-foreground text-base leading-relaxed">
+                Acceptance requirements are determined by the requesting authority or institution in Hong Kong.
+              </p>
+            </div>
+          </div>
+
+          {/* Mail-In & Expedited Service Section */}
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
+              Mail-In & Expedited Service
+            </h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
+              <p className="text-foreground text-base leading-relaxed mb-3">
+                <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:text-primary/80 font-semibold underline">Mail-in apostille service</Link> is available for documents intended for use in Hong Kong. Expedited processing may be available depending on document type and issuing authority.
+              </p>
+              <p className="text-foreground text-base leading-relaxed mb-3">
+                For related services, please visit:
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link 
                   href="/apostille"
                   className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
                 >
-                  👉 Apostille Services <ArrowRight className="w-4 h-4" />
+                  Apostille Services <ArrowRight className="w-4 h-4" />
                 </Link>
                 <Link 
                   href="/apostille/mail-in-apostille-services"
                   className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
                 >
-                  👉 Mail-In Apostille Services <ArrowRight className="w-4 h-4" />
+                  Mail-In Apostille Services <ArrowRight className="w-4 h-4" />
+                </Link>
+                <Link 
+                  href="/international-apostille"
+                  className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
+                >
+                  International Apostille Services <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>
             </div>
           </div>
 
-          {/* Important Notes Section */}
+          {/* FAQ Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-foreground mb-3">
-              Important Notes
+              Frequently Asked Questions – Hong Kong Apostille
             </h2>
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
-              <ul className="space-y-1.5">
-                <li className="flex items-start gap-2">
-                  <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Document must be properly issued or notarized</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Translation may be required by receiving parties</span>
-                </li>
-              </ul>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4 space-y-4">
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Can I use a U.S. birth certificate in Hong Kong after an apostille?
+                </h3>
+                <p className="text-foreground text-base leading-relaxed">
+                  A: Yes. Hong Kong recognizes Hague Apostilles. A properly apostilled U.S. birth certificate is generally accepted, subject to local authority requirements.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Does Hong Kong require consular legalization or an apostille?
+                </h3>
+                <p className="text-foreground text-base leading-relaxed">
+                  A: Hong Kong generally requires a Hague Apostille for eligible U.S. documents rather than consular legalization.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Can FBI background checks be apostilled for use in Hong Kong?
+                </h3>
+                <p className="text-foreground text-base leading-relaxed">
+                  A: Yes. FBI background checks may be apostilled through the U.S. Department of State for use in Hong Kong.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Are translations required for documents used in Hong Kong?
+                </h3>
+                <p className="text-foreground text-base leading-relaxed">
+                  A: Translation requirements vary by institution. Some authorities may require certified Chinese or English translations.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Can I submit Hong Kong apostille requests by mail?
+                </h3>
+                <p className="text-foreground text-base leading-relaxed">
+                  A: Yes. Mail-in apostille services are available nationwide for Hong Kong-bound documents.
+                </p>
+              </div>
             </div>
           </div>
 
-          {/* Chinese Note Section */}
+          {/* Internal Linking Section */}
+          <div className="mb-6">
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
+              <p className="text-foreground text-base leading-relaxed mb-3">
+                For more information about <Link href="/international-apostille" className="text-primary hover:text-primary/80 font-semibold underline">international apostille services</Link>, <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:text-primary/80 font-semibold underline">mail-in apostille for Hong Kong</Link>, or local services, visit:
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <Link 
+                  href="/international-apostille"
+                  className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
+                >
+                  International Apostille Services <ArrowRight className="w-4 h-4" />
+                </Link>
+                <Link 
+                  href="/apostille/mail-in-apostille-services"
+                  className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
+                >
+                  Mail-In Apostille Services <ArrowRight className="w-4 h-4" />
+                </Link>
+                <Link 
+                  href="/mobile-notary-apostille-monterey-park"
+                  className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
+                >
+                  Monterey Park Mobile Notary & Apostille Services <ArrowRight className="w-4 h-4" />
+                </Link>
+                <Link 
+                  href="/mobile-notary-apostille-los-angeles-ca"
+                  className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
+                >
+                  Los Angeles Mobile Notary & Apostille Services <ArrowRight className="w-4 h-4" />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Language Disclaimer */}
           <div className="mb-6">
             <div className="bg-primary/10 border border-primary/30 rounded-lg p-4">
-              <p className="text-foreground text-base leading-relaxed">
-                <strong>中文提示：</strong>香港属《海牙公约》成员，仅需海牙认证。
+              <p className="text-foreground text-sm italic text-foreground/80">
+                This page is provided in English. Certified translations may be required by authorities in Hong Kong. Acceptance is determined by the receiving institution.
               </p>
             </div>
           </div>
@@ -193,4 +278,3 @@ export default function HongKongApostilleClientPage() {
     </div>
   )
 }
-
