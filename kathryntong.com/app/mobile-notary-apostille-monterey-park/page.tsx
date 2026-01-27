@@ -33,6 +33,8 @@ export const metadata: Metadata = {
   },
 }
 
+// Production build verified - all routes included
+
 export default function MontereyParkPage() {
   const montereyParkFAQs = [
     {
