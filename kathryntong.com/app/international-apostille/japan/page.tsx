@@ -16,6 +16,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://kathrynsmobilenotary.com/international-apostille/japan",
   },
+  // Force rebuild to ensure route is generated
 }
 
 export default function JapanApostillePage() {
