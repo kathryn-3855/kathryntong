@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import LosAngelesCityPageClient from "./city-page-client"
 import LocalBusinessSchema from "@/components/local-business-schema"
+import ServiceSchema from "@/components/service-schema"
 import FAQSchema from "@/components/faq-schema"
 
 export const metadata: Metadata = {
