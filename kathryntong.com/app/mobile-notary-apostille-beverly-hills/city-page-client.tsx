@@ -89,7 +89,7 @@ export default function BeverlyHillsCityPageClient() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">International Apostille & Legalization (China, Taiwan, Hong Kong, Mexico, South Korea, Philippines)</span>
+                  <span className="text-foreground text-base">International Apostille & Legalization (China, Taiwan, Hong Kong, Mexico, South Korea, Philippines, and more...)</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
