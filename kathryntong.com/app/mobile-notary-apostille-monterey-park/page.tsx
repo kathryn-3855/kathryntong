@@ -59,7 +59,7 @@ export default function MontereyParkPage() {
       <ServiceSchema 
         serviceName="Mobile Notary & Apostille Services in Monterey Park"
         description="Mobile notary and apostille services in Monterey Park, CA. Same-day apostille, mail-in apostille, and international document services by appointment only."
-        serviceType={["Notary", "Apostille", "LegalService"]}
+        serviceType="Mobile Notary & Apostille Services"
         areaServed={["Monterey Park", "Los Angeles County"]}
       />
       <FAQSchema faqs={montereyParkFAQs} />
