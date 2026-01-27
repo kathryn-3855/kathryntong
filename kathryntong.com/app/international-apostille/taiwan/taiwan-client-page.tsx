@@ -14,10 +14,10 @@ export default function TaiwanApostilleClientPage() {
           {/* Hero Section */}
           <div className="text-center mb-6">
             <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-3">
-              Taiwan Apostille Services – U.S. Document Legalization
+              Taiwan Document Authentication – U.S. Document Legalization
             </h1>
             <h2 className="text-2xl md:text-3xl font-semibold text-foreground/90 mb-4">
-              Apostille for U.S. Documents Used in Taiwan
+              Authentication of U.S. Documents for Use in Taiwan
             </h2>
           </div>
 
@@ -25,22 +25,39 @@ export default function TaiwanApostilleClientPage() {
           <div className="mb-6">
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
               <p className="text-foreground text-base leading-relaxed mb-3">
-                Kathryn's Mobile Notary & Apostille provides <Link href="/apostille" className="text-primary hover:text-primary/80 font-semibold underline">apostille services for documents used in Taiwan</Link>, including personal, educational, and business documents. Services are available by appointment and through <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:text-primary/80 font-semibold underline">mail-in apostille processing</Link> for clients located anywhere in the United States.
+                Kathryn's Mobile Notary & Apostille provides <Link href="/apostille" className="text-primary hover:text-primary/80 font-semibold underline">document authentication services for documents used in Taiwan</Link>, including personal, educational, and business documents. Services are available by appointment and through <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:text-primary/80 font-semibold underline">mail-in document authentication processing</Link> for clients located anywhere in the United States or abroad.
               </p>
             </div>
           </div>
 
-          {/* Taiwan Apostille Requirements Section */}
+          {/* Taiwan Document Authentication Requirements Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-foreground mb-3">
-              Taiwan Apostille Requirements
+              Taiwan Document Authentication Requirements
             </h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
               <p className="text-foreground text-base leading-relaxed mb-3">
-                Taiwan is a member of the Hague Apostille Convention. U.S. documents intended for use in Taiwan generally require a Hague Apostille, rather than consular legalization.
+                Taiwan is not a member of the Hague Apostille Convention. As a result, U.S. documents intended for use in Taiwan do not receive a Hague Apostille and instead require document authentication.
               </p>
               <p className="text-foreground text-base leading-relaxed mb-3">
-                Commonly apostilled documents for Taiwan include:
+                Authentication requirements typically include:
+              </p>
+              <ul className="space-y-1.5 mb-3">
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Certification by the appropriate U.S. issuing authority</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Authentication by the U.S. Department of State (for federal documents)</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Additional verification or acceptance by a Taiwan Economic and Cultural Office (TECO), depending on document type and receiving authority</span>
+                </li>
+              </ul>
+              <p className="text-foreground text-base leading-relaxed mb-3">
+                Common documents authenticated for use in Taiwan include:
               </p>
               <ul className="space-y-1.5 mb-3">
                 <li className="flex items-start gap-2">
@@ -61,16 +78,13 @@ export default function TaiwanApostilleClientPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Educational records</span>
+                  <span className="text-foreground text-base">Educational records and diplomas</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
                   <span className="text-foreground text-base">Business and corporate documents</span>
                 </li>
               </ul>
-              <p className="text-foreground text-base leading-relaxed">
-                Apostilles are issued by the Secretary of State for state-issued documents or the U.S. Department of State for federal documents.
-              </p>
             </div>
           </div>
 
@@ -81,7 +95,7 @@ export default function TaiwanApostilleClientPage() {
             </h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
               <p className="text-foreground text-base leading-relaxed mb-3">
-                While Taiwan recognizes Hague Apostilles, receiving authorities in Taiwan may impose additional requirements, such as:
+                Receiving authorities in Taiwan may require:
               </p>
               <ul className="space-y-1.5 mb-3">
                 <li className="flex items-start gap-2">
@@ -94,7 +108,11 @@ export default function TaiwanApostilleClientPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Recent issuance dates for vital records</span>
+                  <span className="text-foreground text-base">Recent issuance dates for civil records</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">TECO-specific submission formats</span>
                 </li>
               </ul>
               <p className="text-foreground text-base leading-relaxed">
@@ -110,7 +128,7 @@ export default function TaiwanApostilleClientPage() {
             </h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
               <p className="text-foreground text-base leading-relaxed mb-3">
-                <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:text-primary/80 font-semibold underline">Mail-in apostille service</Link> is available for Taiwan-bound documents. Expedited processing may be available depending on document type and issuing authority.
+                <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:text-primary/80 font-semibold underline">Mail-in document authentication service</Link> is available for Taiwan-bound documents. Expedited processing may be available depending on document type and issuing authority.
               </p>
               <p className="text-foreground text-base leading-relaxed mb-3">
                 For related services, please visit:
@@ -120,19 +138,19 @@ export default function TaiwanApostilleClientPage() {
                   href="/apostille"
                   className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
                 >
-                  Apostille Services <ArrowRight className="w-4 h-4" />
+                  Apostille & Authentication Services <ArrowRight className="w-4 h-4" />
                 </Link>
                 <Link 
                   href="/apostille/mail-in-apostille-services"
                   className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
                 >
-                  Mail-In Apostille Services <ArrowRight className="w-4 h-4" />
+                  Mail-In Apostille & Authentication <ArrowRight className="w-4 h-4" />
                 </Link>
                 <Link 
                   href="/international-apostille"
                   className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
                 >
-                  International Apostille Services <ArrowRight className="w-4 h-4" />
+                  International Document Services <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>
             </div>
@@ -141,47 +159,47 @@ export default function TaiwanApostilleClientPage() {
           {/* FAQ Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-foreground mb-3">
-              Frequently Asked Questions – Taiwan Apostille
+              Frequently Asked Questions – Taiwan Document Authentication
             </h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4 space-y-4">
               <div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">
-                  Q: Can I use a U.S. birth certificate in Taiwan after an apostille?
+                  Q: Does Taiwan accept Hague Apostilles?
                 </h3>
                 <p className="text-foreground text-base leading-relaxed">
-                  A: Yes. Taiwan recognizes Hague Apostilles. A properly apostilled U.S. birth certificate is generally accepted, subject to the receiving authority's requirements.
+                  A: No. Taiwan is not a member of the Hague Apostille Convention and does not accept Hague Apostilles.
                 </p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">
-                  Q: Does Taiwan require consular legalization or an apostille?
+                  Q: What type of certification is required for documents used in Taiwan?
                 </h3>
                 <p className="text-foreground text-base leading-relaxed">
-                  A: Taiwan generally requires a Hague Apostille for eligible U.S. documents, rather than consular legalization.
+                  A: U.S. documents generally require document authentication and may require verification through the Taiwan Economic and Cultural Office (TECO).
                 </p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">
-                  Q: Can FBI background checks be apostilled for use in Taiwan?
+                  Q: Can I use a U.S. birth certificate in Taiwan after authentication?
                 </h3>
                 <p className="text-foreground text-base leading-relaxed">
-                  A: Yes. FBI background checks may be apostilled through the U.S. Department of State for use in Taiwan.
+                  A: Yes. A properly authenticated U.S. birth certificate is generally accepted, subject to receiving authority requirements.
                 </p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">
-                  Q: Are Chinese translations required for Taiwan?
+                  Q: Are Chinese translations required for documents used in Taiwan?
                 </h3>
                 <p className="text-foreground text-base leading-relaxed">
-                  A: Many authorities in Taiwan require certified Chinese translations. Translation requirements vary by institution.
+                  A: Many authorities in Taiwan require certified Chinese translations. Requirements vary by institution.
                 </p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">
-                  Q: Can Taiwan apostille requests be submitted by mail?
+                  Q: Can Taiwan document authentication be completed by mail?
                 </h3>
                 <p className="text-foreground text-base leading-relaxed">
-                  A: Yes. Mail-in apostille services are available nationwide for documents used in Taiwan.
+                  A: Yes. Mail-in authentication services are available nationwide for documents used in Taiwan.
                 </p>
               </div>
             </div>
@@ -191,20 +209,20 @@ export default function TaiwanApostilleClientPage() {
           <div className="mb-6">
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
               <p className="text-foreground text-base leading-relaxed mb-3">
-                For more information about <Link href="/international-apostille" className="text-primary hover:text-primary/80 font-semibold underline">international apostille services</Link>, <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:text-primary/80 font-semibold underline">mail-in apostille for Taiwan</Link>, or local services, visit:
+                For more information about <Link href="/international-apostille" className="text-primary hover:text-primary/80 font-semibold underline">international apostille & authentication services</Link>, <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:text-primary/80 font-semibold underline">mail-in document authentication for Taiwan</Link>, or local services, visit:
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link 
                   href="/international-apostille"
                   className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
                 >
-                  International Apostille Services <ArrowRight className="w-4 h-4" />
+                  International Apostille & Authentication Services <ArrowRight className="w-4 h-4" />
                 </Link>
                 <Link 
                   href="/apostille/mail-in-apostille-services"
                   className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
                 >
-                  Mail-In Apostille Services <ArrowRight className="w-4 h-4" />
+                  Mail-In Apostille & Authentication <ArrowRight className="w-4 h-4" />
                 </Link>
                 <Link 
                   href="/mobile-notary-apostille-monterey-park"
@@ -226,7 +244,7 @@ export default function TaiwanApostilleClientPage() {
           <div className="mb-6">
             <div className="bg-primary/10 border border-primary/30 rounded-lg p-4">
               <p className="text-foreground text-sm italic text-foreground/80">
-                This page is provided in English. Certified Chinese translations may be required by authorities in Taiwan. Acceptance is determined by the receiving institution.
+                This page is provided in English. Certified Chinese translations and TECO review may be required. Acceptance is determined by the receiving authority in Taiwan.
               </p>
             </div>
           </div>
@@ -238,7 +256,7 @@ export default function TaiwanApostilleClientPage() {
                 Ready to Get Started?
               </h2>
               <p className="text-foreground text-base mb-2">
-                Contact us today for expert Taiwan apostille services.
+                Contact us today for expert Taiwan document authentication services.
               </p>
               <p className="text-foreground text-base font-semibold mb-2">
                 We're open 7 Days per Week, 8:30 am - 8:30 pm.
