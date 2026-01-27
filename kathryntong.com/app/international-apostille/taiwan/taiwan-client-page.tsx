@@ -2,7 +2,7 @@
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import GoogleReviews from "@/components/google-reviews"
-import { CheckCircle, Phone, Mail, ArrowRight } from "lucide-react"
+import { Phone, Mail, ArrowRight } from "lucide-react"
 import Link from "next/link"
 
 export default function TaiwanApostilleClientPage() {
@@ -14,125 +14,220 @@ export default function TaiwanApostilleClientPage() {
           {/* Hero Section */}
           <div className="text-center mb-6">
             <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-3">
-              Apostille Services for Taiwan
+              Taiwan Apostille Services – U.S. Document Legalization
             </h1>
+            <h2 className="text-2xl md:text-3xl font-semibold text-foreground/90 mb-4">
+              Apostille for U.S. Documents Used in Taiwan
+            </h2>
           </div>
 
-          {/* Taiwan Document Authentication Overview Section */}
+          {/* Core Page Content */}
           <div className="mb-6">
-            <h2 className="text-2xl font-bold text-foreground mb-3">
-              Taiwan Document Authentication Overview
-            </h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
-              <div className="space-y-2 mb-3">
-                <div className="flex items-start gap-2">
-                  <span className="text-foreground text-base font-semibold">Hague Status:</span>
-                  <span className="text-foreground text-base">❌ Non-Hague</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <span className="text-foreground text-base font-semibold">Typical Process:</span>
-                </div>
-              </div>
-              <ul className="space-y-1.5 mb-3 ml-4">
-                <li className="flex items-start gap-2">
-                  <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">State authentication or federal authentication</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Additional verification depending on document type and destination use</span>
-                </li>
-              </ul>
-              <p className="text-foreground text-base leading-relaxed">
-                Taiwan requirements vary significantly by document category.
+              <p className="text-foreground text-base leading-relaxed mb-3">
+                Kathryn's Mobile Notary & Apostille provides <Link href="/apostille" className="text-primary hover:text-primary/80 font-semibold underline">apostille services for documents used in Taiwan</Link>, including personal, educational, and business documents. Services are available by appointment and through <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:text-primary/80 font-semibold underline">mail-in apostille processing</Link> for clients located anywhere in the United States.
               </p>
             </div>
           </div>
 
-          {/* Language Disclaimer */}
-          <div className="mb-6">
-            <p className="text-foreground text-sm italic text-foreground/70">
-              For reference only. Final requirements are determined by the receiving authority.
-            </p>
-          </div>
-
-          {/* Common Documents Section */}
+          {/* Taiwan Apostille Requirements Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-foreground mb-3">
-              Common Documents Used in Taiwan
-            </h2>
-            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
-              <ul className="space-y-1.5">
-                <li className="flex items-start gap-2">
-                  <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Birth and marriage certificates</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Police clearance letters</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Power of Attorney</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Academic records</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Immigration and residency documents</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          {/* Mail-In Processing Section */}
-          <div className="mb-6">
-            <h2 className="text-2xl font-bold text-foreground mb-3">
-              Mail-In Processing Available
+              Taiwan Apostille Requirements
             </h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
               <p className="text-foreground text-base leading-relaxed mb-3">
-                Most Taiwan-bound documents qualify for mail-in processing.
+                Taiwan is a member of the Hague Apostille Convention. U.S. documents intended for use in Taiwan generally require a Hague Apostille, rather than consular legalization.
+              </p>
+              <p className="text-foreground text-base leading-relaxed mb-3">
+                Commonly apostilled documents for Taiwan include:
+              </p>
+              <ul className="space-y-1.5 mb-3">
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">U.S. birth and marriage certificates</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">FBI background checks</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Powers of attorney</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Affidavits and sworn statements</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Educational records</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Business and corporate documents</span>
+                </li>
+              </ul>
+              <p className="text-foreground text-base leading-relaxed">
+                Apostilles are issued by the Secretary of State for state-issued documents or the U.S. Department of State for federal documents.
+              </p>
+            </div>
+          </div>
+
+          {/* Important Taiwan-Specific Considerations Section */}
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
+              Important Taiwan-Specific Considerations
+            </h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
+              <p className="text-foreground text-base leading-relaxed mb-3">
+                While Taiwan recognizes Hague Apostilles, receiving authorities in Taiwan may impose additional requirements, such as:
+              </p>
+              <ul className="space-y-1.5 mb-3">
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Certified Chinese translations</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Specific notarization language</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary mt-1 font-bold">•</span>
+                  <span className="text-foreground text-base">Recent issuance dates for vital records</span>
+                </li>
+              </ul>
+              <p className="text-foreground text-base leading-relaxed">
+                Acceptance requirements are determined by the requesting institution or authority in Taiwan.
+              </p>
+            </div>
+          </div>
+
+          {/* Mail-In & Expedited Service Section */}
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
+              Mail-In & Expedited Service
+            </h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
+              <p className="text-foreground text-base leading-relaxed mb-3">
+                <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:text-primary/80 font-semibold underline">Mail-in apostille service</Link> is available for Taiwan-bound documents. Expedited processing may be available depending on document type and issuing authority.
+              </p>
+              <p className="text-foreground text-base leading-relaxed mb-3">
+                For related services, please visit:
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link 
                   href="/apostille"
                   className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
                 >
-                  👉 Apostille Services <ArrowRight className="w-4 h-4" />
+                  Apostille Services <ArrowRight className="w-4 h-4" />
                 </Link>
                 <Link 
                   href="/apostille/mail-in-apostille-services"
                   className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
                 >
-                  👉 Mail-In Apostille Services <ArrowRight className="w-4 h-4" />
+                  Mail-In Apostille Services <ArrowRight className="w-4 h-4" />
+                </Link>
+                <Link 
+                  href="/international-apostille"
+                  className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
+                >
+                  International Apostille Services <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>
             </div>
           </div>
 
-          {/* Notes Section */}
+          {/* FAQ Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-foreground mb-3">
-              Notes
+              Frequently Asked Questions – Taiwan Apostille
             </h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4 space-y-4">
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Can I use a U.S. birth certificate in Taiwan after an apostille?
+                </h3>
+                <p className="text-foreground text-base leading-relaxed">
+                  A: Yes. Taiwan recognizes Hague Apostilles. A properly apostilled U.S. birth certificate is generally accepted, subject to the receiving authority's requirements.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Does Taiwan require consular legalization or an apostille?
+                </h3>
+                <p className="text-foreground text-base leading-relaxed">
+                  A: Taiwan generally requires a Hague Apostille for eligible U.S. documents, rather than consular legalization.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Can FBI background checks be apostilled for use in Taiwan?
+                </h3>
+                <p className="text-foreground text-base leading-relaxed">
+                  A: Yes. FBI background checks may be apostilled through the U.S. Department of State for use in Taiwan.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Are Chinese translations required for Taiwan?
+                </h3>
+                <p className="text-foreground text-base leading-relaxed">
+                  A: Many authorities in Taiwan require certified Chinese translations. Translation requirements vary by institution.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Can Taiwan apostille requests be submitted by mail?
+                </h3>
+                <p className="text-foreground text-base leading-relaxed">
+                  A: Yes. Mail-in apostille services are available nationwide for documents used in Taiwan.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Internal Linking Section */}
+          <div className="mb-6">
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
-              <ul className="space-y-1.5">
-                <li className="flex items-start gap-2">
-                  <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Some documents require prior notarization</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Translations may be required</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Processing time varies</span>
-                </li>
-              </ul>
+              <p className="text-foreground text-base leading-relaxed mb-3">
+                For more information about <Link href="/international-apostille" className="text-primary hover:text-primary/80 font-semibold underline">international apostille services</Link>, <Link href="/apostille/mail-in-apostille-services" className="text-primary hover:text-primary/80 font-semibold underline">mail-in apostille for Taiwan</Link>, or local services, visit:
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <Link 
+                  href="/international-apostille"
+                  className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
+                >
+                  International Apostille Services <ArrowRight className="w-4 h-4" />
+                </Link>
+                <Link 
+                  href="/apostille/mail-in-apostille-services"
+                  className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
+                >
+                  Mail-In Apostille Services <ArrowRight className="w-4 h-4" />
+                </Link>
+                <Link 
+                  href="/mobile-notary-apostille-monterey-park"
+                  className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
+                >
+                  Monterey Park Mobile Notary & Apostille Services <ArrowRight className="w-4 h-4" />
+                </Link>
+                <Link 
+                  href="/mobile-notary-apostille-los-angeles-ca"
+                  className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold"
+                >
+                  Los Angeles Mobile Notary & Apostille Services <ArrowRight className="w-4 h-4" />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Language Disclaimer */}
+          <div className="mb-6">
+            <div className="bg-primary/10 border border-primary/30 rounded-lg p-4">
+              <p className="text-foreground text-sm italic text-foreground/80">
+                This page is provided in English. Certified Chinese translations may be required by authorities in Taiwan. Acceptance is determined by the receiving institution.
+              </p>
             </div>
           </div>
 
@@ -143,7 +238,7 @@ export default function TaiwanApostilleClientPage() {
                 Ready to Get Started?
               </h2>
               <p className="text-foreground text-base mb-2">
-                Contact us today for expert Taiwan document authentication services.
+                Contact us today for expert Taiwan apostille services.
               </p>
               <p className="text-foreground text-base font-semibold mb-2">
                 We're open 7 Days per Week, 8:30 am - 8:30 pm.
@@ -183,4 +278,3 @@ export default function TaiwanApostilleClientPage() {
     </div>
   )
 }
-
