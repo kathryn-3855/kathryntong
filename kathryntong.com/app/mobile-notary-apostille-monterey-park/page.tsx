@@ -52,6 +52,10 @@ export default function MontereyParkPage() {
     {
       question: "How quickly can I get an apostille completed in Los Angeles County?",
       answer: "Processing time depends on the document type, issuing authority, and destination country. Same-day service may be available for qualifying documents, while mail-in processing is commonly used for federal and international requests."
+    },
+    {
+      question: "Do you serve Chinese and Taiwanese clients in Monterey Park?",
+      answer: "Yes. Monterey Park has a large international community, and we regularly assist clients with U.S. documents for use in China, Taiwan, Japan, South Korea, and other countries. Services are appointment-only."
     }
   ]
 

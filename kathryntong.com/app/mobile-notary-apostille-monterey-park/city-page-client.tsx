@@ -134,6 +134,14 @@ export default function MontereyParkCityPageClient() {
                   A: Processing time depends on the document type, issuing authority, and destination country. Same-day service may be available for qualifying documents, while mail-in processing is commonly used for federal and international requests.
                 </p>
               </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Q: Do you serve Chinese and Taiwanese clients in Monterey Park?
+                </h3>
+                <p className="text-foreground text-base leading-relaxed">
+                  A: Yes. Monterey Park has a large international community, and we regularly assist clients with U.S. documents for use in China, Taiwan, Japan, South Korea, and other countries. Services are appointment-only.
+                </p>
+              </div>
             </div>
           </div>
 
