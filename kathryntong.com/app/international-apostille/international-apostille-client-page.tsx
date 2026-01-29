@@ -22,7 +22,7 @@ export default function InternationalApostilleClientPage() {
           <div className="mb-6">
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
               <p className="text-foreground text-base leading-relaxed mb-3">
-                Documents intended for use outside the United States must meet the legal requirements of the destination country. Apostille and legalization rules vary by country, and using the wrong process can result in document rejection, delays, or costly resubmissions.
+                Kathryn's Mobile Notary & Apostille provides U.S. apostille and document legalization services for international use. We assist individuals, families, and businesses with documents issued in the United States for use in Hague and non-Hague countries, including Asia, Europe, the Middle East, and Latin America. Services are provided by appointment only and include both in-person and mail-in options.
               </p>
               <p className="text-foreground text-base leading-relaxed mb-3">
                 Some countries, such as Taiwan, require document authentication rather than a Hague Apostille.
