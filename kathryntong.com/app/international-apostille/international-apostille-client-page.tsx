@@ -319,6 +319,94 @@ export default function InternationalApostilleClientPage() {
             </div>
           </div>
 
+          {/* FAQ Section */}
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-foreground mb-3">
+              FAQ: Apostille & International Document Authentication
+            </h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
+              <ul className="space-y-4">
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                  <div>
+                    <p className="text-foreground text-base font-semibold mb-1">
+                      Q: What is the difference between an apostille and document legalization?
+                    </p>
+                    <p className="text-foreground text-base">
+                      A: An apostille is a form of document authentication used for countries that are members of the Hague Apostille Convention. Document legalization is required for countries that are not members of the Hague Convention and involves additional processing through the appropriate embassy or consulate after state or federal certification.
+                    </p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                  <div>
+                    <p className="text-foreground text-base font-semibold mb-1">
+                      Q: When do I need an apostille for my documents?
+                    </p>
+                    <p className="text-foreground text-base">
+                      A: You need an apostille when a document issued in the United States is intended for use in a foreign country that is a member of the Hague Apostille Convention. Common examples include birth certificates, marriage certificates, diplomas, powers of attorney, and corporate documents.
+                    </p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                  <div>
+                    <p className="text-foreground text-base font-semibold mb-1">
+                      Q: Can U.S. documents be used internationally without an apostille or legalization?
+                    </p>
+                    <p className="text-foreground text-base">
+                      A: No. Most foreign governments require U.S. documents to be authenticated through an apostille or legalization process before they are accepted for legal, educational, immigration, or business purposes.
+                    </p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                  <div>
+                    <p className="text-foreground text-base font-semibold mb-1">
+                      Q: Do apostille requirements vary by country?
+                    </p>
+                    <p className="text-foreground text-base">
+                      A: Yes. Apostille and legalization requirements are country-specific. Each country has its own rules regarding document types, translations, notarization standards, and whether an apostille or full legalization is required. Using incorrect processing can result in document rejection.
+                    </p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                  <div>
+                    <p className="text-foreground text-base font-semibold mb-1">
+                      Q: Are apostille services the same as notary services?
+                    </p>
+                    <p className="text-foreground text-base">
+                      A: No. Notarization is often only one step in the apostille or legalization process. Apostille services involve document authentication by a state or federal authority and, in some cases, additional embassy or consulate processing.
+                    </p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                  <div>
+                    <p className="text-foreground text-base font-semibold mb-1">
+                      Q: Can I obtain an apostille by mail if I am not located in Los Angeles?
+                    </p>
+                    <p className="text-foreground text-base">
+                      A: Yes. Mail-in apostille services are available for clients throughout California and across the United States, depending on the issuing authority and document type.
+                    </p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
+                  <div>
+                    <p className="text-foreground text-base font-semibold mb-1">
+                      Q: Do you assist with both Hague and non-Hague countries?
+                    </p>
+                    <p className="text-foreground text-base">
+                      A: Yes. We assist with apostille services for Hague Convention countries and document legalization for non-Hague countries, including countries in Asia, the Middle East, Europe, and Latin America.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
           {/* Important Notice Section */}
           <div className="mb-6">
             <div className="bg-primary/10 border border-primary/30 rounded-lg p-4">
