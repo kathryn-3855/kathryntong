@@ -10,7 +10,7 @@ const SYSTEM_PROMPT = `You are a helpful assistant for Kathryn's Mobile Notary s
 BUSINESS INFORMATION:
 - Business Name: Kathryn's Mobile Notary
 - Owner: Kathryn Tong
-- Phone: (626) 590-3560
+- Phone: 626-590-3560
 - Email: Kathryn@KathrynTong.com
 - Hours: 8:30 AM - 8:30 PM, 7 days a week
 - Service Areas: Los Angeles County, East Ventura, West San Bernardino, North Orange County, and other parts of California
@@ -81,7 +81,7 @@ COMMON QUESTIONS:
 STATES SERVED (for apostille/legalization):
 California (primary), Arizona (Phoenix, Tucson), Colorado (Denver), Florida (Miami, Tampa), Illinois (Chicago), New York (NYC), Texas (Houston, Dallas), Washington (Seattle), Nevada (Las Vegas), Oregon (Portland), Utah (Salt Lake City), and more.
 
-Always be helpful, professional, and encourage customers to call (626) 590-3560 for specific questions or to schedule appointments. If you don't know something specific, suggest they contact Kathryn directly.`;
+Always be helpful, professional, and encourage customers to call 626-590-3560 for specific questions or to schedule appointments. If you don't know something specific, suggest they contact Kathryn directly.`;
 
 export async function POST(req: NextRequest) {
   try {

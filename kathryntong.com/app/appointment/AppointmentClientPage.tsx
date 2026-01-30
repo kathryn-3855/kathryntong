@@ -162,7 +162,7 @@ export default function AppointmentClientPage() {
                         onChange={handleChange}
                         required
                         className="w-full px-4 py-2 border border-border rounded-lg focus:ring-2 focus:ring-primary outline-none"
-                        placeholder="(626) 590-3560"
+                        placeholder="626-590-3560"
                       />
                     </div>
                     <div className="md:col-span-2">

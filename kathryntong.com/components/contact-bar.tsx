@@ -8,7 +8,7 @@ export default function ContactBar() {
       <div className="max-w-7xl mx-auto flex items-center justify-center gap-6 flex-wrap text-sm font-medium">
         <a href="tel:+16265903560" className="flex items-center gap-2 hover:opacity-80 transition">
           <Phone className="w-4 h-4" />
-          <span className="font-bold">(626) 590-3560</span>
+          <span className="font-bold">626-590-3560</span>
         </a>
         <a href="mailto:Kathryn@KathrynTong.com" className="flex items-center gap-2 hover:opacity-80 transition">
           <Mail className="w-4 h-4" />
