@@ -42,7 +42,7 @@ export default function AlhambraCityPageClient() {
               </div>
               <div className="relative h-48 md:h-56 rounded-lg overflow-hidden">
                 <Image
-                  src="/images/cities/Alhambra.jpg"
+                  src="/images/cities/alhambra.jpg"
                   alt="Alhambra with mobile notary services"
                   fill
                   className="object-cover"

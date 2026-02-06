@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "Kathryn's Mobile Notary & Apostille",
     images: [
       {
-        url: "/images/cities/Alhambra.jpg",
+        url: "/images/cities/alhambra.jpg",
         width: 1200,
         height: 630,
         alt: "Mobile Notary Services in Alhambra, CA",
