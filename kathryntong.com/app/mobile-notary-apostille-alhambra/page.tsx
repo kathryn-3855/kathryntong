@@ -41,15 +41,15 @@ export default function AlhambraPage() {
     },
     {
       question: "Can you help with China or Taiwan documents from Alhambra?",
-      answer: "Yes. We handle both Hague apostilles for China and non-Hague legalization for Taiwan, including document review and guidance."
+      answer: "Yes. We handle Hague apostilles for documents used in China and non-Hague legalization for documents used in Taiwan, including document review and guidance."
     },
     {
       question: "Do you travel to homes and offices in Alhambra?",
-      answer: "Yes. Mobile service is available throughout Alhambra by appointment."
+      answer: "Yes. Mobile notary and apostille service is available throughout Alhambra by appointment."
     },
     {
       question: "Can I mail in my documents instead?",
-      answer: "Yes. Mail-in apostille service is available. Please contact us for instructions."
+      answer: "Yes. Mail-in apostille service is available. Please contact us for instructions before sending documents."
     }
   ]
 
