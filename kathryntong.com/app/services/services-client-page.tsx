@@ -69,43 +69,6 @@ export default function ServicesClientPage() {
             </div>
           </div>
 
-          {/* How Mobile Notary Service Works Section */}
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-foreground mb-4">How Mobile Notary Service Works</h2>
-            <div className="space-y-4">
-              <div className="border border-foreground/30 rounded-lg p-6 bg-foreground/10">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center font-bold">
-                    1
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-foreground mb-2">Contact us via phone, text, or email</h3>
-                  </div>
-                </div>
-              </div>
-              <div className="border border-foreground/30 rounded-lg p-6 bg-foreground/10">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center font-bold">
-                    2
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-foreground mb-2">Confirm document type and ID requirements</h3>
-                  </div>
-                </div>
-              </div>
-              <div className="border border-foreground/30 rounded-lg p-6 bg-foreground/10">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center font-bold">
-                    3
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-foreground mb-2">Meet at your preferred location for notarization</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
           {/* Service Areas Section */}
           <div className="mb-8" id="service-areas">
             <h2 className="text-2xl font-bold text-foreground mb-4">Service Areas</h2>
@@ -165,6 +128,43 @@ export default function ServicesClientPage() {
             </div>
           </div>
 
+          {/* How Mobile Notary Service Works Section */}
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold text-foreground mb-4">How Mobile Notary Service Works</h2>
+            <div className="space-y-4">
+              <div className="border border-foreground/30 rounded-lg p-6 bg-foreground/10">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center font-bold">
+                    1
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-foreground mb-2">Contact us via phone, text, or email</h3>
+                  </div>
+                </div>
+              </div>
+              <div className="border border-foreground/30 rounded-lg p-6 bg-foreground/10">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center font-bold">
+                    2
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-foreground mb-2">Confirm document type and ID requirements</h3>
+                  </div>
+                </div>
+              </div>
+              <div className="border border-foreground/30 rounded-lg p-6 bg-foreground/10">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center font-bold">
+                    3
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-foreground mb-2">Meet at your preferred location for notarization</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Service Area Callout */}
           <div className="mb-8">
             <div className="bg-primary/10 border border-primary/30 rounded-lg p-6">
@@ -175,8 +175,8 @@ export default function ServicesClientPage() {
                   <p className="text-foreground text-base mb-2">
                     Mobile notary services are available throughout Los Angeles and surrounding areas.
                   </p>
-                  <Link href="/services#service-areas" className="text-primary hover:underline font-semibold inline-flex items-center gap-1">
-                    👉 Visit the Service Areas page for full coverage details.
+                  <Link href="/services" className="text-primary hover:underline font-semibold inline-flex items-center gap-1">
+                    👉 View all Service Areas for full coverage details.
                   </Link>
                 </div>
               </div>
