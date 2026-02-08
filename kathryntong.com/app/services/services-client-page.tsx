@@ -3,7 +3,7 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 import GoogleReviews from "@/components/google-reviews"
 import LocalBusinessSchema from "@/components/local-business-schema"
-import { CheckCircle, Phone, Mail, MapPin } from "lucide-react"
+import { CheckCircle, Phone, Mail, MapPin, Check } from "lucide-react"
 import Link from "next/link"
 
 export default function ServicesClientPage() {
@@ -106,6 +106,65 @@ export default function ServicesClientPage() {
             </div>
           </div>
 
+          {/* Service Areas Section */}
+          <div className="mb-8" id="service-areas">
+            <h2 className="text-2xl font-bold text-foreground mb-4">Service Areas</h2>
+            <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
+              <p className="text-foreground text-base mb-4">
+                Mobile notary services are available throughout Los Angeles County and surrounding areas. We serve the following cities and communities:
+              </p>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <Link href="/mobile-notary-apostille-los-angeles-ca" className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition">
+                  <Check className="w-5 h-5 text-primary flex-shrink-0" />
+                  <span className="text-foreground font-medium">Los Angeles</span>
+                </Link>
+                <Link href="/mobile-notary-apostille-pasadena-ca" className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition">
+                  <Check className="w-5 h-5 text-primary flex-shrink-0" />
+                  <span className="text-foreground font-medium">Pasadena</span>
+                </Link>
+                <Link href="/mobile-notary-apostille-beverly-hills" className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition">
+                  <Check className="w-5 h-5 text-primary flex-shrink-0" />
+                  <span className="text-foreground font-medium">Beverly Hills</span>
+                </Link>
+                <Link href="/mobile-notary-apostille-santa-monica-ca" className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition">
+                  <Check className="w-5 h-5 text-primary flex-shrink-0" />
+                  <span className="text-foreground font-medium">Santa Monica</span>
+                </Link>
+                <Link href="/mobile-notary-apostille-glendale" className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition">
+                  <Check className="w-5 h-5 text-primary flex-shrink-0" />
+                  <span className="text-foreground font-medium">Glendale</span>
+                </Link>
+                <Link href="/mobile-notary-apostille-culver-city-ca" className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition">
+                  <Check className="w-5 h-5 text-primary flex-shrink-0" />
+                  <span className="text-foreground font-medium">Culver City</span>
+                </Link>
+                <Link href="/mobile-notary-apostille-west-hollywood" className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition">
+                  <Check className="w-5 h-5 text-primary flex-shrink-0" />
+                  <span className="text-foreground font-medium">West Hollywood</span>
+                </Link>
+                <Link href="/mobile-notary-apostille-arcadia" className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition">
+                  <Check className="w-5 h-5 text-primary flex-shrink-0" />
+                  <span className="text-foreground font-medium">Arcadia</span>
+                </Link>
+                <Link href="/mobile-notary-apostille-alhambra" className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition">
+                  <Check className="w-5 h-5 text-primary flex-shrink-0" />
+                  <span className="text-foreground font-medium">Alhambra</span>
+                </Link>
+                <Link href="/mobile-notary-apostille-monterey-park" className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition">
+                  <Check className="w-5 h-5 text-primary flex-shrink-0" />
+                  <span className="text-foreground font-medium">Monterey Park</span>
+                </Link>
+                <Link href="/mobile-notary-apostille-south-pasadena" className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition">
+                  <Check className="w-5 h-5 text-primary flex-shrink-0" />
+                  <span className="text-foreground font-medium">South Pasadena</span>
+                </Link>
+              </div>
+              <p className="text-foreground text-sm mt-4 italic">
+                Services are also available in surrounding Los Angeles County areas. Contact us to confirm service availability in your specific location.
+              </p>
+            </div>
+          </div>
+
           {/* Service Area Callout */}
           <div className="mb-8">
             <div className="bg-primary/10 border border-primary/30 rounded-lg p-6">
@@ -116,7 +175,7 @@ export default function ServicesClientPage() {
                   <p className="text-foreground text-base mb-2">
                     Mobile notary services are available throughout Los Angeles and surrounding areas.
                   </p>
-                  <Link href="/mobile-notary-apostille-los-angeles-ca" className="text-primary hover:underline font-semibold inline-flex items-center gap-1">
+                  <Link href="/services#service-areas" className="text-primary hover:underline font-semibold inline-flex items-center gap-1">
                     👉 Visit the Service Areas page for full coverage details.
                   </Link>
                 </div>
