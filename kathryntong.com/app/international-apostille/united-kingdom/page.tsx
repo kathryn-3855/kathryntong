@@ -21,28 +21,40 @@ export const metadata: Metadata = {
 export default function UnitedKingdomApostillePage() {
   const ukFAQs = [
     {
-      question: "Can I use a U.S. birth certificate in the United Kingdom after an apostille?",
-      answer: "Yes. The United Kingdom accepts Hague Apostilles for U.S. birth certificates when the apostille is properly issued by the appropriate authority."
+      question: "Do U.S. documents need an apostille for use in the United Kingdom?",
+      answer: "Yes. The United Kingdom is a member of the Hague Apostille Convention. U.S. documents must have a Hague Apostille to be legally recognized in England, Scotland, Wales, or Northern Ireland."
     },
     {
-      question: "Does the United Kingdom require embassy or consular legalization after an apostille?",
-      answer: "No. As a Hague Convention member, the United Kingdom does not require embassy or consular legalization once a valid apostille is attached."
+      question: "Is embassy or consulate legalization required for the U.K.?",
+      answer: "No. Once a document has a valid Hague Apostille, U.K. embassy or consular legalization is not required."
     },
     {
-      question: "Do documents need to be translated for use in the U.K.?",
-      answer: "Some U.K. institutions may request certified translations depending on the document type and purpose of use."
+      question: "Where is the apostille issued for U.K.-bound documents?",
+      answer: "California-issued or California-notarized documents are apostilled by the California Secretary of State. Federal documents, such as FBI background checks, are apostilled by the U.S. Department of State."
     },
     {
-      question: "Can I submit my documents by mail from outside California?",
-      answer: "Yes. Mail-in apostille service is available nationwide and is commonly used for documents intended for use in the United Kingdom."
+      question: "What documents commonly require an apostille for the U.K.?",
+      answer: "Common documents include birth, marriage, and death certificates; divorce decrees; powers of attorney; diplomas and academic records; business documents; and FBI background checks."
     },
     {
-      question: "Which documents can be apostilled for use in the U.K.?",
-      answer: "Common documents include birth certificates, marriage certificates, divorce decrees, powers of attorney, academic records, business documents, and FBI background checks."
+      question: "Do documents need to be notarized before apostille?",
+      answer: "Some documents must be notarized before apostille, while others, such as certified vital records, must not be notarized. Each document should be reviewed before submission."
     },
     {
-      question: "Do you handle apostille and document authentication for countries outside the Hague Convention?",
-      answer: "Yes. In addition to Hague Apostille countries, we assist with document authentication for non-Hague destinations, including Taiwan and other regions that require additional certification steps instead of a Hague Apostille."
+      question: "How long does it take to get an apostille for the U.K.?",
+      answer: "Processing times vary based on the issuing authority and service level. Regular and expedited apostille options are available."
+    },
+    {
+      question: "Can I mail in my documents for U.K. apostille services?",
+      answer: "Yes. Most U.K. apostille requests qualify for mail-in apostille services, and documents may be submitted from anywhere in the United States."
+    },
+    {
+      question: "Do U.K. authorities require certified translations?",
+      answer: "Some U.K. institutions may require certified English translations depending on the document type and purpose."
+    },
+    {
+      question: "Can you help if my documents were issued outside California?",
+      answer: "Yes. Assistance is available for out-of-state and federal documents, depending on the issuing authority and document type."
     }
   ]
 

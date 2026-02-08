@@ -39,11 +39,7 @@ export default function UnitedKingdomApostilleClientPage() {
               <ul className="space-y-1.5">
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Birth certificates</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Marriage certificates</span>
+                  <span className="text-foreground text-base">Birth, marriage, and death certificates</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
@@ -55,7 +51,7 @@ export default function UnitedKingdomApostilleClientPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Academic records and diplomas</span>
+                  <span className="text-foreground text-base">Diplomas and academic records</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
@@ -107,55 +103,98 @@ export default function UnitedKingdomApostilleClientPage() {
           {/* FAQ Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-foreground mb-3">
-              Frequently Asked Questions – United Kingdom Apostille
+              Frequently Asked Questions – United Kingdom Apostille Services
             </h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4 space-y-4">
               <div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">
-                  Q: Can I use a U.S. birth certificate in the United Kingdom after an apostille?
+                  Do U.S. documents need an apostille for use in the United Kingdom?
                 </h3>
                 <p className="text-foreground text-base leading-relaxed">
-                  A: Yes. The United Kingdom accepts Hague Apostilles for U.S. birth certificates when the apostille is properly issued by the appropriate authority.
+                  Yes. The United Kingdom is a member of the Hague Apostille Convention. U.S. documents must have a Hague Apostille to be legally recognized in England, Scotland, Wales, or Northern Ireland.
                 </p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">
-                  Q: Does the United Kingdom require embassy or consular legalization after an apostille?
+                  Is embassy or consulate legalization required for the U.K.?
                 </h3>
                 <p className="text-foreground text-base leading-relaxed">
-                  A: No. As a Hague Convention member, the United Kingdom does not require embassy or consular legalization once a valid apostille is attached.
+                  No. Once a document has a valid Hague Apostille, U.K. embassy or consular legalization is not required.
                 </p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">
-                  Q: Do documents need to be translated for use in the U.K.?
+                  Where is the apostille issued for U.K.-bound documents?
+                </h3>
+                <p className="text-foreground text-base leading-relaxed mb-2">
+                  It depends on the document type:
+                </p>
+                <ul className="list-disc list-inside space-y-1 ml-4">
+                  <li className="text-foreground text-base">California-issued or California-notarized documents are apostilled by the California Secretary of State</li>
+                  <li className="text-foreground text-base">Federal documents (such as FBI background checks) are apostilled by the U.S. Department of State</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  What documents commonly require an apostille for the U.K.?
+                </h3>
+                <p className="text-foreground text-base leading-relaxed mb-2">
+                  Common documents include:
+                </p>
+                <ul className="list-disc list-inside space-y-1 ml-4">
+                  <li className="text-foreground text-base">Birth, marriage, and death certificates</li>
+                  <li className="text-foreground text-base">Divorce decrees</li>
+                  <li className="text-foreground text-base">Powers of attorney</li>
+                  <li className="text-foreground text-base">Diplomas and academic records</li>
+                  <li className="text-foreground text-base">Business and corporate documents</li>
+                  <li className="text-foreground text-base">FBI background checks</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Do documents need to be notarized before apostille?
                 </h3>
                 <p className="text-foreground text-base leading-relaxed">
-                  A: Some U.K. institutions may request certified translations depending on the document type and purpose of use.
+                  Some documents must be notarized before apostille, while others (such as certified vital records) must not be notarized. Each document must be reviewed to ensure it meets apostille requirements before submission.
                 </p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">
-                  Q: Can I submit my documents by mail from outside California?
+                  How long does it take to get an apostille for the U.K.?
                 </h3>
+                <p className="text-foreground text-base leading-relaxed mb-2">
+                  Processing times vary depending on:
+                </p>
+                <ul className="list-disc list-inside space-y-1 ml-4 mb-2">
+                  <li className="text-foreground text-base">Issuing authority (state or federal)</li>
+                  <li className="text-foreground text-base">Service level (standard or expedited)</li>
+                </ul>
                 <p className="text-foreground text-base leading-relaxed">
-                  A: Yes. Mail-in apostille service is available nationwide and is commonly used for documents intended for use in the United Kingdom.
+                  Kathryn's Mobile Notary & Apostille offers regular and expedited options to meet time-sensitive needs.
                 </p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">
-                  Q: Which documents can be apostilled for use in the U.K.?
+                  Can I mail in my documents for U.K. apostille services?
                 </h3>
                 <p className="text-foreground text-base leading-relaxed">
-                  A: Common documents include birth certificates, marriage certificates, divorce decrees, powers of attorney, academic records, business documents, and FBI background checks.
+                  Yes. Most U.K. apostille requests qualify for mail-in apostille services, and clients nationwide may submit documents by mail.
                 </p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">
-                  Q: Do you handle apostille and document authentication for countries outside the Hague Convention?
+                  Do U.K. authorities require certified translations?
                 </h3>
                 <p className="text-foreground text-base leading-relaxed">
-                  A: Yes. In addition to Hague Apostille countries, we assist with document authentication for non-Hague destinations, including Taiwan and other regions that require additional certification steps instead of a Hague Apostille.
+                  Some U.K. institutions may require certified English translations depending on the document and its intended use. Requirements vary by authority.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Can you help if my documents were issued outside California?
+                </h3>
+                <p className="text-foreground text-base leading-relaxed">
+                  Yes. Assistance is available for out-of-state and federal documents, depending on the issuing authority and document type.
                 </p>
               </div>
             </div>
