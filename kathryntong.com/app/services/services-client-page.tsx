@@ -116,7 +116,7 @@ export default function ServicesClientPage() {
                   <p className="text-foreground text-base mb-2">
                     Mobile notary services are available throughout Los Angeles and surrounding areas.
                   </p>
-                  <Link href="/contact" className="text-primary hover:underline font-semibold inline-flex items-center gap-1">
+                  <Link href="/services" className="text-primary hover:underline font-semibold inline-flex items-center gap-1">
                     👉 Visit the Service Areas page for full coverage details.
                   </Link>
                 </div>
