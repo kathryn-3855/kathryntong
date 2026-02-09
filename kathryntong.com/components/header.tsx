@@ -187,6 +187,12 @@ export default function Header() {
                   >
                     Apostille Services for Saudi Arabia
                   </Link>
+                  <Link
+                    href="/international-apostille/united-kingdom"
+                    className="block px-4 py-2 text-foreground hover:bg-accent hover:text-primary transition"
+                  >
+                    Apostille Services for United Kingdom
+                  </Link>
                 </div>
               )}
             </div>
@@ -408,6 +414,16 @@ export default function Header() {
                     }}
                   >
                     Apostille Services for Saudi Arabia
+                  </Link>
+                  <Link
+                    href="/international-apostille/united-kingdom"
+                    className="block text-foreground hover:text-primary transition text-sm"
+                    onClick={() => {
+                      setIsOpen(false)
+                      setIsInternationalApostilleOpen(false)
+                    }}
+                  >
+                    Apostille Services for United Kingdom
                   </Link>
                 </div>
               )}
