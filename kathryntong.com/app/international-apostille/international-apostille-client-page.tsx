@@ -4,8 +4,10 @@ import Footer from "@/components/footer"
 import GoogleReviews from "@/components/google-reviews"
 import { CheckCircle, Phone, Mail, ArrowRight, Globe } from "lucide-react"
 import Link from "next/link"
+import { useTranslations } from "@/lib/use-translations"
 
 export default function InternationalApostilleClientPage() {
+  const t = useTranslations()
   return (
     <div className="min-h-screen bg-white text-foreground">
       <Header />
@@ -14,7 +16,7 @@ export default function InternationalApostilleClientPage() {
           {/* Hero Section */}
           <div className="text-center mb-6">
             <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-3">
-              International Apostille & Document Legalization Services
+              {t.internationalApostilleTitle}
             </h1>
           </div>
 
@@ -22,13 +24,13 @@ export default function InternationalApostilleClientPage() {
           <div className="mb-6">
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
               <p className="text-foreground text-base leading-relaxed mb-3">
-                Kathryn's Mobile Notary & Apostille provides U.S. apostille and document legalization services for international use. We assist individuals, families, and businesses with documents issued in the United States for use in Hague and non-Hague countries, including Asia, Europe, the Middle East, and Latin America. Services are provided by appointment only and include both in-person and mail-in options.
+                {t.internationalApostilleIntro1}
               </p>
               <p className="text-foreground text-base leading-relaxed mb-3">
-                Some countries, such as Taiwan, require document authentication rather than a Hague Apostille.
+                {t.internationalApostilleIntro2}
               </p>
               <p className="text-foreground text-base leading-relaxed">
-                Kathryn's Mobile Notary & Apostille provides international apostille and document legalization coordination for personal, academic, immigration, and business documents used abroad. We assist clients throughout Los Angeles County and nationwide via secure mail-in service.
+                {t.internationalApostilleIntro3}
               </p>
             </div>
           </div>
@@ -36,54 +38,54 @@ export default function InternationalApostilleClientPage() {
           {/* Hague vs. Non-Hague Countries Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-foreground mb-3">
-              Hague vs. Non-Hague Countries — Why It Matters
+              {t.internationalApostilleHagueTitle}
             </h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
               <p className="text-foreground text-base leading-relaxed mb-3">
-                The first and most important step is determining whether your destination country is a member of the Hague Apostille Convention.
+                {t.internationalApostilleHagueIntro}
               </p>
               
               <div className="mb-3">
-                <h3 className="text-xl font-bold text-foreground mb-2">Hague Apostille Countries</h3>
+                <h3 className="text-xl font-bold text-foreground mb-2">{t.internationalApostilleHagueCountriesTitle}</h3>
                 <ul className="space-y-1.5 mb-3">
                   <li className="flex items-start gap-2">
                     <span className="text-primary mt-1 font-bold">•</span>
-                    <span className="text-foreground text-base">Accept a standard apostille issued by a U.S. Secretary of State or federal authority</span>
+                    <span className="text-foreground text-base">{t.internationalApostilleHagueCountry1}</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-primary mt-1 font-bold">•</span>
-                    <span className="text-foreground text-base">No embassy or consulate legalization required</span>
+                    <span className="text-foreground text-base">{t.internationalApostilleHagueCountry2}</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-primary mt-1 font-bold">•</span>
-                    <span className="text-foreground text-base">Generally faster and more streamlined</span>
+                    <span className="text-foreground text-base">{t.internationalApostilleHagueCountry3}</span>
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h3 className="text-xl font-bold text-foreground mb-2">Non-Hague Countries</h3>
+                <h3 className="text-xl font-bold text-foreground mb-2">{t.internationalApostilleNonHagueTitle}</h3>
                 <ul className="space-y-1.5 mb-3">
                   <li className="flex items-start gap-2">
                     <span className="text-primary mt-1 font-bold">•</span>
-                    <span className="text-foreground text-base">Do not accept standard apostilles</span>
+                    <span className="text-foreground text-base">{t.internationalApostilleNonHague1}</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-primary mt-1 font-bold">•</span>
                     <div>
-                      <span className="text-foreground text-base">Require a multi-step legalization process, which may include:</span>
+                      <span className="text-foreground text-base">{t.internationalApostilleNonHague2}</span>
                       <ul className="ml-5 mt-1.5 space-y-1">
                         <li className="flex items-start gap-2">
                           <span className="text-primary mt-1">o</span>
-                          <span className="text-foreground text-base">State or federal authentication</span>
+                          <span className="text-foreground text-base">{t.internationalApostilleNonHague2a}</span>
                         </li>
                         <li className="flex items-start gap-2">
                           <span className="text-primary mt-1">o</span>
-                          <span className="text-foreground text-base">Additional government certification</span>
+                          <span className="text-foreground text-base">{t.internationalApostilleNonHague2b}</span>
                         </li>
                         <li className="flex items-start gap-2">
                           <span className="text-primary mt-1">o</span>
-                          <span className="text-foreground text-base">Embassy or consulate legalization</span>
+                          <span className="text-foreground text-base">{t.internationalApostilleNonHague2c}</span>
                         </li>
                       </ul>
                     </div>
@@ -92,7 +94,7 @@ export default function InternationalApostilleClientPage() {
               </div>
 
               <p className="text-foreground text-base leading-relaxed font-semibold">
-                Applying the wrong process can invalidate your documents. We verify the correct procedure before submission.
+                {t.internationalApostilleHagueWarning}
               </p>
             </div>
           </div>
@@ -100,40 +102,40 @@ export default function InternationalApostilleClientPage() {
           {/* Why Country-Specific Rules Are Critical Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-foreground mb-3">
-              Why Country-Specific Rules Are Critical
+              {t.internationalApostilleCountryRulesTitle}
             </h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
               <p className="text-foreground text-base leading-relaxed mb-3">
-                Each country has its own requirements regarding:
+                {t.internationalApostilleCountryRulesIntro}
               </p>
               <ul className="space-y-1.5 mb-3">
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Accepted document types</span>
+                  <span className="text-foreground text-base">{t.internationalApostilleCountryRule1}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Original vs. certified copy rules</span>
+                  <span className="text-foreground text-base">{t.internationalApostilleCountryRule2}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Notarization requirements</span>
+                  <span className="text-foreground text-base">{t.internationalApostilleCountryRule3}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Translation requirements</span>
+                  <span className="text-foreground text-base">{t.internationalApostilleCountryRule4}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Validity periods</span>
+                  <span className="text-foreground text-base">{t.internationalApostilleCountryRule5}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Mail-in eligibility</span>
+                  <span className="text-foreground text-base">{t.internationalApostilleCountryRule6}</span>
                 </li>
               </ul>
               <p className="text-foreground text-base leading-relaxed">
-                For this reason, we provide country-specific guidance for high-volume destinations to ensure accuracy and compliance.
+                {t.internationalApostilleCountryRulesNote}
               </p>
             </div>
           </div>
@@ -141,74 +143,74 @@ export default function InternationalApostilleClientPage() {
           {/* Popular Destination Countries Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-foreground mb-3">
-              Popular Destination Countries We Frequently Handle
+              {t.internationalApostillePopularDestinationsTitle}
             </h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
               <p className="text-foreground text-base leading-relaxed mb-3">
-                The following countries represent the highest volume of apostille and legalization requests from U.S. clients, particularly in California. Each destination has its own dedicated page with detailed requirements. For other countries' specific requirements, please call or email us for questions and details.
+                {t.internationalApostillePopularDestinationsIntro}
               </p>
               
               <div className="space-y-3">
                 <Link href="/international-apostille/china" className="block border-l-4 border-primary pl-3 hover:bg-foreground/5 transition rounded-r">
-                  <h3 className="text-lg font-bold text-foreground mb-1">China</h3>
+                  <h3 className="text-lg font-bold text-foreground mb-1">{t.internationalApostilleChinaTitle}</h3>
                   <p className="text-foreground text-base">
-                    Hague Apostille Convention member (as of November 2023). Apostille only for eligible documents.
+                    {t.internationalApostilleChinaDesc}
                   </p>
                 </Link>
 
                 <Link href="/international-apostille/taiwan" className="block border-l-4 border-primary pl-3 hover:bg-foreground/5 transition rounded-r">
-                  <h3 className="text-lg font-bold text-foreground mb-1">Taiwan</h3>
+                  <h3 className="text-lg font-bold text-foreground mb-1">{t.internationalApostilleTaiwanTitle}</h3>
                   <p className="text-foreground text-base">
-                    Non-Hague destination with document-specific authentication rules depending on use.
+                    {t.internationalApostilleTaiwanDesc}
                   </p>
                 </Link>
 
                 <Link href="/international-apostille/hong-kong" className="block border-l-4 border-primary pl-3 hover:bg-foreground/5 transition rounded-r">
-                  <h3 className="text-lg font-bold text-foreground mb-1">Hong Kong</h3>
+                  <h3 className="text-lg font-bold text-foreground mb-1">{t.internationalApostilleHongKongTitle}</h3>
                   <p className="text-foreground text-base">
-                    Hague Apostille Convention member. Apostille only; no embassy legalization required.
+                    {t.internationalApostilleHongKongDesc}
                   </p>
                 </Link>
 
                 <Link href="/international-apostille/mexico" className="block border-l-4 border-primary pl-3 hover:bg-foreground/5 transition rounded-r">
-                  <h3 className="text-lg font-bold text-foreground mb-1">Mexico</h3>
+                  <h3 className="text-lg font-bold text-foreground mb-1">{t.internationalApostilleMexicoTitle}</h3>
                   <p className="text-foreground text-base">
-                    Hague member. Apostille only for most civil, academic, and legal documents.
+                    {t.internationalApostilleMexicoDesc}
                   </p>
                 </Link>
 
                 <Link href="/international-apostille/south-korea" className="block border-l-4 border-primary pl-3 hover:bg-foreground/5 transition rounded-r">
-                  <h3 className="text-lg font-bold text-foreground mb-1">South Korea</h3>
+                  <h3 className="text-lg font-bold text-foreground mb-1">{t.internationalApostilleSouthKoreaTitle}</h3>
                   <p className="text-foreground text-base">
-                    Hague member. Commonly requested for employment, education, and background checks.
+                    {t.internationalApostilleSouthKoreaDesc}
                   </p>
                 </Link>
 
                 <Link href="/international-apostille/philippines" className="block border-l-4 border-primary pl-3 hover:bg-foreground/5 transition rounded-r">
-                  <h3 className="text-lg font-bold text-foreground mb-1">Philippines</h3>
+                  <h3 className="text-lg font-bold text-foreground mb-1">{t.internationalApostillePhilippinesTitle}</h3>
                   <p className="text-foreground text-base">
-                    Hague member. Apostille only for immigration, family, and citizenship-related documents.
+                    {t.internationalApostillePhilippinesDesc}
                   </p>
                 </Link>
 
                 <Link href="/international-apostille/japan" className="block border-l-4 border-primary pl-3 hover:bg-foreground/5 transition rounded-r">
-                  <h3 className="text-lg font-bold text-foreground mb-1">Japan</h3>
+                  <h3 className="text-lg font-bold text-foreground mb-1">{t.internationalApostilleJapanTitle}</h3>
                   <p className="text-foreground text-base">
-                    Hague member. Apostille only for personal, academic, and business documents.
+                    {t.internationalApostilleJapanDesc}
                   </p>
                 </Link>
 
                 <Link href="/international-apostille/saudi-arabia" className="block border-l-4 border-primary pl-3 hover:bg-foreground/5 transition rounded-r">
-                  <h3 className="text-lg font-bold text-foreground mb-1">Saudi Arabia</h3>
+                  <h3 className="text-lg font-bold text-foreground mb-1">{t.internationalApostilleSaudiArabiaTitle}</h3>
                   <p className="text-foreground text-base">
-                    Hague member. Apostille only for personal, academic, and business documents.
+                    {t.internationalApostilleSaudiArabiaDesc}
                   </p>
                 </Link>
               </div>
 
               <p className="text-foreground text-base mt-3 flex items-center gap-2">
                 <span>👉</span>
-                <span>Please select your destination country from the dropdown menu for detailed instructions.</span>
+                <span>{t.internationalApostillePopularDestinationsNote}</span>
               </p>
             </div>
           </div>
@@ -216,44 +218,44 @@ export default function InternationalApostilleClientPage() {
           {/* Common International Document Types Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-foreground mb-3">
-              Common International Document Types
+              {t.internationalApostilleCommonDocsTitle}
             </h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
               <p className="text-foreground text-base leading-relaxed mb-3">
-                We regularly assist with apostille or legalization for:
+                {t.internationalApostilleCommonDocsIntro}
               </p>
               <ul className="space-y-1.5">
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Birth certificates</span>
+                  <span className="text-foreground text-base">{t.internationalApostilleCommonDoc1}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Marriage certificates</span>
+                  <span className="text-foreground text-base">{t.internationalApostilleCommonDoc2}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Divorce decrees</span>
+                  <span className="text-foreground text-base">{t.internationalApostilleCommonDoc3}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">FBI background checks</span>
+                  <span className="text-foreground text-base">{t.internationalApostilleCommonDoc4}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Power of Attorney</span>
+                  <span className="text-foreground text-base">{t.internationalApostilleCommonDoc5}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Academic diplomas and transcripts</span>
+                  <span className="text-foreground text-base">{t.internationalApostilleCommonDoc6}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Corporate and business documents</span>
+                  <span className="text-foreground text-base">{t.internationalApostilleCommonDoc7}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Immigration and residency paperwork</span>
+                  <span className="text-foreground text-base">{t.internationalApostilleCommonDoc8}</span>
                 </li>
               </ul>
             </div>
@@ -262,14 +264,14 @@ export default function InternationalApostilleClientPage() {
           {/* Mail-In Apostille & Legalization Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-foreground mb-3">
-              Mail-In Apostille & Legalization Available
+              {t.internationalApostilleMailInTitle}
             </h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
               <p className="text-foreground text-base leading-relaxed mb-3">
-                Many international documents can be processed through our Mail-In Apostille Service, depending on document type and issuing authority.
+                {t.internationalApostilleMailInText1}
               </p>
               <p className="text-foreground text-base leading-relaxed mb-3">
-                We confirm eligibility before you send documents to avoid delays or rejection.
+                {t.internationalApostilleMailInText2}
               </p>
               <div className="flex flex-wrap gap-4 mt-3">
                 <Link 
@@ -291,29 +293,29 @@ export default function InternationalApostilleClientPage() {
           {/* Why Clients Choose Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-foreground mb-3">
-              Why Clients Choose Kathryn's Mobile Notary & Apostille
+              {t.internationalApostilleWhyChooseTitle}
             </h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
               <ul className="space-y-2">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-foreground text-base">Certified Apostille Specialist (California)</span>
+                  <span className="text-foreground text-base">{t.internationalApostilleWhyChoose1}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-foreground text-base">Experience with Hague and non-Hague countries</span>
+                  <span className="text-foreground text-base">{t.internationalApostilleWhyChoose2}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-foreground text-base">High-volume handling of China, Taiwan, and Hong Kong documents</span>
+                  <span className="text-foreground text-base">{t.internationalApostilleWhyChoose3}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-foreground text-base">Mobile and mail-in convenience</span>
+                  <span className="text-foreground text-base">{t.internationalApostilleWhyChoose4}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-foreground text-base">Clear communication and error prevention</span>
+                  <span className="text-foreground text-base">{t.internationalApostilleWhyChoose5}</span>
                 </li>
               </ul>
             </div>
@@ -322,7 +324,7 @@ export default function InternationalApostilleClientPage() {
           {/* FAQ Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-foreground mb-3">
-              FAQ: Apostille & International Document Authentication
+              {t.internationalApostilleFAQTitle}
             </h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
               <ul className="space-y-4">
@@ -330,10 +332,10 @@ export default function InternationalApostilleClientPage() {
                   <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
                   <div>
                     <p className="text-foreground text-base font-semibold mb-1">
-                      Q: What is the difference between an apostille and document legalization?
+                      {t.internationalApostilleFAQ1Q}
                     </p>
                     <p className="text-foreground text-base">
-                      A: An apostille is a form of document authentication used for countries that are members of the Hague Apostille Convention. Document legalization is required for countries that are not members of the Hague Convention and involves additional processing through the appropriate embassy or consulate after state or federal certification.
+                      {t.internationalApostilleFAQ1A}
                     </p>
                   </div>
                 </li>
@@ -341,10 +343,10 @@ export default function InternationalApostilleClientPage() {
                   <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
                   <div>
                     <p className="text-foreground text-base font-semibold mb-1">
-                      Q: When do I need an apostille for my documents?
+                      {t.internationalApostilleFAQ2Q}
                     </p>
                     <p className="text-foreground text-base">
-                      A: You need an apostille when a document issued in the United States is intended for use in a foreign country that is a member of the Hague Apostille Convention. Common examples include birth certificates, marriage certificates, diplomas, powers of attorney, and corporate documents.
+                      {t.internationalApostilleFAQ2A}
                     </p>
                   </div>
                 </li>
@@ -352,10 +354,10 @@ export default function InternationalApostilleClientPage() {
                   <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
                   <div>
                     <p className="text-foreground text-base font-semibold mb-1">
-                      Q: Can U.S. documents be used internationally without an apostille or legalization?
+                      {t.internationalApostilleFAQ3Q}
                     </p>
                     <p className="text-foreground text-base">
-                      A: No. Most foreign governments require U.S. documents to be authenticated through an apostille or legalization process before they are accepted for legal, educational, immigration, or business purposes.
+                      {t.internationalApostilleFAQ3A}
                     </p>
                   </div>
                 </li>
@@ -363,10 +365,10 @@ export default function InternationalApostilleClientPage() {
                   <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
                   <div>
                     <p className="text-foreground text-base font-semibold mb-1">
-                      Q: Do apostille requirements vary by country?
+                      {t.internationalApostilleFAQ4Q}
                     </p>
                     <p className="text-foreground text-base">
-                      A: Yes. Apostille and legalization requirements are country-specific. Each country has its own rules regarding document types, translations, notarization standards, and whether an apostille or full legalization is required. Using incorrect processing can result in document rejection.
+                      {t.internationalApostilleFAQ4A}
                     </p>
                   </div>
                 </li>
@@ -374,10 +376,10 @@ export default function InternationalApostilleClientPage() {
                   <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
                   <div>
                     <p className="text-foreground text-base font-semibold mb-1">
-                      Q: Are apostille services the same as notary services?
+                      {t.internationalApostilleFAQ5Q}
                     </p>
                     <p className="text-foreground text-base">
-                      A: No. Notarization is often only one step in the apostille or legalization process. Apostille services involve document authentication by a state or federal authority and, in some cases, additional embassy or consulate processing.
+                      {t.internationalApostilleFAQ5A}
                     </p>
                   </div>
                 </li>
@@ -385,10 +387,10 @@ export default function InternationalApostilleClientPage() {
                   <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
                   <div>
                     <p className="text-foreground text-base font-semibold mb-1">
-                      Q: Can I obtain an apostille by mail if I am not located in Los Angeles?
+                      {t.internationalApostilleFAQ6Q}
                     </p>
                     <p className="text-foreground text-base">
-                      A: Yes. Mail-in apostille services are available for clients throughout California and across the United States, depending on the issuing authority and document type.
+                      {t.internationalApostilleFAQ6A}
                     </p>
                   </div>
                 </li>
@@ -396,10 +398,10 @@ export default function InternationalApostilleClientPage() {
                   <div className="w-2 h-2 rounded-full bg-foreground mt-2 flex-shrink-0" />
                   <div>
                     <p className="text-foreground text-base font-semibold mb-1">
-                      Q: Do you assist with both Hague and non-Hague countries?
+                      {t.internationalApostilleFAQ7Q}
                     </p>
                     <p className="text-foreground text-base">
-                      A: Yes. We assist with apostille services for Hague Convention countries and document legalization for non-Hague countries, including countries in Asia, the Middle East, Europe, and Latin America.
+                      {t.internationalApostilleFAQ7A}
                     </p>
                   </div>
                 </li>
@@ -411,10 +413,10 @@ export default function InternationalApostilleClientPage() {
           <div className="mb-6">
             <div className="bg-primary/10 border border-primary/30 rounded-lg p-4">
               <h2 className="text-xl font-bold text-foreground mb-2">
-                Important Notice
+                {t.internationalApostilleImportantNoticeTitle}
               </h2>
               <p className="text-foreground text-base leading-relaxed">
-                International requirements change periodically. Final acceptance is determined by the receiving authority in the destination country. We provide guidance based on current requirements and best practices.
+                {t.internationalApostilleImportantNoticeText}
               </p>
             </div>
           </div>
@@ -423,13 +425,13 @@ export default function InternationalApostilleClientPage() {
           <div className="mb-6">
             <div className="bg-primary/10 border border-primary/30 rounded-lg p-4">
               <h2 className="text-2xl font-bold text-foreground mb-2">
-                Ready to Get Started?
+                {t.internationalApostilleCTATitle}
               </h2>
               <p className="text-foreground text-base mb-2">
-                Contact us today for expert international apostille and legalization services.
+                {t.internationalApostilleCTAText1}
               </p>
               <p className="text-foreground text-base font-semibold mb-2">
-                We're open 7 Days per Week, 8:30 am - 8:30 pm.
+                {t.internationalApostilleCTAText2}
               </p>
               <div className="flex flex-wrap gap-4 items-center">
                 <a 
@@ -455,9 +457,9 @@ export default function InternationalApostilleClientPage() {
 
           {/* Final CTA Section */}
           <div className="bg-white py-4 text-center">
-            <h2 className="text-2xl lg:text-3xl font-bold mb-3 text-foreground">Ready to Start?</h2>
+            <h2 className="text-2xl lg:text-3xl font-bold mb-3 text-foreground">{t.readyToStart}</h2>
             <p className="text-base lg:text-lg text-foreground/90">
-              Call or text <a href="tel:+16265903560" className="text-primary hover:underline font-semibold">626-590-3560</a>, 7 days a week or email to: <a href="mailto:Kathryn@KathrynTong.com" className="text-primary hover:underline font-semibold">Kathryn@KathrynTong.com</a>
+              {t.callOrTextLabel} <a href="tel:+16265903560" className="text-primary hover:underline font-semibold">626-590-3560</a>, 7 days a week or email to: <a href="mailto:Kathryn@KathrynTong.com" className="text-primary hover:underline font-semibold">Kathryn@KathrynTong.com</a>
             </p>
           </div>
         </div>

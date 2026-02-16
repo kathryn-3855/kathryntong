@@ -5,8 +5,10 @@ import GoogleReviews from "@/components/google-reviews"
 import LocalBusinessSchema from "@/components/local-business-schema"
 import { CheckCircle, Phone, Mail, MapPin, Check } from "lucide-react"
 import Link from "next/link"
+import { useTranslations } from "@/lib/use-translations"
 
 export default function ServicesClientPage() {
+  const t = useTranslations()
   return (
     <div className="min-h-screen bg-white text-foreground">
       <LocalBusinessSchema />
@@ -16,65 +18,65 @@ export default function ServicesClientPage() {
           {/* Hero Section */}
           <div className="text-center mb-8">
             <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Mobile Notary Services in Los Angeles & Surrounding Areas
+              {t.servicesPageMobileNotaryTitle}
             </h1>
             <p className="text-lg text-foreground/90">
-              Convenient, professional mobile notary services for individuals, families, and businesses - available by appointment at your location.
+              {t.servicesPageMobileNotarySubtitle}
             </p>
           </div>
 
           {/* What Is a Mobile Notary Section */}
           <div className="mb-8">
-            <h2 className="text-2xl font-bold text-foreground mb-4">What Is a Mobile Notary?</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">{t.servicesWhatIsMobileNotaryTitle}</h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
               <p className="text-foreground text-base leading-relaxed">
-                A mobile notary travels to your home, office, hospital, or other agreed location to notarize documents in person. This service is ideal when travel is difficult, time is limited, or documents are urgent.
+                {t.servicesWhatIsMobileNotaryText}
               </p>
             </div>
           </div>
 
           {/* Mobile Notary Services Offered Section */}
           <div className="mb-8">
-            <h2 className="text-2xl font-bold text-foreground mb-4">Mobile Notary Services Offered</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">{t.servicesMobileNotaryOfferedTitle}</h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Acknowledgments</span>
+                  <span className="text-foreground text-base">{t.servicesMobileNotaryService1}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Jurats</span>
+                  <span className="text-foreground text-base">{t.servicesMobileNotaryService2}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Power of Attorney documents</span>
+                  <span className="text-foreground text-base">{t.servicesMobileNotaryService3}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Immigration-related documents</span>
+                  <span className="text-foreground text-base">{t.servicesMobileNotaryService4}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Real estate and loan documents</span>
+                  <span className="text-foreground text-base">{t.servicesMobileNotaryService5}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Business and corporate paperwork</span>
+                  <span className="text-foreground text-base">{t.servicesMobileNotaryService6}</span>
                 </li>
               </ul>
               <p className="text-foreground text-base mt-4">
-                Each appointment includes ID verification and proper notarial completion in accordance with California law.
+                {t.servicesMobileNotaryNote}
               </p>
             </div>
           </div>
 
           {/* Service Areas Section */}
           <div className="mb-8" id="service-areas">
-            <h2 className="text-2xl font-bold text-foreground mb-4">Service Areas</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">{t.servicesServiceAreasTitle}</h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-6">
               <p className="text-foreground text-base mb-4">
-                Mobile notary services are available throughout Los Angeles County and surrounding areas. We serve the following cities and communities:
+                {t.servicesServiceAreasDesc}
               </p>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <Link href="/mobile-notary-apostille-los-angeles-ca" className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition">
@@ -123,14 +125,14 @@ export default function ServicesClientPage() {
                 </Link>
               </div>
               <p className="text-foreground text-sm mt-4 italic">
-                Services are also available in surrounding Los Angeles County areas. Contact us to confirm service availability in your specific location.
+                {t.servicesServiceAreasNote}
               </p>
             </div>
           </div>
 
           {/* How Mobile Notary Service Works Section */}
           <div className="mb-8">
-            <h2 className="text-2xl font-bold text-foreground mb-4">How Mobile Notary Service Works</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">{t.servicesHowItWorksTitle}</h2>
             <div className="space-y-4">
               <div className="border border-foreground/30 rounded-lg p-6 bg-foreground/10">
                 <div className="flex items-start gap-4">
@@ -138,7 +140,7 @@ export default function ServicesClientPage() {
                     1
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-foreground mb-2">Contact us via phone, text, or email</h3>
+                    <h3 className="text-lg font-semibold text-foreground mb-2">{t.servicesHowItWorksStep1}</h3>
                   </div>
                 </div>
               </div>
@@ -148,7 +150,7 @@ export default function ServicesClientPage() {
                     2
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-foreground mb-2">Confirm document type and ID requirements</h3>
+                    <h3 className="text-lg font-semibold text-foreground mb-2">{t.servicesHowItWorksStep2}</h3>
                   </div>
                 </div>
               </div>
@@ -158,7 +160,7 @@ export default function ServicesClientPage() {
                     3
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-foreground mb-2">Meet at your preferred location for notarization</h3>
+                    <h3 className="text-lg font-semibold text-foreground mb-2">{t.servicesHowItWorksStep3}</h3>
                   </div>
                 </div>
               </div>
@@ -171,12 +173,12 @@ export default function ServicesClientPage() {
               <div className="flex items-start gap-3">
                 <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-lg font-bold text-foreground mb-2">Service Area</h3>
+                  <h3 className="text-lg font-bold text-foreground mb-2">{t.servicesServiceAreaCalloutTitle}</h3>
                   <p className="text-foreground text-base mb-2">
-                    Mobile notary services are available throughout Los Angeles and surrounding areas.
+                    {t.servicesServiceAreaCalloutText1}
                   </p>
                   <Link href="/services" className="text-primary hover:underline font-semibold inline-flex items-center gap-1">
-                    👉 View all Service Areas for full coverage details.
+                    {t.servicesServiceAreaCalloutText2}
                   </Link>
                 </div>
               </div>
@@ -188,10 +190,10 @@ export default function ServicesClientPage() {
 
           {/* Call to Action */}
           <div className="text-center py-4">
-            <h2 className="text-2xl lg:text-3xl font-bold mb-3 text-foreground">Call to Action</h2>
+            <h2 className="text-2xl lg:text-3xl font-bold mb-3 text-foreground">{t.servicesCallToActionTitle}</h2>
             <div className="bg-primary/10 border border-primary/30 rounded-lg p-6 max-w-3xl mx-auto">
               <p className="text-base text-foreground mb-4">
-                Phone or text or email to schedule a mobile notary visit today.
+                {t.servicesCallToActionText}
               </p>
               <div className="flex flex-wrap gap-4 items-center justify-center">
                 <a 

@@ -4,8 +4,10 @@ import Image from "next/image"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import GoogleReviews from "@/components/google-reviews"
+import { useTranslations } from "@/lib/use-translations"
 
 export default function AboutClientPage() {
+  const t = useTranslations()
   return (
     <div className="min-h-screen bg-white">
       <Header />
@@ -19,93 +21,93 @@ export default function AboutClientPage() {
             </div>
             <div>
               <h1 className="text-4xl font-bold text-foreground mb-3">
-                Kathryn's Mobile Notary & Apostille Services
+                {t.aboutPageTitle}
               </h1>
               <p className="text-base text-foreground mb-3 leading-relaxed">
-                Certified Apostille Specialist providing accurate, mobile notary and California apostille services for individuals, businesses, and international clients.
+                {t.aboutPageBio1}
               </p>
               <p className="text-base text-foreground leading-relaxed">
-                With a focus on document accuracy and international compliance, Kathryn helps clients avoid costly rejections, delays, and repeat submissions—especially for apostille and overseas use.
+                {t.aboutPageBio2}
               </p>
             </div>
           </div>
 
           {/* Who I Serve Section */}
           <div className="mb-8">
-            <h2 className="text-3xl font-bold text-foreground mb-4">Who I Serve</h2>
+            <h2 className="text-3xl font-bold text-foreground mb-4">{t.aboutWhoIServeTitle}</h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
               <p className="text-base text-foreground mb-3">
-                Kathryn's Mobile Notary & Apostille works with:
+                {t.aboutWhoIServeIntro}
               </p>
               <ul className="space-y-2">
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Immigration attorneys and law firms</span>
+                  <span className="text-foreground text-base">{t.aboutWhoIServe1}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">International clients and U.S. citizens living abroad</span>
+                  <span className="text-foreground text-base">{t.aboutWhoIServe2}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">California residents and businesses</span>
+                  <span className="text-foreground text-base">{t.aboutWhoIServe3}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Families handling cross-border personal and legal matters</span>
+                  <span className="text-foreground text-base">{t.aboutWhoIServe4}</span>
                 </li>
               </ul>
               <p className="text-base text-foreground mt-3">
-                Whether documents are needed locally, across the U.S., or internationally, each request is handled with precision and clear communication.
+                {t.aboutWhoIServeNote}
               </p>
             </div>
           </div>
 
           {/* Why Clients Choose Section */}
           <div className="mb-8">
-            <h2 className="text-3xl font-bold text-foreground mb-4">Why Clients Choose Kathryn's Mobile Notary & Apostille</h2>
+            <h2 className="text-3xl font-bold text-foreground mb-4">{t.aboutWhyClientsChooseTitle}</h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
               <ul className="space-y-2">
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Certified Apostille Specialist (California)</span>
+                  <span className="text-foreground text-base">{t.aboutWhyClientsChoose1}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Accuracy-first process to prevent document rejection</span>
+                  <span className="text-foreground text-base">{t.aboutWhyClientsChoose2}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Mobile notary services at your home, office, or agreed location</span>
+                  <span className="text-foreground text-base">{t.aboutWhyClientsChoose3}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Same-day and mail-in apostille options</span>
+                  <span className="text-foreground text-base">{t.aboutWhyClientsChoose4}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Experience with international document requirements</span>
+                  <span className="text-foreground text-base">{t.aboutWhyClientsChoose5}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-primary mt-1 font-bold">•</span>
-                  <span className="text-foreground text-base">Trusted by domestic and overseas clients</span>
+                  <span className="text-foreground text-base">{t.aboutWhyClientsChoose6}</span>
                 </li>
               </ul>
               <p className="text-base text-foreground mt-3 italic">
-                Unlike generic notary listings, services are structured around compliance—not speed alone.
+                {t.aboutWhyClientsChooseNote}
               </p>
             </div>
           </div>
 
           {/* Languages & International Clients Section */}
           <div className="mb-8">
-            <h2 className="text-3xl font-bold text-foreground mb-4">Languages & International Clients</h2>
+            <h2 className="text-3xl font-bold text-foreground mb-4">{t.aboutLanguagesTitle}</h2>
             <div className="bg-foreground/10 border border-foreground/30 rounded-lg p-4">
               <p className="text-base text-foreground leading-relaxed">
-                All services are provided in English.
+                {t.aboutLanguagesText1}
               </p>
               <p className="text-base text-foreground leading-relaxed mt-3">
-                Chinese-language informational pages are available for clarity only and do not constitute document translation or interpretation services.
+                {t.aboutLanguagesText2}
               </p>
             </div>
           </div>
@@ -115,16 +117,16 @@ export default function AboutClientPage() {
 
           {/* Call to Action */}
           <div className="text-center py-4">
-            <h2 className="text-2xl lg:text-3xl font-bold mb-3 text-foreground">Call to Action</h2>
+            <h2 className="text-2xl lg:text-3xl font-bold mb-3 text-foreground">{t.aboutCallToActionTitle}</h2>
             <div className="bg-primary/10 border border-primary/30 rounded-lg p-4 max-w-3xl mx-auto">
               <p className="text-base text-foreground mb-3">
-                Before preparing or submitting documents, confirm your requirements.
+                {t.aboutCallToActionText1}
               </p>
               <p className="text-base text-foreground font-semibold mb-3">
-                Call, text, or email to discuss your document and destination country.
+                {t.aboutCallToActionText2}
               </p>
               <p className="text-base text-foreground mb-3">
-                We're open 7 Days per Week, from 8:30 am to 8:30 pm.
+                {t.aboutCallToActionText3}
               </p>
               <div className="flex flex-wrap gap-4 items-center justify-center">
                 <a 
