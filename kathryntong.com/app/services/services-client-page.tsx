@@ -81,47 +81,47 @@ export default function ServicesClientPage() {
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <Link href="/mobile-notary-apostille-los-angeles-ca" className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition">
                   <Check className="w-5 h-5 text-primary flex-shrink-0" />
-                  <span className="text-foreground font-medium">Los Angeles</span>
+                  <span className="text-foreground font-medium">{t.cityLosAngeles}</span>
                 </Link>
                 <Link href="/mobile-notary-apostille-pasadena-ca" className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition">
                   <Check className="w-5 h-5 text-primary flex-shrink-0" />
-                  <span className="text-foreground font-medium">Pasadena</span>
+                  <span className="text-foreground font-medium">{t.cityPasadena}</span>
                 </Link>
                 <Link href="/mobile-notary-apostille-beverly-hills" className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition">
                   <Check className="w-5 h-5 text-primary flex-shrink-0" />
-                  <span className="text-foreground font-medium">Beverly Hills</span>
+                  <span className="text-foreground font-medium">{t.cityBeverlyHills}</span>
                 </Link>
                 <Link href="/mobile-notary-apostille-santa-monica-ca" className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition">
                   <Check className="w-5 h-5 text-primary flex-shrink-0" />
-                  <span className="text-foreground font-medium">Santa Monica</span>
+                  <span className="text-foreground font-medium">{t.citySantaMonica}</span>
                 </Link>
                 <Link href="/mobile-notary-apostille-glendale" className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition">
                   <Check className="w-5 h-5 text-primary flex-shrink-0" />
-                  <span className="text-foreground font-medium">Glendale</span>
+                  <span className="text-foreground font-medium">{t.cityGlendale}</span>
                 </Link>
                 <Link href="/mobile-notary-apostille-culver-city-ca" className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition">
                   <Check className="w-5 h-5 text-primary flex-shrink-0" />
-                  <span className="text-foreground font-medium">Culver City</span>
+                  <span className="text-foreground font-medium">{t.cityCulverCity}</span>
                 </Link>
                 <Link href="/mobile-notary-apostille-west-hollywood" className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition">
                   <Check className="w-5 h-5 text-primary flex-shrink-0" />
-                  <span className="text-foreground font-medium">West Hollywood</span>
+                  <span className="text-foreground font-medium">{t.cityWestHollywood}</span>
                 </Link>
                 <Link href="/mobile-notary-apostille-arcadia" className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition">
                   <Check className="w-5 h-5 text-primary flex-shrink-0" />
-                  <span className="text-foreground font-medium">Arcadia</span>
+                  <span className="text-foreground font-medium">{t.cityArcadia}</span>
                 </Link>
                 <Link href="/mobile-notary-apostille-alhambra" className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition">
                   <Check className="w-5 h-5 text-primary flex-shrink-0" />
-                  <span className="text-foreground font-medium">Alhambra</span>
+                  <span className="text-foreground font-medium">{t.cityAlhambra}</span>
                 </Link>
                 <Link href="/mobile-notary-apostille-monterey-park" className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition">
                   <Check className="w-5 h-5 text-primary flex-shrink-0" />
-                  <span className="text-foreground font-medium">Monterey Park</span>
+                  <span className="text-foreground font-medium">{t.cityMontereyPark}</span>
                 </Link>
                 <Link href="/mobile-notary-apostille-south-pasadena" className="flex items-center gap-3 p-3 rounded-lg hover:bg-primary/10 transition">
                   <Check className="w-5 h-5 text-primary flex-shrink-0" />
-                  <span className="text-foreground font-medium">South Pasadena</span>
+                  <span className="text-foreground font-medium">{t.citySouthPasadena}</span>
                 </Link>
               </div>
               <p className="text-foreground text-sm mt-4 italic">
