@@ -1011,6 +1011,19 @@ export const translations = {
     pricing: "价格",
     contact: "联系我们",
 
+    // City Names (Chinese) - moved here for better accessibility
+    cityLosAngeles: "洛杉矶",
+    cityBeverlyHills: "比佛利山庄",
+    cityPasadena: "帕萨迪纳",
+    cityCulverCity: "卡尔弗城",
+    citySantaMonica: "圣莫尼卡",
+    cityWestHollywood: "西好莱坞",
+    cityArcadia: "阿卡迪亚",
+    cityGlendale: "格伦代尔",
+    cityMontereyPark: "蒙特利公园",
+    cityAlhambra: "阿罕布拉",
+    citySouthPasadena: "南帕萨迪纳",
+
     // Hero Section
     heroTitle: "受信赖的上门公证员和海牙认证代理",
     heroSubtitle:
@@ -1307,19 +1320,6 @@ export const translations = {
     cityPageAndSurroundingAreas: "及周边地区",
     serviceAreas: "服务区域",
     notaryApostille: "公证-海牙认证",
-    
-    // City Names (Chinese)
-    cityLosAngeles: "洛杉矶",
-    cityBeverlyHills: "比佛利山庄",
-    cityPasadena: "帕萨迪纳",
-    cityCulverCity: "卡尔弗城",
-    citySantaMonica: "圣莫尼卡",
-    cityWestHollywood: "西好莱坞",
-    cityArcadia: "阿卡迪亚",
-    cityGlendale: "格伦代尔",
-    cityMontereyPark: "蒙特利公园",
-    cityAlhambra: "阿罕布拉",
-    citySouthPasadena: "南帕萨迪纳",
     
     // Surrounding Areas (Chinese)
     areaWestLosAngeles: "西洛杉矶",
