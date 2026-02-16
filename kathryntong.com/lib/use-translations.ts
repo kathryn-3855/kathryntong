@@ -5,5 +5,5 @@ import { translations } from "./translations"
 
 export function useTranslations() {
   const { language } = useLanguage()
-  return translations[language]
+  return translations[language] as typeof translations.en
 }
